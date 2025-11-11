@@ -1,7 +1,7 @@
 #EXTM3U x-tvg-url="https://epg.im9k.fun/pp.xml"
 #EXTINF:-1 group-title="香港" tvg-name="翡翠台" tvg-logo="https://im9k.fun/logo/翡翠台.png" ,翡翠台
 http://im6k.fun:5080/smt.php?id=jade_twn
-#EXTINF:-1 group-title="香港" tvg-name="翡翠台 backup" tvg-logo="https://im9k.fun/logo/翡翠台 backup.png" ,翡翠台 backup
+#EXTINF:-1 group-title="香港" tvg-name="翡翠台" tvg-logo="https://im9k.fun/logo/翡翠台.png" ,翡翠台 backup
 http://im6k.fun:5080/smt.php?id=Jade_xue
 #EXTINF:-1 group-title="香港" tvg-name="iNews 新闻台" tvg-logo="https://im9k.fun/logo/iNews 新闻台.png" ,iNews 新闻台
 http://im6k.fun:5080/smt.php?id=inews_twn
@@ -69,13 +69,13 @@ http://im6k.fun:5080/smt.php?id=jiangsu_twn
 http://im6k.fun:5080/smt.php?id=shenzhen
 #EXTINF:-1 group-title="中国" tvg-name="东南卫视" tvg-logo="https://im9k.fun/logo/东南卫视.png" ,东南卫视
 http://im6k.fun:5080/smt.php?id=fujian
-#EXTINF:-1 group-title="中国" tvg-name="广东南方卫视" tvg-logo="https://im9k.fun/logo/广东南方卫视.png" ,广东南方卫视
+#EXTINF:-1 group-title="中国" tvg-name="大湾区卫视" tvg-logo="https://im9k.fun/logo/大湾区卫视.png" ,大湾区卫视
 http://im6k.fun:5080/smt.php?id=nanfang_twn
 #EXTINF:-1 group-title="中国" tvg-name="广东卫视" tvg-logo="https://im9k.fun/logo/广东卫视.png" ,广东卫视
 http://im6k.fun:5080/smt.php?id=guangdongweishi_twn
 #EXTINF:-1 group-title="中国" tvg-name="北京卫视" tvg-logo="https://im9k.fun/logo/北京卫视.png" ,北京卫视
 http://im6k.fun:5080/smt.php?id=beijing
-#EXTINF:-1 group-title="中国" tvg-name="珠江台" tvg-logo="https://im9k.fun/logo/珠江台.png" ,珠江台
+#EXTINF:-1 group-title="中国" tvg-name="广东珠江" tvg-logo="https://im9k.fun/logo/广东珠江.png" ,广东珠江
 http://im6k.fun:5080/smt.php?id=zhujiang
 #EXTINF:-1 group-title="中国" tvg-name="广西卫视" tvg-logo="https://im9k.fun/logo/广西卫视.png" ,广西卫视
 http://im6k.fun:5080/smt.php?id=guangxi
