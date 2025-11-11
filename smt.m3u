@@ -3,11 +3,11 @@
 http://im6k.fun:5080/smt.php?id=jade_twn
 #EXTINF:-1 group-title="香港" tvg-name="翡翠台" tvg-logo="https://im9k.fun/logo/翡翠台.png" ,翡翠台 backup
 http://im6k.fun:5080/smt.php?id=Jade_xue
-#EXTINF:-1 group-title="香港" tvg-name="iNews 新闻台" tvg-logo="https://im9k.fun/logo/iNews.png" ,iNews 新闻台
+#EXTINF:-1 group-title="香港" tvg-name="无线新闻台" tvg-logo="https://im9k.fun/logo/无线新闻台.png" ,无线新闻台
 http://im6k.fun:5080/smt.php?id=inews_twn
 #EXTINF:-1 group-title="香港" tvg-name="J 2" tvg-logo="https://im9k.fun/logo/J2.png" ,J 2
 http://im6k.fun:5080/smt.php?id=j2_twn
-#EXTINF:-1 group-title="香港" tvg-name="珍珠台" tvg-logo="https://im9k.fun/logo/珍珠台.png" ,珍珠台
+#EXTINF:-1 group-title="香港" tvg-name="TVB明珠台" tvg-logo="https://im9k.fun/logo/TVB明珠台.png" ,TVB明珠台
 http://im6k.fun:5080/smt.php?id=pearl_twn
 #EXTINF:-1 group-title="香港" tvg-name="凤凰香港" tvg-logo="https://im9k.fun/logo/凤凰香港.png" ,凤凰香港
 http://im6k.fun:5080/smt.php?id=hkphoenix_twn
@@ -15,7 +15,7 @@ http://im6k.fun:5080/smt.php?id=hkphoenix_twn
 http://im6k.fun:5080/smt.php?id=hoycaijing_twn
 #EXTINF:-1 group-title="香港" tvg-name="RHK 31" tvg-logo="https://im9k.fun/logo/RHK31.png" ,RHK 31
 http://im6k.fun:5080/smt.php?id=rhk31_twn
-#EXTINF:-1 group-title="香港" tvg-name="VIUTV1" tvg-logo="https://im9k.fun/logo/VIUTV1.png" ,VIUTV1
+#EXTINF:-1 group-title="香港" tvg-name="VIUTV" tvg-logo="https://im9k.fun/logo/ViuTV.png" ,ViuTV
 http://im6k.fun:5080/smt.php?id=viu1_twn
 #EXTINF:-1 group-title="香港" tvg-name="RHK 32" tvg-logo="https://im9k.fun/logo/RHK32.png" ,RHK 32
 http://im6k.fun:5080/smt.php?id=rhk32_twn
@@ -23,7 +23,7 @@ http://im6k.fun:5080/smt.php?id=rhk32_twn
 http://im6k.fun:5080/smt.php?id=phoenixtv_hd
 #EXTINF:-1 group-title="香港" tvg-name="凤凰资讯" tvg-logo="https://im9k.fun/logo/凤凰资讯.png" ,凤凰资讯
 http://im6k.fun:5080/smt.php?id=phoenixinfo_hd
-#EXTINF:-1 group-title="香港" tvg-name="Viu6" tvg-logo="https://im9k.fun/logo/Viu6.png" ,Viu6
+#EXTINF:-1 group-title="香港" tvg-name="Viutv6" tvg-logo="https://im9k.fun/logo/Viutv6.png" ,Viutv6
 http://im6k.fun:5080/smt.php?id=viusix_twn
 #EXTINF:-1 group-title="中国" tvg-name="CCTV1" tvg-logo="https://im9k.fun/logo/CCTV1.png" ,CCTV1
 http://im6k.fun:5080/smt.php?id=cctv1
