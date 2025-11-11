@@ -45,13 +45,13 @@ http://im6k.fun:5080/smt.php?id=cctv6
 http://im6k.fun:5080/smt.php?id=cctv7
 #EXTINF:-1 group-title="中国" tvg-name="CCTV8" tvg-logo="https://im9k.fun/logo/CCTV8.png" ,CCTV8
 http://im6k.fun:5080/smt.php?id=cctv8hd
-#EXTINF:-1 group-title="中国" tvg-name="CCTV9 HD" tvg-logo="https://im9k.fun/logo/CCTV9 HD.png" ,CCTV9 HD
+#EXTINF:-1 group-title="中国" tvg-name="CCTV9" tvg-logo="https://im9k.fun/logo/CCTV9 HD.png" ,CCTV9 HD
 http://im6k.fun:5080/smt.php?id=cctv9hd
-#EXTINF:-1 group-title="中国" tvg-name="CCTV10 HD" tvg-logo="https://im9k.fun/logo/CCTV10 HD.png" ,CCTV10 HD
+#EXTINF:-1 group-title="中国" tvg-name="CCTV10" tvg-logo="https://im9k.fun/logo/CCTV10 HD.png" ,CCTV10 HD
 http://im6k.fun:5080/smt.php?id=cctv10hd
 #EXTINF:-1 group-title="中国" tvg-name="CCTV11" tvg-logo="https://im9k.fun/logo/CCTV11.png" ,CCTV11
 http://im6k.fun:5080/smt.php?id=cctv11
-#EXTINF:-1 group-title="中国" tvg-name="CCTV12法" tvg-logo="https://im9k.fun/logo/CCTV12法.png" ,CCTV12法
+#EXTINF:-1 group-title="中国" tvg-name="CCTV12" tvg-logo="https://im9k.fun/logo/CCTV12.png" ,CCTV12
 http://im6k.fun:5080/smt.php?id=cctv12
 #EXTINF:-1 group-title="中国" tvg-name="CCTV13" tvg-logo="https://im9k.fun/logo/CCTV13.png" ,CCTV13
 http://im6k.fun:5080/smt.php?id=cctv13
@@ -67,7 +67,7 @@ http://im6k.fun:5080/smt.php?id=zhejiang_twn
 http://im6k.fun:5080/smt.php?id=jiangsu_twn
 #EXTINF:-1 group-title="中国" tvg-name="深圳卫视" tvg-logo="https://im9k.fun/logo/深圳卫视.png" ,深圳卫视
 http://im6k.fun:5080/smt.php?id=shenzhen
-#EXTINF:-1 group-title="中国" tvg-name="福建东南卫视" tvg-logo="https://im9k.fun/logo/福建东南卫视.png" ,福建东南卫视
+#EXTINF:-1 group-title="中国" tvg-name="东南卫视" tvg-logo="https://im9k.fun/logo/东南卫视.png" ,东南卫视
 http://im6k.fun:5080/smt.php?id=fujian
 #EXTINF:-1 group-title="中国" tvg-name="广东南方卫视" tvg-logo="https://im9k.fun/logo/广东南方卫视.png" ,广东南方卫视
 http://im6k.fun:5080/smt.php?id=nanfang_twn
