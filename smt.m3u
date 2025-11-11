@@ -3,9 +3,9 @@
 http://im6k.fun:5080/smt.php?id=jade_twn
 #EXTINF:-1 group-title="香港" tvg-name="翡翠台" tvg-logo="https://im9k.fun/logo/翡翠台.png" ,翡翠台 backup
 http://im6k.fun:5080/smt.php?id=Jade_xue
-#EXTINF:-1 group-title="香港" tvg-name="iNews 新闻台" tvg-logo="https://im9k.fun/logo/iNews 新闻台.png" ,iNews 新闻台
+#EXTINF:-1 group-title="香港" tvg-name="iNews 新闻台" tvg-logo="https://im9k.fun/logo/iNews.png" ,iNews 新闻台
 http://im6k.fun:5080/smt.php?id=inews_twn
-#EXTINF:-1 group-title="香港" tvg-name="J 2" tvg-logo="https://im9k.fun/logo/J 2.png" ,J 2
+#EXTINF:-1 group-title="香港" tvg-name="J 2" tvg-logo="https://im9k.fun/logo/J2.png" ,J 2
 http://im6k.fun:5080/smt.php?id=j2_twn
 #EXTINF:-1 group-title="香港" tvg-name="珍珠台" tvg-logo="https://im9k.fun/logo/珍珠台.png" ,珍珠台
 http://im6k.fun:5080/smt.php?id=pearl_twn
@@ -13,11 +13,11 @@ http://im6k.fun:5080/smt.php?id=pearl_twn
 http://im6k.fun:5080/smt.php?id=hkphoenix_twn
 #EXTINF:-1 group-title="香港" tvg-name="HOY资讯台" tvg-logo="https://im9k.fun/logo/HOY资讯台.png" ,HOY资讯台
 http://im6k.fun:5080/smt.php?id=hoycaijing_twn
-#EXTINF:-1 group-title="香港" tvg-name="RHK 31" tvg-logo="https://im9k.fun/logo/RHK 31.png" ,RHK 31
+#EXTINF:-1 group-title="香港" tvg-name="RHK 31" tvg-logo="https://im9k.fun/logo/RHK31.png" ,RHK 31
 http://im6k.fun:5080/smt.php?id=rhk31_twn
 #EXTINF:-1 group-title="香港" tvg-name="VIUTV1" tvg-logo="https://im9k.fun/logo/VIUTV1.png" ,VIUTV1
 http://im6k.fun:5080/smt.php?id=viu1_twn
-#EXTINF:-1 group-title="香港" tvg-name="RHK 32" tvg-logo="https://im9k.fun/logo/RHK 32.png" ,RHK 32
+#EXTINF:-1 group-title="香港" tvg-name="RHK 32" tvg-logo="https://im9k.fun/logo/RHK32.png" ,RHK 32
 http://im6k.fun:5080/smt.php?id=rhk32_twn
 #EXTINF:-1 group-title="香港" tvg-name="凤凰卫视" tvg-logo="https://im9k.fun/logo/凤凰卫视.png" ,凤凰卫视
 http://im6k.fun:5080/smt.php?id=phoenixtv_hd
@@ -45,9 +45,9 @@ http://im6k.fun:5080/smt.php?id=cctv6
 http://im6k.fun:5080/smt.php?id=cctv7
 #EXTINF:-1 group-title="中国" tvg-name="CCTV8" tvg-logo="https://im9k.fun/logo/CCTV8.png" ,CCTV8
 http://im6k.fun:5080/smt.php?id=cctv8hd
-#EXTINF:-1 group-title="中国" tvg-name="CCTV9" tvg-logo="https://im9k.fun/logo/CCTV9 HD.png" ,CCTV9 HD
+#EXTINF:-1 group-title="中国" tvg-name="CCTV9" tvg-logo="https://im9k.fun/logo/CCTV9.png" ,CCTV9
 http://im6k.fun:5080/smt.php?id=cctv9hd
-#EXTINF:-1 group-title="中国" tvg-name="CCTV10" tvg-logo="https://im9k.fun/logo/CCTV10 HD.png" ,CCTV10 HD
+#EXTINF:-1 group-title="中国" tvg-name="CCTV10" tvg-logo="https://im9k.fun/logo/CCTV10.png" ,CCTV10
 http://im6k.fun:5080/smt.php?id=cctv10hd
 #EXTINF:-1 group-title="中国" tvg-name="CCTV11" tvg-logo="https://im9k.fun/logo/CCTV11.png" ,CCTV11
 http://im6k.fun:5080/smt.php?id=cctv11
