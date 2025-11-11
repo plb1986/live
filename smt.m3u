@@ -459,19 +459,19 @@ http://im6k.fun:5080/smt.php?id=Foodnetwork
 http://im6k.fun:5080/smt.php?id=HGTV
 #EXTINF:-1 group-title="纪录" tvg-name="AFC 亚洲旅游台" tvg-logo="https://im9k.fun/logo/AFC 亚洲旅游台.png" ,AFC 亚洲旅游台
 http://im6k.fun:5080/smt.php?id=asiatravel_twn
-#EXTINF:-1 group-title="香港" tvg-name="Skynews" tvg-logo="https://im9k.fun/logo/Skynews.png" ,Skynews
+#EXTINF:-1 group-title="香港" tvg-name="SKYNEWS" tvg-logo="https://im9k.fun/logo/SKYNEWS.png" ,SKYNEWS
 http://im6k.fun:5080/smt.php?id=skynews_twn
-#EXTINF:-1 group-title="香港" tvg-name="ABC News" tvg-logo="https://im9k.fun/logo/ABC News.png" ,ABC News
+#EXTINF:-1 group-title="香港" tvg-name="ABC News" tvg-logo="https://im9k.fun/logo/ABCNEWS.png" ,ABC News
 http://im6k.fun:5080/smt.php?id=abcnews_glo
-#EXTINF:-1 group-title="香港" tvg-name="东森财经新闻 ETTV Business" tvg-logo="https://im9k.fun/logo/东森财经新闻 ETTV Business.png" ,东森财经新闻 ETTV Business
+#EXTINF:-1 group-title="香港" tvg-name="东森财经新闻" tvg-logo="https://im9k.fun/logo/东森财经新闻.png" ,东森财经新闻
 http://im6k.fun:5080/smt.php?id=ettvcaijing_twn
-#EXTINF:-1 group-title="香港" tvg-name="CBS HD" tvg-logo="https://im9k.fun/logo/CBS HD.png" ,CBS HD
+#EXTINF:-1 group-title="香港" tvg-name="CBS HD" tvg-logo="https://im9k.fun/logo/CBS.png" ,CBS HD
 http://im6k.fun:5080/smt.php?id=cbshd_glo
-#EXTINF:-1 group-title="香港" tvg-name="CBSN HD" tvg-logo="https://im9k.fun/logo/CBSN HD.png" ,CBSN HD
+#EXTINF:-1 group-title="香港" tvg-name="CBSN HD" tvg-logo="https://im9k.fun/logo/CBSN.png" ,CBSN HD
 http://im6k.fun:5080/smt.php?id=cbsn_glo
-#EXTINF:-1 group-title="香港" tvg-name="France 24" tvg-logo="https://im9k.fun/logo/France 24.png" ,France 24
+#EXTINF:-1 group-title="香港" tvg-name="France 24" tvg-logo="https://im9k.fun/logo/France24.png" ,France 24
 http://im6k.fun:5080/smt.php?id=france24_twn
-#EXTINF:-1 group-title="香港" tvg-name="DW (Deutsch)" tvg-logo="https://im9k.fun/logo/DW (Deutsch).png" ,DW (Deutsch)
+#EXTINF:-1 group-title="香港" tvg-name="DW (Deutsch)" tvg-logo="https://im9k.fun/logo/DWChannel.png" ,DW (Deutsch)
 http://im6k.fun:5080/smt.php?id=dw_twn
 #EXTINF:-1 group-title="香港" tvg-name="NHK World" tvg-logo="https://im9k.fun/logo/NHK World.png" ,NHK World
 http://im6k.fun:5080/smt.php?id=nhkworld_japan
@@ -479,17 +479,17 @@ http://im6k.fun:5080/smt.php?id=nhkworld_japan
 http://im6k.fun:5080/smt.php?id=foxnews_twn
 #EXTINF:-1 group-title="香港" tvg-name="CGTN" tvg-logo="https://im9k.fun/logo/CGTN.png" ,CGTN
 http://im6k.fun:5080/smt.php?id=CGTN
-#EXTINF:-1 group-title="香港" tvg-name="CNN International" tvg-logo="https://im9k.fun/logo/CNN International.png" ,CNN International
+#EXTINF:-1 group-title="香港" tvg-name="CNN International" tvg-logo="https://im9k.fun/logo/CNNINTERNATIONA.png" ,CNN International
 http://im6k.fun:5080/smt.php?id=Cnn
-#EXTINF:-1 group-title="香港" tvg-name="CNN backup" tvg-logo="https://im9k.fun/logo/CNN backup.png" ,CNN backup
+#EXTINF:-1 group-title="香港" tvg-name="CNN backup" tvg-logo="https://im9k.fun/logo/CNNINTERNATIONA.png" ,CNN backup
 http://im6k.fun:5080/smt.php?id=cnn_twn
 #EXTINF:-1 group-title="香港" tvg-name="CNBC" tvg-logo="https://im9k.fun/logo/CNBC.png" ,CNBC
 http://im6k.fun:5080/smt.php?id=cnbc_twn
 #EXTINF:-1 group-title="香港" tvg-name="CNA" tvg-logo="https://im9k.fun/logo/CNA.png" ,CNA
 http://im6k.fun:5080/smt.php?id=cna
-#EXTINF:-1 group-title="香港" tvg-name="BBC World News" tvg-logo="https://im9k.fun/logo/BBC World News.png" ,BBC World News
+#EXTINF:-1 group-title="香港" tvg-name="BBC World News" tvg-logo="https://im9k.fun/logo/BBC1.png" ,BBC World News
 http://im6k.fun:5080/smt.php?id=bbcnews_twn
-#EXTINF:-1 group-title="香港" tvg-name="BBC World News" tvg-logo="https://im9k.fun/logo/BBC World News.png" ,BBC World News
+#EXTINF:-1 group-title="香港" tvg-name="BBC World News" tvg-logo="https://im9k.fun/logo/BBC1.png" ,BBC World News
 http://im6k.fun:5080/smt.php?id=Bbcnews
 #EXTINF:-1 group-title="香港" tvg-name="Bloomberg News" tvg-logo="https://im9k.fun/logo/Bloomberg News.png" ,Bloomberg News
 http://im6k.fun:5080/smt.php?id=bloomberg_twn
