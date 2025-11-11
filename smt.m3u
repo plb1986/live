@@ -475,7 +475,7 @@ http://im6k.fun:5080/smt.php?id=france24_twn
 http://im6k.fun:5080/smt.php?id=dw_twn
 #EXTINF:-1 group-title="香港" tvg-name="NHK World" tvg-logo="https://im9k.fun/logo/NHK World.png" ,NHK World
 http://im6k.fun:5080/smt.php?id=nhkworld_japan
-#EXTINF:-1 group-title="香港" tvg-name="Fox News" tvg-logo="https://im9k.fun/logo/Fox News.png" ,Fox News
+#EXTINF:-1 group-title="香港" tvg-name="Fox News" tvg-logo="https://im9k.fun/logo/FOX News.png" ,Fox News
 http://im6k.fun:5080/smt.php?id=foxnews_twn
 #EXTINF:-1 group-title="香港" tvg-name="CGTN" tvg-logo="https://im9k.fun/logo/CGTN.png" ,CGTN
 http://im6k.fun:5080/smt.php?id=CGTN
