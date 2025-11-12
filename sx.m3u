@@ -1,4 +1,4 @@
-#EXTM3U
+#EXTM3U x-tvg-url="https://epg.v1.mk/fy.xml"
 
 #EXTINF:-1 tvg-name="北京卫视" tvg-logo="https://im9k.fun/logo/北京卫视4K.png" group-title="『4✬K』" ,北京卫视4K
 http://since1986.online:5158/rtp/226.0.2.155:9172
@@ -314,5 +314,6 @@ http://115.190.105.236/dttv.php?id=dtgg
 #EXTINF:-1  tvg-name="大同3" tvg-logo="https://im9k.fun/logo/大同生活.png" group-title="『大✬同』",大同生活
 
 http://115.190.105.236/dttv.php?id=dtsh
+
 
 
