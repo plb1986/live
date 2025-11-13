@@ -133,10 +133,5 @@ https://live.ottiptv.cc/mcp/bintuan.m3u8?userid=8015960691&sign=063969eb540ae2b1
 https://other.ottiptv.cc/cwjd.m3u8
 #EXTINF:-1 tvg-name="五星体育" tvg-logo="https://im9k.fun/logo/五星体育.png" group-title="其他",五星体育
 https://other.ottiptv.cc/wxty.m3u8
-#EXTINF:-1 tvg-name="CHC影迷电影" tvg-logo="https://im9k.fun/logo/CHC影迷电影.png" group-title="其他", CHC影迷电影
+#EXTINF:-1 tvg-name="CHC动作电影" tvg-logo="https://im9k.fun/logo/CHC影迷电影.png" group-title="其他", CHC影迷电影
 https://mgtv.ottiptv.cc/mg/952383261.m3u8?userid=8015960691&sign=8315d96dd48c093701014b06607653fce861811b4629d3bb6d14210ab682219139c81225a2e6388c093da0b5585aab83f8eb36f9bd90ac8ccd16cd8e5bcd7c36b5414e418d1a032575f9031297ee00fc38&auth_token=2e32942d36656f77a65c0ed4036bcea9
-#EXTINF:-1 tvg-name="CHC动作电影" tvg-logo="https://im9k.fun/logo/CHC动作电影.png" group-title="其他", CHC动作电影
-https://mgtv.ottiptv.cc/mg/644368714.m3u8?userid=8015960691&sign=00918429f78838e957fd0c0445192936cc93e7a94144e7cb02da753a79cbda564c5b572fed005e31c41cbdb83f7b108ed63328c7753f739075ba0f86579f0970dfa9048d027ed2b6d791f5f7ec709565bd&auth_token=2e32942d36656f77a65c0ed4036bcea9
-#EXTINF:-1 tvg-name="CHC家庭影院" tvg-logo="https://im9k.fun/logo/CHC家庭影院.png" group-title="其他", CHC家庭影院
-https://mgtv.ottiptv.cc/mg/644368373.m3u8?userid=8015960691&sign=3ce2f3226a9518fdd1e21df91c63f9f8927a0b32844a3ab7fac82148a2f31fe46f802a6ed7ae314431b8b4e018f1da952c0b01f83f51b852aafbc73f02d4ed08f7e1b79d172623778dd9148fd4f9aaa4b0&auth_token=2e32942d36656f77a65c0ed4036bcea9
-
