@@ -169,7 +169,7 @@ http://since1986.online:5158/rtp/226.0.2.130:8952
 
 #EXTINF:-1 tvg-name="山西文体生活" tvg-logo="https://im9k.fun/logo/山西文体生活.png" group-title="『山✬西』",山西文体生活
 http://since1986.online:5158/rtp/226.0.2.16:8040
-#EXTINF:-1 tvg-name="山西经济与科技" tvg-logo="https://im9k.fun/logo/山西经济与科技.png" group-title="『山✬西』",山西经济与科技
+#EXTINF:-1 tvg-name="山西经济" tvg-logo="https://im9k.fun/logo/山西经济与科技.png" group-title="『山✬西』",山西经济与科技
 http://since1986.online:5158/rtp/226.0.2.236:9800
 #EXTINF:-1 tvg-name="山西影视" tvg-logo="https://im9k.fun/logo/山西影视.png" group-title="『山✬西』",山西影视
 http://since1986.online:5158/rtp/226.0.2.237:9808
@@ -179,15 +179,15 @@ http://since1986.online:5158/rtp/226.0.2.238:9816
 http://since1986.online:5158/rtp/226.0.2.235:9792
 #EXTINF:-1 tvg-name="太原教育" tvg-logo="https://im9k.fun/logo/太原教育.png" group-title="『山✬西』",太原教育
 http://since1986.online:5158/rtp/226.0.2.206:9560
-#EXTINF:-1 tvg-name="太原1" tvg-logo="https://im9k.fun/logo/太原1.png" group-title="『山✬西』",太原-1
+#EXTINF:-1 tvg-name="太原新闻综合" tvg-logo="https://im9k.fun/logo/太原1.png" group-title="『山✬西』",太原-1
 http://since1986.online:5158/rtp/226.0.2.201:9520
-#EXTINF:-1 tvg-name="太原2" tvg-logo="https://im9k.fun/logo/太原2.png" group-title="『山✬西』",太原-2
+#EXTINF:-1 tvg-name="太原百姓" tvg-logo="https://im9k.fun/logo/太原2.png" group-title="『山✬西』",太原-2
 http://since1986.online:5158/rtp/226.0.2.202:9528
-#EXTINF:-1 tvg-name="太原3" tvg-logo="https://im9k.fun/logo/太原3.png" group-title="『山✬西』",太原-3
+#EXTINF:-1 tvg-name="太原社教法制" tvg-logo="https://im9k.fun/logo/太原3.png" group-title="『山✬西』",太原-3
 http://since1986.online:5158/rtp/226.0.2.203:9536
-#EXTINF:-1 tvg-name="太原4" tvg-logo="https://im9k.fun/logo/太原4.png" group-title="『山✬西』",太原-4
+#EXTINF:-1 tvg-name="太原影视" tvg-logo="https://im9k.fun/logo/太原4.png" group-title="『山✬西』",太原-4
 http://since1986.online:5158/rtp/226.0.2.204:9544
-#EXTINF:-1 tvg-name="太原5" tvg-logo="https://im9k.fun/logo/太原5.png" group-title="『山✬西』",太原-5
+#EXTINF:-1 tvg-name="太原文体" tvg-logo="https://im9k.fun/logo/太原5.png" group-title="『山✬西』",太原-5
 http://since1986.online:5158/rtp/226.0.2.205:9552
 #EXTINF:-1 tvg-name="运城1" tvg-logo="https://im9k.fun/logo/运城1.png" group-title="『山✬西』",运城-1
 http://since1986.online:5158/rtp/226.0.1.224:2071
@@ -239,11 +239,11 @@ http://since1986.online:5158/rtp/226.0.2.93:8004
 http://since1986.online:5158/rtp/226.0.2.240:9820
 #EXTINF:-1 tvg-name="CHC动作电影" tvg-logo="https://im9k.fun/logo/CHC动作电影.png" group-title="『数✬字』",CHC动作电影
 http://since1986.online:5158/rtp/226.0.2.94:8012
-#EXTINF:-1 tvg-name="CETV1" tvg-logo="https://im9k.fun/logo/CETV1.png" group-title="『数✬字』",CETV1
+#EXTINF:-1 tvg-name="中国教育1台" tvg-logo="https://im9k.fun/logo/CETV1.png" group-title="『数✬字』",CETV1
 http://since1986.online:5158/rtp/226.0.2.181:9360
-#EXTINF:-1 tvg-name="CETV2" tvg-logo="https://im9k.fun/logo/CETV2.png" group-title="『数✬字』",CETV2
+#EXTINF:-1 tvg-name="中国教育2台" tvg-logo="https://im9k.fun/logo/CETV2.png" group-title="『数✬字』",CETV2
 http://since1986.online:5158/rtp/226.0.2.69:8464
-#EXTINF:-1 tvg-name="CETV4" tvg-logo="https://im9k.fun/logo/CETV4.png" group-title="『数✬字』",CETV4
+#EXTINF:-1 tvg-name="中国教育4台" tvg-logo="https://im9k.fun/logo/CETV4.png" group-title="『数✬字』",CETV4
 http://since1986.online:5158/rtp/226.0.1.221:2084
 #EXTINF:-1 tvg-name="早期教育" tvg-logo="https://im9k.fun/logo/早期教育.png" group-title="『数✬字』",早期教育
 http://since1986.online:5158/rtp/226.0.2.99:8704
@@ -277,7 +277,7 @@ http://since1986.online:5158/rtp/226.0.2.44:8264
 http://since1986.online:5158/rtp/226.0.2.97:8688
 #EXTINF:-1 tvg-name="文物宝库" tvg-logo="https://im9k.fun/logo/文物宝库.png" group-title="『数✬字』",文物宝库
 http://since1986.online:5158/rtp/226.0.2.110:8792
-#EXTINF:-1 tvg-name="梨园频道" tvg-logo="https://im9k.fun/logo/梨园频道.png" group-title="『数✬字』",梨园频道
+#EXTINF:-1 tvg-name="梨园" tvg-logo="https://im9k.fun/logo/梨园频道.png" group-title="『数✬字』",梨园频道
 http://since1986.online:5158/rtp/226.0.2.115:8832
 #EXTINF:-1 tvg-name="东方财经" tvg-logo="https://im9k.fun/logo/东方财经.png" group-title="『数✬字』",东方财经
 http://since1986.online:5158/rtp/226.0.2.76:8520
@@ -313,6 +313,11 @@ http://115.190.105.236/dttv.php?id=dtzh
 http://115.190.105.236/dttv.php?id=dtgg
 #EXTINF:-1  tvg-name="大同3" tvg-logo="https://im9k.fun/logo/大同生活.png" group-title="『大✬同』",大同生活
 http://115.190.105.236/dttv.php?id=dtsh
+
+
+
+
+
 
 
 
