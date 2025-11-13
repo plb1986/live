@@ -277,7 +277,7 @@ http://im2k.fun:5158/rtp/226.0.2.44:8264
 http://im2k.fun:5158/rtp/226.0.2.97:8688
 #EXTINF:-1 tvg-name="文物宝库" tvg-logo="https://im9k.fun/logo/文物宝库.png" group-title="『数✬字』",文物宝库
 http://im2k.fun:5158/rtp/226.0.2.110:8792
-#EXTINF:-1 tvg-name="梨园频道" tvg-logo="https://im9k.fun/logo/梨园频道.png" group-title="『数✬字』",梨园频道
+#EXTINF:-1 tvg-name="梨园" tvg-logo="https://im9k.fun/logo/梨园频道.png" group-title="『数✬字』",梨园频道
 http://im2k.fun:5158/rtp/226.0.2.115:8832
 #EXTINF:-1 tvg-name="东方财经" tvg-logo="https://im9k.fun/logo/东方财经.png" group-title="『数✬字』",东方财经
 http://im2k.fun:5158/rtp/226.0.2.76:8520
@@ -313,6 +313,7 @@ http://115.190.105.236/dttv.php?id=dtzh
 http://115.190.105.236/dttv.php?id=dtgg
 #EXTINF:-1  tvg-name="大同3" tvg-logo="https://im9k.fun/logo/大同生活.png" group-title="『大✬同』",大同生活
 http://115.190.105.236/dttv.php?id=dtsh
+
 
 
 
