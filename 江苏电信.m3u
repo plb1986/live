@@ -71,7 +71,7 @@ http://home.ruibang.ltd:8095/udp/239.49.1.24:8000
 http://home.ruibang.ltd:8095/udp/239.49.1.66:8000
 #EXTINF:-1 group-title="4K" tvg-name="山东卫视" tvg-logo="https://im5k.fun/logo/山东卫视4K.png",山东卫视4K-50FPS
 http://home.ruibang.ltd:8095/udp/239.49.1.72:8000
-#EXTINF:-1 group-title="4K" tvg-name="欢笑剧场4K" tvg-logo="https://im5k.fun/logo/欢笑剧场4K.png",欢笑剧场4K
+#EXTINF:-1 group-title="4K" tvg-name="欢笑剧场" tvg-logo="https://im5k.fun/logo/欢笑剧场4K.png",欢笑剧场4K
 http://home.ruibang.ltd:8095/udp/239.49.8.106:8000
 #EXTINF:-1 group-title="卫视" tvg-name="江苏卫视" tvg-logo="https://im5k.fun/logo/江苏卫视.png",江苏卫视
 http://home.ruibang.ltd:8095/udp/239.49.8.16:9602
