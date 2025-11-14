@@ -35,7 +35,7 @@ http://58.216.110.7:2380/hw1live.rxip.sc96655.com.huan.tv/live/CCTV-14H265_4000.
 http://58.216.110.7:2380/hw1live.rxip.sc96655.com.huan.tv/live/CCTV-15-yyH265_4000.m3u8
 #EXTINF:-1 tvg-name="CCTV16" tvg-logo="https://im5k.fun/logo/CCTV16.png" ,CCTV16
 http://58.216.110.7:2380/hw1live.rxip.sc96655.com.huan.tv/live/CCTV-16_4000.m3u8
-#EXTINF:-1 tvg-name="CCTV16-4k" tvg-logo="https://im5k.fun/logo/CCTV16-4k.png" ,CCTV16-4k
+#EXTINF:-1 tvg-name="CCTV16" tvg-logo="https://im5k.fun/logo/CCTV164K.png" ,CCTV16-4K
 http://58.216.110.7:2380/hw1live.rxip.sc96655.com.huan.tv/live/CCTV-16-4K_8000.m3u8
 #EXTINF:-1 tvg-name="CCTV17" tvg-logo="https://im5k.fun/logo/CCTV17.png" ,CCTV17
 http://58.216.110.7:2380/hw1live.rxip.sc96655.com.huan.tv/live/CCTV-17_4000.m3u8
