@@ -60,7 +60,7 @@ http://iptv.666230.xyz/iptv/jsyd.php/G_HUAIJIUJC-CQ
 http://iptv.666230.xyz/iptv/jsyd.php/G_BINGQIKJ-CQ
 #EXTINF:-1 tvg-name="女性时尚" tvg-logo="https://im5k.fun/logo/女性时尚.png" ,女性时尚
 http://iptv.666230.xyz/iptv/jsyd.php/G_NVXINGSS-CQ
-#EXTINF:-1 tvg-name="文化精品" tvg-logo="https://im5k.fun/logo/文化精品.png" ,文化精品
+#EXTINF:-1 tvg-name="央视文化精品" tvg-logo="https://im5k.fun/logo/央视文化精品.png" ,央视文化精品
 http://iptv.666230.xyz/iptv/jsyd.php/G_CCTV-WENHUA-CQ
 #EXTINF:-1 tvg-name="央视台球" tvg-logo="https://im5k.fun/logo/央视台球.png" ,央视台球
 http://iptv.666230.xyz/iptv/jsyd.php/G_TAIQIU-CQ
@@ -82,56 +82,39 @@ http://iptv.666230.xyz/iptv/jsyd.php/G_CGTN-ESPANOL
 http://iptv.666230.xyz/iptv/jsyd.php/G_CGTN-FRANCAIS
 #EXTINF:-1 tvg-name="CGTN阿拉伯语" tvg-logo="https://im5k.fun/logo/CGTN阿拉伯语.png" ,CGTN阿拉伯语
 http://iptv.666230.xyz/iptv/jsyd.php/G_CGTN_A
-#EXTINF:-1 tvg-name="第一院线" tvg-logo="https://im5k.fun/logo/第一院线.png" ,第一院线
-http://iptv.666230.xyz/iptv/jsyd.php/GITV-JS-2
-#EXTINF:-1 tvg-name="影视剧场" tvg-logo="https://im5k.fun/logo/影视剧场.png" ,影视剧场
-http://iptv.666230.xyz/iptv/jsyd.php/GITV-JS-1
-#EXTINF:-1 tvg-name="高分电影" tvg-logo="https://im5k.fun/logo/高分电影.png" ,高分电影
-http://iptv.666230.xyz/iptv/jsyd.php/GITV-JS-14
-#EXTINF:-1 tvg-name="美食美味" tvg-logo="https://im5k.fun/logo/美食美味.png" ,美食美味
-http://iptv.666230.xyz/iptv/jsyd.php/GITV-JS-17
-#EXTINF:-1 tvg-name="睛彩篮球" tvg-logo="https://im5k.fun/logo/睛彩篮球.png" ,睛彩篮球
-http://iptv.666230.xyz/iptv/jsyd.php/HD-8000k-1080P-miguaoyun1
-#EXTINF:-1 tvg-name="睛彩竞技" tvg-logo="https://im5k.fun/logo/睛彩竞技.png" ,睛彩竞技
-http://iptv.666230.xyz/iptv/jsyd.php/HD-8000k-1080P-miguaoyun2
+
 #EXTINF:-1 tvg-name="江苏卫视" tvg-logo="https://im5k.fun/logo/江苏卫视.png" ,江苏卫视
 http://iptv.666230.xyz/iptv/jsyd.php/G_JIANGSU-HD-265-5M
-#EXTINF:-1 tvg-name="江苏卫视4K" tvg-logo="https://im5k.fun/logo/江苏卫视4K.png" ,江苏卫视4K
+#EXTINF:-1 tvg-name="江苏卫视" tvg-logo="https://im5k.fun/logo/江苏卫视4K.png" ,江苏卫视4K
 http://iptv.666230.xyz/iptv/jsyd.php/G_JIANGSU-4K
-#EXTINF:-1 tvg-name="央广购物" tvg-logo="https://im5k.fun/logo/央广购物.png" ,央广购物
-http://iptv.666230.xyz/iptv/jsyd.php/hdjsmeiriyouxuan
-#EXTINF:-1 tvg-name="好享购物" tvg-logo="https://im5k.fun/logo/好享购物.png" ,好享购物
-http://iptv.666230.xyz/iptv/jsyd.php/G_HAOXIANG
-#EXTINF:-1 tvg-name="居家优选" tvg-logo="https://im5k.fun/logo/居家优选.png" ,居家优选
-http://iptv.666230.xyz/iptv/jsyd.php/G_JUJIAYX
 #EXTINF:-1 tvg-name="湖南卫视" tvg-logo="https://im5k.fun/logo/湖南卫视.png" ,湖南卫视
 http://iptv.666230.xyz/iptv/jsyd.php/G_HUNAN-HD-265-8M
 #EXTINF:-1 tvg-name="湖南卫视4K" tvg-logo="https://im5k.fun/logo/湖南卫视4K.png" ,湖南卫视4K
 http://iptv.666230.xyz/iptv/jsyd.php/G_HUNAN-4K
 #EXTINF:-1 tvg-name="浙江卫视" tvg-logo="https://im5k.fun/logo/浙江卫视.png" ,浙江卫视
 http://iptv.666230.xyz/iptv/jsyd.php/G_ZHEJIANG-HD-265-8M
-#EXTINF:-1 tvg-name="浙江卫视4K" tvg-logo="https://im5k.fun/logo/浙江卫视4K.png" ,浙江卫视4K
+#EXTINF:-1 tvg-name="浙江卫视" tvg-logo="https://im5k.fun/logo/浙江卫视4K.png" ,浙江卫视4K
 http://iptv.666230.xyz/iptv/jsyd.php/G_ZHEJIANG-4K
 #EXTINF:-1 tvg-name="东方卫视" tvg-logo="https://im5k.fun/logo/东方卫视.png" ,东方卫视
 http://iptv.666230.xyz/iptv/jsyd.php/G_DONGFANG-HD-265-8M
-#EXTINF:-1 tvg-name="东方卫视4K" tvg-logo="https://im5k.fun/logo/东方卫视4K.png" ,东方卫视4K
+#EXTINF:-1 tvg-name="东方卫视" tvg-logo="https://im5k.fun/logo/东方卫视4K.png" ,东方卫视4K
 http://iptv.666230.xyz/iptv/jsyd.php/G_DONGFANG-4K
 #EXTINF:-1 tvg-name="北京卫视" tvg-logo="https://im5k.fun/logo/北京卫视.png" ,北京卫视
 http://iptv.666230.xyz/iptv/jsyd.php/G_BEIJING-HD-265-8M
-#EXTINF:-1 tvg-name="北京卫视4K" tvg-logo="https://im5k.fun/logo/北京卫视4K.png" ,北京卫视4K
+#EXTINF:-1 tvg-name="北京卫视" tvg-logo="https://im5k.fun/logo/北京卫视4K.png" ,北京卫视4K
 http://iptv.666230.xyz/iptv/jsyd.php/G_BEIJING-4K
 #EXTINF:-1 tvg-name="广东卫视" tvg-logo="https://im5k.fun/logo/广东卫视.png" ,广东卫视
 http://iptv.666230.xyz/iptv/jsyd.php/G_GUANGDONG-HQ
 #EXTINF:-1 tvg-name="山东卫视" tvg-logo="https://im5k.fun/logo/山东卫视.png" ,山东卫视
 http://iptv.666230.xyz/iptv/jsyd.php/G_SHANDONG-HQ
-#EXTINF:-1 tvg-name="山东卫视4K" tvg-logo="https://im5k.fun/logo/山东卫视4K.png" ,山东卫视4K
+#EXTINF:-1 tvg-name="山东卫视" tvg-logo="https://im5k.fun/logo/山东卫视4K.png" ,山东卫视4K
 http://iptv.666230.xyz/iptv/jsyd.php/G_SHANDONG-4K
 #EXTINF:-1 tvg-name="深圳卫视" tvg-logo="https://im5k.fun/logo/深圳卫视.png" ,深圳卫视
 http://iptv.666230.xyz/iptv/jsyd.php/G_SHENZHEN-HQ
 #EXTINF:-1 tvg-name="安徽卫视" tvg-logo="https://im5k.fun/logo/安徽卫视.png" ,安徽卫视
 http://iptv.666230.xyz/iptv/jsyd.php/G_ANHUI-HD-265-8M
-#EXTINF:-1 tvg-name="四川卫视http://iptv.666230.xyz/iptv/jsyd.php/SCWS/SCWS.m3u8" tvg-logo="https://im5k.fun/logo/四川卫视http://iptv.666230.xyz/iptv/jsyd.php/SCWS/SCWS.m3u8.png" ,四川卫视http://iptv.666230.xyz/iptv/jsyd.php/SCWS/SCWS.m3u8
-undefined
+#EXTINF:-1 tvg-name="四川卫视" tvg-logo="https://im5k.fun/logo/四川卫视.png" ,四川卫视
+http://iptv.666230.xyz/iptv/jsyd.php/SCWS/SCWS.m3u8
 #EXTINF:-1 tvg-name="黑龙江卫视" tvg-logo="https://im5k.fun/logo/黑龙江卫视.png" ,黑龙江卫视
 http://iptv.666230.xyz/iptv/jsyd.php/G_HEILONGJIANG-HQ
 #EXTINF:-1 tvg-name="天津卫视" tvg-logo="https://im5k.fun/logo/天津卫视.png" ,天津卫视
@@ -232,6 +215,18 @@ http://iptv.666230.xyz/iptv/jsyd.php/G_TIANYUANWQ
 http://iptv.666230.xyz/iptv/jsyd.php/G_GUOXUE
 #EXTINF:-1 tvg-name="纯享4K" tvg-logo="https://im5k.fun/logo/纯享4K.png" ,纯享4K
 http://iptv.666230.xyz/iptv/jsyd.php/HD-20M-2160P-chunxiang4k
+#EXTINF:-1 tvg-name="第一院线" tvg-logo="https://im5k.fun/logo/第一院线.png" ,第一院线
+http://iptv.666230.xyz/iptv/jsyd.php/GITV-JS-2
+#EXTINF:-1 tvg-name="影视剧场" tvg-logo="https://im5k.fun/logo/影视剧场.png" ,影视剧场
+http://iptv.666230.xyz/iptv/jsyd.php/GITV-JS-1
+#EXTINF:-1 tvg-name="高分电影" tvg-logo="https://im5k.fun/logo/高分电影.png" ,高分电影
+http://iptv.666230.xyz/iptv/jsyd.php/GITV-JS-14
+#EXTINF:-1 tvg-name="美食美味" tvg-logo="https://im5k.fun/logo/美食美味.png" ,美食美味
+http://iptv.666230.xyz/iptv/jsyd.php/GITV-JS-17
+#EXTINF:-1 tvg-name="睛彩篮球" tvg-logo="https://im5k.fun/logo/睛彩篮球.png" ,睛彩篮球
+http://iptv.666230.xyz/iptv/jsyd.php/HD-8000k-1080P-miguaoyun1
+#EXTINF:-1 tvg-name="睛彩竞技" tvg-logo="https://im5k.fun/logo/睛彩竞技.png" ,睛彩竞技
+http://iptv.666230.xyz/iptv/jsyd.php/HD-8000k-1080P-miguaoyun2
 #EXTINF:-1 tvg-name="南京新闻" tvg-logo="https://im5k.fun/logo/南京新闻.png" ,南京新闻
 http://iptv.666230.xyz/iptv/jsyd.php/G_NJXW
 #EXTINF:-1 tvg-name="南京影视" tvg-logo="https://im5k.fun/logo/南京影视.png" ,南京影视
