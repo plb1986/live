@@ -1,73 +1,74 @@
 #EXTM3U
 
 #EXTINF:-1 tvg-name="CCTV1" tvg-logo="https://im5k.fun/logo/CCTV1.png" group-title="『央✯视』" ,CCTV1
-http://im2k.fun/cctvnewsapp.php?id=cctv1
+http://im2k.fun/live/cctvnewsapp.php?id=cctv1
 #EXTINF:-1 tvg-name="CCTV2" tvg-logo="https://im5k.fun/logo/CCTV2.png" group-title="『央✯视』" ,CCTV2
-http://im2k.fun/cctvnewsapp.php?id=cctv2
+http://im2k.fun/live/cctvnewsapp.php?id=cctv2
 #EXTINF:-1 tvg-name="CCTV4" tvg-logo="https://im5k.fun/logo/CCTV4.png" group-title="『央✯视』" ,CCTV4
-http://im2k.fun/cctvnewsapp.php?id=cctv4
+http://im2k.fun/live/cctvnewsapp.php?id=cctv4
 #EXTINF:-1 tvg-name="CCTV6" tvg-logo="https://im5k.fun/logo/CCTV6.png" group-title="『央✯视』" ,CCTV6
 http://im9k.fun/douyin.php?type=rid&rid=208823316033
 #EXTINF:-1 tvg-name="CCTV7" tvg-logo="https://im5k.fun/logo/CCTV7.png" group-title="『央✯视』" ,CCTV7
-http://im2k.fun/cctvnewsapp.php?id=cctv7
+http://im2k.fun/live/cctvnewsapp.php?id=cctv7
 #EXTINF:-1 tvg-name="CCTV9" tvg-logo="https://im5k.fun/logo/CCTV9.png" group-title="『央✯视』" ,CCTV9
-http://im2k.fun/cctvnewsapp.php?id=cctv9
+http://im2k.fun/live/cctvnewsapp.php?id=cctv9
 #EXTINF:-1 tvg-name="CCTV10" tvg-logo="https://im5k.fun/logo/CCTV10.png" group-title="『央✯视』" ,CCTV10
-http://im2k.fun/cctvnewsapp.php?id=cctv10
+http://im2k.fun/live/cctvnewsapp.php?id=cctv10
 #EXTINF:-1 tvg-name="CCTV12" tvg-logo="https://im5k.fun/logo/CCTV12.png" group-title="『央✯视』" ,CCTV12
-http://im2k.fun/cctvnewsapp.php?id=cctv12
+http://im2k.fun/live/cctvnewsapp.php?id=cctv12
 #EXTINF:-1 tvg-name="CCTV13" tvg-logo="https://im5k.fun/logo/CCTV13.png" group-title="『央✯视』" ,CCTV13
-http://im2k.fun/cctvnewsapp.php?id=cctv13
+http://im2k.fun/live/cctvnewsapp.php?id=cctv13
 #EXTINF:-1 tvg-name="CCTV17" tvg-logo="https://im5k.fun/logo/CCTV17.png" group-title="『央✯视』" ,CCTV17
-http://im2k.fun/cctvnewsapp.php?id=cctv17
+http://im2k.fun/live/cctvnewsapp.php?id=cctv17
 #EXTINF:-1 tvg-name="CCTV4K" tvg-logo="https://im5k.fun/logo/CCTV4K.png" group-title="『央✯视』" ,CCTV4K
-http://im2k.fun/cctvnewsapp.php?id=cctv4k
+http://im2k.fun/live/cctvnewsapp.php?id=cctv4k
 
 #EXTINF:-1 tvg-name="北京卫视" tvg-logo="https://im5k.fun/logo/北京卫视.png" group-title="『北✯京』" ,北京卫视
-http://im2k.fun/bjtime.php?id=bjws
+http://im2k.fun/live/bjtime.php?id=bjws
 #EXTINF:-1 tvg-name="北京文艺" tvg-logo="https://im5k.fun/logo/北京文艺.png" group-title="『北✯京』" ,北京文艺
-http://im2k.fun/bjtime.php?id=bjwy
+http://im2k.fun/live/bjtime.php?id=bjwy
 #EXTINF:-1 tvg-name="北京纪实科教" tvg-logo="https://im5k.fun/logo/北京纪实科教.png" group-title="『北✯京』" ,北京纪实科教
-http://im2k.fun/bjtime.php?id=bjjs
+http://im2k.fun/live/bjtime.php?id=bjjs
 #EXTINF:-1 tvg-name="北京影视" tvg-logo="https://im5k.fun/logo/北京影视.png" group-title="『北✯京』" ,北京影视
-http://im2k.fun/bjtime.php?id=bjys
+http://im2k.fun/live/bjtime.php?id=bjys
 #EXTINF:-1 tvg-name="北京生活" tvg-logo="https://im5k.fun/logo/北京生活.png" group-title="『北✯京』" ,北京生活
-http://im2k.fun/bjtime.php?id=bjsh
+http://im2k.fun/live/bjtime.php?id=bjsh
 #EXTINF:-1 tvg-name="北京新闻" tvg-logo="https://im5k.fun/logo/北京新闻.png" group-title="『北✯京』" ,北京新闻
-http://im2k.fun/bjtime.php?id=bjxw
+http://im2k.fun/live/bjtime.php?id=bjxw
 #EXTINF:-1 tvg-name="卡酷少儿" tvg-logo="https://im5k.fun/logo/卡酷少儿.png" group-title="『北✯京』" ,卡酷少儿
-http://im2k.fun/bjtime.php?id=bjkk
+http://im2k.fun/live/bjtime.php?id=bjkk
 
 #EXTINF:-1 tvg-name="海南卫视" tvg-logo="https://im5k.fun/logo/海南卫视.png" group-title="『海✯南』" ,海南卫视
-http://im2k.fun/hainan.php?id=hnws
+http://im2k.fun/live/hainan.php?id=hnws
 #EXTINF:-1 tvg-name="三沙卫视" tvg-logo="https://im5k.fun/logo/三沙卫视.png" group-title="『海✯南』" ,三沙卫视
-http://im2k.fun/hainan.php?id=ssws
+http://im2k.fun/live/hainan.php?id=ssws
 #EXTINF:-1 tvg-name="海南自贸" tvg-logo="https://im5k.fun/logo/海南自贸.png" group-title="『海✯南』" ,海南自贸
-http://im2k.fun/hainan.php?id=jjpd
+http://im2k.fun/live/hainan.php?id=jjpd
 #EXTINF:-1 tvg-name="海南新闻" tvg-logo="https://im5k.fun/logo/海南新闻.png" group-title="『海✯南』" ,海南新闻
-http://im2k.fun/hainan.php?id=xwpd
+http://im2k.fun/live/hainan.php?id=xwpd
 #EXTINF:-1 tvg-name="海南公共" tvg-logo="https://im5k.fun/logo/海南公共.png" group-title="『海✯南』" ,海南公共
-http://im2k.fun/hainan.php?id=ggpd
+http://im2k.fun/live/hainan.php?id=ggpd
 #EXTINF:-1 tvg-name="海南文旅" tvg-logo="https://im5k.fun/logo/海南文旅.png" group-title="『海✯南』" ,海南文旅
-http://im2k.fun/hainan.php?id=wlpd
+http://im2k.fun/live/hainan.php?id=wlpd
 #EXTINF:-1 tvg-name="海南少儿" tvg-logo="https://im5k.fun/logo/海南少儿.png" group-title="『海✯南』" ,海南少儿
-http://im2k.fun/hainan.php?id=sepd
+http://im2k.fun/live/hainan.php?id=sepd
 
 #EXTINF:-1  tvg-name="福建公共" tvg-logo="https://im5k.fun/logo/福建公共.png" group-title="『福✯建』" ,福建公共
-http://im2k.fun/fjtv.php?id=6
+http://im2k.fun/live/fjtv.php?id=6
 #EXTINF:-1  tvg-name="福建旅游" tvg-logo="https://im5k.fun/logo/福建旅游.png" group-title="『福✯建』" ,福建旅游
-http://im2k.fun/fjtv.php?id=8
+http://im2k.fun/live/fjtv.php?id=8
 #EXTINF:-1  tvg-name="福建经济" tvg-logo="https://im5k.fun/logo/福建经济.png" group-title="『福✯建』" ,福建经济
-http://im2k.fun/fjtv.php?id=9
+http://im2k.fun/live/fjtv.php?id=9
 #EXTINF:-1  tvg-name="福建新闻" tvg-logo="https://im5k.fun/logo/福建新闻.png" group-title="『福✯建』" ,福建新闻
-http://im2k.fun/fjtv.php?id=13
+http://im2k.fun/live/fjtv.php?id=13
 
 #EXTINF:-1 tvg-name="大同1" tvg-logo="https://im5k.fun/logo/大同新闻综合.png" group-title="『大✬同』",大同新闻综合
-http://im2k.fun/dttv.php?id=dtzh
+http://im2k.fun/live/dttv.php?id=dtzh
 #EXTINF:-1 tvg-name="大同2" tvg-logo="https://im5k.fun/logo/大同公共.png" group-title="『大✬同』",大同公共
-http://im2k.fun/dttv.php?id=dtgg
+http://im2k.fun/live/dttv.php?id=dtgg
 #EXTINF:-1  tvg-name="大同3" tvg-logo="https://im5k.fun/logo/大同生活.png" group-title="『大✬同』",大同生活
-http://im2k.fun/dttv.php?id=dtsh
+http://im2k.fun/live/dttv.php?id=dtsh
+
 
 
 
