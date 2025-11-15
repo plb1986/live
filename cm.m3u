@@ -235,10 +235,8 @@ http://113.105.155.27:2380/ywotttv.bj.chinamobile.com/PLTV/88888888/224/32212265
 http://113.105.155.27:2380/ywotttv.bj.chinamobile.com/PLTV/88888888/224/3221226559/1.m3u8
 #EXTINF:-1 group-title="数字" tvg-name="北京财经 " tvg-logo="https://im5k.fun/logo/北京财经.png",北京财经 
 http://113.105.155.27:2380/ywotttv.bj.chinamobile.com/PLTV/88888888/224/3221226560/1.m3u8
-#EXTINF:-1 group-title="数字" tvg-name="北京体育休闲" tvg-logo="https://im5k.fun/logo/北京体育休闲.png",北京体育休闲 6M1080
+#EXTINF:-1 group-title="数字" tvg-name="北京体育休闲" tvg-logo="https://im5k.fun/logo/北京体育休闲.png",北京体育休闲
 http://113.105.155.27:2380/ywotttv.bj.chinamobile.com/PLTV/88888888/224/3221226438/1.m3u8
-#EXTINF:-1 group-title="数字" tvg-name="上海纪实人文 " tvg-logo="https://im5k.fun/logo/上海纪实人文.png",上海纪实人文 
-http://113.105.155.27:2380/ywotttv.bj.chinamobile.com/PLTV/88888888/224/3221226571/1.m3u8
 #EXTINF:-1 group-title="数字" tvg-name="金鹰纪实 " tvg-logo="https://im5k.fun/logo/金鹰纪实.png",金鹰纪实 
 http://113.105.155.27:2380/ywotttv.bj.chinamobile.com/PLTV/88888888/224/3221226572/1.m3u8
 #EXTINF:-1 group-title="数字" tvg-name="快乐垂钓 " tvg-logo="https://im5k.fun/logo/快乐垂钓.png",快乐垂钓 
@@ -247,17 +245,17 @@ http://113.105.155.27:2380/ywotttv.bj.chinamobile.com/PLTV/88888888/224/32212265
 http://113.105.155.27:2380/ywotttv.bj.chinamobile.com/PLTV/88888888/224/3221226548/1.m3u8
 #EXTINF:-1 group-title="数字" tvg-name="咪视界4K" tvg-logo="https://im5k.fun/logo/咪视界4K.png",咪视界4K
 http://113.105.155.27:2380/ywotttv.bj.chinamobile.com/PLTV/88888888/224/3221226399/1.m3u8
-#EXTINF:-1 group-title="数字" tvg-name="北京IPTV4K" tvg-logo="https://im5k.fun/logo/北京IPTV4K.png",北京IPTV4K
+#EXTINF:-1 group-title="数字" tvg-name="4K" tvg-logo="https://im5k.fun/logo/4K.png",4K
 http://113.105.155.27:2380/ywotttv.bj.chinamobile.com/PLTV/88888888/224/3221226550/1.m3u8
-#EXTINF:-1 group-title="数字" tvg-name="北京IPTV淘BABY " tvg-logo="https://im5k.fun/logo/北京IPTV淘BABY.png",北京IPTV淘BABY 
+#EXTINF:-1 group-title="数字" tvg-name="淘BABY " tvg-logo="https://im5k.fun/logo/淘BABY.png",淘BABY 
 http://113.105.155.27:2380/ywotttv.bj.chinamobile.com/PLTV/88888888/224/3221226554/1.m3u8
-#EXTINF:-1 group-title="数字" tvg-name="北京IPTV淘剧场 " tvg-logo="https://im5k.fun/logo/北京IPTV淘剧场.png",北京IPTV淘剧场 
+#EXTINF:-1 group-title="数字" tvg-name="淘剧场 " tvg-logo="https://im5k.fun/logo/淘剧场.png",淘剧场 
 http://113.105.155.27:2380/ywotttv.bj.chinamobile.com/PLTV/88888888/224/3221226553/1.m3u8
-#EXTINF:-1 group-title="数字" tvg-name="北京IPTV淘娱乐 " tvg-logo="https://im5k.fun/logo/北京IPTV淘娱乐.png",北京IPTV淘娱乐 
+#EXTINF:-1 group-title="数字" tvg-name="淘娱乐 " tvg-logo="https://im5k.fun/logo/淘娱乐.png",淘娱乐 
 http://113.105.155.27:2380/ywotttv.bj.chinamobile.com/PLTV/88888888/224/3221226551/1.m3u8
-#EXTINF:-1 group-title="数字" tvg-name="北京IPTV淘电影 " tvg-logo="https://im5k.fun/logo/北京IPTV淘电影.png",北京IPTV淘电影 
+#EXTINF:-1 group-title="数字" tvg-name="淘电影 " tvg-logo="https://im5k.fun/logo/淘电影.png",淘电影 
 http://113.105.155.27:2380/ywotttv.bj.chinamobile.com/PLTV/88888888/224/3221226552/1.m3u8
-#EXTINF:-1 group-title="数字" tvg-name="北京IPTV萌宠TV " tvg-logo="https://im5k.fun/logo/北京IPTV萌宠TV.png",北京IPTV萌宠TV 
+#EXTINF:-1 group-title="数字" tvg-name="萌宠TV " tvg-logo="https://im5k.fun/logo/萌宠TV.png",萌宠TV 
 http://113.105.155.27:2380/ywotttv.bj.chinamobile.com/PLTV/88888888/224/3221226555/1.m3u8
 #EXTINF:-1 group-title="数字" tvg-name="北京大健康 " tvg-logo="https://im5k.fun/logo/北京大健康.png",北京大健康 
 http://113.105.155.27:2380/ywotttv.bj.chinamobile.com/PLTV/88888888/224/3221226556/1.m3u8
