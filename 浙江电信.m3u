@@ -147,13 +147,13 @@ http://183.155.232.200:4022/udp/233.50.202.33:5140
 http://183.155.232.200:4022/udp/233.50.201.73:5140
 #EXTINF:-1 tvg-id="CGTN" tvg-name="CGTN" tvg-logo="https://im6k.fun/logo/CGTN.png" group-title="国际",CGTN
 http://183.155.232.200:4022/udp/233.50.201.126:5140
-#EXTINF:-1 tvg-id="CGTN西语" tvg-name="CGTN西语" tvg-logo="https://im6k.fun/logo/CGTN西班牙语.png" group-title="国际",CGTN西班牙语
+#EXTINF:-1 tvg-id="CGTN西语" tvg-name="CGTN西语" tvg-logo="https://im6k.fun/logo/CGTN西语.png" group-title="国际",CGTN西班牙语
 http://183.155.232.200:4022/udp/233.50.201.36:5140
 #EXTINF:-1 tvg-id="CGTN法语" tvg-name="CGTN法语" tvg-logo="https://im6k.fun/logo/CGTN法语.png" group-title="国际",CGTN法语
 http://183.155.232.200:4022/udp/233.50.201.37:5140
-#EXTINF:-1 tvg-id="CGTN阿语" tvg-name="CGTN阿语" tvg-logo="https://im6k.fun/logo/CGTN阿拉伯语.png" group-title="国际",CGTN阿拉伯语
+#EXTINF:-1 tvg-id="CGTN阿语" tvg-name="CGTN阿语" tvg-logo="https://im6k.fun/logo/CGTN阿语.png" group-title="国际",CGTN阿拉伯语
 http://183.155.232.200:4022/udp/233.50.201.38:5140
-#EXTINF:-1 tvg-id="CGTN俄语" tvg-name="CGTN俄语" tvg-logo="https://im6k.fun/logo/CGTN俄罗斯语.png" group-title="国际",CGTN俄罗斯语
+#EXTINF:-1 tvg-id="CGTN俄语" tvg-name="CGTN俄语" tvg-logo="https://im6k.fun/logo/CGTN俄语.png" group-title="国际",CGTN俄罗斯语
 http://183.155.232.200:4022/udp/233.50.201.39:5140
 #EXTINF:-1 tvg-id="浙江钱江都市" tvg-name="浙江钱江都市" tvg-logo="https://im6k.fun/logo/钱江频道.png" group-title="地方",钱江频道
 http://183.155.232.200:4022/udp/233.50.201.132:5140
@@ -181,10 +181,6 @@ http://183.155.232.200:4022/udp/233.50.201.176:5140
 http://183.155.232.200:4022/udp/233.50.201.177:5140
 #EXTINF:-1 tvg-id="杭州导视" tvg-name="杭州导视" tvg-logo="https://im6k.fun/logo/杭州导视.png" group-title="地方",杭州导视
 http://183.155.232.200:4022/udp/233.50.201.182:5140
-#EXTINF:-1 tvg-id="临平新闻" tvg-name="临平新闻" tvg-logo="" group-title="地方",临平新闻
-http://183.155.232.200:4022/udp/233.50.202.32:5140
-#EXTINF:-1 tvg-id="余杭新闻" tvg-name="余杭新闻" tvg-logo="" group-title="地方",余杭新闻
-http://183.155.232.200:4022/udp/233.50.201.159:5140
 #EXTINF:-1 tvg-id="宁波TV1" tvg-name="宁波TV1" tvg-logo="https://im6k.fun/logo/宁波新闻综合.png" group-title="地方",宁波1新闻
 http://183.155.232.200:4022/udp/233.50.201.168:5140
 #EXTINF:-1 tvg-id="宁波TV2" tvg-name="宁波TV2" tvg-logo="https://im6k.fun/logo/宁波经济生活.png" group-title="地方",宁波2经济
