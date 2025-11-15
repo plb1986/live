@@ -172,8 +172,6 @@ http://113.125.227.11:2380/hw1live.rxip.sc96655.com.huan.tv/live/CETV-2_4000.m3u
 http://113.125.227.11:2380/hw1live.rxip.sc96655.com.huan.tv/live/CETV-4H264_2000.m3u8
 #EXTINF:-1 tvg-name="四海钓鱼" tvg-logo="https://im5k.fun/logo/四海钓鱼.png"group-title="蜀小果1" ,四海钓鱼
 http://113.125.227.11:2380/hw1live.rxip.sc96655.com.huan.tv/live/shdy_4000.m3u8
-#EXTINF:-1 tvg-name="车迷" tvg-logo="https://im5k.fun/logo/车迷.png"group-title="蜀小果1" ,车迷
-http://113.125.227.11:2380/hw1live.rxip.sc96655.com.huan.tv/live/cmpdH264_2000.m3u8
 #EXTINF:-1 tvg-name="聚鲨环球精选" tvg-logo="https://im5k.fun/logo/聚鲨环球精选.png"group-title="蜀小果1" ,聚鲨环球精选
 http://113.125.227.11:2380/hw1live.rxip.sc96655.com.huan.tv/live/hqgw_4000.m3u8
 #EXTINF:-1 tvg-name="动漫秀场" tvg-logo="https://im5k.fun/logo/动漫秀场.png"group-title="蜀小果1" ,动漫秀场
@@ -186,16 +184,12 @@ http://113.125.227.11:2380/hw1live.rxip.sc96655.com.huan.tv/live/fztx_4000.m3u8
 http://113.125.227.11:2380/hw1live.rxip.sc96655.com.huan.tv/live/hxjc-4k_8000.m3u8
 #EXTINF:-1 tvg-name="乐游" tvg-logo="https://im5k.fun/logo/乐游.png"group-title="蜀小果1" ,乐游
 http://113.125.227.11:2380/hw1live.rxip.sc96655.com.huan.tv/live/qjs-HDH265_4000.m3u8
-#EXTINF:-1 tvg-name="魅力足球" tvg-logo="https://im5k.fun/logo/魅力足球.png"group-title="蜀小果1" ,魅力足球
-http://113.125.227.11:2380/hw1live.rxip.sc96655.com.huan.tv/live/mlyy_4000.m3u8
 #EXTINF:-1 tvg-name="生活时尚" tvg-logo="https://im5k.fun/logo/生活时尚.png"group-title="蜀小果1" ,生活时尚
 http://113.125.227.11:2380/hw1live.rxip.sc96655.com.huan.tv/live/shssH265_4000.m3u8
 #EXTINF:-1 tvg-name="新视觉" tvg-logo="https://im5k.fun/logo/新视觉.png"group-title="蜀小果1" ,新视觉
 http://113.125.227.11:2380/hw1live.rxip.sc96655.com.huan.tv/live/ycxsjH265_4000.m3u8
 #EXTINF:-1 tvg-name="汽摩" tvg-logo="https://im5k.fun/logo/汽摩.png"group-title="蜀小果1" ,汽摩
 http://113.125.227.11:2380/hw1live.rxip.sc96655.com.huan.tv/live/qmpdH264_2000.m3u8
-#EXTINF:-1 tvg-name="家庭理财" tvg-logo="https://im5k.fun/logo/家庭理财.png"group-title="蜀小果1" ,家庭理财
-http://113.125.227.11:2380/hw1live.rxip.sc96655.com.huan.tv/live/jtlc_4000.m3u8
 #EXTINF:-1 tvg-name="凤凰中文" tvg-logo="https://im5k.fun/logo/凤凰中文.png"group-title="蜀小果1" ,凤凰中文
 http://113.125.227.11:2380/hw1live.rxip.sc96655.com.huan.tv/live/test1_4000.m3u8
 #EXTINF:-1 tvg-name="凤凰资讯" tvg-logo="https://im5k.fun/logo/凤凰资讯.png"group-title="蜀小果1" ,凤凰资讯
@@ -726,8 +720,6 @@ http://124.238.251.11:2380/hw1live.rxip.sc96655.com.huan.tv/live/CETV-2_4000.m3u
 http://124.238.251.11:2380/hw1live.rxip.sc96655.com.huan.tv/live/CETV-4H264_2000.m3u8
 #EXTINF:-1 tvg-name="四海钓鱼" tvg-logo="https://im5k.fun/logo/四海钓鱼.png"group-title="蜀小果2" ,四海钓鱼
 http://124.238.251.11:2380/hw1live.rxip.sc96655.com.huan.tv/live/shdy_4000.m3u8
-#EXTINF:-1 tvg-name="车迷" tvg-logo="https://im5k.fun/logo/车迷.png"group-title="蜀小果2" ,车迷
-http://124.238.251.11:2380/hw1live.rxip.sc96655.com.huan.tv/live/cmpdH264_2000.m3u8
 #EXTINF:-1 tvg-name="聚鲨环球精选" tvg-logo="https://im5k.fun/logo/聚鲨环球精选.png"group-title="蜀小果2" ,聚鲨环球精选
 http://124.238.251.11:2380/hw1live.rxip.sc96655.com.huan.tv/live/hqgw_4000.m3u8
 #EXTINF:-1 tvg-name="动漫秀场" tvg-logo="https://im5k.fun/logo/动漫秀场.png"group-title="蜀小果2" ,动漫秀场
@@ -740,16 +732,12 @@ http://124.238.251.11:2380/hw1live.rxip.sc96655.com.huan.tv/live/fztx_4000.m3u8
 http://124.238.251.11:2380/hw1live.rxip.sc96655.com.huan.tv/live/hxjc-4k_8000.m3u8
 #EXTINF:-1 tvg-name="乐游" tvg-logo="https://im5k.fun/logo/乐游.png"group-title="蜀小果2" ,乐游
 http://124.238.251.11:2380/hw1live.rxip.sc96655.com.huan.tv/live/qjs-HDH265_4000.m3u8
-#EXTINF:-1 tvg-name="魅力足球" tvg-logo="https://im5k.fun/logo/魅力足球.png"group-title="蜀小果2" ,魅力足球
-http://124.238.251.11:2380/hw1live.rxip.sc96655.com.huan.tv/live/mlyy_4000.m3u8
 #EXTINF:-1 tvg-name="生活时尚" tvg-logo="https://im5k.fun/logo/生活时尚.png"group-title="蜀小果2" ,生活时尚
 http://124.238.251.11:2380/hw1live.rxip.sc96655.com.huan.tv/live/shssH265_4000.m3u8
 #EXTINF:-1 tvg-name="新视觉" tvg-logo="https://im5k.fun/logo/新视觉.png"group-title="蜀小果2" ,新视觉
 http://124.238.251.11:2380/hw1live.rxip.sc96655.com.huan.tv/live/ycxsjH265_4000.m3u8
 #EXTINF:-1 tvg-name="汽摩" tvg-logo="https://im5k.fun/logo/汽摩.png"group-title="蜀小果2" ,汽摩
 http://124.238.251.11:2380/hw1live.rxip.sc96655.com.huan.tv/live/qmpdH264_2000.m3u8
-#EXTINF:-1 tvg-name="家庭理财" tvg-logo="https://im5k.fun/logo/家庭理财.png"group-title="蜀小果2" ,家庭理财
-http://124.238.251.11:2380/hw1live.rxip.sc96655.com.huan.tv/live/jtlc_4000.m3u8
 #EXTINF:-1 tvg-name="凤凰中文" tvg-logo="https://im5k.fun/logo/凤凰中文.png"group-title="蜀小果2" ,凤凰中文
 http://124.238.251.11:2380/hw1live.rxip.sc96655.com.huan.tv/live/test1_4000.m3u8
 #EXTINF:-1 tvg-name="凤凰资讯" tvg-logo="https://im5k.fun/logo/凤凰资讯.png"group-title="蜀小果2" ,凤凰资讯
