@@ -146,7 +146,7 @@ http://113.125.227.11:2380/hw1live.rxip.sc96655.com.huan.tv/live/CDTV-3_4000.m3u
 http://113.125.227.11:2380/hw1live.rxip.sc96655.com.huan.tv/live/CDTV-4_4000.m3u8
 #EXTINF:-1 tvg-name="成都公共" tvg-logo="https://im5k.fun/logo/成都公共.png"group-title="蜀小果1" ,成都公共
 http://113.125.227.11:2380/hw1live.rxip.sc96655.com.huan.tv/live/CDTV-5_4000.m3u8
-#EXTINF:-1 tvg-name="CHC影迷电影" tvg-logo="https://im5k.fun/logo/CHC影迷电影.png"group-title="蜀小果1" ,CHC影迷电影
+#EXTINF:-1 tvg-name="CHC高清电影" tvg-logo="https://im5k.fun/logo/CHC影迷电影.png"group-title="蜀小果1" ,CHC影迷电影
 http://113.125.227.11:2380/hw1live.rxip.sc96655.com.huan.tv/live/lnwsCHC-HDH265_4000.m3u8
 #EXTINF:-1 tvg-name="CHC动作电影" tvg-logo="https://im5k.fun/logo/CHC动作电影.png"group-title="蜀小果1" ,CHC动作电影
 http://113.125.227.11:2380/hw1live.rxip.sc96655.com.huan.tv/live/wqCHCdzdyH265_4000.m3u8
@@ -194,7 +194,7 @@ http://113.125.227.11:2380/hw1live.rxip.sc96655.com.huan.tv/live/qmpdH264_2000.m
 http://113.125.227.11:2380/hw1live.rxip.sc96655.com.huan.tv/live/test1_4000.m3u8
 #EXTINF:-1 tvg-name="凤凰资讯" tvg-logo="https://im5k.fun/logo/凤凰资讯.png"group-title="蜀小果1" ,凤凰资讯
 http://113.125.227.11:2380/hw1live.rxip.sc96655.com.huan.tv/live/test2_4000.m3u8
-#EXTINF:-1 tvg-name="梨园频道" tvg-logo="https://im5k.fun/logo/梨园频道.png"group-title="蜀小果1" ,梨园频道
+#EXTINF:-1 tvg-name="梨园" tvg-logo="https://im5k.fun/logo/梨园频道.png"group-title="蜀小果1" ,梨园频道
 http://113.125.227.11:2380/hw1live.rxip.sc96655.com.huan.tv/live/ly_4000.m3u8
 #EXTINF:-1 tvg-name="武术世界" tvg-logo="https://im5k.fun/logo/武术世界.png"group-title="蜀小果1" ,武术世界
 http://113.125.227.11:2380/hw1live.rxip.sc96655.com.huan.tv/live/wssj_4000.m3u8
@@ -694,7 +694,7 @@ http://124.238.251.11:2380/hw1live.rxip.sc96655.com.huan.tv/live/CDTV-3_4000.m3u
 http://124.238.251.11:2380/hw1live.rxip.sc96655.com.huan.tv/live/CDTV-4_4000.m3u8
 #EXTINF:-1 tvg-name="成都公共" tvg-logo="https://im5k.fun/logo/成都公共.png"group-title="蜀小果2" ,成都公共
 http://124.238.251.11:2380/hw1live.rxip.sc96655.com.huan.tv/live/CDTV-5_4000.m3u8
-#EXTINF:-1 tvg-name="CHC影迷电影" tvg-logo="https://im5k.fun/logo/CHC影迷电影.png"group-title="蜀小果2" ,CHC影迷电影
+#EXTINF:-1 tvg-name="CHC高清电影" tvg-logo="https://im5k.fun/logo/CHC影迷电影.png"group-title="蜀小果2" ,CHC影迷电影
 http://124.238.251.11:2380/hw1live.rxip.sc96655.com.huan.tv/live/lnwsCHC-HDH265_4000.m3u8
 #EXTINF:-1 tvg-name="CHC动作电影" tvg-logo="https://im5k.fun/logo/CHC动作电影.png"group-title="蜀小果2" ,CHC动作电影
 http://124.238.251.11:2380/hw1live.rxip.sc96655.com.huan.tv/live/wqCHCdzdyH265_4000.m3u8
@@ -742,7 +742,7 @@ http://124.238.251.11:2380/hw1live.rxip.sc96655.com.huan.tv/live/qmpdH264_2000.m
 http://124.238.251.11:2380/hw1live.rxip.sc96655.com.huan.tv/live/test1_4000.m3u8
 #EXTINF:-1 tvg-name="凤凰资讯" tvg-logo="https://im5k.fun/logo/凤凰资讯.png"group-title="蜀小果2" ,凤凰资讯
 http://124.238.251.11:2380/hw1live.rxip.sc96655.com.huan.tv/live/test2_4000.m3u8
-#EXTINF:-1 tvg-name="梨园频道" tvg-logo="https://im5k.fun/logo/梨园频道.png"group-title="蜀小果2" ,梨园频道
+#EXTINF:-1 tvg-name="梨园" tvg-logo="https://im5k.fun/logo/梨园频道.png"group-title="蜀小果2" ,梨园频道
 http://124.238.251.11:2380/hw1live.rxip.sc96655.com.huan.tv/live/ly_4000.m3u8
 #EXTINF:-1 tvg-name="武术世界" tvg-logo="https://im5k.fun/logo/武术世界.png"group-title="蜀小果2" ,武术世界
 http://124.238.251.11:2380/hw1live.rxip.sc96655.com.huan.tv/live/wssj_4000.m3u8
