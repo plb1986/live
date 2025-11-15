@@ -242,7 +242,7 @@ javascript://https://im5k.fun/js/cdtv.js?url=https%3A%2F%2Fcdn1.cditv.cn%2Fdangj
 javascript://https://im5k.fun/js/sh.js?id=dfws
 #EXTINF:-1 group-title="上海" tvg-name="上海新闻综合" tvg-logo="https://im5k.fun/logo/上海新闻综合.png",上海新闻综合
 javascript://https://im5k.fun/js/sh.js?id=xwzh
-#EXTINF:-1 group-title="上海" tvg-name="新纪实" tvg-logo="https://im5k.fun/logo/新纪实.png",新纪实
+#EXTINF:-1 group-title="上海" tvg-name="新纪实" tvg-logo="https://im5k.fun/logo/新纪实LIVE24.png",新纪实
 javascript://https://im5k.fun/js/sh.js?id=xjs
 #EXTINF:-1 group-title="上海" tvg-name="魔都眼" tvg-logo="https://im5k.fun/logo/魔都眼.png",魔都眼
 javascript://https://im5k.fun/js/sh.js?id=mdy
@@ -348,4 +348,5 @@ javascript://https://im5k.fun/js/guangzhou.js?id=xinwen
 javascript://https://im5k.fun/js/guangzhou.js?id=fazhi
 #EXTINF:-1 group-title="广东" tvg-name="广州南国都市" tvg-logo="https://im5k.fun/logo/广州南国都市.png", 广州南国都市
 javascript://https://im5k.fun/js/guangzhou.js?id=shenghuo
+
 
