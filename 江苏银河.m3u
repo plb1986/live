@@ -76,11 +76,11 @@ http://iptv.666230.xyz/iptv/jsyd.php/G_FAXIANZL
 http://iptv.666230.xyz/iptv/jsyd.php/G_CCTV-NEWS
 #EXTINF:-1 tvg-name="CGTN俄语" tvg-logo="https://im5k.fun/logo/CGTN俄语.png" ,CGTN俄语
 http://iptv.666230.xyz/iptv/jsyd.php/G_CGTN-PYCCNN
-#EXTINF:-1 tvg-name="CGTN西班牙语" tvg-logo="https://im5k.fun/logo/CGTN西班牙语.png" ,CGTN西班牙语
+#EXTINF:-1 tvg-name="CGTN西语" tvg-logo="https://im5k.fun/logo/CGTN西班牙语.png" ,CGTN西班牙语
 http://iptv.666230.xyz/iptv/jsyd.php/G_CGTN-ESPANOL
 #EXTINF:-1 tvg-name="CGTN法语" tvg-logo="https://im5k.fun/logo/CGTN法语.png" ,CGTN法语
 http://iptv.666230.xyz/iptv/jsyd.php/G_CGTN-FRANCAIS
-#EXTINF:-1 tvg-name="CGTN阿拉伯语" tvg-logo="https://im5k.fun/logo/CGTN阿拉伯语.png" ,CGTN阿拉伯语
+#EXTINF:-1 tvg-name="CGTN阿语" tvg-logo="https://im5k.fun/logo/CGTN阿拉伯语.png" ,CGTN阿拉伯语
 http://iptv.666230.xyz/iptv/jsyd.php/G_CGTN_A
 
 #EXTINF:-1 tvg-name="江苏卫视" tvg-logo="https://im5k.fun/logo/江苏卫视.png" ,江苏卫视
@@ -89,7 +89,7 @@ http://iptv.666230.xyz/iptv/jsyd.php/G_JIANGSU-HD-265-5M
 http://iptv.666230.xyz/iptv/jsyd.php/G_JIANGSU-4K
 #EXTINF:-1 tvg-name="湖南卫视" tvg-logo="https://im5k.fun/logo/湖南卫视.png" ,湖南卫视
 http://iptv.666230.xyz/iptv/jsyd.php/G_HUNAN-HD-265-8M
-#EXTINF:-1 tvg-name="湖南卫视4K" tvg-logo="https://im5k.fun/logo/湖南卫视4K.png" ,湖南卫视4K
+#EXTINF:-1 tvg-name="湖南卫视" tvg-logo="https://im5k.fun/logo/湖南卫视4K.png" ,湖南卫视4K
 http://iptv.666230.xyz/iptv/jsyd.php/G_HUNAN-4K
 #EXTINF:-1 tvg-name="浙江卫视" tvg-logo="https://im5k.fun/logo/浙江卫视.png" ,浙江卫视
 http://iptv.666230.xyz/iptv/jsyd.php/G_ZHEJIANG-HD-265-8M
@@ -197,13 +197,13 @@ http://iptv.666230.xyz/iptv/jsyd.php/G_JIAJIA
 http://iptv.666230.xyz/iptv/jsyd.php/G_YOUMAN
 #EXTINF:-1 tvg-name="卡酷少儿" tvg-logo="https://im5k.fun/logo/卡酷少儿.png" ,卡酷少儿
 http://iptv.666230.xyz/iptv/jsyd.php/G_KAKU
-#EXTINF:-1 tvg-name="CETV-1" tvg-logo="https://im5k.fun/logo/CETV-1.png" ,CETV-1
+#EXTINF:-1 tvg-name="中国教育1台" tvg-logo="https://im5k.fun/logo/CETV1.png" ,CETV-1
 http://iptv.666230.xyz/iptv/jsyd.php/G_CETV-1
-#EXTINF:-1 tvg-name="CETV-2" tvg-logo="https://im5k.fun/logo/CETV-2.png" ,CETV-2
+#EXTINF:-1 tvg-name="中国教育2台" tvg-logo="https://im5k.fun/logo/CETV2.png" ,CETV-2
 http://iptv.666230.xyz/iptv/jsyd.php/G_CETV-2
-#EXTINF:-1 tvg-name="CETV-3" tvg-logo="https://im5k.fun/logo/CETV-3.png" ,CETV-3
+#EXTINF:-1 tvg-name="中国教育3台" tvg-logo="https://im5k.fun/logo/CETV3.png" ,CETV-3
 http://iptv.666230.xyz/iptv/jsyd.php/G_CETV-3
-#EXTINF:-1 tvg-name="CETV-4" tvg-logo="https://im5k.fun/logo/CETV-4.png" ,CETV-4
+#EXTINF:-1 tvg-name="中国教育4台" tvg-logo="https://im5k.fun/logo/CETV4.png" ,CETV-4
 http://iptv.666230.xyz/iptv/jsyd.php/G_CETV-4
 #EXTINF:-1 tvg-name="纪实科教" tvg-logo="https://im5k.fun/logo/纪实科教.png" ,纪实科教
 http://iptv.666230.xyz/iptv/jsyd.php/HD-8000k-1080P-beijingjishi
