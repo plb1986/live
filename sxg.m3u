@@ -131,7 +131,7 @@ http://58.216.110.7:2380/hw1live.rxip.sc96655.com.huan.tv/live/SCTV-5-scysH265_4
 http://58.216.110.7:2380/hw1live.rxip.sc96655.com.huan.tv/live/SCTV-ggSCTV-8_4000.m3u8
 #EXTINF:-1 tvg-name="四川乡村" tvg-logo="https://im5k.fun/logo/四川乡村.png"group-title="蜀小果1" ,四川乡村
 http://58.216.110.7:2380/hw1live.rxip.sc96655.com.huan.tv/live/SCTV-kjSCTV-9-_4000.m3u8
-#EXTINF:-1 tvg-name="峨嵋电影" tvg-logo="https://im5k.fun/logo/峨嵋电影.png"group-title="蜀小果1" ,峨嵋电影
+#EXTINF:-1 tvg-name="峨眉电影" tvg-logo="https://im5k.fun/logo/峨眉电影.png"group-title="蜀小果1" ,峨眉电影
 http://58.216.110.7:2380/hw1live.rxip.sc96655.com.huan.tv/live/emdygqH265_4000.m3u8
 #EXTINF:-1 tvg-name="峨眉电影" tvg-logo="https://im5k.fun/logo/峨眉电影4K.png"group-title="蜀小果1" ,峨眉电影4K
 http://58.216.110.7:2380/hw1live.rxip.sc96655.com.huan.tv/live/emdy4k_8000.m3u8
@@ -698,7 +698,7 @@ http://113.125.227.11:2380/hw1live.rxip.sc96655.com.huan.tv/live/SCTV-5-scysH265
 http://113.125.227.11:2380/hw1live.rxip.sc96655.com.huan.tv/live/SCTV-ggSCTV-8_4000.m3u8
 #EXTINF:-1 tvg-name="四川乡村" tvg-logo="https://im5k.fun/logo/四川乡村.png"group-title="蜀小果2" ,四川乡村
 http://113.125.227.11:2380/hw1live.rxip.sc96655.com.huan.tv/live/SCTV-kjSCTV-9-_4000.m3u8
-#EXTINF:-1 tvg-name="峨嵋电影" tvg-logo="https://im5k.fun/logo/峨嵋电影.png"group-title="蜀小果2" ,峨嵋电影
+#EXTINF:-1 tvg-name="峨眉电影" tvg-logo="https://im5k.fun/logo/峨眉电影.png"group-title="蜀小果2" ,峨眉电影
 http://113.125.227.11:2380/hw1live.rxip.sc96655.com.huan.tv/live/emdygqH265_4000.m3u8
 #EXTINF:-1 tvg-name="峨眉电影" tvg-logo="https://im5k.fun/logo/峨眉电影4K.png"group-title="蜀小果2" ,峨眉电影4K
 http://113.125.227.11:2380/hw1live.rxip.sc96655.com.huan.tv/live/emdy4k_8000.m3u8
