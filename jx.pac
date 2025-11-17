@@ -22,5 +22,5 @@ function FindProxyForURL(url, host) {
     }
     
     // 4. 其他所有流量使用代理
-    return "PROXY 192.168.11.200:7890";
+    return "PROXY 192.168.5.200:7890";
 }
