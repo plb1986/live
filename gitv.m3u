@@ -457,7 +457,7 @@ http://101.73.110.138:2380/js-live-screenshot.gitv.tv/gitv_live/G_YANBIAN/G_YANB
 http://101.73.110.138:2380/js-live-screenshot.gitv.tv/gitv_live/G_JUJIAYX/G_JUJIAYX.m3u8
 #EXTINF:-1 group-title="卫视" tvg-name="央广购物" tvg-logo="https://im5k.fun/logo/央广购物.png",央广购物
 http://101.73.110.138:2380/js-live-screenshot.gitv.tv/gitv_live/hdjsmeiriyouxuan/hdjsmeiriyouxuan.m3u8
-#EXTINF:-1 group-title="卫视" tvg-name="央视新影-发现之旅" tvg-logo="https://im5k.fun/logo/央视新影-发现之旅.png",央视新影-发现之旅
+#EXTINF:-1 group-title="卫视" tvg-name="发现之旅" tvg-logo="https://im5k.fun/logo/发现之旅.png",发现之旅
 http://101.73.110.138:2380/js-live-screenshot.gitv.tv/gitv_live/G_FAXIANZL/G_FAXIANZL.m3u8
 #EXTINF:-1 group-title="卫视" tvg-name="优漫卡通" tvg-logo="https://im5k.fun/logo/优漫卡通.png",优漫卡通
 http://101.73.110.138:2380/js-live-screenshot.gitv.tv/gitv_live/G_YOUMAN/G_YOUMAN.m3u8
@@ -477,9 +477,9 @@ http://101.73.110.138:2380/js-live-screenshot.gitv.tv/gitv_live/G_ZHEJIANG-HQ/G_
 http://101.73.110.138:2380/js-live-screenshot.gitv.tv/gitv_live/G_ZHEJIANG-MD/G_ZHEJIANG-MD.m3u8
 #EXTINF:-1 group-title="卫视" tvg-name="浙江卫视" tvg-logo="https://im5k.fun/logo/浙江卫视.png",浙江卫视
 http://101.73.110.138:2380/js-live-screenshot.gitv.tv/gitv_live/ZJWS-HD/ZJWS-HD.m3u8
-#EXTINF:-1 group-title="卫视" tvg-name="中央新影-老故事" tvg-logo="https://im5k.fun/logo/中央新影-老故事.png",中央新影-老故事
+#EXTINF:-1 group-title="卫视" tvg-name="老故事" tvg-logo="https://im5k.fun/logo/老故事.png",老故事
 http://101.73.110.138:2380/js-live-screenshot.gitv.tv/gitv_live/G_LAOGUSHI/G_LAOGUSHI.m3u8
-#EXTINF:-1 group-title="卫视" tvg-name="中央新影-中学生" tvg-logo="https://im5k.fun/logo/中央新影-中学生.png",中央新影-中学生
+#EXTINF:-1 group-title="卫视" tvg-name="中学生" tvg-logo="https://im5k.fun/logo/中学生.png",中学生
 http://101.73.110.138:2380/js-live-screenshot.gitv.tv/gitv_live/G_ZHONGXUESHENG/G_ZHONGXUESHENG.m3u8
 #EXTINF:-1 group-title="卫视" tvg-name="重庆汽摩" tvg-logo="https://im5k.fun/logo/重庆汽摩.png",重庆汽摩
 http://101.73.110.138:2380/js-live-screenshot.gitv.tv/gitv_live/G_QIMO/G_QIMO.m3u8
@@ -537,19 +537,19 @@ http://101.73.110.138:2380/js-live-screenshot.gitv.tv/gitv_live/G_JSYS/G_JSYS.m3
 http://101.73.110.138:2380/js-live-screenshot.gitv.tv/gitv_live/G_JSZY/G_JSZY.m3u8
 #EXTINF:-1 group-title="卫视" tvg-name="江苏音乐台" tvg-logo="https://im5k.fun/logo/江苏音乐台.png",江苏音乐台
 http://101.73.110.138:2380/js-live-screenshot.gitv.tv/gitv_live/R_YINYUE/R_YINYUE.m3u8
-#EXTINF:-1 group-title="卫视" tvg-name="江苏新闻广播" tvg-logo="https://im5k.fun/logo/江苏新闻广播.png",江苏新闻广播
+#EXTINF:-1 group-title="广播" tvg-name="江苏新闻广播" tvg-logo="https://im5k.fun/logo/江苏新闻广播.png",江苏新闻广播
 http://101.73.110.138:2380/js-live-screenshot.gitv.tv/gitv_live/R_XINWEN/R_XINWEN.m3u8
-#EXTINF:-1 group-title="卫视" tvg-name="江苏经典流行音乐" tvg-logo="https://im5k.fun/logo/江苏经典流行音乐.png",江苏经典流行音乐
+#EXTINF:-1 group-title="广播" tvg-name="江苏经典流行音乐" tvg-logo="https://im5k.fun/logo/江苏经典流行音乐.png",江苏经典流行音乐
 http://101.73.110.138:2380/js-live-screenshot.gitv.tv/gitv_live/R_JINGDIANLX/R_JINGDIANLX.m3u8
-#EXTINF:-1 group-title="卫视" tvg-name="江苏财经广播" tvg-logo="https://im5k.fun/logo/江苏财经广播.png",江苏财经广播
+#EXTINF:-1 group-title="广播" tvg-name="江苏财经广播" tvg-logo="https://im5k.fun/logo/江苏财经广播.png",江苏财经广播
 http://101.73.110.138:2380/js-live-screenshot.gitv.tv/gitv_live/R_CAIJING/R_CAIJING.m3u8
-#EXTINF:-1 group-title="卫视" tvg-name="江苏故事广播" tvg-logo="https://im5k.fun/logo/江苏故事广播.png",江苏故事广播
+#EXTINF:-1 group-title="广播" tvg-name="江苏故事广播" tvg-logo="https://im5k.fun/logo/江苏故事广播.png",江苏故事广播
 http://101.73.110.138:2380/js-live-screenshot.gitv.tv/gitv_live/R_GUSHI/R_GUSHI.m3u8
-#EXTINF:-1 group-title="卫视" tvg-name="江苏将康广播" tvg-logo="https://im5k.fun/logo/江苏将康广播.png",江苏将康广播
+#EXTINF:-1 group-title="广播" tvg-name="江苏健康广播" tvg-logo="https://im5k.fun/logo/江苏健康广播.png",江苏健康广播
 http://101.73.110.138:2380/js-live-screenshot.gitv.tv/gitv_live/R_JIANKANG/R_JIANKANG.m3u8
-#EXTINF:-1 group-title="卫视" tvg-name="江苏文艺广播" tvg-logo="https://im5k.fun/logo/江苏文艺广播.png",江苏文艺广播
+#EXTINF:-1 group-title="广播" tvg-name="江苏文艺广播" tvg-logo="https://im5k.fun/logo/江苏文艺广播.png",江苏文艺广播
 http://101.73.110.138:2380/js-live-screenshot.gitv.tv/gitv_live/R_WENYI/R_WENYI.m3u8
-#EXTINF:-1 group-title="卫视" tvg-name="江苏交通广播网" tvg-logo="https://im5k.fun/logo/江苏交通广播网.png",江苏交通广播网
+#EXTINF:-1 group-title="广播" tvg-name="江苏交通广播网" tvg-logo="https://im5k.fun/logo/江苏交通广播网.png",江苏交通广播网
 http://101.73.110.138:2380/js-live-screenshot.gitv.tv/gitv_live/R_JIAOTONG/R_JIAOTONG.m3u8
 #EXTINF:-1 group-title="GITV" tvg-name="GITV1" tvg-logo="https://im5k.fun/logo/GITV1.png",GITV1
 http://101.73.110.138:2380/js-live-screenshot.gitv.tv/gitv_live/GITV-JS-1/GITV-JS-1.m3u8
