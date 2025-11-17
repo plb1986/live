@@ -46,6 +46,8 @@ http://101.73.110.138:2380/js-live-screenshot.gitv.tv/gitv_live/G_CCTV-9-HD-265-
 http://101.73.110.138:2380/js-live-screenshot.gitv.tv/gitv_live/G_CCTV-10-HQ/G_CCTV-10-HQ.m3u8
 #EXTINF:-1 group-title="央视" tvg-name="CCTV11" tvg-logo="https://im5k.fun/logo/CCTV11.png",CCTV11
 http://101.73.110.138:2380/js-live-screenshot.gitv.tv/gitv_live/G_CCTV-11-HQ/G_CCTV-11-HQ.m3u8
+#EXTINF:-1 group-title="央视" tvg-name="CCTV12" tvg-logo="https://im5k.fun/logo/CCTV12.png",CCTV12
+http://101.73.110.138:2380/js-live-screenshot.gitv.tv/gitv_live/G_CCTV-12-HQ/G_CCTV-12-HQ.m3u8
 #EXTINF:-1 group-title="央视" tvg-name="CCTV13" tvg-logo="https://im5k.fun/logo/CCTV13.png",CCTV13
 http://101.73.110.138:2380/js-live-screenshot.gitv.tv/gitv_live/G_CCTV-13-HQ/G_CCTV-13-HQ.m3u8
 #EXTINF:-1 group-title="央视" tvg-name="CCTV14" tvg-logo="https://im5k.fun/logo/CCTV14.png",CCTV14
