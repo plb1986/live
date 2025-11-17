@@ -217,8 +217,7 @@ http://101.73.110.138:2380/js-live-screenshot.gitv.tv/gitv_live/G_CGTN-PYCCNN/G_
 http://101.73.110.138:2380/js-live-screenshot.gitv.tv/gitv_live/G_CGTN-FRANCAIS/G_CGTN-FRANCAIS.m3u8
 #EXTINF:-1 group-title="央视" tvg-name="CGTN西语" tvg-logo="https://im5k.fun/logo/CGTN西语.png",CGTN西班牙语
 http://101.73.110.138:2380/js-live-screenshot.gitv.tv/gitv_live/G_CGTN-ESPANOL/G_CGTN-ESPANOL.m3u8
-#EXTINF:-1 group-title="卫视" tvg-name="安多卫视" tvg-logo="https://im5k.fun/logo/安多卫视.png",安多卫视
-http://101.73.110.138:2380/js-live-screenshot.gitv.tv/gitv_live/G_ANDUO/G_ANDUO.m3u8
+
 #EXTINF:-1 group-title="卫视" tvg-name="安徽卫视" tvg-logo="https://im5k.fun/logo/安徽卫视.png",安徽卫视
 http://101.73.110.138:2380/js-live-screenshot.gitv.tv/gitv_live/G_ANHUI-CQ/G_ANHUI-CQ.m3u8
 #EXTINF:-1 group-title="卫视" tvg-name="安徽卫视" tvg-logo="https://im5k.fun/logo/安徽卫视.png",安徽卫视
@@ -357,8 +356,6 @@ http://101.73.110.138:2380/js-live-screenshot.gitv.tv/gitv_live/G_BEIJINGJS-HQ/G
 http://101.73.110.138:2380/js-live-screenshot.gitv.tv/gitv_live/HD-8000k-1080P-beijingjishi/HD-8000k-1080P-beijingjishi.m3u8
 #EXTINF:-1 group-title="卫视" tvg-name="嘉佳卡通" tvg-logo="https://im5k.fun/logo/嘉佳卡通.png",嘉佳卡通
 http://101.73.110.138:2380/js-live-screenshot.gitv.tv/gitv_live/G_JIAJIA/G_JIAJIA.m3u8
-#EXTINF:-1 group-title="卫视" tvg-name="金陵之声" tvg-logo="https://im5k.fun/logo/金陵之声.png",金陵之声
-http://101.73.110.138:2380/js-live-screenshot.gitv.tv/gitv_live/R_997/R_997.m3u8
 #EXTINF:-1 group-title="卫视" tvg-name="金鹰卡通" tvg-logo="https://im5k.fun/logo/金鹰卡通.png",金鹰卡通
 http://101.73.110.138:2380/js-live-screenshot.gitv.tv/gitv_live/G_JINYING/G_JINYING.m3u8
 #EXTINF:-1 group-title="卫视" tvg-name="睛彩竞技" tvg-logo="https://im5k.fun/logo/睛彩竞技.png",睛彩竞技
@@ -425,8 +422,6 @@ http://101.73.110.138:2380/js-live-screenshot.gitv.tv/gitv_live/G_SHENZHEN-HQ/G_
 http://101.73.110.138:2380/js-live-screenshot.gitv.tv/gitv_live/G_SHENZHEN-MD/G_SHENZHEN-MD.m3u8
 #EXTINF:-1 group-title="卫视" tvg-name="深圳卫视" tvg-logo="https://im5k.fun/logo/深圳卫视.png",深圳卫视
 http://101.73.110.138:2380/js-live-screenshot.gitv.tv/gitv_live/SZWS-HD/SZWS-HD.m3u8
-#EXTINF:-1 group-title="卫视" tvg-name="书画频道" tvg-logo="https://im5k.fun/logo/书画频道.png",书画频道
-http://101.73.110.138:2380/js-live-screenshot.gitv.tv/gitv_live/G_SHUHUA/G_SHUHUA.m3u8
 #EXTINF:-1 group-title="卫视" tvg-name="四川卫视" tvg-logo="https://im5k.fun/logo/四川卫视.png",四川卫视
 http://101.73.110.138:2380/js-live-screenshot.gitv.tv/gitv_live/G_SICHUAN-CQ/G_SICHUAN-CQ.m3u8
 #EXTINF:-1 group-title="卫视" tvg-name="四川卫视" tvg-logo="https://im5k.fun/logo/四川卫视.png",四川卫视
@@ -445,18 +440,12 @@ http://101.73.110.138:2380/js-live-screenshot.gitv.tv/gitv_live/G_TIANJIN-HQ/G_T
 http://101.73.110.138:2380/js-live-screenshot.gitv.tv/gitv_live/G_TIANJIN-MD/G_TIANJIN-MD.m3u8
 #EXTINF:-1 group-title="卫视" tvg-name="天津卫视" tvg-logo="https://im5k.fun/logo/天津卫视.png",天津卫视
 http://101.73.110.138:2380/js-live-screenshot.gitv.tv/gitv_live/TJWS/TJWS.m3u8
-#EXTINF:-1 group-title="卫视" tvg-name="天元围棋" tvg-logo="https://im5k.fun/logo/天元围棋.png",天元围棋
-http://101.73.110.138:2380/js-live-screenshot.gitv.tv/gitv_live/G_TIANYUANWQ/G_TIANYUANWQ.m3u8
 #EXTINF:-1 group-title="卫视" tvg-name="西藏卫视" tvg-logo="https://im5k.fun/logo/西藏卫视.png",西藏卫视
 http://101.73.110.138:2380/js-live-screenshot.gitv.tv/gitv_live/G_XIZANG/G_XIZANG.m3u8
 #EXTINF:-1 group-title="卫视" tvg-name="新疆卫视" tvg-logo="https://im5k.fun/logo/新疆卫视.png",新疆卫视
 http://101.73.110.138:2380/js-live-screenshot.gitv.tv/gitv_live/G_XINJIANG/G_XINJIANG.m3u8
 #EXTINF:-1 group-title="卫视" tvg-name="延边卫视" tvg-logo="https://im5k.fun/logo/延边卫视.png",延边卫视
 http://101.73.110.138:2380/js-live-screenshot.gitv.tv/gitv_live/G_YANBIAN/G_YANBIAN.m3u8
-#EXTINF:-1 group-title="卫视" tvg-name="央广购物" tvg-logo="https://im5k.fun/logo/央广购物.png",央广购物
-http://101.73.110.138:2380/js-live-screenshot.gitv.tv/gitv_live/G_JUJIAYX/G_JUJIAYX.m3u8
-#EXTINF:-1 group-title="卫视" tvg-name="央广购物" tvg-logo="https://im5k.fun/logo/央广购物.png",央广购物
-http://101.73.110.138:2380/js-live-screenshot.gitv.tv/gitv_live/hdjsmeiriyouxuan/hdjsmeiriyouxuan.m3u8
 #EXTINF:-1 group-title="卫视" tvg-name="发现之旅" tvg-logo="https://im5k.fun/logo/发现之旅.png",发现之旅
 http://101.73.110.138:2380/js-live-screenshot.gitv.tv/gitv_live/G_FAXIANZL/G_FAXIANZL.m3u8
 #EXTINF:-1 group-title="卫视" tvg-name="优漫卡通" tvg-logo="https://im5k.fun/logo/优漫卡通.png",优漫卡通
@@ -481,6 +470,8 @@ http://101.73.110.138:2380/js-live-screenshot.gitv.tv/gitv_live/ZJWS-HD/ZJWS-HD.
 http://101.73.110.138:2380/js-live-screenshot.gitv.tv/gitv_live/G_LAOGUSHI/G_LAOGUSHI.m3u8
 #EXTINF:-1 group-title="卫视" tvg-name="中学生" tvg-logo="https://im5k.fun/logo/中学生.png",中学生
 http://101.73.110.138:2380/js-live-screenshot.gitv.tv/gitv_live/G_ZHONGXUESHENG/G_ZHONGXUESHENG.m3u8
+#EXTINF:-1 group-title="卫视" tvg-name="书画频道" tvg-logo="https://im5k.fun/logo/书画频道.png",书画频道
+http://101.73.110.138:2380/js-live-screenshot.gitv.tv/gitv_live/G_SHUHUA/G_SHUHUA.m3u8
 #EXTINF:-1 group-title="卫视" tvg-name="重庆汽摩" tvg-logo="https://im5k.fun/logo/重庆汽摩.png",重庆汽摩
 http://101.73.110.138:2380/js-live-screenshot.gitv.tv/gitv_live/G_QIMO/G_QIMO.m3u8
 #EXTINF:-1 group-title="卫视" tvg-name="重庆卫视" tvg-logo="https://im5k.fun/logo/重庆卫视.png",重庆卫视
@@ -491,6 +482,8 @@ http://101.73.110.138:2380/js-live-screenshot.gitv.tv/gitv_live/G_CHONGQING-HD/G
 http://101.73.110.138:2380/js-live-screenshot.gitv.tv/gitv_live/G_CHONGQING-HQ/G_CHONGQING-HQ.m3u8
 #EXTINF:-1 group-title="卫视" tvg-name="重庆卫视" tvg-logo="https://im5k.fun/logo/重庆卫视.png",重庆卫视
 http://101.73.110.138:2380/js-live-screenshot.gitv.tv/gitv_live/G_CHONGQING/G_CHONGQING.m3u8
+#EXTINF:-1 group-title="卫视" tvg-name="安多卫视" tvg-logo="https://im5k.fun/logo/安多卫视.png",安多卫视
+http://101.73.110.138:2380/js-live-screenshot.gitv.tv/gitv_live/G_ANDUO/G_ANDUO.m3u8
 #EXTINF:-1 group-title="卫视" tvg-name="江苏卫视" tvg-logo="https://im5k.fun/logo/江苏卫视.png",江苏卫视
 http://101.73.110.138:2380/js-live-screenshot.gitv.tv/gitv_live/jsshishanggw/jsshishanggw.m3u8
 #EXTINF:-1 group-title="卫视" tvg-name="江苏城市" tvg-logo="https://im5k.fun/logo/江苏城市.png",江苏城市
@@ -535,6 +528,8 @@ http://101.73.110.138:2380/js-live-screenshot.gitv.tv/gitv_live/G_JSGG/G_JSGG.m3
 http://101.73.110.138:2380/js-live-screenshot.gitv.tv/gitv_live/G_JSYS/G_JSYS.m3u8
 #EXTINF:-1 group-title="卫视" tvg-name="江苏综艺" tvg-logo="https://im5k.fun/logo/江苏综艺.png",江苏综艺
 http://101.73.110.138:2380/js-live-screenshot.gitv.tv/gitv_live/G_JSZY/G_JSZY.m3u8
+#EXTINF:-1 group-title="卫视" tvg-name="天元围棋" tvg-logo="https://im5k.fun/logo/天元围棋.png",天元围棋
+http://101.73.110.138:2380/js-live-screenshot.gitv.tv/gitv_live/G_TIANYUANWQ/G_TIANYUANWQ.m3u8
 #EXTINF:-1 group-title="卫视" tvg-name="江苏音乐台" tvg-logo="https://im5k.fun/logo/江苏音乐台.png",江苏音乐台
 http://101.73.110.138:2380/js-live-screenshot.gitv.tv/gitv_live/R_YINYUE/R_YINYUE.m3u8
 #EXTINF:-1 group-title="广播" tvg-name="江苏新闻广播" tvg-logo="https://im5k.fun/logo/江苏新闻广播.png",江苏新闻广播
@@ -551,6 +546,9 @@ http://101.73.110.138:2380/js-live-screenshot.gitv.tv/gitv_live/R_JIANKANG/R_JIA
 http://101.73.110.138:2380/js-live-screenshot.gitv.tv/gitv_live/R_WENYI/R_WENYI.m3u8
 #EXTINF:-1 group-title="广播" tvg-name="江苏交通广播网" tvg-logo="https://im5k.fun/logo/江苏交通广播网.png",江苏交通广播网
 http://101.73.110.138:2380/js-live-screenshot.gitv.tv/gitv_live/R_JIAOTONG/R_JIAOTONG.m3u8
+#EXTINF:-1 group-title="广播" tvg-name="金陵之声" tvg-logo="https://im5k.fun/logo/金陵之声.png",金陵之声
+http://101.73.110.138:2380/js-live-screenshot.gitv.tv/gitv_live/R_997/R_997.m3u8
+
 #EXTINF:-1 group-title="GITV" tvg-name="GITV1" tvg-logo="https://im5k.fun/logo/GITV1.png",GITV1
 http://101.73.110.138:2380/js-live-screenshot.gitv.tv/gitv_live/GITV-JS-1/GITV-JS-1.m3u8
 #EXTINF:-1 group-title="GITV" tvg-name="GITV2" tvg-logo="https://im5k.fun/logo/GITV2.png",GITV2
