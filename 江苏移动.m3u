@@ -181,19 +181,19 @@ http://ott.mobaibox.com/PLTV/4/224/3221228231/index.m3u8
 http://ott.mobaibox.com/PLTV/3/224/3221228682/index.m3u8
 #EXTINF:-1 group-title="体育频道" tvg-name="睛彩青少" tvg-logo="https://im5k.fun/logo/睛彩青少.png" ,睛彩青少
 http://ott.mobaibox.com/PLTV/4/224/3221228427/index.m3u8
-#EXTINF:-1 group-title="电影频道" tvg-name="NewTV惊悚悬疑" tvg-logo="https://im5k.fun/logo/NewTV惊悚悬疑.png" ,NewTV惊悚悬疑
+#EXTINF:-1 group-title="NewTV频道" tvg-name="NewTV惊悚悬疑" tvg-logo="https://im5k.fun/logo/NewTV惊悚悬疑.png" ,NewTV惊悚悬疑
 http://ott.mobaibox.com/PLTV/3/224/3221227536/index.m3u8
-#EXTINF:-1 group-title="电影频道" tvg-name="NewTV动作电影" tvg-logo="https://im5k.fun/logo/NewTV动作电影.png" ,NewTV动作电影
+#EXTINF:-1 group-title="NewTV频道" tvg-name="NewTV动作电影" tvg-logo="https://im5k.fun/logo/NewTV动作电影.png" ,NewTV动作电影
 http://ott.mobaibox.com/PLTV/3/224/3221227606/index.m3u8
-#EXTINF:-1 group-title="电影频道" tvg-name="爱情喜剧" tvg-logo="https://im5k.fun/logo/爱情喜剧.png" ,爱情喜剧
+#EXTINF:-1 group-title="NewTV频道" tvg-name="NewTV爱情喜剧" tvg-logo="https://im5k.fun/logo/NewTV爱情喜剧.png" ,NewTV爱情喜剧
 http://ott.mobaibox.com/PLTV/3/224/3221227548/index.m3u8
-#EXTINF:-1 group-title="电影频道" tvg-name="中国功夫" tvg-logo="https://im5k.fun/logo/中国功夫.png" ,中国功夫
+#EXTINF:-1 group-title="NewTV频道" tvg-name="NewTV中国功夫" tvg-logo="https://im5k.fun/logo/NewTV中国功夫.png" ,NewTV中国功夫
 http://ott.mobaibox.com/PLTV/3/224/3221227530/index.m3u8
-#EXTINF:-1 group-title="电影频道" tvg-name="潮妈辣婆" tvg-logo="https://im5k.fun/logo/潮妈辣婆.png" ,潮妈辣婆
+#EXTINF:-1 group-title=NewTV频道" tvg-name="NewTV潮妈辣婆" tvg-logo="https://im5k.fun/logo/NewTV潮妈辣婆.png" ,NewTV潮妈辣婆
 http://ott.mobaibox.com/PLTV/3/224/3221227527/index.m3u8
-#EXTINF:-1 group-title="电影频道" tvg-name="军旅剧场" tvg-logo="https://im5k.fun/logo/军旅剧场.png" ,军旅剧场
+#EXTINF:-1 group-title="NewTV频道" tvg-name="NewTV军旅剧场" tvg-logo="https://im5k.fun/logo/NewTV军旅剧场.png" ,NewTV军旅剧场
 http://ott.mobaibox.com/PLTV/3/224/3221227603/index.m3u8
-#EXTINF:-1 group-title="电影频道" tvg-name="古装剧场" tvg-logo="https://im5k.fun/logo/古装剧场.png" ,古装剧场
+#EXTINF:-1 group-title="NewTV频道" tvg-name="NewTV古装剧场" tvg-logo="https://im5k.fun/logo/NewTV古装剧场.png" ,NewTV古装剧场
 http://ott.mobaibox.com/PLTV/3/224/3221227542/index.m3u8
 #EXTINF:-1 group-title="NewTV频道" tvg-name="NewTV精品萌宠" tvg-logo="https://im5k.fun/logo/NewTV精品萌宠.png" ,NewTV精品萌宠
 http://ott.mobaibox.com/PLTV/3/224/3221228430/index.m3u8
