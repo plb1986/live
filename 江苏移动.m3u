@@ -129,24 +129,47 @@ http://ott.mobaibox.com/PLTV/3/224/3221227604/index.m3u8
 http://ott.mobaibox.com/PLTV/3/224/3221227583/index.m3u8
 #EXTINF:-1 group-title="卫视频道" tvg-name="山西卫视" tvg-logo="https://im5k.fun/logo/山西卫视.png" ,山西卫视
 http://ott.mobaibox.com/PLTV/3/224/3221227559/index.m3u8
-#EXTINF:-1 group-title="卫视频道" tvg-name="无锡新闻综合" tvg-logo="https://im5k.fun/logo/无锡新闻综合.png" ,无锡新闻综合
-http://ott.mobaibox.com/PLTV/1/224/3221228103/1.m3u8
-#EXTINF:-1 group-title="卫视频道" tvg-name="南京影视" tvg-logo="https://im5k.fun/logo/南京影视.png" ,南京影视
-http://ott.mobaibox.com/PLTV/3/224/3221227719/index.m3u8
-#EXTINF:-1 group-title="卫视频道" tvg-name="南京教科" tvg-logo="https://im5k.fun/logo/南京教科.png" ,南京教科
-http://ott.mobaibox.com/PLTV/3/224/3221227194/index.m3u8
-#EXTINF:-1 group-title="卫视频道" tvg-name="南京十八" tvg-logo="https://im5k.fun/logo/南京十八.png" ,南京十八
-http://ott.mobaibox.com/PLTV/3/224/3221227178/index.m3u8
-#EXTINF:-1 group-title="卫视频道" tvg-name="南京文旅纪录" tvg-logo="https://im5k.fun/logo/南京文旅纪录.png" ,南京文旅纪录
-http://ott.mobaibox.com/PLTV/3/224/3221227722/index.m3u8
-#EXTINF:-1 group-title="卫视频道" tvg-name="南京新闻综合" tvg-logo="https://im5k.fun/logo/南京新闻综合.png" ,南京新闻综合
-http://ott.mobaibox.com/PLTV/3/224/3221227213/index.m3u8
-#EXTINF:-1 group-title="卫视频道" tvg-name="江苏综艺" tvg-logo="https://im5k.fun/logo/江苏综艺.png" ,江苏综艺
-http://ott.mobaibox.com/PLTV/3/224/3221225931/index.m3u8
-#EXTINF:-1 group-title="卫视频道" tvg-name="南京少儿" tvg-logo="https://im5k.fun/logo/南京少儿.png" ,南京少儿
-http://ott.mobaibox.com/PLTV/4/224/3221227733/index.m3u8
 #EXTINF:-1 group-title="卫视频道" tvg-name="北京纪实科教" tvg-logo="https://im5k.fun/logo/北京纪实科教.png" ,北京纪实科教
 http://ott.mobaibox.com/PLTV/3/224/3221227699/index.m3u8
+#EXTINF:-1 group-title="卫视频道" tvg-name="上海哈哈炫动" tvg-logo="https://im5k.fun/logo/上海哈哈炫动.png" ,上海哈哈炫动
+http://ott.mobaibox.com/PLTV/3/224/3221227586/index.m3u8
+#EXTINF:-1 group-title="卫视频道" tvg-name="北京卡酷少儿" tvg-logo="https://im5k.fun/logo/北京卡酷少儿.png" ,北京卡酷少儿
+http://ott.mobaibox.com/PLTV/3/224/3221227566/index.m3u8
+#EXTINF:-1 group-title="卫视频道" tvg-name="广东嘉佳卡通" tvg-logo="https://im5k.fun/logo/广东嘉佳卡通.png" ,广东嘉佳卡通
+http://ott.mobaibox.com/PLTV/3/224/3221227598/index.m3u8
+#EXTINF:-1 group-title="卫视频道" tvg-name="湖南金鹰卡通" tvg-logo="https://im5k.fun/logo/湖南金鹰卡通.png" ,湖南金鹰卡通
+http://ott.mobaibox.com/PLTV/3/224/3221227630/index.m3u8
+#EXTINF:-1 group-title="卫视频道" tvg-name="江苏优漫卡通" tvg-logo="https://im5k.fun/logo/江苏优漫卡通.png" ,江苏优漫卡通
+http://ott.mobaibox.com/PLTV/3/224/3221227577/index.m3u8
+#EXTINF:-1 group-title="江苏频道" tvg-name="江苏体育休闲" tvg-logo="https://im5k.fun/logo/江苏体育休闲.png" ,江苏体育休闲
+http://ott.mobaibox.com/PLTV/3/224/3221225935/index.m3u8
+#EXTINF:-1 group-title="江苏频道" tvg-name="江苏公共新闻" tvg-logo="https://im5k.fun/logo/江苏公共新闻.png" ,江苏公共新闻
+http://ott.mobaibox.com/PLTV/3/224/3221225925/index.m3u8
+#EXTINF:-1 group-title="江苏频道" tvg-name="江苏城市" tvg-logo="https://im5k.fun/logo/江苏城市.png" ,江苏城市
+http://ott.mobaibox.com/PLTV/3/224/3221225929/index.m3u8
+#EXTINF:-1 group-title="江苏频道" tvg-name="江苏影视" tvg-logo="https://im5k.fun/logo/江苏影视.png" ,江苏影视
+http://ott.mobaibox.com/PLTV/3/224/3221225937/index.m3u8
+#EXTINF:-1 group-title="江苏频道" tvg-name="江苏教育" tvg-logo="https://im5k.fun/logo/江苏教育.png" ,江苏教育
+http://ott.mobaibox.com/PLTV/3/224/3221225923/index.m3u8
+#EXTINF:-1 group-title="江苏频道" tvg-name="江苏综艺" tvg-logo="https://im5k.fun/logo/江苏综艺.png" ,江苏综艺
+http://ott.mobaibox.com/PLTV/3/224/3221225931/index.m3u8
+#EXTINF:-1 group-title="江苏频道" tvg-name="无锡新闻综合" tvg-logo="https://im5k.fun/logo/无锡新闻综合.png" ,无锡新闻综合
+http://ott.mobaibox.com/PLTV/1/224/3221228103/1.m3u8
+#EXTINF:-1 group-title="江苏频道" tvg-name="南京影视" tvg-logo="https://im5k.fun/logo/南京影视.png" ,南京影视
+http://ott.mobaibox.com/PLTV/3/224/3221227719/index.m3u8
+#EXTINF:-1 group-title="江苏频道" tvg-name="南京教科" tvg-logo="https://im5k.fun/logo/南京教科.png" ,南京教科
+http://ott.mobaibox.com/PLTV/3/224/3221227194/index.m3u8
+#EXTINF:-1 group-title="江苏频道" tvg-name="南京十八" tvg-logo="https://im5k.fun/logo/南京十八.png" ,南京十八
+http://ott.mobaibox.com/PLTV/3/224/3221227178/index.m3u8
+#EXTINF:-1 group-title="江苏频道" tvg-name="南京文旅纪录" tvg-logo="https://im5k.fun/logo/南京文旅纪录.png" ,南京文旅纪录
+http://ott.mobaibox.com/PLTV/3/224/3221227722/index.m3u8
+#EXTINF:-1 group-title="江苏频道" tvg-name="南京新闻综合" tvg-logo="https://im5k.fun/logo/南京新闻综合.png" ,南京新闻综合
+http://ott.mobaibox.com/PLTV/3/224/3221227213/index.m3u8
+#EXTINF:-1 group-title="江苏频道" tvg-name="江苏综艺" tvg-logo="https://im5k.fun/logo/江苏综艺.png" ,江苏综艺
+http://ott.mobaibox.com/PLTV/3/224/3221225931/index.m3u8
+#EXTINF:-1 group-title="江苏频道" tvg-name="南京少儿" tvg-logo="https://im5k.fun/logo/南京少儿.png" ,南京少儿
+http://ott.mobaibox.com/PLTV/4/224/3221227733/index.m3u8
+
 #EXTINF:-1 group-title="4K8K频道" tvg-name="CCTV4K" tvg-logo="https://im5k.fun/logo/CCTV4K.png" ,CCTV4K
 http://ott.mobaibox.com/PLTV/3/224/3221228472/index.m3u8
 #EXTINF:-1 group-title="4K8K频道" tvg-name="江苏卫视" tvg-logo="https://im5k.fun/logo/江苏卫视4K.png" ,江苏卫视4K
