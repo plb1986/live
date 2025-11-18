@@ -145,10 +145,10 @@ http://ott.mobaibox.com/PLTV/3/224/3221227213/index.m3u8
 http://ott.mobaibox.com/PLTV/3/224/3221225931/index.m3u8
 #EXTINF:-1 group-title="卫视频道" tvg-name="南京少儿" tvg-logo="https://im5k.fun/logo/南京少儿.png" ,南京少儿
 http://ott.mobaibox.com/PLTV/4/224/3221227733/index.m3u8
+#EXTINF:-1 group-title="卫视频道" tvg-name="北京纪实科教" tvg-logo="https://im5k.fun/logo/北京纪实科教.png" ,北京纪实科教
+http://ott.mobaibox.com/PLTV/3/224/3221227699/index.m3u8
 #EXTINF:-1 group-title="4K8K频道" tvg-name="CCTV4K" tvg-logo="https://im5k.fun/logo/CCTV4K.png" ,CCTV4K
 http://ott.mobaibox.com/PLTV/3/224/3221228472/index.m3u8
-#EXTINF:-1 group-title="4K8K频道" tvg-name="北京纪实科教8K" tvg-logo="https://im5k.fun/logo/北京纪实科教8K.png" ,北京纪实科教8K
-http://ott.mobaibox.com/PLTV/3/224/3221227699/index.m3u8
 #EXTINF:-1 group-title="4K8K频道" tvg-name="江苏卫视" tvg-logo="https://im5k.fun/logo/江苏卫视4K.png" ,江苏卫视4K
 http://ott.mobaibox.com/PLTV/3/224/3221228861/index.m3u8
 #EXTINF:-1 group-title="4K8K频道" tvg-name="广东卫视" tvg-logo="https://im5k.fun/logo/广东卫视4K.png" ,广东卫视4K
