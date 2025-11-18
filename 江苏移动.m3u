@@ -127,6 +127,8 @@ http://ott.mobaibox.com/PLTV/3/224/3221227557/index.m3u8
 http://ott.mobaibox.com/PLTV/3/224/3221227604/index.m3u8
 #EXTINF:-1 group-title="卫视频道" tvg-name="陕西卫视" tvg-logo="https://im5k.fun/logo/陕西卫视.png" ,陕西卫视
 http://ott.mobaibox.com/PLTV/3/224/3221227583/index.m3u8
+#EXTINF:-1 group-title="卫视频道" tvg-name="山西卫视" tvg-logo="https://im5k.fun/logo/山西卫视.png" ,山西卫视
+http://ott.mobaibox.com/PLTV/3/224/3221227559/index.m3u8
 #EXTINF:-1 group-title="卫视频道" tvg-name="无锡新闻综合" tvg-logo="https://im5k.fun/logo/无锡新闻综合.png" ,无锡新闻综合
 http://ott.mobaibox.com/PLTV/1/224/3221228103/1.m3u8
 #EXTINF:-1 group-title="卫视频道" tvg-name="南京影视" tvg-logo="https://im5k.fun/logo/南京影视.png" ,南京影视
@@ -135,7 +137,7 @@ http://ott.mobaibox.com/PLTV/3/224/3221227719/index.m3u8
 http://ott.mobaibox.com/PLTV/3/224/3221227194/index.m3u8
 #EXTINF:-1 group-title="卫视频道" tvg-name="南京十八" tvg-logo="https://im5k.fun/logo/南京十八.png" ,南京十八
 http://ott.mobaibox.com/PLTV/3/224/3221227178/index.m3u8
-#EXTINF:-1 group-title="卫视频道" tvg-name="南京文旅" tvg-logo="https://im5k.fun/logo/南京文旅.png" ,南京文旅
+#EXTINF:-1 group-title="卫视频道" tvg-name="南京文旅纪录" tvg-logo="https://im5k.fun/logo/南京文旅纪录.png" ,南京文旅纪录
 http://ott.mobaibox.com/PLTV/3/224/3221227722/index.m3u8
 #EXTINF:-1 group-title="卫视频道" tvg-name="南京新闻综合" tvg-logo="https://im5k.fun/logo/南京新闻综合.png" ,南京新闻综合
 http://ott.mobaibox.com/PLTV/3/224/3221227213/index.m3u8
