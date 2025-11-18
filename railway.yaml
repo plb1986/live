@@ -1,0 +1,146 @@
+  "dns": {
+    "servers": [
+      "119.29.29.29",
+      "223.5.5.5",
+      "114.114.114.114",
+      {
+        "address": "8.8.8.8",
+        "port": 53,
+        "domains": ["geosite:geolocation-!cn"]
+      },
+      {
+        "address": "1.1.1.1",
+        "port": 53,
+        "domains": ["geosite:geolocation-!cn"]
+      }
+    ]
+  },
+  "routing": {
+    "domainStrategy": "IPIfNonMatch",
+    "rules": [
+      {
+        "type": "field",
+        "domain": ["geosite:cn"],
+        "outboundTag": "direct"
+      },
+      {
+        "type": "field",
+        "ip": ["geoip:cn", "geoip:private"],
+        "outboundTag": "direct"
+      },
+      {
+        "type": "field",
+        "domain": [
+          "geosite:netflix",
+          "geosite:hbo",
+          "geosite:disney",
+          "geosite:youtube"
+        ],
+        "outboundTag": "proxy"
+      },
+      {
+        "type": "field",
+        "domain": ["geosite:category-ads-all"],
+        "outboundTag": "block"
+      }
+    ]
+  },
+  "inbounds": [
+    {
+      "tag": "socks-in",
+      "port": 10808,
+      "listen": "127.0.0.1",
+      "protocol": "socks",
+      "settings": {
+        "auth": "noauth",
+        "udp": true,
+        "ip": "127.0.0.1"
+      }
+    },
+    {
+      "tag": "http-in",
+      "port": 10809,
+      "listen": "127.0.0.1",
+      "protocol": "http",
+      "settings": {
+        "timeout": 300
+      }
+    },
+    {
+      "tag": "tproxy-in",
+      "port": 12345,
+      "protocol": "dokodemo-door",
+      "settings": {
+        "network": "tcp,udp",
+        "followRedirect": true
+      },
+      "sniffing": {
+        "enabled": true,
+        "destOverride": ["http", "tls"]
+      }
+    }
+  ],
+  "outbounds": [
+    {
+      "tag": "proxy",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "cdns.doon.eu.org",
+            "port": 443,
+            "users": [
+              {
+                "id": "2777cb3c-3ba9-464a-86df-94ee32885bfd",
+                "encryption": "none",
+                "flow": ""
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "argo.im5k.fun",
+          "fingerprint": "chrome",
+          "allowInsecure": false
+        },
+        "wsSettings": {
+          "path": "/vless-argo?ed=2560",
+          "headers": {
+            "Host": "argo.im5k.fun"
+          }
+        }
+      },
+      "mux": {
+        "enabled": false
+      }
+    },
+    {
+      "tag": "direct",
+      "protocol": "freedom",
+      "settings": {}
+    },
+    {
+      "tag": "block",
+      "protocol": "blackhole",
+      "settings": {
+        "response": {
+          "type": "http"
+        }
+      }
+    }
+  ],
+  "policy": {
+    "levels": {
+      "0": {
+        "handshake": 4,
+        "connIdle": 300,
+        "uplinkOnly": 2,
+        "downlinkOnly": 5
+      }
+    }
+  }
+}
