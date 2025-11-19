@@ -35,13 +35,13 @@ http://home.ruibang.ltd:8095/udp/239.49.0.128:8000
 http://home.ruibang.ltd:8095/udp/239.49.8.31:8000
 #EXTINF:-1 group-title="央视" tvg-name="CCTV17" tvg-logo="https://im5k.fun/logo/CCTV17.png",CCTV17
 http://home.ruibang.ltd:8095/udp/239.49.8.52:9810
-#EXTINF:-1 group-title="央视" tvg-name="CGTN 英语" tvg-logo="https://im5k.fun/logo/CGTN 英语.png",CGTN 英语
+#EXTINF:-1 group-title="央视" tvg-name="CGTN英语" tvg-logo="https://im5k.fun/logo/CGTN英语.png",CGTN英语
 http://home.ruibang.ltd:8095/udp/239.49.0.9:8064
-#EXTINF:-1 group-title="央视" tvg-name="CGTN 俄语" tvg-logo="https://im5k.fun/logo/CGTN 俄语.png",CGTN 俄语
+#EXTINF:-1 group-title="央视" tvg-name="CGTN俄语" tvg-logo="https://im5k.fun/logo/CGTN俄语.png",CGTN俄语
 http://home.ruibang.ltd:8095/udp/239.49.0.111:8000
-#EXTINF:-1 group-title="央视" tvg-name="CGTN 西语" tvg-logo="https://im5k.fun/logo/CGTN 西语.png",CGTN 西语
+#EXTINF:-1 group-title="央视" tvg-name="CGTN西语" tvg-logo="https://im5k.fun/logo/CGTN西语.png",CGTN西语
 http://home.ruibang.ltd:8095/udp/239.49.1.30:8000
-#EXTINF:-1 group-title="央视" tvg-name="CGTN 法语" tvg-logo="https://im5k.fun/logo/CGTN 法语.png",CGTN 法语
+#EXTINF:-1 group-title="央视" tvg-name="CGTN法语" tvg-logo="https://im5k.fun/logo/CGTN法语.png",CGTN法语
 http://home.ruibang.ltd:8095/udp/239.49.1.31:8000
 #EXTINF:-1 group-title="4K" tvg-name="CCTV4K" tvg-logo="https://im5k.fun/logo/CCTV4K.png",CCTV4K
 http://home.ruibang.ltd:8095/udp/239.49.0.82:8000
