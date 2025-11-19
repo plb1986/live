@@ -31,11 +31,11 @@ http://cdn6.veryfast.filegear-sg.me/live/asam/stream.m3u8
 http://cdn6.veryfast.filegear-sg.me/live/as/stream.m3u8
 #EXTINF:-1 tvg-name="澳视体育" tvg-logo="https://im5k.fun/logo/澳视体育.png" group-title="JULI",澳视体育
 http://cdn6.veryfast.filegear-sg.me/live/amty/stream.m3u8
-#EXTINF:-1 tvg-name="凤凰卫视中文台" tvg-logo="https://im5k.fun/logo/凤凰卫视中文.png" group-title="JULI",凤凰中文
+#EXTINF:-1 tvg-name="凤凰中文" tvg-logo="https://im5k.fun/logo/凤凰中文.png" group-title="JULI",凤凰中文
 http://cdn6.veryfast.filegear-sg.me/live/fhzw/stream.m3u8
-#EXTINF:-1 tvg-name="凤凰卫视资讯台" tvg-logo="https://im5k.fun/logo/凤凰卫视资讯.png" group-title="JULI",凤凰资讯
+#EXTINF:-1 tvg-name="凤凰资讯" tvg-logo="https://im5k.fun/logo/凤凰资讯.png" group-title="JULI",凤凰资讯
 http://cdn6.veryfast.filegear-sg.me/live/fhzx/stream.m3u8
-#EXTINF:-1 tvg-name="凤凰卫视香港台" tvg-logo="https://im5k.fun/logo/凤凰卫视香港.png" group-title="JULI",凤凰香港
+#EXTINF:-1 tvg-name="凤凰香港" tvg-logo="https://im5k.fun/logo/凤凰香港.png" group-title="JULI",凤凰香港
 http://cdn6.veryfast.filegear-sg.me/live/fhhk/stream.m3u8
 #EXTINF:-1 tvg-name="CCTV1" tvg-logo="https://im5k.fun/logo/CCTV1.png" group-title="JULI",CCTV1
 http://cdn6.veryfast.filegear-sg.me/live/cctv1/stream.m3u8
@@ -69,11 +69,11 @@ http://cdn8.veryfast.filegear-sg.me/live/lhrh/stream.m3u8
 http://cdn8.veryfast.filegear-sg.me/live/lhxj/stream.m3u8
 #EXTINF:-1 tvg-name="龙华洋片" tvg-logo="https://im5k.fun/logo/龙华洋片.png" group-title="JULI",龙华洋片
 http://cdn8.veryfast.filegear-sg.me/live/lhyp/stream.m3u8
-#EXTINF:-1 group-title="JULI",TVB1
+#EXTINF:-1 tvg-name="TVB1" tvg-logo="https://im5k.fun/logo/TVB1.png" group-title="JULI",TVB1
 http://cdn6.veryfast.filegear-sg.me/live/tvb1/stream.m3u8
 #EXTINF:-1 tvg-logo="https://im5k.fun/logo/TVBJ1.png" group-title="JULI",TVBJ1
 http://cdn6.veryfast.filegear-sg.me/live/j1/stream.m3u8
-#EXTINF:-1 group-title="JULI",TVB亚洲武侠
+#EXTINF:-1 tvg-name="TVB亚洲武侠" tvg-logo="https://im5k.fun/logo/TVB亚洲武侠.png" group-title="JULI",TVB亚洲武侠
 http://v2h.veryfast.filegear-sg.me/live/yzwx/stream.m3u8
 #EXTINF:-1 tvg-name="娱乐新闻台" tvg-logo="https://im5k.fun/logo/娱乐新闻.png" group-title="JULI",TVB娱乐新闻台
 http://v2h.veryfast.filegear-sg.me/live/ylxw/stream.m3u8
@@ -83,31 +83,13 @@ http://v2h.veryfast.filegear-sg.me/live/hlfct/stream.m3u8
 http://v2h.veryfast.filegear-sg.me/live/tvbxh/stream.m3u8
 #EXTINF:-1 tvg-name="TVB星河" tvg-logo="https://im5k.fun/logo/TVB星河.png" group-title="JULI",TVB星河
 http://smt.veryfast.filegear-sg.me/smt3.2.1.php?id=Xinhe
-#EXTINF:-1 tvg-logo="https://im5k.fun/logo/翡翠.png" group-title="JULI",翡翠剧集台
+#EXTINF:-1 tvg-name="翡翠剧集台" tvg-logo="https://im5k.fun/logo/翡翠.png" group-title="JULI",翡翠剧集台
 http://cdn6.veryfast.filegear-sg.me/live/tvbd/stream.m3u8
-#EXTINF:-1 tvg-name="千禧经典台" tvg-logo="https://im5k.fun/logo/千禧经典.png" group-title="JULI",千禧经典台
-http://smt.veryfast.filegear-sg.me/smt3.2.1.php?id=Tvbclassic
-#EXTINF:-1 tvg-name="美亚电影台" tvg-logo="https://im5k.fun/logo/美亚电影.png" group-title="JULI",美亚电影台
-http://smt.veryfast.filegear-sg.me/smt3.2.1.php?id=meiyamovie_twn
-#EXTINF:-1 tvg-name="天映马来西亚" tvg-logo="https://im5k.fun/logo/天映.png" group-title="JULI",天映马来西亚
-http://smt.veryfast.filegear-sg.me/smt3.2.1.php?id=Celestial
-#EXTINF:-1 tvg-name="天映经典频道" tvg-logo="https://im5k.fun/logo/天映经典.png" group-title="JULI",天映经典频道
-http://smt.veryfast.filegear-sg.me/smt3.2.1.php?id=Celestial2
-#EXTINF:-1 tvg-logo="https://im5k.fun/logo/爱奇艺.png" group-title="JULI",爱奇艺
-http://smt.veryfast.filegear-sg.me/smt3.2.1.php?id=Qiyi
-#EXTINF:-1 group-title="JULI",八度空间
+#EXTINF:-1 tvg-name="翡翠剧集台" tvg-logo="https://im5k.fun/logo/翡翠.png" group-title="JULI",八度空间
 http://cdn6.veryfast.filegear-sg.me/live/8tv/stream.m3u8
-#EXTINF:-1 group-title="JULI",CH5
+#EXTINF:-1 tvg-name="CH5" tvg-logo="https://im5k.fun/logo/CH5.png" group-title="JULI",CH5
 http://cdn6.veryfast.filegear-sg.me/live/ch5/stream.m3u8
-#EXTINF:-1 group-title="JULI",CH8
+#EXTINF:-1 tvg-name="CH8" tvg-logo="https://im5k.fun/logo/CH8.png" group-title="JULI",CH8
 http://cdn6.veryfast.filegear-sg.me/live/ch8/stream.m3u8
-#EXTINF:-1 group-title="JULI",CHU
+#EXTINF:-1 tvg-name="CHU" tvg-logo="https://im5k.fun/logo/CHU.png" group-title="JULI",CHU
 http://cdn6.veryfast.filegear-sg.me/live/chu/stream.m3u8
-#EXTINF:-1 group-title="JULI",Astro欢喜台
-http://smt.veryfast.filegear-sg.me/smt3.2.1.php?id=Huahee
-#EXTINF:-1 group-title="JULI",Astro AOD
-http://smt.veryfast.filegear-sg.me/smt3.2.1.php?id=Aodhd
-#EXTINF:-1 group-title="JULI",Astro AEC
-http://smt.veryfast.filegear-sg.me/smt3.2.1.php?id=AEC
-#EXTINF:-1 group-title="JULI",Astro QJ
-http://smt.veryfast.filegear-sg.me/smt3.2.1.php?id=Quanjia
