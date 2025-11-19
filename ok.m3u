@@ -75,7 +75,7 @@ http://cdn6.veryfast.filegear-sg.me/live/tvb1/stream.m3u8
 http://cdn6.veryfast.filegear-sg.me/live/j1/stream.m3u8
 #EXTINF:-1 tvg-name="TVB亚洲武侠" tvg-logo="https://im5k.fun/logo/TVB亚洲武侠.png" group-title="JULI",TVB亚洲武侠
 http://v2h.veryfast.filegear-sg.me/live/yzwx/stream.m3u8
-#EXTINF:-1 tvg-name="娱乐新闻台" tvg-logo="https://im5k.fun/logo/娱乐新闻.png" group-title="JULI",TVB娱乐新闻台
+#EXTINF:-1 tvg-name="TVB娱乐新闻台" tvg-logo="https://im5k.fun/logo/TVB娱乐新闻台.png" group-title="JULI",TVB娱乐新闻台
 http://v2h.veryfast.filegear-sg.me/live/ylxw/stream.m3u8
 #EXTINF:-1 tvg-name="翡翠台" tvg-logo="https://im5k.fun/logo/翡翠.png" group-title="JULI",TVB华丽翡翠台
 http://v2h.veryfast.filegear-sg.me/live/hlfct/stream.m3u8
