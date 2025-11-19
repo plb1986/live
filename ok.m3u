@@ -85,7 +85,7 @@ http://v2h.veryfast.filegear-sg.me/live/tvbxh/stream.m3u8
 http://smt.veryfast.filegear-sg.me/smt3.2.1.php?id=Xinhe
 #EXTINF:-1 tvg-name="翡翠剧集台" tvg-logo="https://im5k.fun/logo/翡翠.png" group-title="JULI",翡翠剧集台
 http://cdn6.veryfast.filegear-sg.me/live/tvbd/stream.m3u8
-#EXTINF:-1 tvg-name="翡翠剧集台" tvg-logo="https://im5k.fun/logo/翡翠.png" group-title="JULI",八度空间
+#EXTINF:-1 tvg-name="八度空间" tvg-logo="https://im5k.fun/logo/8TV.png" group-title="JULI",八度空间
 http://cdn6.veryfast.filegear-sg.me/live/8tv/stream.m3u8
 #EXTINF:-1 tvg-name="CH5" tvg-logo="https://im5k.fun/logo/CH5.png" group-title="JULI",CH5
 http://cdn6.veryfast.filegear-sg.me/live/ch5/stream.m3u8
