@@ -1,0 +1,134 @@
+{
+  "dns": {
+    "servers": [
+      "223.5.5.5",
+      "114.114.114.114",
+      "8.8.8.8"
+    ],
+    "queryStrategy": "UseIP",
+    "disableCache": false,
+    "disableFallback": false
+  },
+  "inbounds": [
+    {
+      "port": 10808,
+      "listen": "127.0.0.1",
+      "protocol": "socks",
+      "settings": {
+        "auth": "noauth",
+        "udp": true,
+        "ip": "127.0.0.1"
+      },
+      "tag": "socks-inbound"
+    },
+    {
+      "port": 10809,
+      "listen": "127.0.0.1",
+      "protocol": "http",
+      "settings": {
+        "timeout": 300
+      },
+      "tag": "http-inbound"
+    }
+  ],
+  "outbounds": [
+    {
+      "protocol": "socks",
+      "settings": {
+        "servers": [
+          {
+            "address": "36.138.101.83",
+            "port": 10010,
+            "method": "noauth"
+          }
+        ]
+      },
+      "streamSettings": {
+        "sockopt": {
+          "tcpFastOpen": true,
+          "tproxy": "off"
+        }
+      },
+      "tag": "proxy",
+      "mux": {
+        "enabled": true,
+        "concurrency": 8
+      }
+    },
+    {
+      "protocol": "freedom",
+      "tag": "direct",
+      "settings": {
+        "domainStrategy": "UseIP"
+      }
+    },
+    {
+      "protocol": "blackhole",
+      "tag": "block"
+    }
+  ],
+  "routing": {
+    "domainStrategy": "IPIfNonMatch",
+    "domainMatcher": "hybrid",
+    "rules": [
+      {
+        "type": "field",
+        "outboundTag": "direct",
+        "domain": [
+          "geosite:cn"
+        ]
+      },
+      {
+        "type": "field",
+        "outboundTag": "direct",
+        "ip": [
+          "geoip:cn",
+          "geoip:private"
+        ]
+      },
+      {
+        "type": "field",
+        "outboundTag": "direct",
+        "port": "53,123,443,993,995,5222,5223,5228"
+      },
+      {
+        "type": "field",
+        "outboundTag": "direct",
+        "protocol": [
+          "bittorrent"
+        ]
+      },
+      {
+        "type": "field",
+        "outboundTag": "proxy",
+        "domain": [
+          "geosite:video",
+          "geosite:music",
+          "geosite:netflix",
+          "geosite:disney",
+          "geosite:youtube"
+        ]
+      },
+      {
+        "type": "field",
+        "outboundTag": "proxy",
+        "network": "tcp,udp"
+      }
+    ]
+  },
+  "policy": {
+    "levels": {
+      "0": {
+        "handshake": 2,
+        "connIdle": 100,
+        "uplinkOnly": 1,
+        "downlinkOnly": 1
+      }
+    }
+  },
+  "stats": {},
+  "log": {
+    "loglevel": "warning",
+    "access": ""
+  }
+}
