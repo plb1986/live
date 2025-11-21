@@ -19,7 +19,7 @@ http://cdn6.veryfast.filegear-sg.me/live/hoy/stream.m3u8
 http://cdn.veryfast.filegear-sg.me/live/viu/stream.m3u8
 #EXTINF:-1 group-title="JULI" tvg-name="VIUTVSIX" tvg-logo="https://im5k.fun/logo/VIUTVSIX.png" ,VIUTVSIX
 http://smt.veryfast.filegear-sg.me/smt3.2.1.php?id=viusix_twn
-#EXTINF:-1 group-title="JULI" tvg-name="NOW新闻台" tvg-logo="https://im5k.fun/logo/NOW新闻台.png" ,NOW新闻台
+#EXTINF:-1 group-title="JULI" tvg-name="NOW新闻台" tvg-logo="https://im5k.fun/logo/NOW新闻.png" ,NOW新闻台
 http://cdn.veryfast.filegear-sg.me/live/now/stream.m3u8
 #EXTINF:-1 group-title="JULI" tvg-name="RTK31" tvg-logo="https://im5k.fun/logo/RTK31.png" ,RTK31
 http://cdn.veryfast.filegear-sg.me/live/rthk31/stream.m3u8
