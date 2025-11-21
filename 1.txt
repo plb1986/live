@@ -1,3 +1,4 @@
+v2raytun://import/
 {
   "inbounds": [
     {
@@ -26,3 +27,4 @@
     }
   ]
 }
+
