@@ -1,311 +1,312 @@
 #EXTM3U x-tvg-url="https://epg.im5k.fun/pp.xml"
 
 #EXTINF:-1 tvg-name="北京卫视" tvg-logo="https://im5k.fun/logo/北京卫视4K.png" group-title="『4✬K』" ,北京卫视4K
-http://since1986.fun/x-iptv/bjws4k?r2h-token=good
+http://since1986.fun/x-iptv/bjws4k?r2h-token=i
 #EXTINF:-1 tvg-name="深圳卫视" tvg-logo="https://im5k.fun/logo/深圳卫视4K.png" group-title="『4✬K』" ,深圳卫视4K
-http://since1986.fun/x-iptv/szws4k?r2h-token=good
+http://since1986.fun/x-iptv/szws4k?r2h-token=i
 #EXTINF:-1 tvg-name="广东卫视" tvg-logo="https://im5k.fun/logo/广东卫视4K.png" group-title="『4✬K』" ,广东卫视4K
-http://since1986.fun/x-iptv/gdws4k?r2h-token=good
+http://since1986.fun/x-iptv/gdws4k?r2h-token=i
 #EXTINF:-1 tvg-name="东方卫视" tvg-logo="https://im5k.fun/logo/东方卫视4K.png" group-title="『4✬K』" ,东方卫视4K
-http://since1986.fun/x-iptv/dfws4k?r2h-token=good
+http://since1986.fun/x-iptv/dfws4k?r2h-token=i
 #EXTINF:-1 tvg-name="江苏卫视" tvg-logo="https://im5k.fun/logo/江苏卫视4K.png" group-title="『4✬K』" ,江苏卫视4K
-http://since1986.fun/x-iptv/jsws4k?r2h-token=good
+http://since1986.fun/x-iptv/jsws4k?r2h-token=i
 #EXTINF:-1 tvg-name="浙江卫视" tvg-logo="https://im5k.fun/logo/浙江卫视4K.png" group-title="『4✬K』" ,浙江卫视4K
-http://since1986.fun/x-iptv/zjws4k?r2h-token=good
+http://since1986.fun/x-iptv/zjws4k?r2h-token=i
 #EXTINF:-1 tvg-name="山东卫视" tvg-logo="https://im5k.fun/logo/山东卫视4K.png" group-title="『4✬K』" ,山东卫视4K
-http://since1986.fun/x-iptv/sdws4k?r2h-token=good
+http://since1986.fun/x-iptv/sdws4k?r2h-token=i
 #EXTINF:-1 tvg-name="湖南卫视" tvg-logo="https://im5k.fun/logo/湖南卫视4K.png" group-title="『4✬K』" ,湖南卫视4K
-http://since1986.fun/x-iptv/hnws4k?r2h-token=good
+http://since1986.fun/x-iptv/hnws4k?r2h-token=i
 #EXTINF:-1 tvg-name="四川卫视" tvg-logo="https://im5k.fun/logo/四川卫视4K.png" group-title="『4✬K』" ,四川卫视4K
-http://since1986.fun/x-iptv/scws4k?r2h-token=good
+http://since1986.fun/x-iptv/scws4k?r2h-token=i
 
 #EXTINF:-1 tvg-name="CCTV1" tvg-logo="https://im5k.fun/logo/CCTV1.png" group-title="『央✬视』",CCTV1
-http://since1986.fun/x-iptv/cctv1?r2h-token=good
+http://since1986.fun/x-iptv/cctv1?r2h-token=i
 #EXTINF:-1 tvg-name="CCTV2" tvg-logo="https://im5k.fun/logo/CCTV2.png" group-title="『央✬视』",CCTV2
-http://since1986.fun/x-iptv/cctv2?r2h-token=good
+http://since1986.fun/x-iptv/cctv2?r2h-token=i
 #EXTINF:-1 tvg-name="CCTV3" tvg-logo="https://im5k.fun/logo/CCTV3.png" group-title="『央✬视』",CCTV3
-http://since1986.fun/x-iptv/cctv3?r2h-token=good
+http://since1986.fun/x-iptv/cctv3?r2h-token=i
 #EXTINF:-1 tvg-name="CCTV4" tvg-logo="https://im5k.fun/logo/CCTV4.png" group-title="『央✬视』",CCTV4
-http://since1986.fun/x-iptv/cctv4?r2h-token=good
+http://since1986.fun/x-iptv/cctv4?r2h-token=i
 #EXTINF:-1 tvg-name="CCTV4欧洲" tvg-logo="https://im5k.fun/logo/CCTV4欧洲.png" group-title="『央✬视』",CCTV4欧洲
-http://since1986.fun/x-iptv/cctv4oz?r2h-token=good
+http://since1986.fun/x-iptv/cctv4oz?r2h-token=i
 #EXTINF:-1 tvg-name="CCTV4美洲" tvg-logo="https://im5k.fun/logo/CCTV4美洲.png" group-title="『央✬视』",CCTV4美洲
-http://since1986.fun/x-iptv/cctv4mz?r2h-token=good
+http://since1986.fun/x-iptv/cctv4mz?r2h-token=i
 #EXTINF:-1 tvg-name="CCTV5" tvg-logo="https://im5k.fun/logo/CCTV5.png" group-title="『央✬视』",CCTV5
-http://since1986.fun/x-iptv/cctv5?r2h-token=good
+http://since1986.fun/x-iptv/cctv5?r2h-token=i
 #EXTINF:-1 tvg-name="CCTV5+" tvg-logo="https://im5k.fun/logo/CCTV5+.png" group-title="『央✬视』",CCTV5+
-http://since1986.fun/x-iptv/cctv5p?r2h-token=good
+http://since1986.fun/x-iptv/cctv5p?r2h-token=i
 #EXTINF:-1 tvg-name="CCTV6" tvg-logo="https://im5k.fun/logo/CCTV6.png" group-title="『央✬视』",CCTV6
-http://since1986.fun/x-iptv/cctv6?r2h-token=good
+http://since1986.fun/x-iptv/cctv6?r2h-token=i
 #EXTINF:-1 tvg-name="CCTV7" tvg-logo="https://im5k.fun/logo/CCTV7.png" group-title="『央✬视』",CCTV7
-http://since1986.fun/x-iptv/cctv7?r2h-token=good
+http://since1986.fun/x-iptv/cctv7?r2h-token=i
 #EXTINF:-1 tvg-name="CCTV8" tvg-logo="https://im5k.fun/logo/CCTV8.png" group-title="『央✬视』",CCTV8
-http://since1986.fun/x-iptv/cctv8?r2h-token=good
+http://since1986.fun/x-iptv/cctv8?r2h-token=i
 #EXTINF:-1 tvg-name="CCTV9" tvg-logo="https://im5k.fun/logo/CCTV9.png" group-title="『央✬视』",CCTV9
-http://since1986.fun/x-iptv/cctv9?r2h-token=good
+http://since1986.fun/x-iptv/cctv9?r2h-token=i
 #EXTINF:-1 tvg-name="CCTV10" tvg-logo="https://im5k.fun/logo/CCTV10.png" group-title="『央✬视』",CCTV10
-http://since1986.fun/x-iptv/cctv10?r2h-token=good
+http://since1986.fun/x-iptv/cctv10?r2h-token=i
 #EXTINF:-1 tvg-name="CCTV11" tvg-logo="https://im5k.fun/logo/CCTV11.png" group-title="『央✬视』",CCTV11
-http://since1986.fun/x-iptv/cctv11?r2h-token=good
+http://since1986.fun/x-iptv/cctv11?r2h-token=i
 #EXTINF:-1 tvg-name="CCTV12" tvg-logo="https://im5k.fun/logo/CCTV12.png" group-title="『央✬视』",CCTV12
-http://since1986.fun/x-iptv/cctv12?r2h-token=good
+http://since1986.fun/x-iptv/cctv12?r2h-token=i
 #EXTINF:-1 tvg-name="CCTV13" tvg-logo="https://im5k.fun/logo/CCTV13.png" group-title="『央✬视』",CCTV13
-http://since1986.fun/x-iptv/cctv13?r2h-token=good
+http://since1986.fun/x-iptv/cctv13?r2h-token=i
 #EXTINF:-1 tvg-name="CCTV14" tvg-logo="https://im5k.fun/logo/CCTV14.png" group-title="『央✬视』",CCTV14
-http://since1986.fun/x-iptv/cctv14?r2h-token=good
+http://since1986.fun/x-iptv/cctv14?r2h-token=i
 #EXTINF:-1 tvg-name="CCTV15" tvg-logo="https://im5k.fun/logo/CCTV15.png" group-title="『央✬视』",CCTV15
-http://since1986.fun/x-iptv/cctv15?r2h-token=good
+http://since1986.fun/x-iptv/cctv15?r2h-token=i
 #EXTINF:-1 tvg-name="CCTV16" tvg-logo="https://im5k.fun/logo/CCTV16.png" group-title="『央✬视』",CCTV16
-http://since1986.fun/x-iptv/cctv16?r2h-token=good
+http://since1986.fun/x-iptv/cctv16?r2h-token=i
 #EXTINF:-1 tvg-name="CCTV17" tvg-logo="https://im5k.fun/logo/CCTV17.png" group-title="『央✬视』",CCTV17
-http://since1986.fun/x-iptv/cctv17?r2h-token=good
+http://since1986.fun/x-iptv/cctv17?r2h-token=i
 #EXTINF:-1 tvg-name="电视指南" tvg-logo="https://im5k.fun/logo/电视指南.png" group-title="『央✬视』",电视指南
-http://since1986.fun/x-iptv/dszn?r2h-token=good
+http://since1986.fun/x-iptv/dszn?r2h-token=i
 #EXTINF:-1 tvg-name="怀旧剧场" tvg-logo="https://im5k.fun/logo/怀旧剧场.png" group-title="『央✬视』",怀旧剧场
-http://since1986.fun/x-iptv/hjjc?r2h-token=good
+http://since1986.fun/x-iptv/hjjc?r2h-token=i
 #EXTINF:-1 tvg-name="女性时尚" tvg-logo="https://im5k.fun/logo/女性时尚.png" group-title="『央✬视』",女性时尚
-http://since1986.fun/x-iptv/nxss?r2h-token=good
+http://since1986.fun/x-iptv/nxss?r2h-token=i
 #EXTINF:-1 tvg-name="央视文化精品" tvg-logo="https://im5k.fun/logo/央视文化精品.png" group-title="『央✬视』",央视文化精品
-http://since1986.fun/x-iptv/yswhjp?r2h-token=good
+http://since1986.fun/x-iptv/yswhjp?r2h-token=i
 #EXTINF:-1 tvg-name="世界地理" tvg-logo="https://im5k.fun/logo/世界地理.png" group-title="『央✬视』",世界地理
-http://since1986.fun/x-iptv/sjdl?r2h-token=good
+http://since1986.fun/x-iptv/sjdl?r2h-token=i
 #EXTINF:-1 tvg-name="兵器科技" tvg-logo="https://im5k.fun/logo/兵器科技.png" group-title="『央✬视』",兵器科技
-http://since1986.fun/x-iptv/bqkj?r2h-token=good
+http://since1986.fun/x-iptv/bqkj?r2h-token=i
 #EXTINF:-1 tvg-name="风云音乐" tvg-logo="https://im5k.fun/logo/风云音乐.png" group-title="『央✬视』",风云音乐
-http://since1986.fun/x-iptv/fyyy?r2h-token=good
+http://since1986.fun/x-iptv/fyyy?r2h-token=i
 #EXTINF:-1 tvg-name="风云剧场" tvg-logo="https://im5k.fun/logo/风云剧场.png" group-title="『央✬视』",风云剧场
-http://since1986.fun/x-iptv/fyjc?r2h-token=good
+http://since1986.fun/x-iptv/fyjc?r2h-token=i
 #EXTINF:-1 tvg-name="第一剧场" tvg-logo="https://im5k.fun/logo/第一剧场.png" group-title="『央✬视』",第一剧场
-http://since1986.fun/x-iptv/dyjc?r2h-token=good
+http://since1986.fun/x-iptv/dyjc?r2h-token=i
 #EXTINF:-1 tvg-name="风云足球" tvg-logo="https://im5k.fun/logo/风云足球.png" group-title="『央✬视』",风云足球
-http://since1986.fun/x-iptv/fyzq?r2h-token=good
+http://since1986.fun/x-iptv/fyzq?r2h-token=i
 #EXTINF:-1 tvg-name="央视台球" tvg-logo="https://im5k.fun/logo/央视台球.png" group-title="『央✬视』",央视台球
-http://since1986.fun/x-iptv/ystq?r2h-token=good
+http://since1986.fun/x-iptv/ystq?r2h-token=i
 #EXTINF:-1 tvg-name="高尔夫网球" tvg-logo="https://im5k.fun/logo/高尔夫网球.png" group-title="『央✬视』",高尔夫网球
-http://since1986.fun/x-iptv/geftwq?r2h-token=good
+http://since1986.fun/x-iptv/geftwq?r2h-token=i
 #EXTINF:-1 tvg-name="老故事" tvg-logo="https://im5k.fun/logo/老故事.png" group-title="『央✬视』",老故事
-http://since1986.fun/x-iptv/lgs?r2h-token=good
+http://since1986.fun/x-iptv/lgs?r2h-token=i
 #EXTINF:-1 tvg-name="CGTN" tvg-logo="https://im5k.fun/logo/CGTN.png" group-title="『央✬视』",CGTN
-http://since1986.fun/x-iptv/cgtn?r2h-token=good
+http://since1986.fun/x-iptv/cgtn?r2h-token=i
 #EXTINF:-1 tvg-name="CGTN纪录" tvg-logo="https://im5k.fun/logo/CGTN纪录.png" group-title="『央✬视』",CGTN纪录
-http://since1986.fun/x-iptv/cgtnjl?r2h-token=good
+http://since1986.fun/x-iptv/cgtnjl?r2h-token=i
 #EXTINF:-1 tvg-name="CGTN阿语" tvg-logo="https://im5k.fun/logo/CGTN阿语.png" group-title="『央✬视』",CGTN阿语
-http://since1986.fun/x-iptv/cgtnay?r2h-token=good
+http://since1986.fun/x-iptv/cgtnay?r2h-token=i
 #EXTINF:-1 tvg-name="CGTN俄语" tvg-logo="https://im5k.fun/logo/CGTN俄语.png" group-title="『央✬视』",CGTN俄语
-http://since1986.fun/x-iptv/cgtney?r2h-token=good
+http://since1986.fun/x-iptv/cgtney?r2h-token=i
 #EXTINF:-1 tvg-name="CGTN法语" tvg-logo="https://im5k.fun/logo/CGTN法语.png" group-title="『央✬视』",CGTN法语
-http://since1986.fun/x-iptv/cgtnfy?r2h-token=good
+http://since1986.fun/x-iptv/cgtnfy?r2h-token=i
 #EXTINF:-1 tvg-name="CGTN西语" tvg-logo="https://im5k.fun/logo/CGTN西语.png" group-title="『央✬视』",CGTN西语
-http://since1986.fun/x-iptv/cgtnxy?r2h-token=good
+http://since1986.fun/x-iptv/cgtnxy?r2h-token=i
 #EXTINF:-1 tvg-name="北京卫视" tvg-logo="https://im5k.fun/logo/北京卫视.png" group-title="『卫✬视』",北京卫视
-http://since1986.fun/x-iptv/bjws?r2h-token=good
+http://since1986.fun/x-iptv/bjws?r2h-token=i
 #EXTINF:-1 tvg-name="天津卫视" tvg-logo="https://im5k.fun/logo/天津卫视.png" group-title="『卫✬视』",天津卫视
-http://since1986.fun/x-iptv/tjws?r2h-token=good
+http://since1986.fun/x-iptv/tjws?r2h-token=i
 #EXTINF:-1 tvg-name="东方卫视" tvg-logo="https://im5k.fun/logo/东方卫视.png" group-title="『卫✬视』",东方卫视
-http://since1986.fun/x-iptv/dfws?r2h-token=good
+http://since1986.fun/x-iptv/dfws?r2h-token=i
 #EXTINF:-1 tvg-name="重庆卫视" tvg-logo="https://im5k.fun/logo/重庆卫视.png" group-title="『卫✬视』",重庆卫视
-http://since1986.fun/x-iptv/cqws?r2h-token=good
+http://since1986.fun/x-iptv/cqws?r2h-token=i
 #EXTINF:-1 tvg-name="湖南卫视" tvg-logo="https://im5k.fun/logo/湖南卫视.png" group-title="『卫✬视』",湖南卫视
-http://since1986.fun/x-iptv/hnws?r2h-token=good
+http://since1986.fun/x-iptv/hnws?r2h-token=i
 #EXTINF:-1 tvg-name="浙江卫视" tvg-logo="https://im5k.fun/logo/浙江卫视.png" group-title="『卫✬视』",浙江卫视
-http://since1986.fun/x-iptv/zjws?r2h-token=good
+http://since1986.fun/x-iptv/zjws?r2h-token=i
 #EXTINF:-1 tvg-name="江苏卫视" tvg-logo="https://im5k.fun/logo/江苏卫视.png" group-title="『卫✬视』",江苏卫视
-http://since1986.fun/x-iptv/jsws?r2h-token=good
+http://since1986.fun/x-iptv/jsws?r2h-token=i
 #EXTINF:-1 tvg-name="山东卫视" tvg-logo="https://im5k.fun/logo/山东卫视.png" group-title="『卫✬视』",山东卫视
-http://since1986.fun/x-iptv/sdws?r2h-token=good
+http://since1986.fun/x-iptv/sdws?r2h-token=i
 #EXTINF:-1 tvg-name="广东卫视" tvg-logo="https://im5k.fun/logo/广东卫视.png" group-title="『卫✬视』",广东卫视
-http://since1986.fun/x-iptv/gdws?r2h-token=good
+http://since1986.fun/x-iptv/gdws?r2h-token=i
 #EXTINF:-1 tvg-name="深圳卫视" tvg-logo="https://im5k.fun/logo/深圳卫视.png" group-title="『卫✬视』",深圳卫视
-http://since1986.fun/x-iptv/szws?r2h-token=good
+http://since1986.fun/x-iptv/szws?r2h-token=i
 #EXTINF:-1 tvg-name="安徽卫视" tvg-logo="https://im5k.fun/logo/安徽卫视.png" group-title="『卫✬视』",安徽卫视
-http://since1986.fun/x-iptv/ahws?r2h-token=good
+http://since1986.fun/x-iptv/ahws?r2h-token=i
 #EXTINF:-1 tvg-name="四川卫视" tvg-logo="https://im5k.fun/logo/四川卫视.png" group-title="『卫✬视』",四川卫视
-http://since1986.fun/x-iptv/scws?r2h-token=good
+http://since1986.fun/x-iptv/scws?r2h-token=i
 #EXTINF:-1 tvg-name="陕西卫视" tvg-logo="https://im5k.fun/logo/陕西卫视.png" group-title="『卫✬视』",陕西卫视
-http://since1986.fun/x-iptv/sxws?r2h-token=good
+http://since1986.fun/x-iptv/sxws?r2h-token=i
 #EXTINF:-1 tvg-name="山西卫视" tvg-logo="https://im5k.fun/logo/山西卫视.png" group-title="『卫✬视』",山西卫视
-http://since1986.fun/x-iptv/shanxiws?r2h-token=good
+http://since1986.fun/x-iptv/shanxiws?r2h-token=i
 #EXTINF:-1 tvg-name="湖北卫视" tvg-logo="https://im5k.fun/logo/湖北卫视.png" group-title="『卫✬视』",湖北卫视
-http://since1986.fun/x-iptv/hbws?r2h-token=good
+http://since1986.fun/x-iptv/hbws?r2h-token=i
 #EXTINF:-1 tvg-name="河北卫视" tvg-logo="https://im5k.fun/logo/河北卫视.png" group-title="『卫✬视』",河北卫视
-http://since1986.fun/x-iptv/hebws?r2h-token=good
+http://since1986.fun/x-iptv/hebws?r2h-token=i
 #EXTINF:-1 tvg-name="东南卫视" tvg-logo="https://im5k.fun/logo/东南卫视.png" group-title="『卫✬视』",东南卫视
-http://since1986.fun/x-iptv/dnws?r2h-token=good
+http://since1986.fun/x-iptv/dnws?r2h-token=i
 #EXTINF:-1 tvg-name="河南卫视" tvg-logo="https://im5k.fun/logo/河南卫视.png" group-title="『卫✬视』",河南卫视
-http://since1986.fun/x-iptv/henanws?r2h-token=good
+http://since1986.fun/x-iptv/henanws?r2h-token=i
 #EXTINF:-1 tvg-name="江西卫视" tvg-logo="https://im5k.fun/logo/江西卫视.png" group-title="『卫✬视』",江西卫视
-http://since1986.fun/x-iptv/jxws?r2h-token=good
+http://since1986.fun/x-iptv/jxws?r2h-token=i
 #EXTINF:-1 tvg-name="广西卫视" tvg-logo="https://im5k.fun/logo/广西卫视.png" group-title="『卫✬视』",广西卫视
-http://since1986.fun/x-iptv/gxws?r2h-token=good
+http://since1986.fun/x-iptv/gxws?r2h-token=i
 #EXTINF:-1 tvg-name="内蒙古卫视" tvg-logo="https://im5k.fun/logo/内蒙古卫视.png" group-title="『卫✬视』",内蒙古卫视
-http://since1986.fun/x-iptv/nmgws?r2h-token=good
+http://since1986.fun/x-iptv/nmgws?r2h-token=i
 #EXTINF:-1 tvg-name="海南卫视" tvg-logo="https://im5k.fun/logo/海南卫视.png" group-title="『卫✬视』",海南卫视
-http://since1986.fun/x-iptv/hnanws?r2h-token=good
+http://since1986.fun/x-iptv/hnanws?r2h-token=i
 #EXTINF:-1 tvg-name="云南卫视" tvg-logo="https://im5k.fun/logo/云南卫视.png" group-title="『卫✬视』",云南卫视
-http://since1986.fun/x-iptv/ynws?r2h-token=good
+http://since1986.fun/x-iptv/ynws?r2h-token=i
 #EXTINF:-1 tvg-name="贵州卫视" tvg-logo="https://im5k.fun/logo/贵州卫视.png" group-title="『卫✬视』",贵州卫视
-http://since1986.fun/x-iptv/gzw?r2h-token=good
+http://since1986.fun/x-iptv/gzw?r2h-token=i
 #EXTINF:-1 tvg-name="青海卫视" tvg-logo="https://im5k.fun/logo/青海卫视.png" group-title="『卫✬视』",青海卫视
-http://since1986.fun/x-iptv/qhws?r2h-token=good
+http://since1986.fun/x-iptv/qhws?r2h-token=i
 #EXTINF:-1 tvg-name="宁夏卫视" tvg-logo="https://im5k.fun/logo/宁夏卫视.png" group-title="『卫✬视』",宁夏卫视
-http://since1986.fun/x-iptv/nxws?r2h-token=good
+http://since1986.fun/x-iptv/nxws?r2h-token=i
 #EXTINF:-1 tvg-name="甘肃卫视" tvg-logo="https://im5k.fun/logo/甘肃卫视.png" group-title="『卫✬视』",甘肃卫视
-http://since1986.fun/x-iptv/gsws?r2h-token=good
+http://since1986.fun/x-iptv/gsws?r2h-token=i
 #EXTINF:-1 tvg-name="黑龙江卫视" tvg-logo="https://im5k.fun/logo/黑龙江卫视.png" group-title="『卫✬视』",黑龙江卫视
-http://since1986.fun/x-iptv/hljws?r2h-token=good
+http://since1986.fun/x-iptv/hljws?r2h-token=i
 #EXTINF:-1 tvg-name="吉林卫视" tvg-logo="https://im5k.fun/logo/吉林卫视.png" group-title="『卫✬视』",吉林卫视
-http://since1986.fun/x-iptv/jlws?r2h-token=good
+http://since1986.fun/x-iptv/jlws?r2h-token=i
 #EXTINF:-1 tvg-name="辽宁卫视" tvg-logo="https://im5k.fun/logo/辽宁卫视.png" group-title="『卫✬视』",辽宁卫视
-http://since1986.fun/x-iptv/lnws?r2h-token=good
+http://since1986.fun/x-iptv/lnws?r2h-token=i
 #EXTINF:-1 tvg-name="西藏卫视" tvg-logo="https://im5k.fun/logo/西藏卫视.png" group-title="『卫✬视』",西藏卫视
-http://since1986.fun/x-iptv/xcws?r2h-token=good
+http://since1986.fun/x-iptv/xcws?r2h-token=i
 #EXTINF:-1 tvg-name="新疆卫视" tvg-logo="https://im5k.fun/logo/新疆卫视.png" group-title="『卫✬视』",新疆卫视
-http://since1986.fun/x-iptv/xjws?r2h-token=good
+http://since1986.fun/x-iptv/xjws?r2h-token=i
 #EXTINF:-1 tvg-name="兵团卫视" tvg-logo="https://im5k.fun/logo/兵团卫视.png" group-title="『卫✬视』",兵团卫视
-http://since1986.fun/x-iptv/btws?r2h-token=good
+http://since1986.fun/x-iptv/btws?r2h-token=i
 #EXTINF:-1 tvg-name="山东教育卫视" tvg-logo="https://im5k.fun/logo/山东教育卫视.png" group-title="『卫✬视』",山东教育卫视
-http://since1986.fun/x-iptv/sdjyws?r2h-token=good
+http://since1986.fun/x-iptv/sdjyws?r2h-token=i
 #EXTINF:-1 tvg-name="CHC高清电影" tvg-logo="https://im5k.fun/logo/CHC影迷电影.png" group-title="『数✬字』",CHC影迷电影
-http://since1986.fun/x-iptv/chcgqdy?r2h-token=good
+http://since1986.fun/x-iptv/chcgqdy?r2h-token=i
 #EXTINF:-1 tvg-name="CHC家庭影院" tvg-logo="https://im5k.fun/logo/CHC家庭影院.png" group-title="『数✬字』",CHC家庭影院
-http://since1986.fun/x-iptv/chcjt%20yy?r2h-token=good
+http://since1986.fun/x-iptv/chcjt%20yy?r2h-token=i
 #EXTINF:-1 tvg-name="CHC动作电影" tvg-logo="https://im5k.fun/logo/CHC动作电影.png" group-title="『数✬字』",CHC动作电影
-http://since1986.fun/x-iptv/chcdzdy?r2h-token=good
+http://since1986.fun/x-iptv/chcdzdy?r2h-token=i
 #EXTINF:-1 tvg-name="中国教育1台" tvg-logo="https://im5k.fun/logo/CETV1.png" group-title="『数✬字』",CETV1
-http://since1986.fun/x-iptv/zgjy1t?r2h-token=good
+http://since1986.fun/x-iptv/zgjy1t?r2h-token=i
 #EXTINF:-1 tvg-name="中国教育2台" tvg-logo="https://im5k.fun/logo/CETV2.png" group-title="『数✬字』",CETV2
-http://since1986.fun/x-iptv/zgjy2t?r2h-token=good
+http://since1986.fun/x-iptv/zgjy2t?r2h-token=i
 #EXTINF:-1 tvg-name="中国教育4台" tvg-logo="https://im5k.fun/logo/CETV4.png" group-title="『数✬字』",CETV4
-http://since1986.fun/x-iptv/zgjy4t?r2h-token=good
+http://since1986.fun/x-iptv/zgjy4t?r2h-token=i
 #EXTINF:-1 tvg-name="早期教育" tvg-logo="https://im5k.fun/logo/早期教育.png" group-title="『数✬字』",早期教育
-http://since1986.fun/x-iptv/zqjy?r2h-token=good
+http://since1986.fun/x-iptv/zqjy?r2h-token=i
 #EXTINF:-1 tvg-name="金色学堂" tvg-logo="https://im5k.fun/logo/金色学堂.png" group-title="『数✬字』",金色学堂
-http://since1986.fun/x-iptv/jsxt?r2h-token=good
+http://since1986.fun/x-iptv/jsxt?r2h-token=i
 #EXTINF:-1 tvg-name="生活时尚" tvg-logo="https://im5k.fun/logo/生活时尚.png" group-title="『数✬字』",生活时尚
-http://since1986.fun/x-iptv/shss?r2h-token=good
+http://since1986.fun/x-iptv/shss?r2h-token=i
 #EXTINF:-1 tvg-name="动漫秀场" tvg-logo="https://im5k.fun/logo/动漫秀场.png" group-title="『数✬字』",动漫秀场
-http://since1986.fun/x-iptv/dmxc?r2h-token=good
+http://since1986.fun/x-iptv/dmxc?r2h-token=i
 #EXTINF:-1 tvg-name="金鹰纪实" tvg-logo="https://im5k.fun/logo/金鹰纪实.png" group-title="『数✬字』",金鹰纪实
-http://since1986.fun/x-iptv/jyjs?r2h-token=good
+http://since1986.fun/x-iptv/jyjs?r2h-token=i
 #EXTINF:-1 tvg-name="都市剧场" tvg-logo="https://im5k.fun/logo/都市剧场.png" group-title="『数✬字』",都市剧场
-http://since1986.fun/x-iptv/d%20sjc?r2h-token=good
+http://since1986.fun/x-iptv/d%20sjc?r2h-token=i
 #EXTINF:-1 tvg-name="游戏风云" tvg-logo="https://im5k.fun/logo/游戏风云.png" group-title="『数✬字』",游戏风云
-http://since1986.fun/x-iptv/yxfy?r2h-token=good
+http://since1986.fun/x-iptv/yxfy?r2h-token=i
 #EXTINF:-1 tvg-name="法治天地" tvg-logo="https://im5k.fun/logo/法治天地.png" group-title="『数✬字』",法治天地
-http://since1986.fun/x-iptv/fztd?r2h-token=good
+http://since1986.fun/x-iptv/fztd?r2h-token=i
 #EXTINF:-1 tvg-name="乐游" tvg-logo="https://im5k.fun/logo/乐游.png" group-title="『数✬字』",乐游
-http://since1986.fun/x-iptv/ly?r2h-token=good
+http://since1986.fun/x-iptv/ly?r2h-token=i
 #EXTINF:-1 tvg-name="茶" tvg-logo="https://im5k.fun/logo/茶.png" group-title="『数✬字』",茶
-http://since1986.fun/x-iptv/c?r2h-token=good
+http://since1986.fun/x-iptv/c?r2h-token=i
 #EXTINF:-1 tvg-name="快乐垂钓" tvg-logo="https://im5k.fun/logo/快乐垂钓.png" group-title="『数✬字』",快乐垂钓
-http://since1986.fun/x-iptv/kld?r2h-token=good
+http://since1986.fun/x-iptv/kld?r2h-token=i
 #EXTINF:-1 tvg-name="金鹰卡通" tvg-logo="https://im5k.fun/logo/金鹰卡通.png" group-title="『数✬字』",金鹰卡通
-http://since1986.fun/x-iptv/jykt?r2h-token=good
+http://since1986.fun/x-iptv/jykt?r2h-token=i
 #EXTINF:-1 tvg-name="卡酷少儿" tvg-logo="https://im5k.fun/logo/卡酷少儿.png" group-title="『数✬字』",卡酷少儿
-http://since1986.fun/x-iptv/kkse?r2h-token=good
+http://since1986.fun/x-iptv/kkse?r2h-token=i
 #EXTINF:-1 tvg-name="哈哈炫动" tvg-logo="https://im5k.fun/logo/哈哈炫动.png" group-title="『数✬字』",哈哈炫动
-http://since1986.fun/x-iptv/hhxd?r2h-token=good
+http://since1986.fun/x-iptv/hhxd?r2h-token=i
 #EXTINF:-1 tvg-name="武术世界" tvg-logo="https://im5k.fun/logo/武术世界.png" group-title="『数✬字』",武术世界
-http://since1986.fun/x-iptv/wssj?r2h-token=good
+http://since1986.fun/x-iptv/wssj?r2h-token=i
 #EXTINF:-1 tvg-name="文物宝库" tvg-logo="https://im5k.fun/logo/文物宝库.png" group-title="『数✬字』",文物宝库
-http://since1986.fun/x-iptv/wwbk?r2h-token=good
+http://since1986.fun/x-iptv/wwbk?r2h-token=i
 #EXTINF:-1 tvg-name="梨园" tvg-logo="https://im5k.fun/logo/梨园频道.png" group-title="『数✬字』",梨园频道
-http://since1986.fun/x-iptv/ly/2?r2h-token=good
+http://since1986.fun/x-iptv/ly/2?r2h-token=i
 #EXTINF:-1 tvg-name="东方财经" tvg-logo="https://im5k.fun/logo/东方财经.png" group-title="『数✬字』",东方财经
-http://since1986.fun/x-iptv/dfcj?r2h-token=good
+http://since1986.fun/x-iptv/dfcj?r2h-token=i
 #EXTINF:-1 tvg-name="中国天气" tvg-logo="https://im5k.fun/logo/中国天气.png" group-title="『数✬字』",中国天气
-http://since1986.fun/x-iptv/zgtq?r2h-token=good
+http://since1986.fun/x-iptv/zgtq?r2h-token=i
 #EXTINF:-1 tvg-name="环球奇观" tvg-logo="https://im5k.fun/logo/环球奇观.png" group-title="『数✬字』",环球奇观
-http://since1986.fun/x-iptv/hqqg?r2h-token=good
+http://since1986.fun/x-iptv/hqqg?r2h-token=i
 #EXTINF:-1 tvg-name="国学" tvg-logo="https://im5k.fun/logo/国学.png" group-title="『数✬字』",国学
-http://since1986.fun/x-iptv/gx?r2h-token=good
+http://since1986.fun/x-iptv/gx?r2h-token=i
 #EXTINF:-1 tvg-name="优优宝贝" tvg-logo="https://im5k.fun/logo/优优宝贝.png" group-title="『数✬字』",优优宝贝
-http://since1986.fun/x-iptv/yybb?r2h-token=good
+http://since1986.fun/x-iptv/yybb?r2h-token=i
 #EXTINF:-1 tvg-name="生态环境" tvg-logo="https://im5k.fun/logo/生态环境.png" group-title="『数✬字』",生态环境
-http://since1986.fun/x-iptv/sthj?r2h-token=good
+http://since1986.fun/x-iptv/sthj?r2h-token=i
 #EXTINF:-1 tvg-name="四海钓鱼" tvg-logo="https://im5k.fun/logo/四海钓鱼.png" group-title="『数✬字』",四海钓鱼
-http://since1986.fun/x-iptv/shd%20y?r2h-token=good
+http://since1986.fun/x-iptv/shd%20y?r2h-token=i
 #EXTINF:-1 tvg-name="汽摩" tvg-logo="https://im5k.fun/logo/汽摩.png" group-title="『数✬字』",汽摩
-http://since1986.fun/x-iptv/qm?r2h-token=good
+http://since1986.fun/x-iptv/qm?r2h-token=i
 #EXTINF:-1 tvg-name="新动漫" tvg-logo="https://im5k.fun/logo/新动漫.png" group-title="『数✬字』",新动漫
-http://since1986.fun/x-iptv/xdm?r2h-token=good
+http://since1986.fun/x-iptv/xdm?r2h-token=i
 #EXTINF:-1 tvg-id="书画" tvg-name="书画" tvg-logo="https://im5k.fun/logo/书画.png" group-title="『数✬字』",书画
-http://since1986.fun/x-iptv/sh?r2h-token=good
+http://since1986.fun/x-iptv/sh?r2h-token=i
 #EXTINF:-1 tvg-name="先锋乒羽" tvg-logo="https://im5k.fun/logo/先锋乒羽.png" group-title="『数✬字』",先锋乒羽
-http://since1986.fun/x-iptv/xfpy?r2h-token=good
+http://since1986.fun/x-iptv/xfpy?r2h-token=i
 #EXTINF:-1 tvg-name="环球旅游" tvg-logo="https://im5k.fun/logo/环球旅游.png" group-title="『数✬字』",环球旅游
-http://since1986.fun/x-iptv/hqly?r2h-token=good
+http://since1986.fun/x-iptv/hqly?r2h-token=i
 #EXTINF:-1 tvg-id="中华特产" tvg-name="中华特产" tvg-logo="https://im5k.fun/logo/中华特产.png" group-title="『数✬字』",中华特产
-http://since1986.fun/x-iptv/zhtc?r2h-token=good
+http://since1986.fun/x-iptv/zhtc?r2h-token=i
 #EXTINF:-1 tvg-name="收藏天下" tvg-logo="https://im5k.fun/logo/收藏天下.png" group-title="『数✬字』",收藏天下
-http://since1986.fun/x-iptv/sctx?r2h-token=good
+http://since1986.fun/x-iptv/sctx?r2h-token=i
 
 #EXTINF:-1 tvg-name="山西文体生活" tvg-logo="https://im5k.fun/logo/山西文体生活.png" group-title="『山✬西』",山西文体生活
-http://since1986.fun/x-iptv/sxwtsh?r2h-token=good
+http://since1986.fun/x-iptv/sxwtsh?r2h-token=i
 #EXTINF:-1 tvg-name="山西经济" tvg-logo="https://im5k.fun/logo/山西经济与科技.png" group-title="『山✬西』",山西经济与科技
-http://since1986.fun/x-iptv/sxjj?r2h-token=good
+http://since1986.fun/x-iptv/sxjj?r2h-token=i
 #EXTINF:-1 tvg-name="山西影视" tvg-logo="https://im5k.fun/logo/山西影视.png" group-title="『山✬西』",山西影视
-http://since1986.fun/x-iptv/sxys?r2h-token=good
+http://since1986.fun/x-iptv/sxys?r2h-token=i
 #EXTINF:-1 tvg-name="山西社会与法治" tvg-logo="https://im5k.fun/logo/山西社会与法治.png" group-title="『山✬西』",山西社会与法治
-http://since1986.fun/x-iptv/sxshyfz?r2h-token=good
+http://since1986.fun/x-iptv/sxshyfz?r2h-token=i
 #EXTINF:-1 tvg-name="黄河卫视" tvg-logo="https://im5k.fun/logo/黄河卫视.png" group-title="『山✬西』",黄河卫视
-http://since1986.fun/x-iptv/hhws?r2h-token=good
+http://since1986.fun/x-iptv/hhws?r2h-token=i
 #EXTINF:-1 tvg-name="太原教育" tvg-logo="https://im5k.fun/logo/太原教育.png" group-title="『山✬西』",太原教育
-http://since1986.fun/x-iptv/tyjy?r2h-token=good
+http://since1986.fun/x-iptv/tyjy?r2h-token=i
 #EXTINF:-1 tvg-name="太原新闻综合" tvg-logo="https://im5k.fun/logo/太原1.png" group-title="『山✬西』",太原-1
-http://since1986.fun/x-iptv/tyxwzh?r2h-token=good
+http://since1986.fun/x-iptv/tyxwzh?r2h-token=i
 #EXTINF:-1 tvg-name="太原百姓" tvg-logo="https://im5k.fun/logo/太原2.png" group-title="『山✬西』",太原-2
-http://since1986.fun/x-iptv/tybx?r2h-token=good
+http://since1986.fun/x-iptv/tybx?r2h-token=i
 #EXTINF:-1 tvg-name="太原社教法制" tvg-logo="https://im5k.fun/logo/太原3.png" group-title="『山✬西』",太原-3
-http://since1986.fun/x-iptv/tysjfz?r2h-token=good
+http://since1986.fun/x-iptv/tysjfz?r2h-token=i
 #EXTINF:-1 tvg-name="太原影视" tvg-logo="https://im5k.fun/logo/太原4.png" group-title="『山✬西』",太原-4
-http://since1986.fun/x-iptv/tyys?r2h-token=good
+http://since1986.fun/x-iptv/tyys?r2h-token=i
 #EXTINF:-1 tvg-name="太原文体" tvg-logo="https://im5k.fun/logo/太原5.png" group-title="『山✬西』",太原-5
-http://since1986.fun/x-iptv/tywt?r2h-token=good
+http://since1986.fun/x-iptv/tywt?r2h-token=i
 #EXTINF:-1 tvg-name="运城1" tvg-logo="https://im5k.fun/logo/运城1.png" group-title="『山✬西』",运城-1
-http://since1986.fun/x-iptv/yc1?r2h-token=good
+http://since1986.fun/x-iptv/yc1?r2h-token=i
 #EXTINF:-1 tvg-name="运城2" tvg-logo="https://im5k.fun/logo/运城2.png" group-title="『山✬西』",运城-2
-http://since1986.fun/x-iptv/yc2?r2h-token=good
+http://since1986.fun/x-iptv/yc2?r2h-token=i
 #EXTINF:-1 tvg-name="盐湖频道" tvg-logo="https://im5k.fun/logo/盐湖频道.png" group-title="『山✬西』",盐湖频道
-http://since1986.fun/x-iptv/yhpd?r2h-token=good
+http://since1986.fun/x-iptv/yhpd?r2h-token=i
 #EXTINF:-1 tvg-logo="https://im5k.fun/logo/焦煤TV.png" group-title="『山✬西』",焦煤TV
-http://since1986.fun/x-iptv/jmtv?r2h-token=good
+http://since1986.fun/x-iptv/jmtv?r2h-token=i
 #EXTINF:-1 tvg-name="晋中综合" tvg-logo="https://im5k.fun/logo/晋中综合.png" group-title="『山✬西』",晋中综合
-http://since1986.fun/x-iptv/jzzh?r2h-token=good
+http://since1986.fun/x-iptv/jzzh?r2h-token=i
 #EXTINF:-1 tvg-name="晋中公共" tvg-logo="https://im5k.fun/logo/晋中公共.png" group-title="『山✬西』",晋中公共
-http://since1986.fun/x-iptv/jzgg?r2h-token=good
+http://since1986.fun/x-iptv/jzgg?r2h-token=i
 #EXTINF:-1 tvg-name="CGTV" tvg-logo="https://im5k.fun/logo/CGTV.png" group-title="『山✬西』",CGTV
-http://since1986.fun/x-iptv/cgtv?r2h-token=good
+http://since1986.fun/x-iptv/cgtv?r2h-token=i
 #EXTINF:-1 tvg-name="灵石综合" tvg-logo="https://im5k.fun/logo/灵石综合.png" group-title="『山✬西』",灵石综合
-http://since1986.fun/x-iptv/lszh?r2h-token=good
+http://since1986.fun/x-iptv/lszh?r2h-token=i
 #EXTINF:-1 tvg-name="潞州电视台" tvg-logo="https://im5k.fun/logo/潞州电视台.png" group-title="『山✬西』",潞州电视台
-http://since1986.fun/x-iptv/lztv?r2h-token=good
+http://since1986.fun/x-iptv/lztv?r2h-token=i
 #EXTINF:-1 tvg-name="娄烦综合" tvg-logo="https://im5k.fun/logo/娄烦综合.png" group-title="『山✬西』",娄烦综合
-http://since1986.fun/x-iptv/lfzh?r2h-token=good
+http://since1986.fun/x-iptv/lfzh?r2h-token=i
 #EXTINF:-1 tvg-name="平定综合" tvg-logo="https://im5k.fun/logo/平定综合.png" group-title="『山✬西』",平定综合
-http://since1986.fun/x-iptv/pdzh?r2h-token=good
+http://since1986.fun/x-iptv/pdzh?r2h-token=i
 #EXTINF:-1 tvg-name="大同教育" tvg-logo="https://im5k.fun/logo/大同教育.png" group-title="『山✬西』",大同教育
-http://since1986.fun/x-iptv/dtjy?r2h-token=good
+http://since1986.fun/x-iptv/dtjy?r2h-token=i
 #EXTINF:-1 tvg-name="朔州新闻综合" tvg-logo="https://im5k.fun/logo/SZTV1.png" group-title="『山✬西』",朔州-1
-http://since1986.fun/x-iptv/szxwzh?r2h-token=good
+http://since1986.fun/x-iptv/szxwzh?r2h-token=i
 #EXTINF:-1 tvg-name="朔州生活公共" tvg-logo="https://im5k.fun/logo/SZTV2.png" group-title="『山✬西』",朔州-2
-http://since1986.fun/x-iptv/szshgg?r2h-token=good
+http://since1986.fun/x-iptv/szshgg?r2h-token=i
 #EXTINF:-1 tvg-id="孝义电视台" tvg-name="孝义电视台" tvg-logo="https://im5k.fun/logo/孝义电视台.png" group-title="『山✬西』",孝义电视台
-http://since1986.fun/x-iptv/xytv?r2h-token=good
+http://since1986.fun/x-iptv/xytv?r2h-token=i
 #EXTINF:-1 tvg-name="清徐电视台" tvg-logo="https://im5k.fun/logo/清徐电视台.png" group-title="『山✬西』",清徐电视台
-http://since1986.fun/x-iptv/qxtv?r2h-token=good
+http://since1986.fun/x-iptv/qxtv?r2h-token=i
 #EXTINF:-1 tvg-name="屯留电视台" tvg-logo="https://im5k.fun/logo/屯留电视台.png" group-title="『山✬西』",屯留电视台
-http://since1986.fun/x-iptv/tltv?r2h-token=good
+http://since1986.fun/x-iptv/tltv?r2h-token=i
 #EXTINF:-1 tvg-name="古交电视台" tvg-logo="https://im5k.fun/logo/古交电视台.png" group-title="『山✬西』",古交电视台
-http://since1986.fun/x-iptv/gjtv?r2h-token=good
+http://since1986.fun/x-iptv/gjtv?r2h-token=i
 #EXTINF:-1 tvg-name="阳曲电视台" tvg-logo="https://im5k.fun/logo/阳曲电视台.png" group-title="『山✬西』",阳曲电视台
-http://since1986.fun/x-iptv/yqtv?r2h-token=good
+http://since1986.fun/x-iptv/yqtv?r2h-token=i
 #EXTINF:-1 tvg-name="晋能控股" tvg-logo="https://im5k.fun/logo/晋能控股.png" group-title="『山✬西』",晋能控股
-http://since1986.fun/x-iptv/jnkg?r2h-token=good
+http://since1986.fun/x-iptv/jnkg?r2h-token=i
 #EXTINF:-1 tvg-name="阳泉综合" tvg-logo="https://im5k.fun/logo/阳泉综合.png" group-title="『山✬西』",阳泉综合
-http://since1986.fun/x-iptv/yqzh?r2h-token=good
+http://since1986.fun/x-iptv/yqzh?r2h-token=i
 #EXTINF:-1 tvg-name="阳泉科教" tvg-logo="https://im5k.fun/logo/阳泉科教.png" group-title="『山✬西』",阳泉科教
-http://since1986.fun/x-iptv/yqkj?r2h-token=good
+http://since1986.fun/x-iptv/yqkj?r2h-token=i
+
 
 
 
