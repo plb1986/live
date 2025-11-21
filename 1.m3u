@@ -13,7 +13,7 @@ http://cdn6.veryfast.filegear-sg.me/live/mzt/stream.m3u8
 http://o12.veryfast.filegear-sg.me/hls/mzt/playlist.m3u8
 #EXTINF:-1 group-title="JULI" tvg-name="TVB PLUS" tvg-logo="https://im5k.fun/logo/TVBPLUS.png" ,TVB PLUS
 http://cdn6.veryfast.filegear-sg.me/live/tvbp/stream.m3u8
-#EXTINF:-1 group-title="JULI" tvg-name="HOY TV" tvg-logo="https://im5k.fun/logo/HOY TV.png" ,HOY TV
+#EXTINF:-1 group-title="JULI" tvg-name="HOY TV" tvg-logo="https://im5k.fun/logo/HOYTV.png" ,HOY TV
 http://cdn6.veryfast.filegear-sg.me/live/hoy/stream.m3u8
 #EXTINF:-1 group-title="JULI" tvg-name="VIUTV" tvg-logo="https://im5k.fun/logo/VIUTV.png" ,VIUTV
 http://cdn.veryfast.filegear-sg.me/live/viu/stream.m3u8
@@ -21,9 +21,9 @@ http://cdn.veryfast.filegear-sg.me/live/viu/stream.m3u8
 http://smt.veryfast.filegear-sg.me/smt3.2.1.php?id=viusix_twn
 #EXTINF:-1 group-title="JULI" tvg-name="NOW新闻台" tvg-logo="https://im5k.fun/logo/NOW新闻.png" ,NOW新闻台
 http://cdn.veryfast.filegear-sg.me/live/now/stream.m3u8
-#EXTINF:-1 group-title="JULI" tvg-name="RTK31" tvg-logo="https://im5k.fun/logo/RTK31.png" ,RTK31
+#EXTINF:-1 group-title="JULI" tvg-name="RTK31" tvg-logo="https://im5k.fun/logo/RTHK31.png" ,RTHK31
 http://cdn.veryfast.filegear-sg.me/live/rthk31/stream.m3u8
-#EXTINF:-1 group-title="JULI" tvg-name="RTK32" tvg-logo="https://im5k.fun/logo/RTK32.png" ,RTK32
+#EXTINF:-1 group-title="JULI" tvg-name="RTK32" tvg-logo="https://im5k.fun/logo/RTHK32.png" ,RTHK32
 http://cdn.veryfast.filegear-sg.me/live/rthk32/stream.m3u8
 #EXTINF:-1 group-title="JULI" tvg-name="澳视澳门" tvg-logo="https://im5k.fun/logo/澳视澳门.png" ,澳视澳门
 http://cdn6.veryfast.filegear-sg.me/live/asam/stream.m3u8
