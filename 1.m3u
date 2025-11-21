@@ -21,13 +21,13 @@ http://cdn.veryfast.filegear-sg.me/live/viu/stream.m3u8
 http://smt.veryfast.filegear-sg.me/smt3.2.1.php?id=viusix_twn
 #EXTINF:-1 group-title="JULI" tvg-name="NOW新闻台" tvg-logo="https://im5k.fun/logo/NOW新闻台.png" ,NOW新闻台
 http://cdn.veryfast.filegear-sg.me/live/now/stream.m3u8
-#EXTINF:-1 group-title="JULI" tvg-name="TV 31" tvg-logo="https://im5k.fun/logo/TV 31.png" ,TV 31
+#EXTINF:-1 group-title="JULI" tvg-name="RTK31" tvg-logo="https://im5k.fun/logo/RTK31.png" ,RTK31
 http://cdn.veryfast.filegear-sg.me/live/rthk31/stream.m3u8
-#EXTINF:-1 group-title="JULI" tvg-name="TV 32" tvg-logo="https://im5k.fun/logo/TV 32.png" ,TV 32
+#EXTINF:-1 group-title="JULI" tvg-name="RTK32" tvg-logo="https://im5k.fun/logo/RTK32.png" ,RTK32
 http://cdn.veryfast.filegear-sg.me/live/rthk32/stream.m3u8
 #EXTINF:-1 group-title="JULI" tvg-name="澳视澳门" tvg-logo="https://im5k.fun/logo/澳视澳门.png" ,澳视澳门
 http://cdn6.veryfast.filegear-sg.me/live/asam/stream.m3u8
-#EXTINF:-1 group-title="JULI" tvg-name="澳视卫星" tvg-logo="https://im5k.fun/logo/澳视卫星.png" ,澳视卫星
+#EXTINF:-1 group-title="JULI" tvg-name="澳视Macau" tvg-logo="https://im5k.fun/logo/澳视Macau.png" ,澳视Macau
 http://cdn6.veryfast.filegear-sg.me/live/as/stream.m3u8
 #EXTINF:-1 group-title="JULI" tvg-name="澳视体育" tvg-logo="https://im5k.fun/logo/澳视体育.png" ,澳视体育
 http://cdn6.veryfast.filegear-sg.me/live/amty/stream.m3u8
