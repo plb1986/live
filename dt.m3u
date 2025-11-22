@@ -185,14 +185,14 @@ http://im2k.fun:5158/rtp/226.0.2.201:9520?r2h-token=dt
 http://im2k.fun:5158/rtp/226.0.2.202:9528?r2h-token=dt
 #EXTINF:-1 tvg-name="太原社教法制" tvg-logo="https://im5k.fun/logo/太原3.png" group-title="『山✬西』",太原-3
 http://im2k.fun:5158/rtp/226.0.2.203:9536?r2h-token=dt
-#EXTINF:-1 tvg-name="朔州新闻综合" tvg-logo="https://im5k.fun/logo/朔州1.png" group-title="『山✬西』",朔州-1
-http://im2k.fun:5158/rtp/226.0.2.185:9392?r2h-token=dt
-#EXTINF:-1 tvg-name="朔州生活公共" tvg-logo="https://im5k.fun/logo/朔州2.png" group-title="『山✬西』",朔州-2
-http://im2k.fun:5158/rtp/226.0.2.186:9400?r2h-token=dt
 #EXTINF:-1 tvg-name="太原影视" tvg-logo="https://im5k.fun/logo/太原4.png" group-title="『山✬西』",太原-4
 http://im2k.fun:5158/rtp/226.0.2.204:9544?r2h-token=dt
 #EXTINF:-1 tvg-name="太原文体" tvg-logo="https://im5k.fun/logo/太原5.png" group-title="『山✬西』",太原-5
 http://im2k.fun:5158/rtp/226.0.2.205:9552?r2h-token=dt
+#EXTINF:-1 tvg-name="朔州新闻综合" tvg-logo="https://im5k.fun/logo/朔州1.png" group-title="『山✬西』",朔州-1
+http://im2k.fun:5158/rtp/226.0.2.185:9392?r2h-token=dt
+#EXTINF:-1 tvg-name="朔州生活公共" tvg-logo="https://im5k.fun/logo/朔州2.png" group-title="『山✬西』",朔州-2
+http://im2k.fun:5158/rtp/226.0.2.186:9400?r2h-token=dt
 #EXTINF:-1 tvg-name="运城-1" tvg-logo="https://im5k.fun/logo/运城-1.png" group-title="『山✬西』",运城-1
 http://im2k.fun:5158/rtp/226.0.1.224:2071?r2h-token=dt
 #EXTINF:-1 tvg-name="运城-2" tvg-logo="https://im5k.fun/logo/运城-2.png" group-title="『山✬西』",运城-2
@@ -308,6 +308,7 @@ http://im2k.fun:5158/rtp/226.0.2.127:8928?r2h-token=dt
 http://im2k.fun:5158/rtp/226.0.2.128:8936?r2h-token=dt
 #EXTINF:-1 tvg-name="收藏天下" tvg-logo="https://im5k.fun/logo/收藏天下.png" group-title="『数✬字』",收藏天下
 http://im2k.fun:5158/rtp/226.0.2.132:8968?r2h-token=dt
+
 
 
 
