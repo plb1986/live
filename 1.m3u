@@ -1,4 +1,4 @@
-#EXTM3U x-tvg-url="https://epg.im5k.fun/pp.xml"
+#EXTM3U
 #EXTINF:-1 group-title="港澳台" tvg-name="翡翠台" tvg-logo="https://im5k.fun/logo/翡翠台.png" ,翡翠台
 http://mytv.veryfast.filegear-sg.me/hls/fct/playlist.m3u8
 #EXTINF:-1 group-title="港澳台" tvg-name="翡翠台" tvg-logo="https://im5k.fun/logo/翡翠台.png" ,翡翠台
