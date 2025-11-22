@@ -199,12 +199,16 @@ http://im2k.fun:5158/rtp/226.0.1.224:2071?r2h-token=dt
 http://im2k.fun:5158/rtp/226.0.1.231:2072?r2h-token=dt
 #EXTINF:-1 tvg-name="运城盐湖频道" tvg-logo="https://im5k.fun/logo/运城盐湖频道.png" group-title="『山✬西』",运城盐湖频道
 http://im2k.fun:5158/rtp/226.0.1.232:2073?r2h-token=dt
-#EXTINF:-1 tvg-logo="https://im5k.fun/logo/焦煤TV.png" group-title="『山✬西』",焦煤TV
-http://im2k.fun:5158/rtp/226.0.1.223:2174?r2h-token=dt
 #EXTINF:-1 tvg-name="晋中综合" tvg-logo="https://im5k.fun/logo/晋中综合.png" group-title="『山✬西』",晋中综合
 http://im2k.fun:5158/rtp/226.0.1.93:2051?r2h-token=dt
 #EXTINF:-1 tvg-name="晋中公共" tvg-logo="https://im5k.fun/logo/晋中公共.png" group-title="『山✬西』",晋中公共
 http://im2k.fun:5158/rtp/226.0.1.94:2052?r2h-token=dt
+#EXTINF:-1 tvg-name="阳泉新闻综合" tvg-logo="https://im5k.fun/logo/阳泉新闻综合.png" group-title="『山✬西』",阳泉新闻综合
+http://im2k.fun:5158/rtp/226.0.2.233:9776?r2h-token=dt
+#EXTINF:-1 tvg-name="阳泉科教" tvg-logo="https://im5k.fun/logo/阳泉科教.png" group-title="『山✬西』",阳泉科教
+http://im2k.fun:5158/rtp/226.0.2.234:9784?r2h-token=dt
+#EXTINF:-1 tvg-logo="https://im5k.fun/logo/焦煤TV.png" group-title="『山✬西』",焦煤TV
+http://im2k.fun:5158/rtp/226.0.1.223:2174?r2h-token=dt
 #EXTINF:-1 tvg-name="CGTV" tvg-logo="https://im5k.fun/logo/CGTV.png" group-title="『山✬西』",CGTV
 http://im2k.fun:5158/rtp/226.0.1.199:2170?r2h-token=dt
 #EXTINF:-1 tvg-name="灵石综合" tvg-logo="https://im5k.fun/logo/灵石综合.png" group-title="『山✬西』",灵石综合
@@ -229,10 +233,7 @@ http://im2k.fun:5158/rtp/226.0.2.192:9448?r2h-token=dt
 http://im2k.fun:5158/rtp/226.0.2.196:9480?r2h-token=dt
 #EXTINF:-1 tvg-name="晋能控股" tvg-logo="https://im5k.fun/logo/晋能控股.png" group-title="『山✬西』",晋能控股
 http://im2k.fun:5158/rtp/226.0.2.229:9744?r2h-token=dt
-#EXTINF:-1 tvg-name="阳泉新闻综合" tvg-logo="https://im5k.fun/logo/阳泉新闻综合.png" group-title="『山✬西』",阳泉新闻综合
-http://im2k.fun:5158/rtp/226.0.2.233:9776?r2h-token=dt
-#EXTINF:-1 tvg-name="阳泉科教" tvg-logo="https://im5k.fun/logo/阳泉科教.png" group-title="『山✬西』",阳泉科教
-http://im2k.fun:5158/rtp/226.0.2.234:9784?r2h-token=dt
+
 #EXTINF:-1 tvg-name="CHC高清电影" tvg-logo="https://im5k.fun/logo/CHC影迷电影.png" group-title="『数✬字』",CHC影迷电影
 http://im2k.fun:5158/rtp/226.0.2.93:8004?r2h-token=dt
 #EXTINF:-1 tvg-name="CHC家庭影院" tvg-logo="https://im5k.fun/logo/CHC家庭影院.png" group-title="『数✬字』",CHC家庭影院
@@ -307,5 +308,6 @@ http://im2k.fun:5158/rtp/226.0.2.127:8928?r2h-token=dt
 http://im2k.fun:5158/rtp/226.0.2.128:8936?r2h-token=dt
 #EXTINF:-1 tvg-name="收藏天下" tvg-logo="https://im5k.fun/logo/收藏天下.png" group-title="『数✬字』",收藏天下
 http://im2k.fun:5158/rtp/226.0.2.132:8968?r2h-token=dt
+
 
 
