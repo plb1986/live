@@ -1,4 +1,4 @@
-#EXTM3U x-tvg-url="https://epg.im5k.fun/pp.xml"
+#EXTM3U
 #EXTINF:-1 group-title="4K" tvg-name="CCTV4K" tvg-logo="https://im5k.fun/logo/CCTV4K.png",CCTV4K超高清
 http://101.73.110.138:2380/js-live-screenshot.gitv.tv/gitv_live/G_CCTV-4K-HD/G_CCTV-4K-HD.m3u8
 #EXTINF:-1 group-title="4K" tvg-name="CCTV16" tvg-logo="https://im5k.fun/logo/CCTV16-4K.png",CCTV16-4K
