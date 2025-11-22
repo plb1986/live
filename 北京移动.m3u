@@ -1,4 +1,4 @@
-#EXTM3U x-tvg-url="https://epg.im5k.fun/pp.xml"
+#EXTM3U
 #EXTINF:-1 group-title="央视" tvg-name="CCTV1" tvg-logo="https://im5k.fun/logo/CCTV1.png",CCTV1 
 http://111.13.18.2:2380/ywotttv.bj.chinamobile.com/PLTV/88888888/224/3221226933/1.m3u8
 #EXTINF:-1 group-title="央视" tvg-name="CCTV1" tvg-logo="https://im5k.fun/logo/CCTV1.png",CCTV1 
