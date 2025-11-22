@@ -1,4 +1,4 @@
-#EXTM3U x-tvg-url="https://epg.im5k.fun/pp.xml"
+#EXTM3U
 
 #EXTINF:-1 tvg-name="北京卫视" tvg-logo="https://im5k.fun/logo/北京卫视4K.png" group-title="『4✬K』" ,北京卫视4K
 http://since1986.fun/x-iptv/bjws4k?r2h-token=i
@@ -306,6 +306,7 @@ http://since1986.fun/x-iptv/jnkg?r2h-token=i
 http://since1986.fun/x-iptv/yqzh?r2h-token=i
 #EXTINF:-1 tvg-name="阳泉科教" tvg-logo="https://im5k.fun/logo/阳泉科教.png" group-title="『山✬西』",阳泉科教
 http://since1986.fun/x-iptv/yqkj?r2h-token=i
+
 
 
 
