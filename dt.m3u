@@ -1,4 +1,4 @@
-#EXTM3U x-tvg-url="https://epg.im5k.fun/pp.xml"
+#EXTM3U
 
 #EXTINF:-1 tvg-name="北京卫视" tvg-logo="https://im5k.fun/logo/北京卫视4K.png" group-title="『4✬K』" ,北京卫视4K
 http://im2k.fun:5158/rtp/226.0.2.155:9172?r2h-token=dt
@@ -308,6 +308,7 @@ http://im2k.fun:5158/rtp/226.0.2.127:8928?r2h-token=dt
 http://im2k.fun:5158/rtp/226.0.2.128:8936?r2h-token=dt
 #EXTINF:-1 tvg-name="收藏天下" tvg-logo="https://im5k.fun/logo/收藏天下.png" group-title="『数✬字』",收藏天下
 http://im2k.fun:5158/rtp/226.0.2.132:8968?r2h-token=dt
+
 
 
 
