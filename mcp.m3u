@@ -32,15 +32,11 @@ https://live.ottiptv.cc/mcp/cctv14.m3u8?userid=8015960691&sign=af34a4f6b6c649d7a
 #EXTINF:-1 tvg-name="CCTV15" tvg-logo="https://im5k.fun/logo/CCTV15.png" group-title="央视",CCTV15
 https://live.ottiptv.cc/mcp/cctv15.m3u8?userid=8015960691&sign=98befb8d0ce321352a8b7a07747c5f0a72a79475be063e2c91775d79bced0655afad62a57f1ebaf15e4d533209101b1d1578cad71d2fdc3b42561ce8cd6e4dd6d57cfe525dccc8923a994fbb989b&auth_token=2e32942d36656f77a65c0ed4036bcea9
 #EXTINF:-1 tvg-name="CCTV16" tvg-logo="https://im5k.fun/logo/CCTV16.png" group-title="央视",CCTV16
-https://live.ottiptv.cc/mcp/cctv16.m3u8?userid=8015960691&sign=6ef396bf28518cbc224ae58e3e729fab18d478595c097bb959f215cd5cf832538a70fde4c95a7cecca5e4b77fb87860ee6a2fb7b5eaed45ae7b5e89e5ea6afbd1ff5dc6134cdee2f57d021bae0b9&auth_token=2e32942d36656f77a65c0ed4036bcea9
-#EXTINF:-1 tvg-name="CCTV16" tvg-logo="https://im5k.fun/logo/CCTV16.png" group-title="央视",CCTV16-MST
-https://live.ottiptv.cc/mst/cctv16.m3u8?userid=8015960691&sign=48c6f80bf5727244ca0809d0b47505f16d00338efb312d72e7b165bd59bff7c248e7c9f732a11c8328fa7b851c37e89429c426674a7c2bda3c3c2971f9a47a90f64f4637778b968ee698018da354cf64&auth_token=2e32942d36656f77a65c0ed4036bcea9
+https://live.ottiptv.cc/mcp/cctv16.m3u8?userid=8015960691&sign=6ef396bf28518cbc224ae58e3e729fab18d478595c097bb959f215cd5cf832538a70fde4c95a7cecca5e4b77fb87860ee6a2fb7b5eaed45ae7b5e89e5ea6afbd1ff5dc6134cdee2f57d021bae0b9&auth_token=2e32942d36656f77a65c0ed4036bcea9
 #EXTINF:-1 tvg-name="CCTV17" tvg-logo="https://im5k.fun/logo/CCTV17.png" group-title="央视",CCTV17
 https://live.ottiptv.cc/mcp/cctv17.m3u8?userid=8015960691&sign=e9a2c5ced14c3d6d4a8a5e60979764349ae48faeb07e4835dbbb27cb20dd9025d7fdfe1ef11abb705c737630bfbd2130da80c8403edb7e2409fab5b30bf4aa592e3bbd491d8bee791aa89fdc99c6&auth_token=2e32942d36656f77a65c0ed4036bcea9
 #EXTINF:-1 tvg-name="CCTV4K" tvg-logo="https://im5k.fun/logo/CCTV4K.png" group-title="央视",CCTV4K
-https://live.ottiptv.cc/mcp/cctv4k.m3u8?userid=8015960691&sign=1a1b937c7d619e6fae1c7877ebe48a28c183104c20a80b292656ef57dc6e5be9d749ef957201976e55a765d75f7d8b3eafaca51121d1ba4828764b6db00cca835af4f47e7483430f6413873a4b48&auth_token=2e32942d36656f77a65c0ed4036bcea9
-#EXTINF:-1 tvg-name="CCTV4K" tvg-logo="https://im5k.fun/logo/CCTV4K.png" group-title="央视",CCTV4K-MXW
-https://live.ottiptv.cc/mxw/cctv4k-2.m3u8?userid=8015960691&sign=9bced9a4d36456760762f8d86f5c658a6ea1cad3ba5aede72fe07340b86be4a3d9b0192a9db657220e850112b69e9fc7edf54425904bc94cbd9609bcaa487e96f1c3542c70ed1b7da1189504ead4628c&auth_token=2e32942d36656f77a65c0ed4036bcea9
+https://live.ottiptv.cc/mcp/cctv4k.m3u8?userid=8015960691&sign=1a1b937c7d619e6fae1c7877ebe48a28c183104c20a80b292656ef57dc6e5be9d749ef957201976e55a765d75f7d8b3eafaca51121d1ba4828764b6db00cca835af4f47e7483430f6413873a4b48&auth_token=2e32942d36656f77a65c0ed4036bcea9
 #EXTINF:-1 tvg-name="CCTV8K" tvg-logo="https://im5k.fun/logo/CCTV8K.png" group-title="央视",CCTV8K
 https://live.ottiptv.cc/mcp/cctv8k.m3u8?userid=8015960691&sign=d658faf18e746021d56adc587825a4f8d9a759d426f5785322c9d33a2f0209dfa879f7454d5dd3ce9d79932b069a038120c674fd4b70d76f0a949be11fb8cfa61c435c6fc78331acbf7790776dab&auth_token=2e32942d36656f77a65c0ed4036bcea9
 #EXTINF:-1 tvg-name="第一剧场" tvg-logo="https://im5k.fun/logo/第一剧场.png" group-title="央视",第一剧场
