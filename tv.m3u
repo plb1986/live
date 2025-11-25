@@ -1,163 +1,159 @@
 #EXTM3U
+
 #EXTINF:-1 tvg-name="CCTV1" tvg-logo="https://im5k.fun/logo/CCTV1.png" group-title="央视",CCTV1
+
 https://tv.im5k.fun/stream/cctv1.m3u8
 #EXTINF:-1 tvg-name="CCTV2" tvg-logo="https://im5k.fun/logo/CCTV2.png" group-title="央视",CCTV2
+
 https://tv.im5k.fun/stream/cctv2.m3u8
 #EXTINF:-1 tvg-name="CCTV3" tvg-logo="https://im5k.fun/logo/CCTV3.png" group-title="央视",CCTV3
+
 https://tv.im5k.fun/stream/cctv3.m3u8
 #EXTINF:-1 tvg-name="CCTV4" tvg-logo="https://im5k.fun/logo/CCTV4.png" group-title="央视",CCTV4
+
 https://tv.im5k.fun/stream/cctv4.m3u8
 #EXTINF:-1 tvg-name="CCTV5" tvg-logo="https://im5k.fun/logo/CCTV5.png" group-title="央视",CCTV5
+
 https://tv.im5k.fun/stream/cctv5.m3u8
 #EXTINF:-1 tvg-name="CCTV5+" tvg-logo="https://im5k.fun/logo/CCTV5+.png" group-title="央视",CCTV5+
+
 https://tv.im5k.fun/stream/cctv5p.m3u8
 #EXTINF:-1 tvg-name="CCTV6" tvg-logo="https://im5k.fun/logo/CCTV6.png" group-title="央视",CCTV6
+
 https://tv.im5k.fun/stream/cctv6.m3u8
 #EXTINF:-1 tvg-name="CCTV7" tvg-logo="https://im5k.fun/logo/CCTV7.png" group-title="央视",CCTV7
+
 https://tv.im5k.fun/stream/cctv7.m3u8
 #EXTINF:-1 tvg-name="CCTV8" tvg-logo="https://im5k.fun/logo/CCTV8.png" group-title="央视",CCTV8
+
 https://tv.im5k.fun/stream/cctv8.m3u8
 #EXTINF:-1 tvg-name="CCTV9" tvg-logo="https://im5k.fun/logo/CCTV9.png" group-title="央视",CCTV9
+
 https://tv.im5k.fun/stream/cctv9.m3u8
 #EXTINF:-1 tvg-name="CCTV10" tvg-logo="https://im5k.fun/logo/CCTV10.png" group-title="央视",CCTV10
+
 https://tv.im5k.fun/stream/cctv10.m3u8
 #EXTINF:-1 tvg-name="CCTV11" tvg-logo="https://im5k.fun/logo/CCTV11.png" group-title="央视",CCTV11
+
 https://tv.im5k.fun/stream/cctv11.m3u8
 #EXTINF:-1 tvg-name="CCTV12" tvg-logo="https://im5k.fun/logo/CCTV12.png" group-title="央视",CCTV12
+
 https://tv.im5k.fun/stream/cctv12.m3u8
 #EXTINF:-1 tvg-name="CCTV13" tvg-logo="https://im5k.fun/logo/CCTV13.png" group-title="央视",CCTV13
+
 https://tv.im5k.fun/stream/cctv13.m3u8
 #EXTINF:-1 tvg-name="CCTV14" tvg-logo="https://im5k.fun/logo/CCTV14.png" group-title="央视",CCTV14
+
 https://tv.im5k.fun/stream/cctv14.m3u8
 #EXTINF:-1 tvg-name="CCTV15" tvg-logo="https://im5k.fun/logo/CCTV15.png" group-title="央视",CCTV15
+
 https://tv.im5k.fun/stream/cctv15.m3u8
 #EXTINF:-1 tvg-name="CCTV16" tvg-logo="https://im5k.fun/logo/CCTV16.png" group-title="央视",CCTV16
+
 https://tv.im5k.fun/stream/cctv16.m3u8
 #EXTINF:-1 tvg-name="CCTV17" tvg-logo="https://im5k.fun/logo/CCTV17.png" group-title="央视",CCTV17
+
 https://tv.im5k.fun/stream/cctv17.m3u8
 #EXTINF:-1 tvg-name="CCTV4K" tvg-logo="https://im5k.fun/logo/CCTV4K.png" group-title="央视",CCTV4K
+
 https://tv.im5k.fun/stream/cctv4k.m3u8
 #EXTINF:-1 tvg-name="CCTV8K" tvg-logo="https://im5k.fun/logo/CCTV8K.png" group-title="央视",CCTV8K
+
 https://tv.im5k.fun/stream/cctv8k.m3u8
 #EXTINF:-1 tvg-name="第一剧场" tvg-logo="https://im5k.fun/logo/第一剧场.png" group-title="央视",第一剧场
+
 https://tv.im5k.fun/stream/dyjc.m3u8
 #EXTINF:-1 tvg-name="风云剧场" tvg-logo="https://im5k.fun/logo/风云剧场.png" group-title="央视",风云剧场
+
 https://tv.im5k.fun/stream/fyjc.m3u8
 #EXTINF:-1 tvg-name="怀旧剧场" tvg-logo="https://im5k.fun/logo/怀旧剧场.png" group-title="央视",怀旧剧场
+
 https://tv.im5k.fun/stream/hjjc.m3u8
 #EXTINF:-1 tvg-name="CGTN阿语" tvg-logo="https://im5k.fun/logo/CGTN阿语.png" group-title="央视",CGTN阿语
+
 https://tv.im5k.fun/stream/cgtnar.m3u8
 #EXTINF:-1 tvg-name="CGTN纪录" tvg-logo="https://im5k.fun/logo/CGTN纪录.png" group-title="央视",CGTN纪录
+
 https://tv.im5k.fun/stream/cgtndoc.m3u8
 #EXTINF:-1 tvg-name="CGTN" tvg-logo="https://im5k.fun/logo/CGTN.png" group-title="央视",CGTN
+
 https://tv.im5k.fun/stream/cgtn.m3u8
 #EXTINF:-1 tvg-name="CGTN法语" tvg-logo="https://im5k.fun/logo/CGTN法语.png" group-title="央视",CGTN法语
+
 https://tv.im5k.fun/stream/cgtnfr.m3u8
 #EXTINF:-1 tvg-name="CGTN俄语" tvg-logo="https://im5k.fun/logo/CGTN俄语.png" group-title="央视",CGTN俄语
+
 https://tv.im5k.fun/stream/cgtnru.m3u8
 #EXTINF:-1 tvg-name="CGTN西语" tvg-logo="https://im5k.fun/logo/CGTN西语.png" group-title="央视",CGTN西
+
 https://tv.im5k.fun/stream/cgtnsp.m3u8
 #EXTINF:-1 tvg-name="中国教育1台" tvg-logo="https://im5k.fun/logo/中国教育1台.png" group-title="卫视",CETV1
+
 https://tv.im5k.fun/stream/cetv1.m3u8
 #EXTINF:-1 tvg-name="北京卫视" tvg-logo="https://im5k.fun/logo/北京卫视.png" group-title="卫视",北京卫视
+
 https://tv.im5k.fun/stream/beijing.m3u8
 #EXTINF:-1 tvg-name="湖南卫视" tvg-logo="https://im5k.fun/logo/湖南卫视.png" group-title="卫视",湖南卫视
+
 https://tv.im5k.fun/stream/hunan.m3u8
 #EXTINF:-1 tvg-name="江苏卫视" tvg-logo="https://im5k.fun/logo/江苏卫视.png" group-title="卫视",江苏卫视
+
 https://tv.im5k.fun/stream/jiangsu.m3u8
 #EXTINF:-1 tvg-name="东方卫视" tvg-logo="https://im5k.fun/logo/东方卫视.png" group-title="卫视",东方卫视
+
 https://tv.im5k.fun/stream/dongfang.m3u8
 #EXTINF:-1 tvg-name="浙江卫视" tvg-logo="https://im5k.fun/logo/浙江卫视.png" group-title="卫视",浙江卫视
+
 https://tv.im5k.fun/stream/zhejiang.m3u8
 #EXTINF:-1 tvg-name="湖北卫视" tvg-logo="https://im5k.fun/logo/湖北卫视.png" group-title="卫视",湖北卫视
+
 https://tv.im5k.fun/stream/hubei.m3u8
 #EXTINF:-1 tvg-name="天津卫视" tvg-logo="https://im5k.fun/logo/天津卫视.png" group-title="卫视",天津卫视
+
 https://tv.im5k.fun/stream/tianjing.m3u8
 #EXTINF:-1 tvg-name="山东卫视" tvg-logo="https://im5k.fun/logo/山东卫视.png" group-title="卫视",山东卫视
+
 https://tv.im5k.fun/stream/shandong.m3u8
 #EXTINF:-1 tvg-name="辽宁卫视" tvg-logo="https://im5k.fun/logo/辽宁卫视.png" group-title="卫视",辽宁卫视
+
 https://tv.im5k.fun/stream/liaoning.m3u8
 #EXTINF:-1 tvg-name="安徽卫视" tvg-logo="https://im5k.fun/logo/安徽卫视.png" group-title="卫视",安徽卫视
+
 https://tv.im5k.fun/stream/anhui.m3u8
 #EXTINF:-1 tvg-name="黑龙江卫视" tvg-logo="https://im5k.fun/logo/黑龙江卫视.png" group-title="卫视",黑龙江卫视
+
 https://tv.im5k.fun/stream/heilongjiang.m3u8
 #EXTINF:-1 tvg-name="贵州卫视" tvg-logo="https://im5k.fun/logo/贵州卫视.png" group-title="卫视",贵州卫视
+
 https://tv.im5k.fun/stream/guizhou.m3u8
 #EXTINF:-1 tvg-name="东南卫视" tvg-logo="https://im5k.fun/logo/东南卫视.png" group-title="卫视",东南卫视
+
 https://tv.im5k.fun/stream/dongnan.m3u8
 #EXTINF:-1 tvg-name="重庆卫视" tvg-logo="https://im5k.fun/logo/重庆卫视.png" group-title="卫视",重庆卫视
+
 https://tv.im5k.fun/stream/chongqing.m3u8
 #EXTINF:-1 tvg-name="江西卫视" tvg-logo="https://im5k.fun/logo/江西卫视.png" group-title="卫视",江西卫视
+
 https://tv.im5k.fun/stream/jiangxi.m3u8
 #EXTINF:-1 tvg-name="广东卫视" tvg-logo="https://im5k.fun/logo/广东卫视.png" group-title="卫视",广东卫视
+
 https://tv.im5k.fun/stream/guangdong.m3u8
 #EXTINF:-1 tvg-name="河北卫视" tvg-logo="https://im5k.fun/logo/河北卫视.png" group-title="卫视",河北卫视
+
 https://tv.im5k.fun/stream/hebei.m3u8
 #EXTINF:-1 tvg-name="深圳卫视" tvg-logo="https://im5k.fun/logo/深圳卫视.png" group-title="卫视",深圳卫视
+
 https://tv.im5k.fun/stream/shenzheng.m3u8
 #EXTINF:-1 tvg-name="吉林卫视" tvg-logo="https://im5k.fun/logo/吉林卫视.png" group-title="卫视",吉林卫视
+
 https://tv.im5k.fun/stream/jiling.m3u8
 #EXTINF:-1 tvg-name="河南卫视" tvg-logo="https://im5k.fun/logo/河南卫视.png" group-title="卫视",河南卫视
+
 https://tv.im5k.fun/stream/henan.m3u8
 #EXTINF:-1 tvg-name="四川卫视" tvg-logo="https://im5k.fun/logo/四川卫视.png" group-title="卫视",四川卫视
+
 https://tv.im5k.fun/stream/sichuan.m3u8
 #EXTINF:-1 tvg-name="广西卫视" tvg-logo="https://im5k.fun/logo/广西卫视.png" group-title="卫视",广西卫视
+
 https://tv.im5k.fun/stream/guangxi.m3u8
-#EXTINF:-1 tvg-name="陕西卫视" tvg-logo="https://im5k.fun/logo/陕西卫视.png" group-title="卫视",陕西卫视
-https://tv.im5k.fun/stream/shanxiws.m3u8
-#EXTINF:-1 tvg-name="山西卫视" tvg-logo="https://im5k.fun/logo/山西卫视.png" group-title="卫视",山西卫视
-https://tv.im5k.fun/stream/shanxi.m3u8
-#EXTINF:-1 tvg-name="内蒙古卫视" tvg-logo="https://im5k.fun/logo/内蒙古卫视.png" group-title="卫视",内蒙古卫视
-https://tv.im5k.fun/stream/neimenggu.m3u8
-#EXTINF:-1 tvg-name="青海卫视" tvg-logo="https://im5k.fun/logo/青海卫视.png" group-title="卫视",青海卫视
-https://tv.im5k.fun/stream/qinghai.m3u8
-#EXTINF:-1 tvg-name="海南卫视" tvg-logo="https://im5k.fun/logo/海南卫视.png" group-title="卫视",海南卫视
-https://tv.im5k.fun/stream/hainan.m3u8
-#EXTINF:-1 tvg-name="宁夏卫视" tvg-logo="https://im5k.fun/logo/宁夏卫视.png" group-title="卫视",宁夏卫视
-https://tv.im5k.fun/stream/ningxia.m3u8
-#EXTINF:-1 tvg-name="西藏卫视" tvg-logo="https://im5k.fun/logo/西藏卫视.png" group-title="卫视",西藏卫视
-https://tv.im5k.fun/stream/xizang.m3u8
-#EXTINF:-1 tvg-name="新疆卫视" tvg-logo="https://im5k.fun/logo/新疆卫视.png" group-title="卫视",新疆卫视
-https://tv.im5k.fun/stream/xinjiang.m3u8
-#EXTINF:-1 tvg-name="甘肃卫视" tvg-logo="https://im5k.fun/logo/甘肃卫视.png" group-title="卫视",甘肃卫视
-https://tv.im5k.fun/stream/gansu.m3u8
-#EXTINF:-1 tvg-name="云南卫视" tvg-logo="https://im5k.fun/logo/云南卫视.png" group-title="卫视",云南卫视
-https://tv.im5k.fun/stream/yunnan.m3u8
-#EXTINF:-1 tvg-name="兵团卫视" tvg-logo="https://im5k.fun/logo/兵团卫视.png" group-title="卫视",兵团卫视
-https://tv.im5k.fun/stream/bintuan.m3u8
-#EXTINF:-1 tvg-name="北京卫视" tvg-logo="https://im5k.fun/logo/北京卫视.png" group-title="北京",北京卫视
-https://bj.im5k.fun/bjtv/bjws.m3u8
-#EXTINF:-1 tvg-name="北京文艺" tvg-logo="https://im5k.fun/logo/北京文艺.png" group-title="北京",北京文艺
-https://bj.im5k.fun/bjtv/bjwy.m3u8
-#EXTINF:-1 tvg-name="北京纪实科教" tvg-logo="https://im5k.fun/logo/北京纪实科教.png" group-title="北京",北京纪实科教
-https://bj.im5k.fun/bjtv/bjjs.m3u8
-#EXTINF:-1 tvg-name="北京影视" tvg-logo="https://im5k.fun/logo/北京影视.png" group-title="北京",北京影视
-https://bj.im5k.fun/bjtv/bjys.m3u8
-#EXTINF:-1 tvg-name="北京财经" tvg-logo="https://im5k.fun/logo/北京财经.png" group-title="北京",北京财经
-https://bj.im5k.fun/bjtv/bjcj.m3u8
-#EXTINF:-1 tvg-name="北京生活" tvg-logo="https://im5k.fun/logo/北京生活.png" group-title="北京",北京生活
-https://bj.im5k.fun/bjtv/bjsh.m3u8
-#EXTINF:-1 tvg-name="北京新闻" tvg-logo="https://im5k.fun/logo/北京新闻.png" group-title="北京",北京新闻
-https://bj.im5k.fun/bjtv/bjxw.m3u8
-#EXTINF:-1 tvg-name="卡酷少儿" tvg-logo="https://im5k.fun/logo/卡酷少儿.png" group-title="北京",卡酷少儿
-https://bj.im5k.fun/bjtv/bjkk.m3u8
-#EXTINF:-1 tvg-id="东方卫视" tvg-name="东方卫视" tvg-logo="https://im5k.fun/logo/东方卫视4K.png" group-title="上海",东方卫视
-https://sh.im5k.fun/shtv/dfws.m3u8
-#EXTINF:-1 tvg-id="五星体育" tvg-name="五星体育" tvg-logo="https://im5k.fun/logo/五星体育.png" group-title="上海",五星体育
-https://sh.im5k.fun/shtv/wxty.m3u8
-#EXTINF:-1 tvg-id="上海第一财经" tvg-name="上海第一财经" tvg-logo="https://im5k.fun/logo/第一财经.png" group-title="上海",上海第一财经
-https://sh.im5k.fun/shtv/dycj.m3u8
-#EXTINF:-1 tvg-id="上海新闻综合" tvg-name="上海新闻综合" tvg-logo="https://im5k.fun/logo/上海新闻.png" group-title="上海",上海新闻综合
-https://sh.im5k.fun/shtv/xwzh.m3u8
-#EXTINF:-1 tvg-id="上海都市频道" tvg-name="上海都市频道" tvg-logo="https://im5k.fun/logo/上海都市.png" group-title="上海",上海都市频道
-https://sh.im5k.fun/shtv/dspd.m3u8
-#EXTINF:-1 tvg-id="新纪实" tvg-name="新纪实" tvg-logo="https://im5k.fun/logo/新纪实.png" group-title="上海",新纪实
-https://sh.im5k.fun/shtv/xjs.m3u8
-#EXTINF:-1 tvg-id="魔都眼" tvg-name="魔都眼" tvg-logo="https://im5k.fun/logo/魔都眼.png" group-title="上海",魔都眼
-https://sh.im5k.fun/shtv/mdy.m3u8
-#EXTINF:-1 tvg-name="大同新闻综合" tvg-logo="https://dt.im5k.fun/dttv/logo/大同新闻综合.png" group-title="大同",大同新闻综合
-https://dt.im5k.fun/dttv/dtzh.m3u8
-#EXTINF:-1 tvg-name="大同公共" tvg-logo="https://dt.im5k.fun/dttv/logo/大同公共.png" group-title="大同",大同公共
-https://dt.im5k.fun/dttv/dtgg.m3u8
-#EXTINF:-1 tvg-name="大同生活" tvg-logo="https://dt.im5k.fun/dttv/logo/大同生活.png" group-title="大同",大同生活
-https://dt.im5k.fun/dttv/dtsh.m3u8
+#EXTINF:-1 tvg-name="陕西卫视" tvg-logo="ht
