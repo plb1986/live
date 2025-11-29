@@ -1,41 +1,41 @@
 #EXTM3U x-tvg-url="https://epg.im5k.fun/pp.xml"
-#EXTINF:-1 tvg-name="CCTV-4K" tvg-logo="https://im5k.fun/logo/CCTV-4K.png",CCTV-4K
+#EXTINF:-1 tvg-name="CCTV4K" tvg-logo="https://im5k.fun/logo/cctv4k.png",CCTV4K
 http://A/ku9/js/yinhe.js?id=G_CCTV-4K-HD
-#EXTINF:-1 tvg-name="CCTV-1" tvg-logo="https://im5k.fun/logo/CCTV-1.png",CCTV-1
+#EXTINF:-1 tvg-name="CCTV1" tvg-logo="https://im5k.fun/logo/cctv1.png",CCTV1
 http://A/ku9/js/yinhe.js?id=G_CCTV-1-HQ
-#EXTINF:-1 tvg-name="CCTV-2" tvg-logo="https://im5k.fun/logo/CCTV-2.png",CCTV-2
+#EXTINF:-1 tvg-name="CCTV2" tvg-logo="https://im5k.fun/logo/cctv2.png",CCTV2
 http://A/ku9/js/yinhe.js?id=G_CCTV-2-HQ
-#EXTINF:-1 tvg-name="CCTV-3" tvg-logo="https://im5k.fun/logo/CCTV-3.png",CCTV-3
+#EXTINF:-1 tvg-name="CCTV3" tvg-logo="https://im5k.fun/logo/cctv3.png",CCTV3
 http://A/ku9/js/yinhe.js?id=G_CCTV-3-HQ
-#EXTINF:-1 tvg-name="CCTV-4" tvg-logo="https://im5k.fun/logo/CCTV-4.png",CCTV-4
+#EXTINF:-1 tvg-name="CCTV4" tvg-logo="https://im5k.fun/logo/cctv4.png",CCTV4
 http://A/ku9/js/yinhe.js?id=G_CCTV-4-HQ
-#EXTINF:-1 tvg-name="CCTV-5" tvg-logo="https://im5k.fun/logo/CCTV-5.png",CCTV-5
+#EXTINF:-1 tvg-name="CCTV5" tvg-logo="https://im5k.fun/logo/cctv5.png",CCTV5
 http://A/ku9/js/yinhe.js?id=G_CCTV-5-HQ
-#EXTINF:-1 tvg-name="CCTV-5+" tvg-logo="https://im5k.fun/logo/CCTV-5+.png",CCTV-5+
+#EXTINF:-1 tvg-name="CCTV5+" tvg-logo="https://im5k.fun/logo/cctv5+.png",CCTV5+
 http://A/ku9/js/yinhe.js?id=G_CCTV-5PLUS-HQ
-#EXTINF:-1 tvg-name="CCTV-6" tvg-logo="https://im5k.fun/logo/CCTV-6.png",CCTV-6
+#EXTINF:-1 tvg-name="CCTV6" tvg-logo="https://im5k.fun/logo/cctv6.png",CCTV6
 http://A/ku9/js/yinhe.js?id=G_CCTV-6-HQ
-#EXTINF:-1 tvg-name="CCTV-7" tvg-logo="https://im5k.fun/logo/CCTV-7.png",CCTV-7
+#EXTINF:-1 tvg-name="CCTV7" tvg-logo="https://im5k.fun/logo/cctv7.png",CCTV7
 http://A/ku9/js/yinhe.js?id=G_CCTV-7-HQ
-#EXTINF:-1 tvg-name="CCTV-8" tvg-logo="https://im5k.fun/logo/CCTV-8.png",CCTV-8
+#EXTINF:-1 tvg-name="CCTV8" tvg-logo="https://im5k.fun/logo/cctv8.png",CCTV8
 http://A/ku9/js/yinhe.js?id=G_CCTV-8-HQ
-#EXTINF:-1 tvg-name="CCTV-9" tvg-logo="https://im5k.fun/logo/CCTV-9.png",CCTV-9
+#EXTINF:-1 tvg-name="CCTV9" tvg-logo="https://im5k.fun/logo/cctv9.png",CCTV9
 http://A/ku9/js/yinhe.js?id=G_CCTV-9-HQ
-#EXTINF:-1 tvg-name="CCTV-10" tvg-logo="https://im5k.fun/logo/CCTV-10.png",CCTV-10
+#EXTINF:-1 tvg-name="CCTV10" tvg-logo="https://im5k.fun/logo/cctv10.png",CCTV10
 http://A/ku9/js/yinhe.js?id=G_CCTV-10-HQ
-#EXTINF:-1 tvg-name="CCTV-11" tvg-logo="https://im5k.fun/logo/CCTV-11.png",CCTV-11
+#EXTINF:-1 tvg-name="CCTV11" tvg-logo="https://im5k.fun/logo/cctv11.png",CCTV11
 http://A/ku9/js/yinhe.js?id=G_CCTV-11-HQ
-#EXTINF:-1 tvg-name="CCTV-12" tvg-logo="https://im5k.fun/logo/CCTV-12.png",CCTV-12
+#EXTINF:-1 tvg-name="CCTV12" tvg-logo="https://im5k.fun/logo/cctv12.png",CCTV12
 http://A/ku9/js/yinhe.js?id=G_CCTV-12-HQ
-#EXTINF:-1 tvg-name="CCTV-13" tvg-logo="https://im5k.fun/logo/CCTV-13.png",CCTV-13
+#EXTINF:-1 tvg-name="CCTV13" tvg-logo="https://im5k.fun/logo/cctv13.png",CCTV13
 http://A/ku9/js/yinhe.js?id=G_CCTV-13-HQ
-#EXTINF:-1 tvg-name="CCTV-14" tvg-logo="https://im5k.fun/logo/CCTV-14.png",CCTV-14
+#EXTINF:-1 tvg-name="CCTV14" tvg-logo="https://im5k.fun/logo/cctv14.png",CCTV14
 http://A/ku9/js/yinhe.js?id=G_CCTV-14-HQ
-#EXTINF:-1 tvg-name="CCTV-15" tvg-logo="https://im5k.fun/logo/CCTV-15.png",CCTV-15
+#EXTINF:-1 tvg-name="CCTV15" tvg-logo="https://im5k.fun/logo/cctv15.png",CCTV15
 http://A/ku9/js/yinhe.js?id=G_CCTV-15-HQ
-#EXTINF:-1 tvg-name="CCTV-16" tvg-logo="https://im5k.fun/logo/CCTV-16.png",CCTV-16
+#EXTINF:-1 tvg-name="CCTV16" tvg-logo="https://im5k.fun/logo/cctv16.png",CCTV16
 http://A/ku9/js/yinhe.js?id=G_CCTV-16-HQ
-#EXTINF:-1 tvg-name="CCTV-17" tvg-logo="https://im5k.fun/logo/CCTV-17.png",CCTV-17
+#EXTINF:-1 tvg-name="CCTV17" tvg-logo="https://im5k.fun/logo/cctv17.png",CCTV17
 http://A/ku9/js/yinhe.js?id=G_CCTV-17-HQ
 #EXTINF:-1 tvg-name="江苏卫视" tvg-logo="https://im5k.fun/logo/江苏卫视.png",江苏卫视
 http://A/ku9/js/yinhe.js?id=G_JIANGSU-HQ
@@ -117,7 +117,7 @@ http://A/ku9/js/yinhe.js?id=G_NONGLIN
 http://A/ku9/js/yinhe.js?id=G_YANBIAN
 #EXTINF:-1 tvg-name="山东教育" tvg-logo="https://im5k.fun/logo/山东教育.png",山东教育
 http://A/ku9/js/yinhe.js?id=G_SDETV
-#EXTINF:-1 tvg-name="北京冬奥纪实高清" tvg-logo="https://im5k.fun/logo/北京冬奥纪实高清.png",北京冬奥纪实高清
+#EXTINF:-1 tvg-name="北京纪实科教" tvg-logo="https://im5k.fun/logo/北京纪实科教.png",北京纪实科教
 http://A/ku9/js/yinhe.js?id=G_BEIJINGJS-HD
 #EXTINF:-1 tvg-name="家庭理财" tvg-logo="https://im5k.fun/logo/家庭理财.png",家庭理财
 http://A/ku9/js/yinhe.js?id=G_JIATINGLC
