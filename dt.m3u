@@ -6,18 +6,18 @@ http://im2k.fun:5158/rtp/226.0.2.155:9172
 http://im2k.fun:5158/rtp/226.0.1.244:2119
 #EXTINF:-1 tvg-name="广东卫视" tvg-logo="https://im5k.fun/logo/广东卫视4K.png" group-title="4 K" ,广东卫视4K
 http://im2k.fun:5158/rtp/226.0.1.245:2120
+#EXTINF:-1 tvg-name="湖南卫视" tvg-logo="https://im5k.fun/logo/湖南卫视4K.png" group-title="4 K" ,湖南卫视4K
+http://im2k.fun:5158/rtp/226.0.1.246:2125
+#EXTINF:-1 tvg-name="浙江卫视" tvg-logo="https://im5k.fun/logo/浙江卫视4K.png" group-title="4 K" ,浙江卫视4K
+http://im2k.fun:5158/rtp/226.0.1.247:2123
 #EXTINF:-1 tvg-name="东方卫视" tvg-logo="https://im5k.fun/logo/东方卫视4K.png" group-title="4 K" ,东方卫视4K
 http://im2k.fun:5158/rtp/226.0.1.248:2121
 #EXTINF:-1 tvg-name="江苏卫视" tvg-logo="https://im5k.fun/logo/江苏卫视4K.png" group-title="4 K" ,江苏卫视4K
 http://im2k.fun:5158/rtp/226.0.1.249:2122
-#EXTINF:-1 tvg-name="浙江卫视" tvg-logo="https://im5k.fun/logo/浙江卫视4K.png" group-title="4 K" ,浙江卫视4K
-http://im2k.fun:5158/rtp/226.0.1.247:2123
-#EXTINF:-1 tvg-name="山东卫视" tvg-logo="https://im5k.fun/logo/山东卫视4K.png" group-title="4 K" ,山东卫视4K
-http://im2k.fun:5158/rtp/226.0.1.251:2124
-#EXTINF:-1 tvg-name="湖南卫视" tvg-logo="https://im5k.fun/logo/湖南卫视4K.png" group-title="4 K" ,湖南卫视4K
-http://im2k.fun:5158/rtp/226.0.1.246:2125
 #EXTINF:-1 tvg-name="四川卫视" tvg-logo="https://im5k.fun/logo/四川卫视4K.png" group-title="4 K" ,四川卫视4K
 http://im2k.fun:5158/rtp/226.0.1.250:2126
+#EXTINF:-1 tvg-name="山东卫视" tvg-logo="https://im5k.fun/logo/山东卫视4K.png" group-title="4 K" ,山东卫视4K
+http://im2k.fun:5158/rtp/226.0.1.251:2124
 
 #EXTINF:-1 tvg-name="CCTV1" tvg-logo="https://im5k.fun/logo/CCTV1.png" group-title="央视",CCTV1
 http://im2k.fun:5158/rtp/226.0.2.153:9136
@@ -309,6 +309,7 @@ http://im2k.fun:5158/rtp/226.0.2.128:8936
 #EXTINF:-1 tvg-name="收藏天下" tvg-logo="https://im5k.fun/logo/收藏天下.png" group-title="数字",收藏天下
 
 http://im2k.fun:5158/rtp/226.0.2.132:8968
+
 
 
 
