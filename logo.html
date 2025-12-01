@@ -1,0 +1,866 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>电视图标库 - 七大系列完整版</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --cctv-color: #CC0001;
+            --satellite-color: #0A4D8C;
+            --newtv-color: #8E24AA;
+            --ihot-color: #F57C00;
+            --chc-color: #43A047;
+            --digital-color: #1565C0; /* 新增：数字系列主题色（深蓝）*/
+            --hkm-color: #6A1B9A;
+            --section-bg: #f8f9fa;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', 'Microsoft YaHei', sans-serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, #f0f4f8 100%);
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
+            min-height: 100vh;
+        }
+        .container { max-width: 1800px; margin: 0 auto; }
+        
+        header {
+            text-align: center; margin-bottom: 40px; padding: 30px;
+            background: white; border-radius: 16px; 
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+            border-top: 6px solid var(--cctv-color);
+        }
+        h1 { 
+            color: var(--cctv-color); 
+            margin-bottom: 10px; 
+            font-size: 2.8rem;
+            background: linear-gradient(90deg, #CC0001, #0A4D8C, #8E24AA, #F57C00, #43A047, #1565C0, #6A1B9A);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .subtitle { 
+            color: #666; 
+            font-size: 1.2rem; 
+            margin-bottom: 20px; 
+        }
+        .path-display {
+            font-family: 'Consolas', monospace;
+            background: #eef5ff; 
+            padding: 15px 25px;
+            border-radius: 10px; 
+            word-break: break-all;
+            font-size: 1.1rem; 
+            color: #0A4D8C;
+            border: 2px solid #d0e2ff;
+            margin-top: 20px;
+        }
+        
+        .main-sections { display: flex; flex-direction: column; gap: 35px; }
+        
+        .series-section {
+            background: white; 
+            border-radius: 18px; 
+            padding: 30px;
+            box-shadow: 0 10px 35px rgba(0, 0, 0, 0.05);
+            transition: transform 0.3s ease;
+        }
+        .series-section:hover { transform: translateY(-5px); }
+        
+        /* 各系列特殊样式 */
+        .cctv-series { border-top: 6px solid var(--cctv-color); }
+        .satellite-series { border-top: 6px solid var(--satellite-color); }
+        .newtv-series { border-top: 6px solid var(--newtv-color); }
+        .ihot-series { border-top: 6px solid var(--ihot-color); }
+        .chc-series { border-top: 6px solid var(--chc-color); }
+        .digital-series { border-top: 6px solid var(--digital-color); } /* 新增 */
+        .hkm-series { border-top: 6px solid var(--hkm-color); }
+        
+        .section-header {
+            display: flex; align-items: center; justify-content: space-between;
+            margin-bottom: 30px; padding-bottom: 15px;
+            border-bottom: 3px solid;
+        }
+        .cctv-series .section-header { border-bottom-color: rgba(204, 0, 1, 0.2); }
+        .satellite-series .section-header { border-bottom-color: rgba(10, 77, 140, 0.2); }
+        .newtv-series .section-header { border-bottom-color: rgba(142, 36, 170, 0.2); }
+        .ihot-series .section-header { border-bottom-color: rgba(245, 124, 0, 0.2); }
+        .chc-series .section-header { border-bottom-color: rgba(67, 160, 71, 0.2); }
+        .digital-series .section-header { border-bottom-color: rgba(21, 101, 192, 0.2); } /* 新增 */
+        .hkm-series .section-header { border-bottom-color: rgba(106, 27, 154, 0.2); }
+        
+        .section-title {
+            font-size: 1.8rem; font-weight: 700;
+            display: flex; align-items: center; gap: 15px;
+        }
+        .cctv-series .section-title { color: var(--cctv-color); }
+        .satellite-series .section-title { color: var(--satellite-color); }
+        .newtv-series .section-title { color: var(--newtv-color); }
+        .ihot-series .section-title { color: var(--ihot-color); }
+        .chc-series .section-title { color: var(--chc-color); }
+        .digital-series .section-title { color: var(--digital-color); } /* 新增 */
+        .hkm-series .section-title { color: var(--hkm-color); }
+        
+        .section-icon {
+            font-size: 2rem; width: 60px; height: 60px;
+            display: flex; align-items: center; justify-content: center;
+            border-radius: 12px;
+        }
+        .cctv-series .section-icon { background: rgba(204, 0, 1, 0.1); color: var(--cctv-color); }
+        .satellite-series .section-icon { background: rgba(10, 77, 140, 0.1); color: var(--satellite-color); }
+        .newtv-series .section-icon { background: rgba(142, 36, 170, 0.1); color: var(--newtv-color); }
+        .ihot-series .section-icon { background: rgba(245, 124, 0, 0.1); color: var(--ihot-color); }
+        .chc-series .section-icon { background: rgba(67, 160, 71, 0.1); color: var(--chc-color); }
+        .digital-series .section-icon { background: rgba(21, 101, 192, 0.1); color: var(--digital-color); } /* 新增 */
+        .hkm-series .section-icon { background: rgba(106, 27, 154, 0.1); color: var(--hkm-color); }
+        
+        .section-count {
+            font-size: 1rem; background: #e9ecef; padding: 5px 15px;
+            border-radius: 20px; font-weight: 600;
+        }
+        
+        .format-tabs {
+            display: flex; flex-wrap: wrap; gap: 10px;
+            margin-bottom: 25px; padding-bottom: 20px;
+            border-bottom: 2px dashed #eaeaea;
+        }
+        .format-tab {
+            padding: 8px 18px; border-radius: 8px;
+            font-weight: 600; cursor: pointer; transition: all 0.3s;
+            border: 2px solid transparent;
+            background: #f8f9fa;
+        }
+        .format-tab:hover { transform: translateY(-3px); }
+        .format-tab.active { 
+            background: #e3f2fd; 
+            border-color: #2196f3;
+            color: #0d47a1;
+            box-shadow: 0 4px 10px rgba(33, 150, 243, 0.2);
+        }
+        
+        .formats-container { display: flex; flex-direction: column; gap: 35px; }
+        .format-section { margin-bottom: 20px; }
+        .format-title {
+            font-size: 1.4rem; color: #555; margin-bottom: 20px;
+            padding-bottom: 10px; border-bottom: 2px solid #f0f0f0;
+            display: flex; align-items: center; gap: 10px;
+        }
+        
+        .channels-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+            gap: 20px;
+        }
+        
+        .channel-card {
+            background: var(--section-bg); border-radius: 12px; 
+            padding: 20px 15px; text-align: center; 
+            transition: all 0.3s ease; border: 1px solid #e1e5eb;
+            position: relative; overflow: hidden;
+        }
+        .channel-card::before {
+            content: ''; position: absolute; top: 0; left: 0;
+            width: 5px; height: 100%;
+        }
+        .cctv-series .channel-card::before { background: var(--cctv-color); }
+        .satellite-series .channel-card::before { background: var(--satellite-color); }
+        .newtv-series .channel-card::before { background: var(--newtv-color); }
+        .ihot-series .channel-card::before { background: var(--ihot-color); }
+        .chc-series .channel-card::before { background: var(--chc-color); }
+        .digital-series .channel-card::before { background: var(--digital-color); } /* 新增 */
+        .hkm-series .channel-card::before { background: var(--hkm-color); }
+        
+        .channel-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 12px 25px rgba(0, 0, 0, 0.1);
+        }
+        
+        .logo-container {
+            width: 90px; height: 90px; margin: 0 auto 15px;
+            background: white; border-radius: 12px; 
+            display: flex; align-items: center; justify-content: center;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08); 
+            overflow: hidden; border: 1px solid #dee2e6;
+            padding: 10px;
+        }
+        .logo-container img {
+            max-width: 90%; max-height: 90%; 
+            object-fit: contain;
+        }
+        
+        .channel-name {
+            font-weight: 700; color: #2c3e50; margin-bottom: 8px;
+            font-size: 1.05rem; min-height: 2.5em;
+        }
+        
+        .filename {
+            font-family: 'Consolas', monospace; font-size: 0.75rem;
+            color: #6c757d; background: white; padding: 6px 8px;
+            border-radius: 6px; word-break: break-all;
+            border: 1px solid #e9ecef; margin-top: 8px;
+        }
+        
+        .loading, .error {
+            color: #999; font-size: 0.85rem;
+        }
+        .error { color: #dc3545; }
+        
+        .subcategory { margin-top: 30px; }
+        .subcategory-title {
+            font-size: 1.5rem; color: #444; margin-bottom: 20px;
+            padding-left: 15px; border-left: 5px solid;
+        }
+        .satellite-series .subcategory-4k .subcategory-title { 
+            border-left-color: #ff6b00; color: #ff6b00; 
+        }
+        .satellite-series .subcategory-normal .subcategory-title { 
+            border-left-color: #0A4D8C; color: #0A4D8C; 
+        }
+        
+        @media (max-width: 1200px) {
+            .channels-grid { grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); }
+        }
+        @media (max-width: 768px) {
+            .section-header { flex-direction: column; align-items: flex-start; gap: 15px; }
+            .section-title { font-size: 1.5rem; }
+            .channels-grid { grid-template-columns: repeat(auto-fill, minmax(110px, 1fr)); gap: 15px; }
+            .series-section { padding: 20px; }
+            .format-tabs { justify-content: center; }
+        }
+        @media (max-width: 480px) {
+            .channels-grid { grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); gap: 12px; }
+            .channel-card { padding: 15px 10px; }
+            .logo-container { width: 70px; height: 70px; }
+        }
+        
+        footer {
+            text-align: center; margin-top: 50px; padding: 30px;
+            background: white; border-radius: 16px; 
+            color: #6c757d; font-size: 0.9rem; 
+            border-top: 1px solid #dee2e6;
+            box-shadow: 0 -5px 20px rgba(0, 0, 0, 0.03);
+        }
+        .footer-note {
+            background: #f8f9fa; padding: 15px; border-radius: 10px;
+            margin-top: 20px; font-size: 0.85rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1><i class="fas fa-satellite"></i> 电视图标库 - 七大系列完整版</h1>
+            <p class="subtitle">CCTV、卫视、NewTV、iHOT、CHC、数字、港澳台七大系列完整收录</p>
+            <div class="path-display">
+                图标路径基准：<strong>https://im5k.fun/logo/</strong>
+            </div>
+        </header>
+
+        <main class="main-sections">
+            
+            <!-- CCTV系列 -->
+            <section class="series-section cctv-series">
+                <div class="section-header">
+                    <div class="section-title">
+                        <div class="section-icon"><i class="fas fa-broadcast-tower"></i></div>
+                        <div>
+                            <h2>CCTV系列频道</h2>
+                            <p style="font-size: 1rem; color: #666; margin-top: 5px;">
+                                包含CCTV1-17、4K、8K及国际频道的5种命名格式
+                            </p>
+                        </div>
+                    </div>
+                    <div class="section-count">5种格式 × 22个频道</div>
+                </div>
+                
+                <div class="format-tabs" id="cctvFormatTabs">
+                    <div class="format-tab active" data-format="format1">CCTV数字.png</div>
+                    <div class="format-tab" data-format="format2">CCTV-数字.png</div>
+                    <div class="format-tab" data-format="format3">cctv数字.png</div>
+                    <div class="format-tab" data-format="format4">cctv-数字.png</div>
+                    <div class="format-tab" data-format="format5">cctv数字.jpg</div>
+                </div>
+                
+                <div class="formats-container" id="cctvFormatsContainer">
+                    <!-- 5种格式将通过JavaScript动态生成 -->
+                </div>
+            </section>
+            
+            <!-- 卫视系列 -->
+            <section class="series-section satellite-series">
+                <div class="section-header">
+                    <div class="section-title">
+                        <div class="section-icon"><i class="fas fa-globe-asia"></i></div>
+                        <div>
+                            <h2>卫视系列频道</h2>
+                            <p style="font-size: 1rem; color: #666; margin-top: 5px;">
+                                分为4K超高清系列和普通标清/高清系列
+                            </p>
+                        </div>
+                    </div>
+                    <div class="section-count">2个分类 × 42个频道</div>
+                </div>
+                
+                <div class="subcategory subcategory-4k">
+                    <h3 class="subcategory-title"><i class="fas fa-hd"></i> 4K超高清系列</h3>
+                    <div class="channels-grid" id="satellite4kGrid">
+                        <!-- 4K卫视将通过JS动态生成 -->
+                    </div>
+                </div>
+                
+                <div class="subcategory subcategory-normal">
+                    <h3 class="subcategory-title"><i class="fas fa-tv"></i> 普通系列</h3>
+                    <div class="channels-grid" id="satelliteNormalGrid">
+                        <!-- 普通卫视将通过JS动态生成 -->
+                    </div>
+                </div>
+            </section>
+            
+            <!-- NewTV系列 -->
+            <section class="series-section newtv-series">
+                <div class="section-header">
+                    <div class="section-title">
+                        <div class="section-icon"><i class="fas fa-satellite-dish"></i></div>
+                        <div>
+                            <h2>NewTV系列频道</h2>
+                            <p style="font-size: 1rem; color: #666; margin-top: 5px;">
+                                数字电视专业付费频道
+                            </p>
+                        </div>
+                    </div>
+                    <div class="section-count">32个频道</div>
+                </div>
+                <div class="channels-grid" id="newtvGrid">
+                    <!-- NewTV频道将通过JS动态生成 -->
+                </div>
+            </section>
+            
+            <!-- iHOT系列 -->
+            <section class="series-section ihot-series">
+                <div class="section-header">
+                    <div class="section-title">
+                        <div class="section-icon"><i class="fas fa-fire"></i></div>
+                        <div>
+                            <h2>iHOT系列频道</h2>
+                            <p style="font-size: 1rem; color: #666; margin-top: 5px;">
+                                高清特色主题频道
+                            </p>
+                        </div>
+                    </div>
+                    <div class="section-count">32个频道</div>
+                </div>
+                <div class="channels-grid" id="ihotGrid">
+                    <!-- iHOT频道将通过JS动态生成 -->
+                </div>
+            </section>
+            
+            <!-- CHC系列 -->
+            <section class="series-section chc-series">
+                <div class="section-header">
+                    <div class="section-title">
+                        <div class="section-icon"><i class="fas fa-film"></i></div>
+                        <div>
+                            <h2>CHC系列频道</h2>
+                            <p style="font-size: 1rem; color: #666; margin-top: 5px;">
+                                家庭影院电影频道
+                            </p>
+                        </div>
+                    </div>
+                    <div class="section-count">3个频道</div>
+                </div>
+                <div class="channels-grid" id="chcGrid">
+                    <!-- CHC频道将通过JS动态生成 -->
+                </div>
+            </section>
+            
+            <!-- 数字系列 (新增) -->
+            <section class="series-section digital-series">
+                <div class="section-header">
+                    <div class="section-title">
+                        <div class="section-icon"><i class="fas fa-hashtag"></i></div>
+                        <div>
+                            <h2>数字系列频道</h2>
+                            <p style="font-size: 1rem; color: #666; margin-top: 5px;">
+                                专业数字频道、地方及教育频道
+                            </p>
+                        </div>
+                    </div>
+                    <div class="section-count">35个频道</div>
+                </div>
+                <div class="channels-grid" id="digitalGrid">
+                    <!-- 数字频道将通过JS动态生成 -->
+                </div>
+            </section>
+            
+            <!-- 港澳台系列 -->
+            <section class="series-section hkm-series">
+                <div class="section-header">
+                    <div class="section-title">
+                        <div class="section-icon"><i class="fas fa-flag"></i></div>
+                        <div>
+                            <h2>港澳台系列频道</h2>
+                            <p style="font-size: 1rem; color: #666; margin-top: 5px;">
+                                香港、澳门、台湾地区的主要电视频道
+                            </p>
+                        </div>
+                    </div>
+                    <div class="section-count">13个频道</div>
+                </div>
+                <div class="channels-grid" id="hkmGrid">
+                    <!-- 港澳台频道将通过JS动态生成 -->
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p><strong>电视图标库 - 七大系列完整版</strong></p>
+            <p>© 2025 频道图标展示系统 | 分类：CCTV、卫视、NewTV、iHOT、CHC、数字、港澳台</p>
+            <div class="footer-note">
+                <p><i class="fas fa-info-circle"></i> 本页面会根据预设的文件名格式自动尝试加载图标，如果某个图标无法显示，可能是文件名与预设不符。请根据实际情况调整JavaScript中的文件名数组。</p>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const BASE_PATH = 'https://im5k.fun/logo/';
+            console.log(`图标基础路径: ${BASE_PATH}`);
+            
+            // CCTV系列频道数据
+            const cctvChannels = [
+                // 常规频道 1-17
+                ...Array.from({length: 17}, (_, i) => (i + 1).toString()),
+                // 特殊频道
+                '4K', '8K', '4欧洲', '4美洲', '5+'
+            ];
+            
+            // 5种命名格式的函数
+            const formatFunctions = {
+                // 格式1: CCTV数字.png (大写无横线)
+                format1: (channel) => `CCTV${channel}.png`,
+                // 格式2: CCTV-数字.png (大写有横线)
+                format2: (channel) => `CCTV-${channel}.png`,
+                // 格式3: cctv数字.png (小写无横线)
+                format3: (channel) => `cctv${channel.toLowerCase()}.png`,
+                // 格式4: cctv-数字.png (小写有横线)
+                format4: (channel) => `cctv-${channel.toLowerCase()}.png`,
+                // 格式5: cctv数字.jpg (小写无横线.jpg格式)
+                format5: (channel) => `cctv${channel.toLowerCase()}.jpg`
+            };
+            
+            // 卫视系列数据 (已加入兵团卫视)
+            const satelliteChannels = {
+                // 4K系列
+                '4k': [
+                    { name: '湖南卫视4K', filenames: ['湖南卫视4K.png'] },
+                    { name: '浙江卫视4K', filenames: ['浙江卫视4K.png'] },
+                    { name: '江苏卫视4K', filenames: ['江苏卫视4K.png'] },
+                    { name: '东方卫视4K', filenames: ['东方卫视4K.png'] },
+                    { name: '北京卫视4K', filenames: ['北京卫视4K.png'] },
+                    { name: '山东卫视4K', filenames: ['山东卫视4K.png'] },
+                    { name: '深圳卫视4K', filenames: ['深圳卫视4K.png'] },
+                    { name: '广东卫视4K', filenames: ['广东卫视4K.png'] }
+                ],
+                // 普通系列 (已加入兵团卫视，共33个)
+                'normal': [
+                    { name: '北京卫视', filenames: ['北京卫视.png'] },
+                    { name: '天津卫视', filenames: ['天津卫视.png'] },
+                    { name: '河北卫视', filenames: ['河北卫视.png'] },
+                    { name: '山西卫视', filenames: ['山西卫视.png'] },
+                    { name: '内蒙古卫视', filenames: ['内蒙古卫视.png'] },
+                    { name: '辽宁卫视', filenames: ['辽宁卫视.png'] },
+                    { name: '吉林卫视', filenames: ['吉林卫视.png'] },
+                    { name: '黑龙江卫视', filenames: ['黑龙江卫视.png'] },
+                    { name: '东方卫视', filenames: ['东方卫视.png'] },
+                    { name: '江苏卫视', filenames: ['江苏卫视.png'] },
+                    { name: '浙江卫视', filenames: ['浙江卫视.png'] },
+                    { name: '安徽卫视', filenames: ['安徽卫视.png'] },
+                    { name: '福建东南卫视', filenames: ['东南卫视.png'] },
+                    { name: '江西卫视', filenames: ['江西卫视.png'] },
+                    { name: '山东卫视', filenames: ['山东卫视.png'] },
+                    { name: '河南卫视', filenames: ['河南卫视.png'] },
+                    { name: '湖北卫视', filenames: ['湖北卫视.png'] },
+                    { name: '湖南卫视', filenames: ['湖南卫视.png'] },
+                    { name: '广东卫视', filenames: ['广东卫视.png'] },
+                    { name: '广西卫视', filenames: ['广西卫视.png'] },
+                    { name: '海南卫视', filenames: ['海南卫视.png'] },
+                    { name: '重庆卫视', filenames: ['重庆卫视.png'] },
+                    { name: '四川卫视', filenames: ['四川卫视.png'] },
+                    { name: '贵州卫视', filenames: ['贵州卫视.png'] },
+                    { name: '云南卫视', filenames: ['云南卫视.png'] },
+                    { name: '西藏卫视', filenames: ['西藏卫视.png'] },
+                    { name: '陕西卫视', filenames: ['陕西卫视.png'] },
+                    { name: '甘肃卫视', filenames: ['甘肃卫视.png'] },
+                    { name: '青海卫视', filenames: ['青海卫视.png'] },
+                    { name: '宁夏卫视', filenames: ['宁夏卫视.png'] },
+                    { name: '新疆卫视', filenames: ['新疆卫视.png'] },
+                    { name: '深圳卫视', filenames: ['深圳卫视.png'] },
+                    { name: '厦门卫视', filenames: ['厦门卫视.png'] },
+                    { name: '农林卫视', filenames: ['农林卫视.png'] },
+                    { name: '山东教育卫视', filenames: ['山东教育卫视.png'] },
+                    { name: '海峡卫视', filenames: ['海峡卫视.png'] },
+                    { name: '兵团卫视', filenames: ['兵团卫视.png'] } // ✅ 新增兵团卫视
+                ]
+            };
+            
+            // NewTV系列频道数据
+            const newtvChannels = [
+                { name: 'NewTV军事评论', filenames: ['NewTV军事评论.png'] },
+                { name: 'NewTV军旅剧场', filenames: ['NewTV军旅剧场.png'] },
+                { name: 'NewTV动作电影', filenames: ['NewTV动作电影.png'] },
+                { name: 'NewTV古装剧场', filenames: ['NewTV古装剧场.png'] },
+                { name: 'NewTV家庭剧场', filenames: ['NewTV家庭剧场.png'] },
+                { name: 'NewTV海外剧场', filenames: ['NewTV海外剧场.png'] },
+                { name: 'NewTV中国功夫', filenames: ['NewTV中国功夫.png'] },
+                { name: 'NewTV农业致富', filenames: ['NewTV农业致富.png'] },
+                { name: 'NewTV东北热剧', filenames: ['NewTV东北热剧.png'] },
+                { name: 'NewTV惊悚悬疑', filenames: ['NewTV惊悚悬疑.png'] },
+                { name: 'NewTV怡伴健康', filenames: ['NewTV怡伴健康.png'] },
+                { name: 'NewTV明星大片', filenames: ['NewTV明星大片.png'] },
+                { name: 'NewTV欢乐剧场', filenames: ['NewTV欢乐剧场.png'] },
+                { name: 'NewTV武搏世界', filenames: ['NewTV武搏世界.png'] },
+                { name: 'NewTV潮妈辣婆', filenames: ['NewTV潮妈辣婆.png'] },
+                { name: 'NewTV炫舞未来', filenames: ['NewTV炫舞未来.png'] },
+                { name: 'NewTV爱情喜剧', filenames: ['NewTV爱情喜剧.png'] },
+                { name: 'NewTV精品体育', filenames: ['NewTV精品体育.png'] },
+                { name: 'NewTV精品大剧', filenames: ['NewTV精品大剧.png'] },
+                { name: 'NewTV精品纪录', filenames: ['NewTV精品纪录.png'] },
+                { name: 'NewTV金牌综艺', filenames: ['NewTV金牌综艺.png'] },
+                { name: 'NewTV超级体育', filenames: ['NewTV超级体育.png'] },
+                { name: 'NewTV超级电影', filenames: ['NewTV超级电影.png'] },
+                { name: 'NewTV超级综艺', filenames: ['NewTV超级综艺.png'] },
+                { name: 'NewTV超级电视剧', filenames: ['NewTV超级电视剧.png'] },
+                { name: 'NewTV魅力黑龙江', filenames: ['NewTV魅力黑龙江.png'] },
+                { name: 'NewTV魅力江西', filenames: ['NewTV魅力江西.png'] },
+                { name: 'NewTV魅力山东', filenames: ['NewTV魅力山东.png'] },
+                { name: 'NewTV魅力广东', filenames: ['NewTV魅力广东.png'] },
+                { name: 'NewTV魅力四川', filenames: ['NewTV魅力四川.png'] },
+                { name: 'NewTV魅力吉林', filenames: ['NewTV魅力吉林.png'] },
+                { name: 'NewTV魅力广西', filenames: ['NewTV魅力广西.png'] },
+                { name: 'NewTV魅力云南', filenames: ['NewTV魅力云南.png'] },
+                { name: 'NewTV魅力潇湘', filenames: ['NewTV魅力潇湘.png'] }
+            ];
+            
+            // iHOT系列频道数据
+            const ihotChannels = [
+                { name: 'iHOT爱院线', filenames: ['iHOT爱院线.png'] },
+                { name: 'iHOT爱科幻', filenames: ['iHOT爱科幻.png'] },
+                { name: 'iHOT爱喜剧', filenames: ['iHOT爱喜剧.png'] },
+                { name: 'iHOT爱奇谈', filenames: ['iHOT爱奇谈.png'] },
+                { name: 'iHOT爱探索', filenames: ['iHOT爱探索.png'] },
+                { name: 'iHOT爱解密', filenames: ['iHOT爱解密.png'] },
+                { name: 'iHOT爱科学', filenames: ['iHOT爱科学.png'] },
+                { name: 'iHOT爱猎奇', filenames: ['iHOT爱猎奇.png'] },
+                { name: 'iHOT爱浪漫', filenames: ['iHOT爱浪漫.png'] },
+                { name: 'iHOT爱历史', filenames: ['iHOT爱历史.png'] },
+                { name: 'iHOT爱动漫', filenames: ['iHOT爱动漫.png'] },
+                { name: 'iHOT爱电竞', filenames: ['iHOT爱电竞.png'] },
+                { name: 'iHOT爱玩具', filenames: ['iHOT爱玩具.png'] },
+                { name: 'iHOT爱悬疑', filenames: ['iHOT爱悬疑.png'] },
+                { name: 'iHOT爱体育', filenames: ['iHOT爱体育.png'] },
+                { name: 'iHOT爱赛车', filenames: ['iHOT爱赛车.png'] },
+                { name: 'iHOT爱世界', filenames: ['iHOT爱世界.png'] },
+                { name: 'iHOT爱极限', filenames: ['iHOT爱极限.png'] },
+                { name: 'iHOT爱旅行', filenames: ['iHOT爱旅行.png'] },
+                { name: 'iHOT爱美食', filenames: ['iHOT爱美食.png'] },
+                { name: 'iHOT爱家庭', filenames: ['iHOT爱家庭.png'] },
+                { name: 'iHOT爱青春', filenames: ['iHOT爱青春.png'] },
+                { name: 'iHOT爱时尚', filenames: ['iHOT爱时尚.png'] },
+                { name: 'iHOT爱娱乐', filenames: ['iHOT爱娱乐.png'] },
+                { name: 'iHOT爱都市', filenames: ['iHOT爱都市.png'] },
+                { name: 'iHOT爱谍战', filenames: ['iHOT爱谍战.png'] },
+                { name: 'iHOT爱经典', filenames: ['iHOT爱经典.png'] },
+                { name: 'iHOT爱江湖', filenames: ['iHOT爱江湖.png'] },
+                { name: 'iHOT爱怀旧', filenames: ['iHOT爱怀旧.png'] },
+                { name: 'iHOT爱幼教', filenames: ['iHOT爱幼教.png'] }
+            ];
+            
+            // CHC系列频道数据
+            const chcChannels = [
+                { name: 'CHC家庭影院', filenames: ['CHC家庭影院.png'] },
+                { name: 'CHC动作电影', filenames: ['CHC动作电影.png'] },
+                { name: 'CHC影迷电影', filenames: ['CHC影迷电影.png'] }
+            ];
+            
+            // 数字系列频道数据 (合并数字、北京、上海频道，共35个)
+            const digitalChannels = [
+                // 来自数字组 (27个)
+                { name: '中国教育1', filenames: ['CETV1.png'] },
+                { name: '中国教育2', filenames: ['CETV2.png'] },
+                { name: '中国教育4', filenames: ['CETV4.png'] },
+                { name: '早期教育', filenames: ['早期教育.png'] },
+                { name: '金色学堂', filenames: ['金色学堂.png'] },
+                { name: '生活时尚', filenames: ['生活时尚.png'] },
+                { name: '动漫秀场', filenames: ['动漫秀场.png'] },
+                { name: '金鹰纪实', filenames: ['金鹰纪实.png'] },
+                { name: '都市剧场', filenames: ['都市剧场.png'] },
+                { name: '游戏风云', filenames: ['游戏风云.png'] },
+                { name: '法治天地', filenames: ['法治天地.png'] },
+                { name: '乐游', filenames: ['乐游.png'] },
+                { name: '茶', filenames: ['茶.png'] },
+                { name: '快乐垂钓', filenames: ['快乐垂钓.png'] },
+                { name: '金鹰卡通', filenames: ['金鹰卡通.png'] },
+                { name: '卡酷少儿', filenames: ['卡酷少儿.png'] }, // 与北京组重复，已合并
+                { name: '哈哈炫动', filenames: ['哈哈炫动.png'] },
+                { name: '武术世界', filenames: ['武术世界.png'] },
+                { name: '文物宝库', filenames: ['文物宝库.png'] },
+                { name: '梨园', filenames: ['梨园频道.png'] },
+                { name: '东方财经', filenames: ['东方财经.png'] },
+                { name: '中国天气', filenames: ['中国天气.png'] },
+                { name: '环球奇观', filenames: ['环球奇观.png'] },
+                { name: '国学', filenames: ['国学.png'] },
+                { name: '优优宝贝', filenames: ['优优宝贝.png'] },
+                { name: '生态环境', filenames: ['生态环境.png'] },
+                { name: '四海钓鱼', filenames: ['四海钓鱼.png'] },
+                // 来自北京组 (新增6个，卡酷少儿已包含)
+                { name: '北京文艺', filenames: ['北京文艺.png'] },
+                { name: '北京纪实科教', filenames: ['北京纪实科教.png'] },
+                { name: '北京影视', filenames: ['北京影视.png'] },
+                { name: '北京财经', filenames: ['北京财经.png'] },
+                { name: '北京生活', filenames: ['北京生活.png'] },
+                { name: '北京新闻', filenames: ['北京新闻.png'] },
+                // 来自上海组 (新增4个，东方卫视已排除)
+                { name: '五星体育', filenames: ['五星体育.png'] },
+                { name: '上海第一财经', filenames: ['第一财经.png'] },
+                { name: '上海新闻综合', filenames: ['上海新闻.png'] },
+                { name: '上海都市频道', filenames: ['上海都市.png'] }
+            ];
+            
+            // 港澳台系列数据
+            const hkmChannels = [
+                { name: '凤凰卫视中文台', filenames: ['凤凰卫视.png'] },
+                { name: '凤凰卫视资讯台', filenames: ['凤凰资讯.png'] },
+                { name: '凤凰卫视香港台', filenames: ['凤凰香港.png'] },
+                { name: 'TVB翡翠台', filenames: ['翡翠台.png'] },
+                { name: 'TVB明珠台', filenames: ['明珠台.png'] },
+                { name: '香港卫视', filenames: ['香港卫视.png'] },
+                { name: '澳亚卫视', filenames: ['澳亚卫视.png'] },
+                { name: '澳门卫视', filenames: ['澳门卫视.png'] },
+                { name: '莲花卫视', filenames: ['莲花卫视.png'] },
+                { name: '香港开电视', filenames: ['香港开电视.png'] },
+                { name: '香港国际财经台', filenames: ['香港国际财经台.png'] },
+                { name: '台湾中视', filenames: ['台湾中视.png', '中视.png'] },
+                { name: '台湾华视', filenames: ['台湾华视.png', '华视.png'] }
+            ];
+            
+            // 核心函数：创建频道卡片并尝试加载图标
+            function createChannelCard(channelInfo, isCCTV = false, formatFunc = null) {
+                const card = document.createElement('div');
+                card.className = 'channel-card';
+                
+                const logoContainer = document.createElement('div');
+                logoContainer.className = 'logo-container';
+                
+                const nameDiv = document.createElement('div');
+                nameDiv.className = 'channel-name';
+                nameDiv.textContent = channelInfo.name || channelInfo;
+                
+                const filenameDiv = document.createElement('div');
+                filenameDiv.className = 'filename';
+                
+                card.appendChild(logoContainer);
+                card.appendChild(nameDiv);
+                card.appendChild(filenameDiv);
+                
+                // 尝试加载图标的函数
+                function tryImage(filenames, index = 0) {
+                    if (index >= filenames.length) {
+                        console.error(`所有尝试失败: ${channelInfo.name || channelInfo}`, filenames);
+                        logoContainer.innerHTML = `<div class="error">无图标</div>`;
+                        filenameDiv.textContent = filenames[0] || '未找到文件';
+                        return;
+                    }
+                    
+                    const filename = filenames[index];
+                    const imgUrl = BASE_PATH + filename;
+                    const img = new Image();
+                    
+                    img.onload = function() {
+                        logoContainer.innerHTML = '';
+                        logoContainer.appendChild(img);
+                        filenameDiv.textContent = filename;
+                        console.log(`加载成功: ${channelInfo.name || channelInfo} -> ${filename}`);
+                    };
+                    
+                    img.onerror = function() {
+                        console.log(`尝试失败: ${channelInfo.name || channelInfo} -> ${filename}`);
+                        tryImage(filenames, index + 1);
+                    };
+                    
+                    img.src = imgUrl;
+                    img.alt = channelInfo.name || channelInfo;
+                }
+                
+                // 确定要尝试的文件名
+                let filenamesToTry;
+                if (isCCTV && formatFunc) {
+                    const filename = formatFunc(channelInfo);
+                    filenamesToTry = [filename];
+                    filenameDiv.textContent = filename;
+                } else if (channelInfo.filenames) {
+                    filenamesToTry = channelInfo.filenames;
+                    filenameDiv.textContent = filenamesToTry[0];
+                } else {
+                    filenamesToTry = [`${channelInfo}.png`];
+                    filenameDiv.textContent = filenamesToTry[0];
+                }
+                
+                tryImage(filenamesToTry);
+                return card;
+            }
+            
+            // 渲染CCTV系列的5种格式
+            function renderCCTVFormats() {
+                const container = document.getElementById('cctvFormatsContainer');
+                if (!container) return;
+                
+                container.innerHTML = '';
+                
+                Object.keys(formatFunctions).forEach(formatKey => {
+                    const formatSection = document.createElement('div');
+                    formatSection.className = 'format-section';
+                    formatSection.id = formatKey;
+                    formatSection.style.display = formatKey === 'format1' ? 'block' : 'none';
+                    
+                    const formatTitle = document.createElement('h3');
+                    formatTitle.className = 'format-title';
+                    formatTitle.innerHTML = `<i class="fas fa-${getFormatIcon(formatKey)}"></i> ${getFormatName(formatKey)}`;
+                    formatSection.appendChild(formatTitle);
+                    
+                    const grid = document.createElement('div');
+                    grid.className = 'channels-grid';
+                    
+                    cctvChannels.forEach(channel => {
+                        grid.appendChild(createChannelCard(channel, true, formatFunctions[formatKey]));
+                    });
+                    
+                    formatSection.appendChild(grid);
+                    container.appendChild(formatSection);
+                });
+            }
+            
+            function getFormatName(formatKey) {
+                const names = {
+                    'format1': 'CCTV数字.png（如：CCTV1.png、CCTV4K.png）',
+                    'format2': 'CCTV-数字.png（如：CCTV-1.png、CCTV-4K.png）',
+                    'format3': 'cctv数字.png（如：cctv1.png、cctv4k.png）',
+                    'format4': 'cctv-数字.png（如：cctv-1.png、cctv-4k.png）',
+                    'format5': 'cctv数字.jpg（如：cctv1.jpg、cctv4k.jpg）'
+                };
+                return names[formatKey] || formatKey;
+            }
+            
+            function getFormatIcon(formatKey) {
+                const icons = {
+                    'format1': 'hashtag',
+                    'format2': 'minus',
+                    'format3': 'font',
+                    'format4': 'text-height',
+                    'format5': 'file-image'
+                };
+                return icons[formatKey] || 'file-image';
+            }
+            
+            // 渲染卫视系列
+            function renderSatelliteSeries() {
+                const grid4k = document.getElementById('satellite4kGrid');
+                if (grid4k && satelliteChannels['4k']) {
+                    satelliteChannels['4k'].forEach(channel => {
+                        grid4k.appendChild(createChannelCard(channel));
+                    });
+                }
+                
+                const gridNormal = document.getElementById('satelliteNormalGrid');
+                if (gridNormal && satelliteChannels['normal']) {
+                    satelliteChannels['normal'].forEach(channel => {
+                        gridNormal.appendChild(createChannelCard(channel));
+                    });
+                }
+            }
+            
+            // 渲染NewTV系列
+            function renderNewTVSeries() {
+                const grid = document.getElementById('newtvGrid');
+                if (grid) {
+                    newtvChannels.forEach(channel => {
+                        grid.appendChild(createChannelCard(channel));
+                    });
+                }
+            }
+            
+            // 渲染iHOT系列
+            function renderIHotSeries() {
+                const grid = document.getElementById('ihotGrid');
+                if (grid) {
+                    ihotChannels.forEach(channel => {
+                        grid.appendChild(createChannelCard(channel));
+                    });
+                }
+            }
+            
+            // 渲染CHC系列
+            function renderCHCSeries() {
+                const grid = document.getElementById('chcGrid');
+                if (grid) {
+                    chcChannels.forEach(channel => {
+                        grid.appendChild(createChannelCard(channel));
+                    });
+                }
+            }
+            
+            // 渲染数字系列 (新增)
+            function renderDigitalSeries() {
+                const grid = document.getElementById('digitalGrid');
+                if (grid) {
+                    digitalChannels.forEach(channel => {
+                        grid.appendChild(createChannelCard(channel));
+                    });
+                }
+            }
+            
+            // 渲染港澳台系列
+            function renderHKMSeries() {
+                const grid = document.getElementById('hkmGrid');
+                if (grid) {
+                    hkmChannels.forEach(channel => {
+                        grid.appendChild(createChannelCard(channel));
+                    });
+                }
+            }
+            
+            // 初始化格式标签切换
+            function initFormatTabs() {
+                const tabs = document.querySelectorAll('#cctvFormatTabs .format-tab');
+                tabs.forEach(tab => {
+                    tab.addEventListener('click', function() {
+                        tabs.forEach(t => t.classList.remove('active'));
+                        this.classList.add('active');
+                        const targetFormat = this.getAttribute('data-format');
+                        document.querySelectorAll('#cctvFormatsContainer .format-section').forEach(section => {
+                            section.style.display = section.id === targetFormat ? 'block' : 'none';
+                        });
+                    });
+                });
+            }
+            
+            // 初始化所有内容
+            function init() {
+                renderCCTVFormats();
+                renderSatelliteSeries();
+                renderNewTVSeries();
+                renderIHotSeries();
+                renderCHCSeries();
+                renderDigitalSeries(); // 新增：渲染数字系列
+                renderHKMSeries();
+                initFormatTabs();
+                console.log('页面初始化完成。可切换CCTV系列的5种命名格式查看不同文件名。');
+            }
+            
+            // 启动初始化
+            init();
+        });
+    </script>
+</body>
+</html>
