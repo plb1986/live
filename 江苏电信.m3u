@@ -1,39 +1,39 @@
 #EXTM3U
-#EXTINF:-1 group-title="央视" tvg-name="CCTV1" tvg-logo="https://im5k.fun/logo/CCTV1.png",CCTV1
+#EXTINF:-1 group-title="央视" tvg-name="CCTV1" tvg-logo="https://im5k.fun/logo/cctv1.jpg",CCTV1
 http://home.ruibang.ltd:8095/udp/239.49.8.19:9614
-#EXTINF:-1 group-title="央视" tvg-name="CCTV2" tvg-logo="https://im5k.fun/logo/CCTV2.png",CCTV2
+#EXTINF:-1 group-title="央视" tvg-name="CCTV2" tvg-logo="https://im5k.fun/logo/cctv2.jpg",CCTV2
 http://home.ruibang.ltd:8095/udp/239.49.8.50:9802
-#EXTINF:-1 group-title="央视" tvg-name="CCTV3" tvg-logo="https://im5k.fun/logo/CCTV3.png",CCTV3
+#EXTINF:-1 group-title="央视" tvg-name="CCTV3" tvg-logo="https://im5k.fun/logo/cctv3.jpg",CCTV3
 http://home.ruibang.ltd:8095/udp/239.49.8.74:8000
-#EXTINF:-1 group-title="央视" tvg-name="CCTV4" tvg-logo="https://im5k.fun/logo/CCTV4.png",CCTV4
+#EXTINF:-1 group-title="央视" tvg-name="CCTV4" tvg-logo="https://im5k.fun/logo/cctv4.jpg",CCTV4
 http://home.ruibang.ltd:8095/udp/239.49.8.51:9806
-#EXTINF:-1 group-title="央视" tvg-name="CCTV5" tvg-logo="https://im5k.fun/logo/CCTV5.png",CCTV5
+#EXTINF:-1 group-title="央视" tvg-name="CCTV5" tvg-logo="https://im5k.fun/logo/cctv5.jpg",CCTV5
 http://home.ruibang.ltd:8095/udp/239.49.8.75:8000
-#EXTINF:-1 group-title="央视" tvg-name="CCTV5+" tvg-logo="https://im5k.fun/logo/CCTV5+.png",CCTV5+
+#EXTINF:-1 group-title="央视" tvg-name="CCTV5+" tvg-logo="https://im5k.fun/logo/cctv5+.jpg",CCTV5+
 http://home.ruibang.ltd:8095/udp/239.49.8.18:9610
-#EXTINF:-1 group-title="央视" tvg-name="CCTV6" tvg-logo="https://im5k.fun/logo/CCTV6.png",CCTV6
+#EXTINF:-1 group-title="央视" tvg-name="CCTV6" tvg-logo="https://im5k.fun/logo/cctv6.jpg",CCTV6
 http://home.ruibang.ltd:8095/udp/239.49.8.76:8000
-#EXTINF:-1 group-title="央视" tvg-name="CCTV7" tvg-logo="https://im5k.fun/logo/CCTV7.png",CCTV7
+#EXTINF:-1 group-title="央视" tvg-name="CCTV7" tvg-logo="https://im5k.fun/logo/cctv7.jpg",CCTV7
 http://home.ruibang.ltd:8095/udp/239.49.0.126:8000
-#EXTINF:-1 group-title="央视" tvg-name="CCTV8" tvg-logo="https://im5k.fun/logo/CCTV8.png",CCTV8
+#EXTINF:-1 group-title="央视" tvg-name="CCTV8" tvg-logo="https://im5k.fun/logo/cctv8.jpg",CCTV8
 http://home.ruibang.ltd:8095/udp/239.49.8.77:8000
-#EXTINF:-1 group-title="央视" tvg-name="CCTV9" tvg-logo="https://im5k.fun/logo/CCTV9.png",CCTV9
+#EXTINF:-1 group-title="央视" tvg-name="CCTV9" tvg-logo="https://im5k.fun/logo/cctv9.jpg",CCTV9
 http://home.ruibang.ltd:8095/udp/239.49.8.53:9814
-#EXTINF:-1 group-title="央视" tvg-name="CCTV10" tvg-logo="https://im5k.fun/logo/CCTV10.png",CCTV10
+#EXTINF:-1 group-title="央视" tvg-name="CCTV10" tvg-logo="https://im5k.fun/logo/cctv10.jpg",CCTV10
 http://home.ruibang.ltd:8095/udp/239.49.8.54:9818
-#EXTINF:-1 group-title="央视" tvg-name="CCTV11" tvg-logo="https://im5k.fun/logo/CCTV11.png",CCTV11
+#EXTINF:-1 group-title="央视" tvg-name="CCTV11" tvg-logo="https://im5k.fun/logo/cctv11.jpg",CCTV11
 http://home.ruibang.ltd:8095/udp/239.49.0.127:8000
-#EXTINF:-1 group-title="央视" tvg-name="CCTV12" tvg-logo="https://im5k.fun/logo/CCTV12.png",CCTV12
+#EXTINF:-1 group-title="央视" tvg-name="CCTV12" tvg-logo="https://im5k.fun/logo/cctv12.jpg",CCTV12
 http://home.ruibang.ltd:8095/udp/239.49.8.55:9822
-#EXTINF:-1 group-title="央视" tvg-name="CCTV13" tvg-logo="https://im5k.fun/logo/CCTV13.png",CCTV13
+#EXTINF:-1 group-title="央视" tvg-name="CCTV13" tvg-logo="https://im5k.fun/logo/cctv13.jpg",CCTV13
 http://home.ruibang.ltd:8095/udp/239.49.8.109:8000
-#EXTINF:-1 group-title="央视" tvg-name="CCTV14" tvg-logo="https://im5k.fun/logo/CCTV14.png",CCTV14
+#EXTINF:-1 group-title="央视" tvg-name="CCTV14" tvg-logo="https://im5k.fun/logo/cctv14.jpg",CCTV14
 http://home.ruibang.ltd:8095/udp/239.49.8.56:9826
-#EXTINF:-1 group-title="央视" tvg-name="CCTV15" tvg-logo="https://im5k.fun/logo/CCTV15.png",CCTV15
+#EXTINF:-1 group-title="央视" tvg-name="CCTV15" tvg-logo="https://im5k.fun/logo/cctv15.jpg",CCTV15
 http://home.ruibang.ltd:8095/udp/239.49.0.128:8000
-#EXTINF:-1 group-title="央视" tvg-name="CCTV16" tvg-logo="https://im5k.fun/logo/CCTV16.png",CCTV16
+#EXTINF:-1 group-title="央视" tvg-name="CCTV16" tvg-logo="https://im5k.fun/logo/cctv16.jpg",CCTV16
 http://home.ruibang.ltd:8095/udp/239.49.8.31:8000
-#EXTINF:-1 group-title="央视" tvg-name="CCTV17" tvg-logo="https://im5k.fun/logo/CCTV17.png",CCTV17
+#EXTINF:-1 group-title="央视" tvg-name="CCTV17" tvg-logo="https://im5k.fun/logo/cctv17.jpg",CCTV17
 http://home.ruibang.ltd:8095/udp/239.49.8.52:9810
 #EXTINF:-1 group-title="央视" tvg-name="CGTN英语" tvg-logo="https://im5k.fun/logo/CGTN.png",CGTN英语
 http://home.ruibang.ltd:8095/udp/239.49.0.9:8064
