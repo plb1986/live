@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IPTV播放列表分类器</title>
+    <title>IPTV播放列表分类器 - 优化频道名称和排序</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         * {
@@ -276,6 +276,19 @@
         .channel-name {
             font-weight: 500;
             margin-bottom: 5px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .channel-number {
+            background: #1a5a7a;
+            color: #81d4fa;
+            font-size: 0.8rem;
+            padding: 2px 6px;
+            border-radius: 4px;
+            min-width: 24px;
+            text-align: center;
         }
         
         .channel-url {
@@ -283,6 +296,16 @@
             color: #a0a0a0;
             font-family: monospace;
             word-break: break-all;
+        }
+        
+        .channel-resolution {
+            background: linear-gradient(135deg, #ff4081, #f50057);
+            color: white;
+            font-size: 0.7rem;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-weight: bold;
+            margin-left: 5px;
         }
         
         .stats {
@@ -329,6 +352,11 @@
             display: none;
         }
         
+        .category.fourk .category-header {
+            border-left: 5px solid #ff4081;
+            background: linear-gradient(90deg, #2a3a4a, #3a2a4a);
+        }
+        
         .category.cctv .category-header {
             border-left: 5px solid #ff5252;
         }
@@ -339,6 +367,13 @@
         
         .category.other .category-header {
             border-left: 5px solid #ff9800;
+        }
+        
+        .sort-info {
+            font-size: 0.85rem;
+            color: #81d4fa;
+            margin-left: 5px;
+            font-style: italic;
         }
         
         /* 滚动条样式 */
@@ -369,13 +404,102 @@
             border-radius: 5px;
             border-left: 3px solid #4fc3f7;
         }
+        
+        .cctv-order {
+            display: inline-flex;
+            align-items: center;
+            margin-left: 10px;
+            font-size: 0.8rem;
+            background: rgba(255, 82, 82, 0.2);
+            color: #ff8a80;
+            padding: 2px 8px;
+            border-radius: 12px;
+            border: 1px solid rgba(255, 82, 82, 0.3);
+        }
+        
+        .fourk-badge {
+            display: inline-flex;
+            align-items: center;
+            margin-left: 10px;
+            font-size: 0.8rem;
+            background: linear-gradient(135deg, rgba(255, 64, 129, 0.3), rgba(245, 0, 87, 0.3));
+            color: #ff80ab;
+            padding: 2px 8px;
+            border-radius: 12px;
+            border: 1px solid rgba(255, 64, 129, 0.4);
+        }
+        
+        .category-order {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 15px;
+            flex-wrap: wrap;
+        }
+        
+        .order-badge {
+            background: rgba(79, 195, 247, 0.2);
+            color: #81d4fa;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            border: 1px solid rgba(79, 195, 247, 0.3);
+        }
+        
+        .order-badge span {
+            font-weight: bold;
+            margin-right: 5px;
+        }
+        
+        .output-options {
+            background: rgba(25, 35, 45, 0.9);
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            border: 1px solid #3a4a5a;
+        }
+        
+        .option-group {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 10px;
+        }
+        
+        .option-label {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            cursor: pointer;
+        }
+        
+        .option-checkbox {
+            width: 18px;
+            height: 18px;
+            cursor: pointer;
+        }
+        
+        .logo-preview {
+            font-size: 0.8rem;
+            color: #81d4fa;
+            margin-left: 10px;
+            font-family: monospace;
+        }
+        
+        .name-mapping {
+            font-size: 0.75rem;
+            color: #4fc3f7;
+            background: rgba(79, 195, 247, 0.1);
+            padding: 2px 6px;
+            border-radius: 4px;
+            margin-left: 5px;
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <header>
             <h1><i class="fas fa-satellite-dish"></i> IPTV播放列表分类器</h1>
-            <p class="subtitle">上传或粘贴您的M3U播放列表，自动按央视、卫视和其他分类</p>
+            <p class="subtitle">上传或粘贴您的M3U播放列表，自动分类并优化频道名称</p>
         </header>
         
         <main class="main-content">
@@ -400,7 +524,7 @@
                         </div>
                         
                         <div id="paste-section">
-                            <textarea id="playlist-input" placeholder="请粘贴您的M3U播放列表内容...&#10;示例格式：&#10;#EXTM3U&#10;#EXTINF:-1,CCTV-1 综合&#10;http://example.com/cctv1.m3u8&#10;#EXTINF:-1,湖南卫视&#10;http://example.com/hunan.m3u8"></textarea>
+                            <textarea id="playlist-input" placeholder="请粘贴您的M3U播放列表内容...&#10;示例格式：&#10;#EXTM3U&#10;#EXTINF:-1,CCTV-1 综合&#10;http://example.com/cctv1.m3u8&#10;#EXTINF:-1,CCTV-4K 超高清&#10;http://example.com/cctv4k.m3u8&#10;#EXTINF:-1,湖南卫视&#10;http://example.com/hunan.m3u8"></textarea>
                         </div>
                         
                         <div id="upload-section" class="hidden">
@@ -427,22 +551,74 @@
                 
                 <div class="example-text">
                     <p><strong>说明：</strong></p>
-                    <p>1. 系统会自动识别包含"CCTV"或"CGTN"的频道为央视类</p>
-                    <p>2. 包含"卫视"的频道为卫视类</p>
-                    <p>3. 其余频道归为其他类</p>
+                    <p>1. 4K频道：包含"4K"、"4k"、"2160P"、"UHD"、"超高清"的频道（CCTV4K排在最前）</p>
+                    <p>2. 央视频道：包含"CCTV"或"CGTN"的频道，按CCTV1-CCTV17顺序排序</p>
+                    <p>3. 卫视频道：包含"卫视"的频道</p>
+                    <p>4. 其他频道：其余频道</p>
+                    <p>5. 频道名称映射：CCTV音乐→CCTV15，CGTN西班牙语→CGTN西语等</p>
+                    <p>6. 移除logo名称中的SDR、HDR字样</p>
                 </div>
             </div>
             
             <div class="output-section">
                 <div class="section">
-                    <h2 class="section-title"><i class="fas fa-list-alt"></i> 分类结果</h2>
+                    <h2 class="section-title"><i class="fas fa-list-alt"></i> 分类结果 
+                        <span class="fourk-badge">4K优先</span>
+                        <span class="cctv-order">CCTV1-17排序</span>
+                    </h2>
+                    
+                    <div class="output-options">
+                        <h3 style="margin-bottom: 15px; color: #81d4fa;">输出选项</h3>
+                        <div class="option-group">
+                            <label class="option-label">
+                                <input type="checkbox" id="add-epg" class="option-checkbox" checked>
+                                <span>添加EPG源：x-tvg-url="https://epg.im5k.fun/pp.xml"</span>
+                            </label>
+                        </div>
+                        <div class="option-group">
+                            <label class="option-label">
+                                <span>Logo路径：</span>
+                                <span class="logo-preview">https://im5k.fun/logo/{频道名称}.png</span>
+                            </label>
+                        </div>
+                        <div class="option-group">
+                            <label class="option-label">
+                                <span>CCTV Logo：</span>
+                                <span class="logo-preview">https://im5k.fun/logo/CCTV{数字}.png</span>
+                            </label>
+                        </div>
+                    </div>
+                    
+                    <div class="category-order">
+                        <div class="order-badge"><span>1.</span> 4K频道</div>
+                        <div class="order-badge"><span>2.</span> 央视频道</div>
+                        <div class="order-badge"><span>3.</span> 卫视频道</div>
+                        <div class="order-badge"><span>4.</span> 其他频道</div>
+                    </div>
                     
                     <div class="results-container">
+                        <div class="category fourk">
+                            <div class="category-header">
+                                <div class="category-title">
+                                    <i class="fas fa-hd"></i>
+                                    <span>4K频道</span>
+                                    <span class="sort-info">CCTV4K排在最前</span>
+                                </div>
+                                <div class="category-count" id="fourk-count">0</div>
+                            </div>
+                            <div class="category-content" id="fourk-content">
+                                <ul class="channel-list" id="fourk-list">
+                                    <!-- 4K频道列表将通过JavaScript动态生成 -->
+                                </ul>
+                            </div>
+                        </div>
+                        
                         <div class="category cctv">
                             <div class="category-header">
                                 <div class="category-title">
                                     <i class="fas fa-tv"></i>
                                     <span>央视频道</span>
+                                    <span class="sort-info">按CCTV1-17排序</span>
                                 </div>
                                 <div class="category-count" id="cctv-count">0</div>
                             </div>
@@ -497,6 +673,10 @@
                             <div class="stat-label">总频道数</div>
                         </div>
                         <div class="stat-item">
+                            <div class="stat-value" id="fourk-stat">0</div>
+                            <div class="stat-label">4K频道</div>
+                        </div>
+                        <div class="stat-item">
                             <div class="stat-value" id="cctv-stat">0</div>
                             <div class="stat-label">央视频道</div>
                         </div>
@@ -514,7 +694,7 @@
         </main>
         
         <footer class="footer">
-            <p>IPTV播放列表分类器 &copy; 2023 | 自动分类央视、卫视和其他频道</p>
+            <p>IPTV播放列表分类器 &copy; 2023 | 自动分类4K、央视、卫视和其他频道 | 优化频道名称映射</p>
             <p>本工具完全在浏览器端运行，不会上传您的播放列表数据</p>
         </footer>
     </div>
@@ -522,34 +702,54 @@
     <script>
         // 示例M3U数据
         const examplePlaylist = `#EXTM3U
-#EXTINF:-1 tvg-id="cctv1" tvg-name="CCTV-1" tvg-logo="http://example.com/cctv1.png" group-title="央视",CCTV-1 综合
+#EXTINF:-1 tvg-id="cctv1" tvg-name="CCTV-1" tvg-logo="http://example.com/cctv1.png" group-title="央视",CCTV-1 综合 HD
 http://example.com/cctv1.m3u8
-#EXTINF:-1 tvg-id="cctv2" tvg-name="CCTV-2" tvg-logo="http://example.com/cctv2.png" group-title="央视",CCTV-2 财经
+#EXTINF:-1 tvg-id="cctv2" tvg-name="CCTV-2" tvg-logo="http://example.com/cctv2.png" group-title="央视",CCTV-2 财经 HD
 http://example.com/cctv2.m3u8
-#EXTINF:-1 tvg-id="cctv3" tvg-name="CCTV-3" tvg-logo="http://example.com/cctv3.png" group-title="央视",CCTV-3 综艺
+#EXTINF:-1 tvg-id="cctv3" tvg-name="CCTV-3" tvg-logo="http://example.com/cctv3.png" group-title="央视",CCTV-3 综艺 HD
 http://example.com/cctv3.m3u8
-#EXTINF:-1 tvg-id="cctv4" tvg-name="CCTV-4" tvg-logo="http://example.com/cctv4.png" group-title="央视",CCTV-4 中文国际
-http://example.com/cctv4.m3u8
+#EXTINF:-1 tvg-id="cctv5" tvg-name="CCTV-5" tvg-logo="http://example.com/cctv5.png" group-title="央视",CCTV-5 体育 HD
+http://example.com/cctv5.m3u8
+#EXTINF:-1 tvg-id="cctv6" tvg-name="CCTV-6" tvg-logo="http://example.com/cctv6.png" group-title="央视",CCTV-6 电影 HD
+http://example.com/cctv6.m3u8
+#EXTINF:-1 tvg-id="cctv8" tvg-name="CCTV-8" tvg-logo="http://example.com/cctv8.png" group-title="央视",CCTV-8 电视剧 HD
+http://example.com/cctv8.m3u8
+#EXTINF:-1 tvg-id="cctv15" tvg-name="CCTV-15" tvg-logo="http://example.com/cctv15.png" group-title="央视",CCTV-15 音乐 HD
+http://example.com/cctv15.m3u8
+#EXTINF:-1 tvg-id="cctv4k" tvg-name="CCTV-4K" tvg-logo="http://example.com/cctv4k.png" group-title="央视",CCTV-4K 超高清
+http://example.com/cctv4k.m3u8
+#EXTINF:-1 tvg-id="cctv8k" tvg-name="CCTV-8K" tvg-logo="http://example.com/cctv8k.png" group-title="央视",CCTV-8K 超高清
+http://example.com/cctv8k.m3u8
+#EXTINF:-1 tvg-id="cctv16_4k" tvg-name="CCTV-16 4K" tvg-logo="http://example.com/cctv16_4k.png" group-title="央视",CCTV-16 4K 奥林匹克
+http://example.com/cctv16_4k.m3u8
 #EXTINF:-1 tvg-id="cgtn" tvg-name="CGTN" tvg-logo="http://example.com/cgtn.png" group-title="央视",CGTN 中国国际电视台
 http://example.com/cgtn.m3u8
-#EXTINF:-1 tvg-id="hunan" tvg-name="湖南卫视" tvg-logo="http://example.com/hunan.png" group-title="卫视",湖南卫视
+#EXTINF:-1 tvg-id="cgtn_spanish" tvg-name="CGTN西班牙语" tvg-logo="http://example.com/cgtn_spanish.png" group-title="央视",CGTN西班牙语
+http://example.com/cgtn_spanish.m3u8
+#EXTINF:-1 tvg-id="cgtn_arabic" tvg-name="CGTN阿拉伯语" tvg-logo="http://example.com/cgtn_arabic.png" group-title="央视",CGTN阿拉伯语
+http://example.com/cgtn_arabic.m3u8
+#EXTINF:-1 tvg-id="hunan4k" tvg-name="湖南卫视4K" tvg-logo="http://example.com/hunan4k.png" group-title="4K",湖南卫视 4K超高清 SDR
+http://example.com/hunan4k.m3u8
+#EXTINF:-1 tvg-id="discovery4k" tvg-name="Discovery 4K" tvg-logo="http://example.com/discovery4k.png" group-title="4K",Discovery探索频道 4K HDR
+http://example.com/discovery4k.m3u8
+#EXTINF:-1 tvg-id="natgeo4k" tvg-name="国家地理4K" tvg-logo="http://example.com/natgeo4k.png" group-title="4K",国家地理 4K超高清 (SDR)
+http://example.com/natgeo4k.m3u8
+#EXTINF:-1 tvg-id="hunan" tvg-name="湖南卫视" tvg-logo="http://example.com/hunan.png" group-title="卫视",湖南卫视 HD
 http://example.com/hunan.m3u8
-#EXTINF:-1 tvg-id="zhejiang" tvg-name="浙江卫视" tvg-logo="http://example.com/zhejiang.png" group-title="卫视",浙江卫视
+#EXTINF:-1 tvg-id="zhejiang" tvg-name="浙江卫视" tvg-logo="http://example.com/zhejiang.png" group-title="卫视",浙江卫视 HD
 http://example.com/zhejiang.m3u8
-#EXTINF:-1 tvg-id="jiangsu" tvg-name="江苏卫视" tvg-logo="http://example.com/jiangsu.png" group-title="卫视",江苏卫视
+#EXTINF:-1 tvg-id="jiangsu" tvg-name="江苏卫视" tvg-logo="http://example.com/jiangsu.png" group-title="卫视",江苏卫视 HD
 http://example.com/jiangsu.m3u8
-#EXTINF:-1 tvg-id="dongfang" tvg-name="东方卫视" tvg-logo="http://example.com/dongfang.png" group-title="卫视",东方卫视
+#EXTINF:-1 tvg-id="dongfang" tvg-name="东方卫视" tvg-logo="http://example.com/dongfang.png" group-title="卫视",东方卫视 HD
 http://example.com/dongfang.m3u8
-#EXTINF:-1 tvg-id="btv1" tvg-name="北京卫视" tvg-logo="http://example.com/btv1.png" group-title="卫视",北京卫视
+#EXTINF:-1 tvg-id="btv1" tvg-name="北京卫视" tvg-logo="http://example.com/btv1.png" group-title="卫视",北京卫视 HD
 http://example.com/btv1.m3u8
-#EXTINF:-1 tvg-id="discovery" tvg-name="Discovery探索频道" tvg-logo="http://example.com/discovery.png" group-title="其他",Discovery探索频道
+#EXTINF:-1 tvg-id="discovery" tvg-name="Discovery探索频道" tvg-logo="http://example.com/discovery.png" group-title="其他",Discovery探索频道 HD
 http://example.com/discovery.m3u8
-#EXTINF:-1 tvg-id="nationalgeo" tvg-name="国家地理" tvg-logo="http://example.com/nationalgeo.png" group-title="其他",国家地理
+#EXTINF:-1 tvg-id="nationalgeo" tvg-name="国家地理" tvg-logo="http://example.com/nationalgeo.png" group-title="其他",国家地理 HD
 http://example.com/nationalgeo.m3u8
-#EXTINF:-1 tvg-id="hbo" tvg-name="HBO" tvg-logo="http://example.com/hbo.png" group-title="其他",HBO
-http://example.com/hbo.m3u8
-#EXTINF:-1 tvg-id="espn" tvg-name="ESPN" tvg-logo="http://example.com/espn.png" group-title="其他",ESPN体育频道
-http://example.com/espn.m3u8`;
+#EXTINF:-1 tvg-id="hbo" tvg-name="HBO" tvg-logo="http://example.com/hbo.png" group-title="其他",HBO HD
+http://example.com/hbo.m3u8`;
 
         // DOM元素引用
         const pasteBtn = document.getElementById('paste-btn');
@@ -564,25 +764,63 @@ http://example.com/espn.m3u8`;
         const classifyBtn = document.getElementById('classify-btn');
         const resetBtn = document.getElementById('reset-btn');
         const downloadBtn = document.getElementById('download-btn');
+        const addEpgCheckbox = document.getElementById('add-epg');
         
         // 分类结果元素
+        const fourkList = document.getElementById('fourk-list');
         const cctvList = document.getElementById('cctv-list');
         const satelliteList = document.getElementById('satellite-list');
         const otherList = document.getElementById('other-list');
         
         // 计数元素
+        const fourkCount = document.getElementById('fourk-count');
         const cctvCount = document.getElementById('cctv-count');
         const satelliteCount = document.getElementById('satellite-count');
         const otherCount = document.getElementById('other-count');
         const totalChannels = document.getElementById('total-channels');
+        const fourkStat = document.getElementById('fourk-stat');
         const cctvStat = document.getElementById('cctv-stat');
         const satelliteStat = document.getElementById('satellite-stat');
         const otherStat = document.getElementById('other-stat');
         
         // 分类容器元素
+        const fourkContent = document.getElementById('fourk-content');
         const cctvContent = document.getElementById('cctv-content');
         const satelliteContent = document.getElementById('satellite-content');
         const otherContent = document.getElementById('other-content');
+        
+        // 频道名称映射表
+        const channelNameMapping = {
+            // CCTV频道映射
+            'CCTV音乐': 'CCTV15',
+            'CCTV-音乐': 'CCTV15',
+            'CCTV15音乐': 'CCTV15',
+            'CCTV-15音乐': 'CCTV15',
+            
+            // CGTN频道映射
+            'CGTN西班牙语': 'CGTN西语',
+            'CGTN-西班牙语': 'CGTN西语',
+            'CGTN Spanish': 'CGTN西语',
+            'CGTN西班牙': 'CGTN西语',
+            
+            'CGTN阿拉伯语': 'CGTN阿语',
+            'CGTN-阿拉伯语': 'CGTN阿语',
+            'CGTN Arabic': 'CGTN阿语',
+            'CGTN阿拉伯': 'CGTN阿语',
+            
+            'CGTN法语': 'CGTN法语',
+            'CGTN-法语': 'CGTN法语',
+            'CGTN French': 'CGTN法语',
+            
+            'CGTN俄语': 'CGTN俄语',
+            'CGTN-俄语': 'CGTN俄语',
+            'CGTN Russian': 'CGTN俄语',
+            
+            // 其他常见映射
+            'CCTV-5+': 'CCTV5+',
+            'CCTV5PLUS': 'CCTV5+',
+            'CCTV-5PLUS': 'CCTV5+'
+        };
         
         // 切换输入方式
         pasteBtn.addEventListener('click', () => {
@@ -664,7 +902,11 @@ http://example.com/espn.m3u8`;
                 if (line.startsWith('#EXTINF:')) {
                     currentChannel = {
                         info: line,
-                        name: extractChannelName(line)
+                        name: extractChannelName(line),
+                        tvgId: extractTvgId(line),
+                        tvgName: extractTvgName(line),
+                        tvgLogo: extractTvgLogo(line),
+                        groupTitle: extractGroupTitle(line)
                     };
                 } else if (line && !line.startsWith('#') && currentChannel) {
                     currentChannel.url = line;
@@ -688,9 +930,218 @@ http://example.com/espn.m3u8`;
             return '未知频道';
         }
         
+        // 提取tvg-id
+        function extractTvgId(extinfLine) {
+            const match = extinfLine.match(/tvg-id="([^"]+)"/);
+            return match ? match[1] : '';
+        }
+        
+        // 提取tvg-name
+        function extractTvgName(extinfLine) {
+            const match = extinfLine.match(/tvg-name="([^"]+)"/);
+            return match ? match[1] : '';
+        }
+        
+        // 提取tvg-logo
+        function extractTvgLogo(extinfLine) {
+            const match = extinfLine.match(/tvg-logo="([^"]+)"/);
+            return match ? match[1] : '';
+        }
+        
+        // 提取group-title
+        function extractGroupTitle(extinfLine) {
+            const match = extinfLine.match(/group-title="([^"]+)"/);
+            return match ? match[1] : '';
+        }
+        
+        // 检查是否为4K频道
+        function is4KChannel(channelName) {
+            const name = channelName.toUpperCase();
+            // 匹配4K相关关键词
+            return name.includes('4K') || 
+                   name.includes('2160P') || 
+                   name.includes('UHD') || 
+                   name.includes('超高清') ||
+                   name.includes('ULTRA HD') ||
+                   name.includes('ULTRAHD');
+        }
+        
+        // 从CCTV频道名中提取数字
+        function extractCCTVNumber(channelName) {
+            const name = channelName.toUpperCase();
+            
+            // 匹配CCTV后的数字，支持多种格式：CCTV1, CCTV-1, CCTV1综合, CCTV-1综合
+            const match = name.match(/CCTV[-\s]*(\d+)/);
+            if (match) {
+                const num = parseInt(match[1]);
+                // 只处理1-17的CCTV频道
+                if (num >= 1 && num <= 17) {
+                    return num;
+                }
+            }
+            
+            // 特殊CCTV频道排序规则
+            if (name.includes('CCTV-5+') || name.includes('CCTV5+') || name.includes('CCTV5 PLUS') || name.includes('CCTV-5 PLUS')) {
+                return 5.5; // 5+频道放在5和6之间
+            }
+            
+            if (name.includes('CGTN')) {
+                return 18; // CGTN放在17之后
+            }
+            
+            // 其他CCTV频道（如CCTV兵器科技等）放在最后
+            return 100;
+        }
+        
+        // 对4K频道进行排序（CCTV4K排在最前面，然后按分辨率排序）
+        function sort4KChannels(channels) {
+            return channels.sort((a, b) => {
+                const aName = a.name.toUpperCase();
+                const bName = b.name.toUpperCase();
+                
+                // CCTV4K排在最前面
+                const aIsCCTV4K = aName.includes('CCTV') && aName.includes('4K') && !aName.includes('8K') && !aName.includes('16');
+                const bIsCCTV4K = bName.includes('CCTV') && bName.includes('4K') && !bName.includes('8K') && !bName.includes('16');
+                
+                if (aIsCCTV4K && !bIsCCTV4K) return -1;
+                if (!aIsCCTV4K && bIsCCTV4K) return 1;
+                
+                // 然后CCTV8K
+                const aIsCCTV8K = aName.includes('CCTV') && aName.includes('8K');
+                const bIsCCTV8K = bName.includes('CCTV') && bName.includes('8K');
+                
+                if (aIsCCTV8K && !bIsCCTV8K) return -1;
+                if (!aIsCCTV8K && bIsCCTV8K) return 1;
+                
+                // 然后其他CCTV 4K（如CCTV16 4K）
+                const aIsOtherCCTV4K = aName.includes('CCTV') && aName.includes('4K');
+                const bIsOtherCCTV4K = bName.includes('CCTV') && bName.includes('4K');
+                
+                if (aIsOtherCCTV4K && !bIsOtherCCTV4K) return -1;
+                if (!aIsOtherCCTV4K && bIsOtherCCTV4K) return 1;
+                
+                // 然后按名称排序
+                return a.name.localeCompare(b.name, 'zh-CN');
+            });
+        }
+        
+        // 清理频道名称：移除HD、SDR、HDR字样，保留4K
+        function cleanChannelName(channelName) {
+            let name = channelName;
+            
+            // 移除HD、高清字样（但不移除4K和超高清）
+            name = name.replace(/HD$/i, '')
+                       .replace(/高清$/i, '')
+                       .replace(/\s+HD$/i, '')
+                       .replace(/\s+高清$/i, '')
+                       .replace(/\s+HD\s+/i, ' ')
+                       .replace(/\s+高清\s+/i, ' ');
+            
+            // 移除SDR、HDR字样（包括括号）
+            name = name.replace(/SDR$/i, '')
+                       .replace(/HDR$/i, '')
+                       .replace(/\s+SDR$/i, '')
+                       .replace(/\s+HDR$/i, '')
+                       .replace(/\(SDR\)$/i, '')
+                       .replace(/\(HDR\)$/i, '')
+                       .replace(/\s+\(SDR\)$/i, '')
+                       .replace(/\s+\(HDR\)$/i, '')
+                       .replace(/\s+SDR\s+/i, ' ')
+                       .replace(/\s+HDR\s+/i, ' ')
+                       .replace(/\(SDR\)/i, '')
+                       .replace(/\(HDR\)/i, '');
+            
+            // 移除多余的空白字符
+            name = name.replace(/\s+/g, ' ').trim();
+            
+            return name;
+        }
+        
+        // 应用频道名称映射
+        function applyChannelNameMapping(channelName) {
+            let name = channelName;
+            
+            // 检查映射表
+            for (const [key, value] of Object.entries(channelNameMapping)) {
+                if (name.includes(key)) {
+                    // 保留原始名称的其他部分
+                    const originalParts = name.split(key);
+                    name = originalParts[0] + value + (originalParts[1] || '');
+                    break;
+                }
+            }
+            
+            return name;
+        }
+        
+        // 获取标准化频道名称（用于logo文件名）
+        function getStandardChannelName(channelName, isCCTV = false, cctvNumber = null) {
+            let name = cleanChannelName(channelName);
+            
+            // 应用名称映射
+            name = applyChannelNameMapping(name);
+            
+            // 如果是CCTV频道，使用CCTV+数字
+            if (isCCTV && cctvNumber && cctvNumber <= 17) {
+                return `CCTV${cctvNumber}`;
+            }
+            
+            // 对于CGTN频道
+            if (name.toUpperCase().includes('CGTN')) {
+                // 提取CGTN后的内容
+                const cgtnMatch = name.match(/CGTN\s*(.*)/i);
+                if (cgtnMatch && cgtnMatch[1].trim()) {
+                    return `CGTN${cgtnMatch[1].trim()}`;
+                }
+                return 'CGTN';
+            }
+            
+            // 移除特殊字符，保留中文、英文、数字
+            name = name.replace(/[<>:"/\\|?*]/g, '');
+            
+            return name;
+        }
+        
+        // 获取logo URL
+        function getLogoUrl(channelName, isCCTV = false, cctvNumber = null) {
+            const standardName = getStandardChannelName(channelName, isCCTV, cctvNumber);
+            return `https://im5k.fun/logo/${standardName}.png`;
+        }
+        
+        // 获取group title
+        function getGroupTitle(category) {
+            switch(category) {
+                case 'fourk': return '4K频道';
+                case 'cctv': return '央视';
+                case 'satellite': return '卫视';
+                default: return '其他';
+            }
+        }
+        
+        // 获取显示名称（用于界面显示）
+        function getDisplayName(channelName) {
+            let name = cleanChannelName(channelName);
+            name = applyChannelNameMapping(name);
+            
+            // 检查是否有映射关系
+            let mappedFrom = '';
+            for (const [key, value] of Object.entries(channelNameMapping)) {
+                if (channelName.includes(key) && name.includes(value)) {
+                    mappedFrom = key;
+                    break;
+                }
+            }
+            
+            return {
+                name: name,
+                mappedFrom: mappedFrom
+            };
+        }
+        
         // 分类频道
         function classifyChannels(channels) {
             const result = {
+                fourk: [],
                 cctv: [],
                 satellite: [],
                 other: []
@@ -698,15 +1149,49 @@ http://example.com/espn.m3u8`;
             
             for (const channel of channels) {
                 const name = channel.name.toUpperCase();
+                const displayInfo = getDisplayName(channel.name);
+                channel.displayName = displayInfo.name;
+                channel.mappedFrom = displayInfo.mappedFrom;
                 
-                if (name.includes('CCTV') || name.includes('CGTN')) {
+                // 首先检查是否为4K频道
+                if (is4KChannel(channel.name)) {
+                    result.fourk.push(channel);
+                } 
+                // 然后检查是否为央视（排除4K的CCTV，因为已经归入4K类）
+                else if ((name.includes('CCTV') || name.includes('CGTN')) && !is4KChannel(channel.name)) {
+                    // 提取CCTV数字用于排序
+                    channel.cctvNumber = extractCCTVNumber(channel.name);
+                    channel.isCCTV = true;
                     result.cctv.push(channel);
-                } else if (channel.name.includes('卫视')) {
+                } 
+                // 然后检查是否为卫视
+                else if (channel.name.includes('卫视')) {
                     result.satellite.push(channel);
-                } else {
+                } 
+                // 其他频道
+                else {
                     result.other.push(channel);
                 }
             }
+            
+            // 对4K频道排序（CCTV4K优先）
+            result.fourk = sort4KChannels(result.fourk);
+            
+            // 对央视频道按数字排序
+            result.cctv.sort((a, b) => {
+                // 先按提取的数字排序
+                if (a.cctvNumber !== b.cctvNumber) {
+                    return a.cctvNumber - b.cctvNumber;
+                }
+                // 如果数字相同，按名称排序
+                return a.displayName.localeCompare(b.displayName, 'zh-CN');
+            });
+            
+            // 对卫视频道按名称排序
+            result.satellite.sort((a, b) => a.displayName.localeCompare(b.displayName, 'zh-CN'));
+            
+            // 对其他频道按名称排序
+            result.other.sort((a, b) => a.displayName.localeCompare(b.displayName, 'zh-CN'));
             
             return result;
         }
@@ -714,59 +1199,118 @@ http://example.com/espn.m3u8`;
         // 显示分类结果
         function displayResults(classifiedChannels) {
             // 清空现有列表
+            fourkList.innerHTML = '';
             cctvList.innerHTML = '';
             satelliteList.innerHTML = '';
             otherList.innerHTML = '';
             
-            // 添加央视频道
+            // 添加4K频道（带序号）
+            let fourkIndex = 1;
+            classifiedChannels.fourk.forEach(channel => {
+                const li = document.createElement('li');
+                li.className = 'channel-item';
+                
+                // 检查是否为CCTV4K
+                const isCCTV4K = channel.name.toUpperCase().includes('CCTV') && 
+                                 channel.name.toUpperCase().includes('4K') && 
+                                 !channel.name.toUpperCase().includes('8K') &&
+                                 !channel.name.toUpperCase().includes('16');
+                
+                li.innerHTML = `
+                    <div class="channel-name">
+                        <span class="channel-number">${fourkIndex}</span>
+                        ${channel.displayName}
+                        <span class="channel-resolution">4K</span>
+                        ${isCCTV4K ? '<span class="sort-info">CCTV4K优先</span>' : ''}
+                        ${channel.mappedFrom ? `<span class="name-mapping">${channel.mappedFrom}→${channel.displayName}</span>` : ''}
+                    </div>
+                    <div class="channel-url">${channel.url}</div>
+                `;
+                fourkList.appendChild(li);
+                fourkIndex++;
+            });
+            
+            // 添加央视频道（带序号）
+            let cctvIndex = 1;
             classifiedChannels.cctv.forEach(channel => {
                 const li = document.createElement('li');
                 li.className = 'channel-item';
+                
+                // 显示CCTV数字
+                let cctvNumDisplay = '';
+                if (channel.cctvNumber <= 17) {
+                    cctvNumDisplay = channel.cctvNumber;
+                } else if (channel.cctvNumber === 5.5) {
+                    cctvNumDisplay = '5+';
+                } else if (channel.cctvNumber === 18) {
+                    cctvNumDisplay = 'CGTN';
+                } else {
+                    cctvNumDisplay = '';
+                }
+                
                 li.innerHTML = `
-                    <div class="channel-name">${channel.name}</div>
+                    <div class="channel-name">
+                        <span class="channel-number">${cctvIndex}</span>
+                        ${channel.displayName}
+                        ${cctvNumDisplay ? `<span class="sort-info">CCTV${cctvNumDisplay}</span>` : ''}
+                        ${channel.mappedFrom ? `<span class="name-mapping">${channel.mappedFrom}→${channel.displayName}</span>` : ''}
+                    </div>
                     <div class="channel-url">${channel.url}</div>
                 `;
                 cctvList.appendChild(li);
+                cctvIndex++;
             });
             
             // 添加卫视频道
-            classifiedChannels.satellite.forEach(channel => {
+            classifiedChannels.satellite.forEach((channel, index) => {
                 const li = document.createElement('li');
                 li.className = 'channel-item';
                 li.innerHTML = `
-                    <div class="channel-name">${channel.name}</div>
+                    <div class="channel-name">
+                        <span class="channel-number">${index + 1}</span>
+                        ${channel.displayName}
+                        ${channel.mappedFrom ? `<span class="name-mapping">${channel.mappedFrom}→${channel.displayName}</span>` : ''}
+                    </div>
                     <div class="channel-url">${channel.url}</div>
                 `;
                 satelliteList.appendChild(li);
             });
             
             // 添加其他频道
-            classifiedChannels.other.forEach(channel => {
+            classifiedChannels.other.forEach((channel, index) => {
                 const li = document.createElement('li');
                 li.className = 'channel-item';
                 li.innerHTML = `
-                    <div class="channel-name">${channel.name}</div>
+                    <div class="channel-name">
+                        <span class="channel-number">${index + 1}</span>
+                        ${channel.displayName}
+                        ${channel.mappedFrom ? `<span class="name-mapping">${channel.mappedFrom}→${channel.displayName}</span>` : ''}
+                    </div>
                     <div class="channel-url">${channel.url}</div>
                 `;
                 otherList.appendChild(li);
             });
             
             // 更新计数
+            const fourkCountValue = classifiedChannels.fourk.length;
             const cctvCountValue = classifiedChannels.cctv.length;
             const satelliteCountValue = classifiedChannels.satellite.length;
             const otherCountValue = classifiedChannels.other.length;
-            const totalCount = cctvCountValue + satelliteCountValue + otherCountValue;
+            const totalCount = fourkCountValue + cctvCountValue + satelliteCountValue + otherCountValue;
             
+            fourkCount.textContent = fourkCountValue;
             cctvCount.textContent = cctvCountValue;
             satelliteCount.textContent = satelliteCountValue;
             otherCount.textContent = otherCountValue;
             
             totalChannels.textContent = totalCount;
+            fourkStat.textContent = fourkCountValue;
             cctvStat.textContent = cctvCountValue;
             satelliteStat.textContent = satelliteCountValue;
             otherStat.textContent = otherCountValue;
             
             // 展开所有分类
+            fourkContent.classList.add('active');
             cctvContent.classList.add('active');
             satelliteContent.classList.add('active');
             otherContent.classList.add('active');
@@ -774,20 +1318,24 @@ http://example.com/espn.m3u8`;
         
         // 清空结果
         function clearResults() {
+            fourkList.innerHTML = '<li class="channel-item">暂无数据</li>';
             cctvList.innerHTML = '<li class="channel-item">暂无数据</li>';
             satelliteList.innerHTML = '<li class="channel-item">暂无数据</li>';
             otherList.innerHTML = '<li class="channel-item">暂无数据</li>';
             
+            fourkCount.textContent = '0';
             cctvCount.textContent = '0';
             satelliteCount.textContent = '0';
             otherCount.textContent = '0';
             
             totalChannels.textContent = '0';
+            fourkStat.textContent = '0';
             cctvStat.textContent = '0';
             satelliteStat.textContent = '0';
             otherStat.textContent = '0';
             
             // 收起所有分类
+            fourkContent.classList.remove('active');
             cctvContent.classList.remove('active');
             satelliteContent.classList.remove('active');
             otherContent.classList.remove('active');
@@ -814,7 +1362,7 @@ http://example.com/espn.m3u8`;
                 displayResults(classifiedChannels);
                 
                 // 显示成功消息
-                showNotification(`成功分类 ${channels.length} 个频道！`);
+                showNotification(`成功分类 ${channels.length} 个频道！4K频道优先，CCTV按1-17排序`);
             } catch (error) {
                 alert('解析播放列表时出错：' + error.message);
             }
@@ -822,46 +1370,83 @@ http://example.com/espn.m3u8`;
         
         // 下载分类结果
         function downloadResults() {
+            const fourkItems = fourkList.querySelectorAll('.channel-item');
             const cctvItems = cctvList.querySelectorAll('.channel-item');
             const satelliteItems = satelliteList.querySelectorAll('.channel-item');
             const otherItems = otherList.querySelectorAll('.channel-item');
             
-            if (cctvItems.length === 0 && satelliteItems.length === 0 && otherItems.length === 0) {
+            if (fourkItems.length === 0 && cctvItems.length === 0 && 
+                satelliteItems.length === 0 && otherItems.length === 0) {
                 alert('没有可下载的数据，请先进行分类！');
                 return;
             }
             
-            let output = '#EXTM3U\n\n';
+            let output = '';
+            
+            // 添加EPG源
+            if (addEpgCheckbox.checked) {
+                output += '#EXTM3U x-tvg-url="https://epg.im5k.fun/pp.xml"\n\n';
+            } else {
+                output += '#EXTM3U\n\n';
+            }
+            
+            // 4K频道
+            if (fourkItems.length > 0) {
+                const classifiedChannels = getCurrentClassifiedChannels();
+                
+                classifiedChannels.fourk.forEach(channel => {
+                    const logoUrl = getLogoUrl(channel.name, channel.name.toUpperCase().includes('CCTV'), channel.cctvNumber);
+                    const tvgName = getStandardChannelName(channel.name, channel.name.toUpperCase().includes('CCTV'), channel.cctvNumber);
+                    
+                    output += `#EXTINF:-1 tvg-name="${tvgName}" tvg-logo="${logoUrl}" group-title="4K频道" ,${channel.displayName}\n`;
+                    output += `${channel.url}\n`;
+                });
+                output += '\n';
+            }
             
             // 央视频道
             if (cctvItems.length > 0) {
-                output += '# 央视频道\n';
-                cctvItems.forEach(item => {
-                    const name = item.querySelector('.channel-name').textContent;
-                    const url = item.querySelector('.channel-url').textContent;
-                    output += `#EXTINF:-1,${name}\n${url}\n`;
+                const classifiedChannels = getCurrentClassifiedChannels();
+                
+                classifiedChannels.cctv.forEach(channel => {
+                    const logoUrl = getLogoUrl(channel.name, true, channel.cctvNumber);
+                    let tvgName = getStandardChannelName(channel.name, true, channel.cctvNumber);
+                    
+                    // 对于CCTV频道，确保tvg-name是CCTV+数字
+                    if (channel.cctvNumber && channel.cctvNumber <= 17) {
+                        tvgName = `CCTV${channel.cctvNumber}`;
+                    }
+                    
+                    output += `#EXTINF:-1 tvg-name="${tvgName}" tvg-logo="${logoUrl}" group-title="央视" ,${channel.displayName}\n`;
+                    output += `${channel.url}\n`;
                 });
                 output += '\n';
             }
             
             // 卫视频道
             if (satelliteItems.length > 0) {
-                output += '# 卫视频道\n';
-                satelliteItems.forEach(item => {
-                    const name = item.querySelector('.channel-name').textContent;
-                    const url = item.querySelector('.channel-url').textContent;
-                    output += `#EXTINF:-1,${name}\n${url}\n`;
+                const classifiedChannels = getCurrentClassifiedChannels();
+                
+                classifiedChannels.satellite.forEach(channel => {
+                    const logoUrl = getLogoUrl(channel.name);
+                    const tvgName = getStandardChannelName(channel.name);
+                    
+                    output += `#EXTINF:-1 tvg-name="${tvgName}" tvg-logo="${logoUrl}" group-title="卫视" ,${channel.displayName}\n`;
+                    output += `${channel.url}\n`;
                 });
                 output += '\n';
             }
             
             // 其他频道
             if (otherItems.length > 0) {
-                output += '# 其他频道\n';
-                otherItems.forEach(item => {
-                    const name = item.querySelector('.channel-name').textContent;
-                    const url = item.querySelector('.channel-url').textContent;
-                    output += `#EXTINF:-1,${name}\n${url}\n`;
+                const classifiedChannels = getCurrentClassifiedChannels();
+                
+                classifiedChannels.other.forEach(channel => {
+                    const logoUrl = getLogoUrl(channel.name);
+                    const tvgName = getStandardChannelName(channel.name);
+                    
+                    output += `#EXTINF:-1 tvg-name="${tvgName}" tvg-logo="${logoUrl}" group-title="其他" ,${channel.displayName}\n`;
+                    output += `${channel.url}\n`;
                 });
             }
             
@@ -876,7 +1461,20 @@ http://example.com/espn.m3u8`;
             document.body.removeChild(a);
             URL.revokeObjectURL(url);
             
-            showNotification('分类结果已下载！');
+            showNotification('分类结果已下载！已优化频道名称和排序');
+        }
+        
+        // 获取当前分类的频道数据
+        function getCurrentClassifiedChannels() {
+            const content = playlistInput.value.trim();
+            if (!content) return { fourk: [], cctv: [], satellite: [], other: [] };
+            
+            try {
+                const channels = parseM3U(content);
+                return classifyChannels(channels);
+            } catch (error) {
+                return { fourk: [], cctv: [], satellite: [], other: [] };
+            }
         }
         
         // 显示通知
