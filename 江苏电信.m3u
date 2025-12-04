@@ -149,80 +149,6 @@ http://home.ruibang.ltd:8095/udp/239.49.8.14:9426
 http://home.ruibang.ltd:8095/udp/239.49.8.115:8000
 #EXTINF:-1 group-title="数字" tvg-name="中国教育4台" tvg-logo="https://im5k.fun/logo/CETV4.png",CETV-4
 http://home.ruibang.ltd:8095/udp/239.49.0.125:8000
-#EXTINF:-1 group-title="数字" tvg-name="南京新闻综合" tvg-logo="https://im5k.fun/logo/南京新闻综合.png",南京新闻综合
-http://home.ruibang.ltd:8095/udp/239.49.0.25:8192
-#EXTINF:-1 group-title="数字" tvg-name="南京影视" tvg-logo="https://im5k.fun/logo/南京影视.png",南京影视
-http://home.ruibang.ltd:8095/udp/239.49.0.24:8000
-#EXTINF:-1 group-title="数字" tvg-name="南京教科" tvg-logo="https://im5k.fun/logo/南京教科.png",南京教科
-http://home.ruibang.ltd:8095/udp/239.49.0.183:9434
-#EXTINF:-1 group-title="数字" tvg-name="南京十八·生活" tvg-logo="https://im5k.fun/logo/南京十八·生活.png",南京十八·生活
-http://home.ruibang.ltd:8095/udp/239.49.0.26:8200
-#EXTINF:-1 group-title="数字" tvg-name="南京文旅纪录" tvg-logo="https://im5k.fun/logo/南京文旅纪录.png",南京文旅纪录
-http://home.ruibang.ltd:8095/udp/239.49.0.38:8000
-#EXTINF:-1 group-title="数字" tvg-name="南京少儿" tvg-logo="https://im5k.fun/logo/南京少儿.png",南京少儿
-http://home.ruibang.ltd:8095/udp/239.49.0.45:8000
-#EXTINF:-1 group-title="数字" tvg-name="苏州生活资讯" tvg-logo="https://im5k.fun/logo/苏州生活资讯.png",苏州生活资讯
-http://home.ruibang.ltd:8095/udp/239.49.8.116:8000
-#EXTINF:-1 group-title="数字" tvg-name="常州新闻综合" tvg-logo="https://im5k.fun/logo/常州新闻综合.png",常州新闻综合
-http://home.ruibang.ltd:8095/udp/239.49.0.221:9594
-#EXTINF:-1 group-title="数字" tvg-name="常州都市" tvg-logo="https://im5k.fun/logo/常州都市.png",常州都市
-http://home.ruibang.ltd:8095/udp/239.49.0.220:9590
-#EXTINF:-1 group-title="数字" tvg-name="常州生活" tvg-logo="https://im5k.fun/logo/常州生活.png",常州生活
-http://home.ruibang.ltd:8095/udp/239.49.0.219:9586
-#EXTINF:-1 group-title="数字" tvg-name="常州公共" tvg-logo="https://im5k.fun/logo/常州公共.png",常州公共
-http://home.ruibang.ltd:8095/udp/239.49.0.218:9582
-#EXTINF:-1 group-title="数字" tvg-name="南通新闻综合" tvg-logo="https://im5k.fun/logo/南通新闻综合.png",南通新闻综合
-http://home.ruibang.ltd:8095/udp/239.49.0.223:8000
-#EXTINF:-1 group-title="数字" tvg-name="南通2" tvg-logo="https://im5k.fun/logo/南通2.png",南通2
-http://home.ruibang.ltd:8095/udp/239.49.0.224:8000
-#EXTINF:-1 group-title="数字" tvg-name="南通公共·崇川" tvg-logo="https://im5k.fun/logo/南通公共·崇川.png",南通公共·崇川
-http://home.ruibang.ltd:8095/udp/239.49.0.197:8000
-#EXTINF:-1 group-title="数字" tvg-name="泰州1" tvg-logo="https://im5k.fun/logo/泰州1.png",泰州1
-http://home.ruibang.ltd:8095/udp/239.49.0.215:8000
-#EXTINF:-1 group-title="数字" tvg-name="泰州2" tvg-logo="https://im5k.fun/logo/泰州2.png",泰州2
-http://home.ruibang.ltd:8095/udp/239.49.0.217:8000
-#EXTINF:-1 group-title="数字" tvg-name="泰州3" tvg-logo="https://im5k.fun/logo/泰州3.png",泰州3
-http://home.ruibang.ltd:8095/udp/239.49.0.222:8000
-#EXTINF:-1 group-title="数字" tvg-name="泰兴综合" tvg-logo="https://im5k.fun/logo/泰兴综合.png",泰兴综合
-http://home.ruibang.ltd:8095/udp/239.49.0.168:8000
-#EXTINF:-1 group-title="数字" tvg-name="兴化新闻综合" tvg-logo="https://im5k.fun/logo/兴化新闻综合.png",兴化新闻综合
-http://home.ruibang.ltd:8095/udp/239.49.0.162:8000
-#EXTINF:-1 group-title="数字" tvg-name="镇江新闻综合" tvg-logo="https://im5k.fun/logo/镇江新闻综合.png",镇江新闻综合
-http://home.ruibang.ltd:8095/udp/239.49.0.98:8000
-#EXTINF:-1 group-title="数字" tvg-name="淮安综合" tvg-logo="https://im5k.fun/logo/淮安综合.png",淮安综合
-http://home.ruibang.ltd:8095/udp/239.49.0.204:8000
-#EXTINF:-1 group-title="数字" tvg-name="淮安公共" tvg-logo="https://im5k.fun/logo/淮安公共.png",淮安公共
-http://home.ruibang.ltd:8095/udp/239.49.0.181:8000
-#EXTINF:-1 group-title="数字" tvg-name="淮安影视娱乐" tvg-logo="https://im5k.fun/logo/淮安影视娱乐.png",淮安影视娱乐
-http://home.ruibang.ltd:8095/udp/239.49.0.192:8000
-#EXTINF:-1 group-title="数字" tvg-name="盐城1" tvg-logo="https://im5k.fun/logo/盐城1.png",盐城1
-http://home.ruibang.ltd:8095/udp/239.49.8.30:8000
-#EXTINF:-1 group-title="数字" tvg-name="盐城2" tvg-logo="https://im5k.fun/logo/盐城2.png",盐城2
-http://home.ruibang.ltd:8095/udp/239.49.0.88:8000
-#EXTINF:-1 group-title="数字" tvg-name="盐城3" tvg-logo="https://im5k.fun/logo/盐城3.png",盐城3
-http://home.ruibang.ltd:8095/udp/239.49.0.91:8000
-#EXTINF:-1 group-title="数字" tvg-name="徐州1" tvg-logo="https://im5k.fun/logo/徐州1.png",徐州1
-http://home.ruibang.ltd:8095/udp/239.49.0.203:8000
-#EXTINF:-1 group-title="数字" tvg-name="徐州2" tvg-logo="https://im5k.fun/logo/徐州2.png",徐州2
-http://home.ruibang.ltd:8095/udp/239.49.0.199:8000
-#EXTINF:-1 group-title="数字" tvg-name="徐州3" tvg-logo="https://im5k.fun/logo/徐州3.png",徐州3
-http://home.ruibang.ltd:8095/udp/239.49.0.211:8000
-#EXTINF:-1 group-title="数字" tvg-name="徐州4" tvg-logo="https://im5k.fun/logo/徐州4.png",徐州4
-http://home.ruibang.ltd:8095/udp/239.49.0.216:8000
-#EXTINF:-1 group-title="数字" tvg-name="沛县新闻综合" tvg-logo="https://im5k.fun/logo/沛县新闻综合.png",沛县新闻综合
-http://home.ruibang.ltd:8095/udp/239.49.0.214:8000
-#EXTINF:-1 group-title="数字" tvg-name="宿迁综合" tvg-logo="https://im5k.fun/logo/宿迁综合.png",宿迁综合
-http://home.ruibang.ltd:8095/udp/239.49.0.231:8000
-#EXTINF:-1 group-title="数字" tvg-name="宿迁公共" tvg-logo="https://im5k.fun/logo/宿迁公共.png",宿迁公共
-http://home.ruibang.ltd:8095/udp/239.49.0.236:8000
-#EXTINF:-1 group-title="数字" tvg-name="连云港新闻综合" tvg-logo="https://im5k.fun/logo/连云港新闻综合.png",连云港新闻综合
-http://home.ruibang.ltd:8095/udp/239.49.0.225:8000
-#EXTINF:-1 group-title="数字" tvg-name="连云港生活频道" tvg-logo="https://im5k.fun/logo/连云港生活频道.png",连云港生活频道
-http://home.ruibang.ltd:8095/udp/239.49.0.229:8000
-#EXTINF:-1 group-title="数字" tvg-name="苏超1" tvg-logo="https://im5k.fun/logo/苏超1.png",苏超1
-http://home.ruibang.ltd:8095/udp/239.49.8.96:8000
-#EXTINF:-1 group-title="数字" tvg-name="苏超2" tvg-logo="https://im5k.fun/logo/苏超2.png",苏超2
-http://home.ruibang.ltd:8095/udp/239.49.8.97:8000
 #EXTINF:-1 group-title="数字" tvg-name="欢笑剧场" tvg-logo="https://im5k.fun/logo/欢笑剧场.png",欢笑剧场
 http://home.ruibang.ltd:8095/udp/239.49.8.47:8060
 #EXTINF:-1 group-title="数字" tvg-name="都市剧场" tvg-logo="https://im5k.fun/logo/都市剧场.png",都市剧场
@@ -259,5 +185,5 @@ http://home.ruibang.ltd:8095/udp/239.49.8.33:8000
 http://home.ruibang.ltd:8095/udp/239.49.0.205:8000
 #EXTINF:-1 group-title="数字" tvg-name="文物宝库" tvg-logo="https://im5k.fun/logo/文物宝库.png",文物宝库
 http://home.ruibang.ltd:8095/udp/239.49.0.209:8000
-#EXTINF:-1 group-title="数字" tvg-name="梨园频道" tvg-logo="https://im5k.fun/logo/梨园频道.png",梨园频道
+#EXTINF:-1 group-title="数字" tvg-name="梨园" tvg-logo="https://im5k.fun/logo/梨园频道.png",梨园频道
 http://home.ruibang.ltd:8095/udp/239.49.8.193:8000
