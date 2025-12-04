@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IPTV播放列表分类器 - 优化频道名称和排序</title>
+    <title>IPTV播放列表分类器 - 优化logo名称清理</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         * {
@@ -493,13 +493,22 @@
             border-radius: 4px;
             margin-left: 5px;
         }
+        
+        .logo-clean-info {
+            font-size: 0.7rem;
+            color: #4caf50;
+            background: rgba(76, 175, 80, 0.1);
+            padding: 2px 6px;
+            border-radius: 4px;
+            margin-left: 5px;
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <header>
             <h1><i class="fas fa-satellite-dish"></i> IPTV播放列表分类器</h1>
-            <p class="subtitle">上传或粘贴您的M3U播放列表，自动分类并优化频道名称</p>
+            <p class="subtitle">上传或粘贴您的M3U播放列表，自动分类并优化频道名称，彻底清理logo名称</p>
         </header>
         
         <main class="main-content">
@@ -556,7 +565,7 @@
                     <p>3. 卫视频道：包含"卫视"的频道</p>
                     <p>4. 其他频道：其余频道</p>
                     <p>5. 频道名称映射：CCTV音乐→CCTV15，CGTN西班牙语→CGTN西语等</p>
-                    <p>6. 移除logo名称中的SDR、HDR字样</p>
+                    <p>6. 彻底清理logo名称中的HD、SD、SDR、HDR等字样</p>
                 </div>
             </div>
             
@@ -578,7 +587,7 @@
                         <div class="option-group">
                             <label class="option-label">
                                 <span>Logo路径：</span>
-                                <span class="logo-preview">https://im5k.fun/logo/{频道名称}.png</span>
+                                <span class="logo-preview">https://im5k.fun/logo/{纯净名称}.png</span>
                             </label>
                         </div>
                         <div class="option-group">
@@ -694,7 +703,7 @@
         </main>
         
         <footer class="footer">
-            <p>IPTV播放列表分类器 &copy; 2023 | 自动分类4K、央视、卫视和其他频道 | 优化频道名称映射</p>
+            <p>IPTV播放列表分类器 &copy; 2023 | 自动分类4K、央视、卫视和其他频道 | 优化logo名称清理</p>
             <p>本工具完全在浏览器端运行，不会上传您的播放列表数据</p>
         </footer>
     </div>
@@ -702,53 +711,53 @@
     <script>
         // 示例M3U数据
         const examplePlaylist = `#EXTM3U
-#EXTINF:-1 tvg-id="cctv1" tvg-name="CCTV-1" tvg-logo="http://example.com/cctv1.png" group-title="央视",CCTV-1 综合 HD
+#EXTINF:-1 tvg-id="cctv1" tvg-name="CCTV-1 HD" tvg-logo="http://example.com/cctv1_hd.png" group-title="央视",CCTV-1 综合 HD
 http://example.com/cctv1.m3u8
-#EXTINF:-1 tvg-id="cctv2" tvg-name="CCTV-2" tvg-logo="http://example.com/cctv2.png" group-title="央视",CCTV-2 财经 HD
+#EXTINF:-1 tvg-id="cctv2" tvg-name="CCTV-2 HD" tvg-logo="http://example.com/cctv2_hd.png" group-title="央视",CCTV-2 财经 HD
 http://example.com/cctv2.m3u8
-#EXTINF:-1 tvg-id="cctv3" tvg-name="CCTV-3" tvg-logo="http://example.com/cctv3.png" group-title="央视",CCTV-3 综艺 HD
+#EXTINF:-1 tvg-id="cctv3" tvg-name="CCTV-3 HD" tvg-logo="http://example.com/cctv3_hd.png" group-title="央视",CCTV-3 综艺 HD
 http://example.com/cctv3.m3u8
-#EXTINF:-1 tvg-id="cctv5" tvg-name="CCTV-5" tvg-logo="http://example.com/cctv5.png" group-title="央视",CCTV-5 体育 HD
+#EXTINF:-1 tvg-id="cctv5" tvg-name="CCTV-5 HD" tvg-logo="http://example.com/cctv5_hd.png" group-title="央视",CCTV-5 体育 HD
 http://example.com/cctv5.m3u8
-#EXTINF:-1 tvg-id="cctv6" tvg-name="CCTV-6" tvg-logo="http://example.com/cctv6.png" group-title="央视",CCTV-6 电影 HD
+#EXTINF:-1 tvg-id="cctv6" tvg-name="CCTV-6 HD" tvg-logo="http://example.com/cctv6_hd.png" group-title="央视",CCTV-6 电影 HD
 http://example.com/cctv6.m3u8
-#EXTINF:-1 tvg-id="cctv8" tvg-name="CCTV-8" tvg-logo="http://example.com/cctv8.png" group-title="央视",CCTV-8 电视剧 HD
+#EXTINF:-1 tvg-id="cctv8" tvg-name="CCTV-8 HD" tvg-logo="http://example.com/cctv8_hd.png" group-title="央视",CCTV-8 电视剧 HD
 http://example.com/cctv8.m3u8
-#EXTINF:-1 tvg-id="cctv15" tvg-name="CCTV-15" tvg-logo="http://example.com/cctv15.png" group-title="央视",CCTV-15 音乐 HD
+#EXTINF:-1 tvg-id="cctv15" tvg-name="CCTV-15 HD" tvg-logo="http://example.com/cctv15_hd.png" group-title="央视",CCTV-15 音乐 HD
 http://example.com/cctv15.m3u8
-#EXTINF:-1 tvg-id="cctv4k" tvg-name="CCTV-4K" tvg-logo="http://example.com/cctv4k.png" group-title="央视",CCTV-4K 超高清
+#EXTINF:-1 tvg-id="cctv4k" tvg-name="CCTV-4K SDR" tvg-logo="http://example.com/cctv4k_sdr.png" group-title="央视",CCTV-4K 超高清 SDR
 http://example.com/cctv4k.m3u8
-#EXTINF:-1 tvg-id="cctv8k" tvg-name="CCTV-8K" tvg-logo="http://example.com/cctv8k.png" group-title="央视",CCTV-8K 超高清
+#EXTINF:-1 tvg-id="cctv8k" tvg-name="CCTV-8K HDR" tvg-logo="http://example.com/cctv8k_hdr.png" group-title="央视",CCTV-8K 超高清 HDR
 http://example.com/cctv8k.m3u8
-#EXTINF:-1 tvg-id="cctv16_4k" tvg-name="CCTV-16 4K" tvg-logo="http://example.com/cctv16_4k.png" group-title="央视",CCTV-16 4K 奥林匹克
+#EXTINF:-1 tvg-id="cctv16_4k" tvg-name="CCTV-16 4K SDR" tvg-logo="http://example.com/cctv16_4k_sdr.png" group-title="央视",CCTV-16 4K 奥林匹克 (SDR)
 http://example.com/cctv16_4k.m3u8
-#EXTINF:-1 tvg-id="cgtn" tvg-name="CGTN" tvg-logo="http://example.com/cgtn.png" group-title="央视",CGTN 中国国际电视台
+#EXTINF:-1 tvg-id="cgtn" tvg-name="CGTN HD" tvg-logo="http://example.com/cgtn_hd.png" group-title="央视",CGTN 中国国际电视台 HD
 http://example.com/cgtn.m3u8
-#EXTINF:-1 tvg-id="cgtn_spanish" tvg-name="CGTN西班牙语" tvg-logo="http://example.com/cgtn_spanish.png" group-title="央视",CGTN西班牙语
+#EXTINF:-1 tvg-id="cgtn_spanish" tvg-name="CGTN西班牙语 SD" tvg-logo="http://example.com/cgtn_spanish_sd.png" group-title="央视",CGTN西班牙语 SD
 http://example.com/cgtn_spanish.m3u8
-#EXTINF:-1 tvg-id="cgtn_arabic" tvg-name="CGTN阿拉伯语" tvg-logo="http://example.com/cgtn_arabic.png" group-title="央视",CGTN阿拉伯语
+#EXTINF:-1 tvg-id="cgtn_arabic" tvg-name="CGTN阿拉伯语 HD" tvg-logo="http://example.com/cgtn_arabic_hd.png" group-title="央视",CGTN阿拉伯语 HD
 http://example.com/cgtn_arabic.m3u8
-#EXTINF:-1 tvg-id="hunan4k" tvg-name="湖南卫视4K" tvg-logo="http://example.com/hunan4k.png" group-title="4K",湖南卫视 4K超高清 SDR
+#EXTINF:-1 tvg-id="hunan4k" tvg-name="湖南卫视4K SDR" tvg-logo="http://example.com/hunan4k_sdr.png" group-title="4K",湖南卫视 4K超高清 SDR
 http://example.com/hunan4k.m3u8
-#EXTINF:-1 tvg-id="discovery4k" tvg-name="Discovery 4K" tvg-logo="http://example.com/discovery4k.png" group-title="4K",Discovery探索频道 4K HDR
+#EXTINF:-1 tvg-id="discovery4k" tvg-name="Discovery 4K HDR" tvg-logo="http://example.com/discovery4k_hdr.png" group-title="4K",Discovery探索频道 4K HDR
 http://example.com/discovery4k.m3u8
-#EXTINF:-1 tvg-id="natgeo4k" tvg-name="国家地理4K" tvg-logo="http://example.com/natgeo4k.png" group-title="4K",国家地理 4K超高清 (SDR)
+#EXTINF:-1 tvg-id="natgeo4k" tvg-name="国家地理4K (SDR)" tvg-logo="http://example.com/natgeo4k_(sdr).png" group-title="4K",国家地理 4K超高清 (SDR)
 http://example.com/natgeo4k.m3u8
-#EXTINF:-1 tvg-id="hunan" tvg-name="湖南卫视" tvg-logo="http://example.com/hunan.png" group-title="卫视",湖南卫视 HD
+#EXTINF:-1 tvg-id="hunan" tvg-name="湖南卫视 HD" tvg-logo="http://example.com/hunan_hd.png" group-title="卫视",湖南卫视 HD
 http://example.com/hunan.m3u8
-#EXTINF:-1 tvg-id="zhejiang" tvg-name="浙江卫视" tvg-logo="http://example.com/zhejiang.png" group-title="卫视",浙江卫视 HD
+#EXTINF:-1 tvg-id="zhejiang" tvg-name="浙江卫视 HD" tvg-logo="http://example.com/zhejiang_hd.png" group-title="卫视",浙江卫视 HD
 http://example.com/zhejiang.m3u8
-#EXTINF:-1 tvg-id="jiangsu" tvg-name="江苏卫视" tvg-logo="http://example.com/jiangsu.png" group-title="卫视",江苏卫视 HD
+#EXTINF:-1 tvg-id="jiangsu" tvg-name="江苏卫视 HD" tvg-logo="http://example.com/jiangsu_hd.png" group-title="卫视",江苏卫视 HD
 http://example.com/jiangsu.m3u8
-#EXTINF:-1 tvg-id="dongfang" tvg-name="东方卫视" tvg-logo="http://example.com/dongfang.png" group-title="卫视",东方卫视 HD
+#EXTINF:-1 tvg-id="dongfang" tvg-name="东方卫视 HD" tvg-logo="http://example.com/dongfang_hd.png" group-title="卫视",东方卫视 HD
 http://example.com/dongfang.m3u8
-#EXTINF:-1 tvg-id="btv1" tvg-name="北京卫视" tvg-logo="http://example.com/btv1.png" group-title="卫视",北京卫视 HD
+#EXTINF:-1 tvg-id="btv1" tvg-name="北京卫视 HD" tvg-logo="http://example.com/btv1_hd.png" group-title="卫视",北京卫视 HD
 http://example.com/btv1.m3u8
-#EXTINF:-1 tvg-id="discovery" tvg-name="Discovery探索频道" tvg-logo="http://example.com/discovery.png" group-title="其他",Discovery探索频道 HD
+#EXTINF:-1 tvg-id="discovery" tvg-name="Discovery探索频道 SD" tvg-logo="http://example.com/discovery_sd.png" group-title="其他",Discovery探索频道 SD
 http://example.com/discovery.m3u8
-#EXTINF:-1 tvg-id="nationalgeo" tvg-name="国家地理" tvg-logo="http://example.com/nationalgeo.png" group-title="其他",国家地理 HD
+#EXTINF:-1 tvg-id="nationalgeo" tvg-name="国家地理 HD" tvg-logo="http://example.com/nationalgeo_hd.png" group-title="其他",国家地理 HD
 http://example.com/nationalgeo.m3u8
-#EXTINF:-1 tvg-id="hbo" tvg-name="HBO" tvg-logo="http://example.com/hbo.png" group-title="其他",HBO HD
+#EXTINF:-1 tvg-id="hbo" tvg-name="HBO HD" tvg-logo="http://example.com/hbo_hd.png" group-title="其他",HBO HD
 http://example.com/hbo.m3u8`;
 
         // DOM元素引用
@@ -1025,6 +1034,74 @@ http://example.com/hbo.m3u8`;
             });
         }
         
+        // 彻底清理名称中的HD、SD、SDR、HDR等字样
+        function deepCleanName(name) {
+            if (!name) return '';
+            
+            let cleanedName = name;
+            
+            // 移除所有HD、SD、SDR、HDR的变体（包括大小写）
+            const patternsToRemove = [
+                // HD相关
+                /\s*HD\s*/gi,
+                /\s*高清\s*/gi,
+                /\s*High Definition\s*/gi,
+                
+                // SD相关
+                /\s*SD\s*/gi,
+                /\s*标清\s*/gi,
+                /\s*Standard Definition\s*/gi,
+                
+                // SDR相关
+                /\s*SDR\s*/gi,
+                /\s*Standard Dynamic Range\s*/gi,
+                /\(SDR\)/gi,
+                /（SDR）/gi,
+                /\s*\(SDR\)\s*/gi,
+                /\s*（SDR）\s*/gi,
+                
+                // HDR相关
+                /\s*HDR\s*/gi,
+                /\s*High Dynamic Range\s*/gi,
+                /\(HDR\)/gi,
+                /（HDR）/gi,
+                /\s*\(HDR\)\s*/gi,
+                /\s*（HDR）\s*/gi,
+                
+                // 其他常见后缀
+                /\s*1080[pi]\s*/gi,
+                /\s*720[pi]\s*/gi,
+                /\s*576[pi]\s*/gi,
+                /\s*480[pi]\s*/gi,
+                
+                // 下划线和连接符变体
+                /[-_]hd\b/gi,
+                /[-_]sd\b/gi,
+                /[-_]sdr\b/gi,
+                /[-_]hdr\b/gi,
+                /[-_]fhd\b/gi, // Full HD
+                /[-_]uhd\b/gi, // Ultra HD
+                
+                // 多余的点和空格
+                /\.+/g,
+                /\s{2,}/g
+            ];
+            
+            // 应用所有清理规则
+            patternsToRemove.forEach(pattern => {
+                cleanedName = cleanedName.replace(pattern, ' ');
+            });
+            
+            // 特别处理括号和空格
+            cleanedName = cleanedName
+                .replace(/\(\)/g, '') // 空括号
+                .replace(/（）/g, '') // 中文空括号
+                .replace(/^\s+|\s+$/g, '') // 首尾空格
+                .replace(/\s+/g, ' '); // 多个空格合并为一个
+            
+            return cleanedName.trim();
+        }
+        
         // 清理频道名称：移除HD、SDR、HDR字样，保留4K
         function cleanChannelName(channelName) {
             let name = channelName;
@@ -1049,7 +1126,9 @@ http://example.com/hbo.m3u8`;
                        .replace(/\s+SDR\s+/i, ' ')
                        .replace(/\s+HDR\s+/i, ' ')
                        .replace(/\(SDR\)/i, '')
-                       .replace(/\(HDR\)/i, '');
+                       .replace(/\(HDR\)/i, '')
+                       .replace(/（SDR）/i, '')
+                       .replace(/（HDR）/i, '');
             
             // 移除多余的空白字符
             name = name.replace(/\s+/g, ' ').trim();
@@ -1074,24 +1153,27 @@ http://example.com/hbo.m3u8`;
             return name;
         }
         
-        // 获取标准化频道名称（用于logo文件名）
-        function getStandardChannelName(channelName, isCCTV = false, cctvNumber = null) {
-            let name = cleanChannelName(channelName);
-            
-            // 应用名称映射
-            name = applyChannelNameMapping(name);
+        // 获取用于logo的纯净名称
+        function getCleanLogoName(channelName, isCCTV = false, cctvNumber = null) {
+            let name = channelName;
             
             // 如果是CCTV频道，使用CCTV+数字
             if (isCCTV && cctvNumber && cctvNumber <= 17) {
                 return `CCTV${cctvNumber}`;
             }
             
+            // 首先应用名称映射
+            name = applyChannelNameMapping(name);
+            
+            // 彻底清理名称
+            name = deepCleanName(name);
+            
             // 对于CGTN频道
             if (name.toUpperCase().includes('CGTN')) {
                 // 提取CGTN后的内容
                 const cgtnMatch = name.match(/CGTN\s*(.*)/i);
                 if (cgtnMatch && cgtnMatch[1].trim()) {
-                    return `CGTN${cgtnMatch[1].trim()}`;
+                    return `CGTN${deepCleanName(cgtnMatch[1].trim())}`;
                 }
                 return 'CGTN';
             }
@@ -1102,23 +1184,7 @@ http://example.com/hbo.m3u8`;
             return name;
         }
         
-        // 获取logo URL
-        function getLogoUrl(channelName, isCCTV = false, cctvNumber = null) {
-            const standardName = getStandardChannelName(channelName, isCCTV, cctvNumber);
-            return `https://im5k.fun/logo/${standardName}.png`;
-        }
-        
-        // 获取group title
-        function getGroupTitle(category) {
-            switch(category) {
-                case 'fourk': return '4K频道';
-                case 'cctv': return '央视';
-                case 'satellite': return '卫视';
-                default: return '其他';
-            }
-        }
-        
-        // 获取显示名称（用于界面显示）
+        // 获取用于显示的频道名称
         function getDisplayName(channelName) {
             let name = cleanChannelName(channelName);
             name = applyChannelNameMapping(name);
@@ -1138,6 +1204,23 @@ http://example.com/hbo.m3u8`;
             };
         }
         
+        // 获取logo URL（彻底清理版本）
+        function getCleanLogoUrl(channelName, isCCTV = false, cctvNumber = null) {
+            const cleanName = getCleanLogoName(channelName, isCCTV, cctvNumber);
+            return `https://im5k.fun/logo/${cleanName}.png`;
+        }
+        
+        // 获取tvg-name（用于播放列表）
+        function getTvgName(channelName, isCCTV = false, cctvNumber = null) {
+            // 对于CCTV频道，返回CCTV+数字
+            if (isCCTV && cctvNumber && cctvNumber <= 17) {
+                return `CCTV${cctvNumber}`;
+            }
+            
+            // 其他频道使用清理后的名称
+            return getCleanLogoName(channelName, isCCTV, cctvNumber);
+        }
+        
         // 分类频道
         function classifyChannels(channels) {
             const result = {
@@ -1152,6 +1235,7 @@ http://example.com/hbo.m3u8`;
                 const displayInfo = getDisplayName(channel.name);
                 channel.displayName = displayInfo.name;
                 channel.mappedFrom = displayInfo.mappedFrom;
+                channel.originalName = channel.name; // 保存原始名称
                 
                 // 首先检查是否为4K频道
                 if (is4KChannel(channel.name)) {
@@ -1216,6 +1300,9 @@ http://example.com/hbo.m3u8`;
                                  !channel.name.toUpperCase().includes('8K') &&
                                  !channel.name.toUpperCase().includes('16');
                 
+                // 获取logo名称
+                const logoName = getCleanLogoName(channel.originalName, channel.isCCTV, channel.cctvNumber);
+                
                 li.innerHTML = `
                     <div class="channel-name">
                         <span class="channel-number">${fourkIndex}</span>
@@ -1223,6 +1310,7 @@ http://example.com/hbo.m3u8`;
                         <span class="channel-resolution">4K</span>
                         ${isCCTV4K ? '<span class="sort-info">CCTV4K优先</span>' : ''}
                         ${channel.mappedFrom ? `<span class="name-mapping">${channel.mappedFrom}→${channel.displayName}</span>` : ''}
+                        <span class="logo-clean-info">logo: ${logoName}.png</span>
                     </div>
                     <div class="channel-url">${channel.url}</div>
                 `;
@@ -1248,12 +1336,16 @@ http://example.com/hbo.m3u8`;
                     cctvNumDisplay = '';
                 }
                 
+                // 获取logo名称
+                const logoName = getCleanLogoName(channel.originalName, true, channel.cctvNumber);
+                
                 li.innerHTML = `
                     <div class="channel-name">
                         <span class="channel-number">${cctvIndex}</span>
                         ${channel.displayName}
                         ${cctvNumDisplay ? `<span class="sort-info">CCTV${cctvNumDisplay}</span>` : ''}
                         ${channel.mappedFrom ? `<span class="name-mapping">${channel.mappedFrom}→${channel.displayName}</span>` : ''}
+                        <span class="logo-clean-info">logo: ${logoName}.png</span>
                     </div>
                     <div class="channel-url">${channel.url}</div>
                 `;
@@ -1265,11 +1357,16 @@ http://example.com/hbo.m3u8`;
             classifiedChannels.satellite.forEach((channel, index) => {
                 const li = document.createElement('li');
                 li.className = 'channel-item';
+                
+                // 获取logo名称
+                const logoName = getCleanLogoName(channel.originalName);
+                
                 li.innerHTML = `
                     <div class="channel-name">
                         <span class="channel-number">${index + 1}</span>
                         ${channel.displayName}
                         ${channel.mappedFrom ? `<span class="name-mapping">${channel.mappedFrom}→${channel.displayName}</span>` : ''}
+                        <span class="logo-clean-info">logo: ${logoName}.png</span>
                     </div>
                     <div class="channel-url">${channel.url}</div>
                 `;
@@ -1280,11 +1377,16 @@ http://example.com/hbo.m3u8`;
             classifiedChannels.other.forEach((channel, index) => {
                 const li = document.createElement('li');
                 li.className = 'channel-item';
+                
+                // 获取logo名称
+                const logoName = getCleanLogoName(channel.originalName);
+                
                 li.innerHTML = `
                     <div class="channel-name">
                         <span class="channel-number">${index + 1}</span>
                         ${channel.displayName}
                         ${channel.mappedFrom ? `<span class="name-mapping">${channel.mappedFrom}→${channel.displayName}</span>` : ''}
+                        <span class="logo-clean-info">logo: ${logoName}.png</span>
                     </div>
                     <div class="channel-url">${channel.url}</div>
                 `;
@@ -1362,7 +1464,7 @@ http://example.com/hbo.m3u8`;
                 displayResults(classifiedChannels);
                 
                 // 显示成功消息
-                showNotification(`成功分类 ${channels.length} 个频道！4K频道优先，CCTV按1-17排序`);
+                showNotification(`成功分类 ${channels.length} 个频道！已彻底清理logo名称`);
             } catch (error) {
                 alert('解析播放列表时出错：' + error.message);
             }
@@ -1395,8 +1497,8 @@ http://example.com/hbo.m3u8`;
                 const classifiedChannels = getCurrentClassifiedChannels();
                 
                 classifiedChannels.fourk.forEach(channel => {
-                    const logoUrl = getLogoUrl(channel.name, channel.name.toUpperCase().includes('CCTV'), channel.cctvNumber);
-                    const tvgName = getStandardChannelName(channel.name, channel.name.toUpperCase().includes('CCTV'), channel.cctvNumber);
+                    const logoUrl = getCleanLogoUrl(channel.originalName, channel.isCCTV, channel.cctvNumber);
+                    const tvgName = getTvgName(channel.originalName, channel.isCCTV, channel.cctvNumber);
                     
                     output += `#EXTINF:-1 tvg-name="${tvgName}" tvg-logo="${logoUrl}" group-title="4K频道" ,${channel.displayName}\n`;
                     output += `${channel.url}\n`;
@@ -1409,13 +1511,8 @@ http://example.com/hbo.m3u8`;
                 const classifiedChannels = getCurrentClassifiedChannels();
                 
                 classifiedChannels.cctv.forEach(channel => {
-                    const logoUrl = getLogoUrl(channel.name, true, channel.cctvNumber);
-                    let tvgName = getStandardChannelName(channel.name, true, channel.cctvNumber);
-                    
-                    // 对于CCTV频道，确保tvg-name是CCTV+数字
-                    if (channel.cctvNumber && channel.cctvNumber <= 17) {
-                        tvgName = `CCTV${channel.cctvNumber}`;
-                    }
+                    const logoUrl = getCleanLogoUrl(channel.originalName, true, channel.cctvNumber);
+                    const tvgName = getTvgName(channel.originalName, true, channel.cctvNumber);
                     
                     output += `#EXTINF:-1 tvg-name="${tvgName}" tvg-logo="${logoUrl}" group-title="央视" ,${channel.displayName}\n`;
                     output += `${channel.url}\n`;
@@ -1428,8 +1525,8 @@ http://example.com/hbo.m3u8`;
                 const classifiedChannels = getCurrentClassifiedChannels();
                 
                 classifiedChannels.satellite.forEach(channel => {
-                    const logoUrl = getLogoUrl(channel.name);
-                    const tvgName = getStandardChannelName(channel.name);
+                    const logoUrl = getCleanLogoUrl(channel.originalName);
+                    const tvgName = getTvgName(channel.originalName);
                     
                     output += `#EXTINF:-1 tvg-name="${tvgName}" tvg-logo="${logoUrl}" group-title="卫视" ,${channel.displayName}\n`;
                     output += `${channel.url}\n`;
@@ -1442,8 +1539,8 @@ http://example.com/hbo.m3u8`;
                 const classifiedChannels = getCurrentClassifiedChannels();
                 
                 classifiedChannels.other.forEach(channel => {
-                    const logoUrl = getLogoUrl(channel.name);
-                    const tvgName = getStandardChannelName(channel.name);
+                    const logoUrl = getCleanLogoUrl(channel.originalName);
+                    const tvgName = getTvgName(channel.originalName);
                     
                     output += `#EXTINF:-1 tvg-name="${tvgName}" tvg-logo="${logoUrl}" group-title="其他" ,${channel.displayName}\n`;
                     output += `${channel.url}\n`;
@@ -1461,7 +1558,7 @@ http://example.com/hbo.m3u8`;
             document.body.removeChild(a);
             URL.revokeObjectURL(url);
             
-            showNotification('分类结果已下载！已优化频道名称和排序');
+            showNotification('分类结果已下载！已彻底清理logo名称');
         }
         
         // 获取当前分类的频道数据
