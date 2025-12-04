@@ -179,6 +179,8 @@ http://ispy.site:40221/rtp/239.3.1.100:8001
 http://ispy.site:40221/rtp/239.3.1.250:8001
 #EXTINF:-1 tvg-name="萌宠TV" tvg-logo="https://im5k.fun/logo/萌宠TV.png"group-title="北京"  ,萌宠TV
 http://ispy.site:40221/rtp/239.3.1.102:8001
+#EXTINF:-1 tvg-name="北京IPTV重温经典" tvg-logo="https://im5k.fun/logo/北京重温经典.png"group-title="北京"  ,重温经典
+http://ispy.site:40221/rtp/239.3.1.25:8001
 
 #EXTINF:-1  tvg-name="睛彩广场舞" tvg-logo="https://im5k.fun/logo/睛彩广场舞.png" group-title="数字",睛彩广场舞
 http://ispy.site:40221/rtp/239.3.1.128:8001
