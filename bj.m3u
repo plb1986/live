@@ -202,7 +202,7 @@ http://ispy.site:40221/rtp/239.3.1.146:4120
 http://ispy.site:40221/rtp/239.3.1.54:4120
 #EXTINF:-1  tvg-name="中国教育4台" tvg-logo="https://im5k.fun/logo/中国教育4台.png" group-title="数字",中国教育4台
 http://ispy.site:40221/rtp/239.3.1.56:4120
-#EXTINF:-1 tvg-name="证券服务" tvg-logo="https://im5k.fun/logo/中国教育4台.png" group-title="数字",证券服务
+#EXTINF:-1 tvg-name="证券服务" tvg-logo="https://im5k.fun/logo/证券服务.png" group-title="数字",证券服务
 http://ispy.site:40221/rtp/239.3.1.24:8001
 #EXTINF:-1  tvg-name="嘉佳卡通" tvg-logo="https://im5k.fun/logo/嘉佳卡通.png" group-title="数字",嘉佳卡通
 http://ispy.site:40221/rtp/239.3.1.147:9268
