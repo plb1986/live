@@ -167,7 +167,6 @@ http://ispy.site:40221/rtp/239.3.1.115:8000
 http://ispy.site:40221/rtp/239.3.1.243:8000
 #EXTINF:-1 tvg-name="北京财经" tvg-logo="https://im5k.fun/logo/北京财经.png"group-title="北京"  ,北京财经
 http://ispy.site:40221/rtp/239.3.1.116:8000
-
 #EXTINF:-1 tvg-name="卡酷少儿" tvg-logo="https://im5k.fun/logo/卡酷少儿.png"group-title="北京"  ,卡酷少儿
 http://ispy.site:40221/rtp/239.3.1.234:8000
 #EXTINF:-1 tvg-name="淘BABY" tvg-logo="https://im5k.fun/logo/淘BABY.png"group-title="北京"  ,淘BABY
@@ -180,18 +179,6 @@ http://ispy.site:40221/rtp/239.3.1.100:8001
 http://ispy.site:40221/rtp/239.3.1.250:8001
 #EXTINF:-1 tvg-name="萌宠TV" tvg-logo="https://im5k.fun/logo/萌宠TV.png"group-title="北京"  ,萌宠TV
 http://ispy.site:40221/rtp/239.3.1.102:8001
-#EXTINF:-1 tvg-name="延庆电视台" tvg-logo="https://im5k.fun/logo/延庆电视台.png"group-title="北京"  ,延庆电视台
-http://ispy.site:40221/rtp/239.3.1.187:8001
-#EXTINF:-1 tvg-name="门头沟电视台" tvg-logo="https://im5k.fun/logo/门头沟电视台.png"group-title="北京"  ,门头沟电视台
-http://ispy.site:40221/rtp/239.3.1.59:8001
-#EXTINF:-1 tvg-name="通州融媒" tvg-logo="https://im5k.fun/logo/通州融媒.png"group-title="北京"  ,通州融媒
-http://ispy.site:40221/rtp/239.3.1.221:8001
-#EXTINF:-1 tvg-name="密云电视台" tvg-logo="https://im5k.fun/logo/密云电视台.png"group-title="北京"  ,密云电视台
-http://ispy.site:40221/rtp/239.3.1.154:8001
-#EXTINF:-1 tvg-name="房山电视台" tvg-logo="https://im5k.fun/logo/房山电视台.png"group-title="北京"  ,房山电视台
-http://ispy.site:40221/rtp/239.3.1.96:8001
-#EXTINF:-1 tvg-name="朝阳融媒" tvg-logo="https://im5k.fun/logo/朝阳融媒.png"group-title="北京"  ,朝阳融媒
-http://ispy.site:40221/rtp/239.3.1.163:8001
 
 #EXTINF:-1  tvg-name="睛彩广场舞" tvg-logo="https://im5k.fun/logo/睛彩广场舞.png" group-title="数字",睛彩广场舞
 http://ispy.site:40221/rtp/239.3.1.128:8001
@@ -201,15 +188,12 @@ http://ispy.site:40221/rtp/239.3.1.125:8001
 http://ispy.site:40221/rtp/239.3.1.126:8001
 #EXTINF:-1  tvg-name="睛彩青少" tvg-logo="https://im5k.fun/logo/睛彩青少.png" group-title="数字",睛彩青少
 http://ispy.site:40221/rtp/239.3.1.127:8001
-#EXTINF:-1  tvg-name="聚鲨环球精选" tvg-logo="https://im5k.fun/logo/聚鲨环球精选.png" group-title="数字",聚鲨环球精选
-http://ispy.site:40221/rtp/239.3.1.160:8001
 #EXTINF:-1  tvg-name="茶频道" tvg-logo="https://im5k.fun/logo/茶频道.png" group-title="数字",茶频道
 http://ispy.site:40221/rtp/239.3.1.165:8001
 #EXTINF:-1  tvg-name="金鹰纪实" tvg-logo="https://im5k.fun/logo/金鹰纪实.png" group-title="数字",金鹰纪实
 http://ispy.site:40221/rtp/239.3.1.58:8156
 #EXTINF:-1  tvg-name="快乐垂钓" tvg-logo="https://im5k.fun/logo/快乐垂钓.png" group-title="数字",快乐垂钓
 http://ispy.site:40221/rtp/239.3.1.164:8001
-
 #EXTINF:-1  tvg-name="中国教育1台" tvg-logo="https://im5k.fun/logo/中国教育1台.png" group-title="数字",中国教育1台
 http://ispy.site:40221/rtp/239.3.1.146:4120
 #EXTINF:-1  tvg-name="中国教育2台" tvg-logo="https://im5k.fun/logo/中国教育2台.png" group-title="数字",中国教育2台
@@ -218,8 +202,6 @@ http://ispy.site:40221/rtp/239.3.1.54:4120
 http://ispy.site:40221/rtp/239.3.1.56:4120
 #EXTINF:-1  tvg-name="嘉佳卡通" tvg-logo="https://im5k.fun/logo/嘉佳卡通.png" group-title="数字",嘉佳卡通
 http://ispy.site:40221/rtp/239.3.1.147:9268
-#EXTINF:-1  tvg-name="财富天下" tvg-logo="https://im5k.fun/logo/财富天下.png" group-title="数字",财富天下
-http://ispy.site:40221/rtp/239.3.1.53:9136
 #EXTINF:-1  tvg-name="金鹰卡通" tvg-logo="https://im5k.fun/logo/金鹰卡通.png" group-title="数字",金鹰卡通
 http://ispy.site:40221/rtp/239.3.1.51:9252
 #EXTINF:-1  tvg-name="轮播频道" tvg-logo="https://im5k.fun/logo/轮播频道.png" group-title="数字",轮播频道
