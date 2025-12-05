@@ -1,4 +1,4 @@
-#EXTM3U
+#EXTM3U x-tvg-url="https://epg.im5k.fun/pp.xml"
 #EXTINF:-1 tvg-id="CCTV4K" tvg-name="CCTV4K" tvg-logo="https://im5k.fun/logo/CCTV4K.png" group-title="4 K",CCTV4K
 rtp://233.50.201.226:5140
 #EXTINF:-1 tvg-id="CCTV16" tvg-name="CCTV16 4K" tvg-logo="https://im5k.fun/logo/CCTV164K.png" group-title="4 K",CCTV16奥林匹克4K
