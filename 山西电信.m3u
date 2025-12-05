@@ -327,7 +327,7 @@ rtp://239.1.1.99:8099
 rtp://239.1.1.88:8088
 #EXTINF:-1 tvg-name="四海钓鱼" tvg-logo="https://im5k.fun/logo/四海钓鱼.png" group-title="其他" ,四海钓鱼
 rtp://239.1.1.111:8111
-#EXTINF:-1 tvg-name="文化精品" tvg-logo="https://im5k.fun/logo/文化精品.png" group-title="其他" ,文化精品
+#EXTINF:-1 tvg-name="央视文化精品" tvg-logo="https://im5k.fun/logo/央视文化精品.png" group-title="其他" ,央视文化精品
 rtp://239.1.1.91:8091
 #EXTINF:-1 tvg-name="央视台球" tvg-logo="https://im5k.fun/logo/央视台球.png" group-title="其他" ,央视台球
 rtp://239.1.1.100:8100
