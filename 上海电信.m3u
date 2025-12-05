@@ -1,4 +1,4 @@
-#EXTM3U
+#EXTM3U x-tvg-url="https://epg.im5k.fun/pp.xml"
 #EXTINF:-1 tvg-id="107" tvg-name="新闻综合" tvg-logo="https://im5k.fun/logo/新闻综合.png" group-title="上海",新闻综合
 rtp://233.18.204.57:5140
 #EXTINF:-1 tvg-id="108" tvg-name="五星体育" tvg-logo="https://im5k.fun/logo/五星体育.png" group-title="上海",五星体育
