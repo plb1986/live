@@ -23,6 +23,8 @@ rtp://233.18.204.227:5140
 rtp://233.18.204.228:5140
 #EXTINF:-1 group-title="4 K" tvg-name="浙江卫视" tvg-logo="https://im5k.fun/logo/浙江卫视4K.png" ,浙江卫视4K
 rtp://233.18.204.229:5140
+#EXTINF:-1 group-title="4 K" tvg-name="欢笑剧场" tvg-logo="https://im5k.fun/logo/欢笑剧场4K.png" ,欢笑剧场4K
+rtp://239.45.1.4:5140
 #EXTINF:-1 group-title="4 K" tvg-name="百事通4K电影" tvg-logo="https://im5k.fun/logo/BesTV4K.png" ,百事通4K电影
 rtp://239.45.3.107:5140
 #EXTINF:-1 group-title="4 K" tvg-name="百事通4K电影" tvg-logo="https://im5k.fun/logo/BesTV4K.png" ,百事通4K电影
@@ -196,8 +198,6 @@ rtp://239.45.3.211:5140
 rtp://239.45.0.17:5140
 #EXTINF:-1 group-title="上海" tvg-name="上海教育" tvg-logo="https://im5k.fun/logo/上海教育.png" ,上海教育
 rtp://239.45.0.13:5140
-#EXTINF:-1 group-title="上海" tvg-name="欢笑剧场" tvg-logo="https://im5k.fun/logo/欢笑剧场.png" ,欢笑剧场
-rtp://239.45.1.4:5140
 #EXTINF:-1 group-title="上海" tvg-name="游戏风云" tvg-logo="https://im5k.fun/logo/游戏风云.png" ,游戏风云
 rtp://239.45.3.131:5140
 #EXTINF:-1 group-title="上海" tvg-name="动漫秀场" tvg-logo="https://im5k.fun/logo/动漫秀场.png" ,动漫秀场
