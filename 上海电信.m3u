@@ -235,11 +235,11 @@ rtp://239.45.1.48:5140
 rtp://239.45.0.38:5140
 #EXTINF:-1 group-title="数字" tvg-name="卡酷少儿" tvg-logo="https://im5k.fun/logo/卡酷少儿.png" ,卡酷少儿
 rtp://239.45.0.8:5140
-#EXTINF:-1 group-title="数字" tvg-name="中国教育1台" tvg-logo="https://im5k.fun/logo/中国教育1台.png" ,中国教育1台
+#EXTINF:-1 group-title="数字" tvg-name="中国教育1台" tvg-logo="https://im5k.fun/logo/CETV1.png" ,中国教育1台
 rtp://239.45.1.125:5140
-#EXTINF:-1 group-title="数字" tvg-name="中国教育2台" tvg-logo="https://im5k.fun/logo/中国教育2台.png" ,中国教育2台
+#EXTINF:-1 group-title="数字" tvg-name="中国教育2台" tvg-logo="https://im5k.fun/logo/CETV2.png" ,中国教育2台
 rtp://239.45.1.52:5140
-#EXTINF:-1 group-title="数字" tvg-name="中国教育4台" tvg-logo="https://im5k.fun/logo/中国教育4台.png" ,中国教育4台
+#EXTINF:-1 group-title="数字" tvg-name="中国教育4台" tvg-logo="https://im5k.fun/logo/CETV4.png" ,中国教育4台
 rtp://239.45.0.21:5140
 #EXTINF:-1 group-title="数字" tvg-name="早期教育" tvg-logo="https://im5k.fun/logo/早期教育.png" ,早期教育
 rtp://239.45.0.54:5140
