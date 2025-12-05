@@ -173,13 +173,13 @@ rtp://238.1.78.55:6312
 rtp://238.1.79.42:4448
 #EXTINF:-1 group-title="安徽" tvg-name="安徽影视" tvg-logo="https://im5k.fun/logo/安徽影视.png" ,安徽影视
 rtp://238.1.78.56:6320
-#EXTINF:-1 group-title="安徽" tvg-name="安徽农业·科教" tvg-logo="https://im5k.fun/logo/安徽农业·科教.png" ,安徽农业·科教
+#EXTINF:-1 group-title="安徽" tvg-name="安徽农业科教" tvg-logo="https://im5k.fun/logo/安徽农业科教.png" ,安徽农业·教
 rtp://238.1.79.40:4432
-#EXTINF:-1 group-title="安徽" tvg-name="安徽农业·科教" tvg-logo="https://im5k.fun/logo/安徽农业·科教.png" ,安徽农业·科教
+#EXTINF:-1 group-title="安徽" tvg-name="安徽农业科教" tvg-logo="https://im5k.fun/logo/安徽农业科教.png" ,安徽农业科教
 rtp://238.1.78.59:6344
-#EXTINF:-1 group-title="安徽" tvg-name="安徽综艺·体育" tvg-logo="https://im5k.fun/logo/安徽综艺·体育.png" ,安徽综艺·体育
+#EXTINF:-1 group-title="安徽" tvg-name="安徽综艺体育" tvg-logo="https://im5k.fun/logo/安徽综艺体育.png" ,安徽综艺体育
 rtp://238.1.79.41:4440
-#EXTINF:-1 group-title="安徽" tvg-name="安徽综艺·体育" tvg-logo="https://im5k.fun/logo/安徽综艺·体育.png" ,安徽综艺·体育
+#EXTINF:-1 group-title="安徽" tvg-name="安徽综艺体育" tvg-logo="https://im5k.fun/logo/安徽综艺体育.png" ,安徽综艺体育
 rtp://238.1.78.58:6336
 #EXTINF:-1 group-title="安徽" tvg-name="安徽国际" tvg-logo="https://im5k.fun/logo/安徽国际.png" ,安徽国际
 rtp://238.1.78.61:636
