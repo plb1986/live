@@ -47,7 +47,7 @@ rtp://238.1.79.62:4632
 rtp://238.1.79.64:4648
 #EXTINF:-1 group-title="央视" tvg-name="风云足球" tvg-logo="https://im5k.fun/logo/风云足球.png" ,风云足球
 rtp://238.1.79.57:4592
-#EXTINF:-1 group-title="央视" tvg-name="高尔夫·网球" tvg-logo="https://im5k.fun/logo/高尔夫·网球.png" ,高尔夫·网球
+#EXTINF:-1 group-title="央视" tvg-name="高尔夫网球" tvg-logo="https://im5k.fun/logo/高尔夫网球.png" ,高尔夫网球
 rtp://238.1.79.58:4600
 #EXTINF:-1 group-title="央视" tvg-name="怀旧剧场" tvg-logo="https://im5k.fun/logo/怀旧剧场.png" ,怀旧剧场
 rtp://238.1.79.61:4624
@@ -219,11 +219,11 @@ rtp://238.1.79.10:4192
 rtp://238.1.79.16:4240
 #EXTINF:-1 group-title="数字" tvg-name="武术世界" tvg-logo="https://im5k.fun/logo/武术世界.png" ,武术世界
 rtp://238.1.79.8:4176
-#EXTINF:-1 group-title="数字" tvg-name="CETV-1" tvg-logo="https://im5k.fun/logo/CETV-1.png" ,CETV-1
+#EXTINF:-1 group-title="数字" tvg-name="中国教育1台" tvg-logo="https://im5k.fun/logo/CETV1.png" ,CETV-1
 rtp://238.1.78.158:7136
-#EXTINF:-1 group-title="数字" tvg-name="CETV-2" tvg-logo="https://im5k.fun/logo/CETV-2.png" ,CETV-2
+#EXTINF:-1 group-title="数字" tvg-name="中国教育2台" tvg-logo="https://im5k.fun/logo/CETV2.png" ,CETV-2
 rtp://238.1.78.106:6720
-#EXTINF:-1 group-title="数字" tvg-name="CETV-4" tvg-logo="https://im5k.fun/logo/CETV-4.png" ,CETV-4
+#EXTINF:-1 group-title="数字" tvg-name="中国教育4台" tvg-logo="https://im5k.fun/logo/CETV4.png" ,CETV-4
 rtp://238.1.78.107:6728
 #EXTINF:-1 group-title="数字" tvg-name="卡酷少儿" tvg-logo="https://im5k.fun/logo/卡酷少儿.png" ,卡酷少儿
 rtp://238.1.78.97:6648
