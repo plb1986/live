@@ -2,7 +2,7 @@
 
 #EXTINF:-1 tvg-name="CCTV4K" tvg-logo="https://im5k.fun/logo/CCTV4K.png" group-title="4K" ,CCTV4K
 rtp://239.1.1.133:8133
-#EXTINF:-1 tvg-name="CCTV16 4K" tvg-logo="https://im5k.fun/logo/CCTV16 4K.png" group-title="4K" ,CCTV16 4K
+#EXTINF:-1 tvg-name="CCTV16 4K" tvg-logo="https://im5k.fun/logo/CCTV164K.png" group-title="4K" ,CCTV16 4K
 rtp://238.1.40.76:20076
 #EXTINF:-1 tvg-name="北京卫视" tvg-logo="https://im5k.fun/logo/北京卫视4K.png" group-title="4K" ,北京卫视4K
 rtp://238.1.40.92:20092
