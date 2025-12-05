@@ -1,5 +1,10 @@
 #EXTM3U x-tvg-url="https://epg.im5k.fun/pp.xml"
-
+#EXTINF:-1 group-title="4 K" tvg-name="CCTV4K" tvg-logo="https://im5k.fun/logo/CCTV4K.png" ,CCTV4K
+rtp://233.18.204.188:5140
+#EXTINF:-1 group-title="4 K" tvg-name="CCTV4K" tvg-logo="https://im5k.fun/logo/CCTV4K.png" ,CCTV4K
+rtp://239.45.0.55:5140
+#EXTINF:-1 group-title="4 K" tvg-name="CCTV16" tvg-logo="https://im5k.fun/logo/CCTV16-4K.png" ,CCTV16 4K
+rtp://239.45.0.12:5140
 #EXTINF:-1 group-title="4 K" tvg-name="北京卫视" tvg-logo="https://im5k.fun/logo/北京卫视4K.png" ,北京卫视4K
 rtp://233.18.204.209:5140
 #EXTINF:-1 group-title="4 K" tvg-name="广东卫视" tvg-logo="https://im5k.fun/logo/广东卫视4K.png" ,广东卫视4K
@@ -18,6 +23,18 @@ rtp://233.18.204.227:5140
 rtp://233.18.204.228:5140
 #EXTINF:-1 group-title="4 K" tvg-name="浙江卫视" tvg-logo="https://im5k.fun/logo/浙江卫视4K.png" ,浙江卫视4K
 rtp://233.18.204.229:5140
+#EXTINF:-1 group-title="4 K" tvg-name="百事通4K电影" tvg-logo="https://im5k.fun/logo/BesTV4K.png" ,百事通4K电影
+rtp://239.45.3.107:5140
+#EXTINF:-1 group-title="4 K" tvg-name="百事通4K电影" tvg-logo="https://im5k.fun/logo/BesTV4K.png" ,百事通4K电影
+rtp://239.45.1.42:5140
+#EXTINF:-1 group-title="4 K" tvg-name="百事通4K纪实" tvg-logo="https://im5k.fun/logo/BesTV4K.png" ,百事通4K纪实
+rtp://239.45.1.10:5140
+#EXTINF:-1 group-title="4 K" tvg-name="百事通4K儿童" tvg-logo="https://im5k.fun/logo/BesTV4K.png" ,百事通4K儿童
+rtp://239.45.1.1:5140
+#EXTINF:-1 group-title="4 K" tvg-name="百事通4K儿童" tvg-logo="https://im5k.fun/logo/BesTV4K.png" ,百事通4K儿童
+rtp://239.45.1.11:5140
+#EXTINF:-1 group-title="数字" tvg-name="百事通4K纪实" tvg-logo="https://im5k.fun/logo/BesTV4K.png" ,百事通4K纪实
+rtp://239.45.1.10:5140
 #EXTINF:-1 group-title="4 K" tvg-name="天翼高清4K" tvg-logo="https://im5k.fun/logo/天翼高清4K.png" ,天翼高清4K
 rtp://239.45.0.33:5140
 #EXTINF:-1 group-title="4 K" tvg-name="4K测试" tvg-logo="https://im5k.fun/logo/4K测试.png" ,4K测试
@@ -57,16 +74,8 @@ rtp://239.45.3.23:5140
 rtp://239.45.0.20:5140
 #EXTINF:-1 group-title="央视" tvg-name="CCTV16" tvg-logo="https://im5k.fun/logo/CCTV16.png" ,CCTV16
 rtp://239.45.0.10:5140
-#EXTINF:-1 group-title="央视" tvg-name="CCTV16" tvg-logo="https://im5k.fun/logo/CCTV16.png" ,CCTV16
-rtp://233.18.204.114:5140
-#EXTINF:-1 group-title="央视" tvg-name="CCTV16 4K" tvg-logo="https://im5k.fun/logo/CCTV16-4K.png" ,CCTV16 4K
-rtp://239.45.0.12:5140
 #EXTINF:-1 group-title="央视" tvg-name="CCTV17" tvg-logo="https://im5k.fun/logo/CCTV17.png" ,CCTV17
 rtp://239.45.3.52:5140
-#EXTINF:-1 group-title="央视" tvg-name="CCTV4K" tvg-logo="https://im5k.fun/logo/CCTV4K.png" ,CCTV4K
-rtp://233.18.204.188:5140
-#EXTINF:-1 group-title="央视" tvg-name="CCTV4K" tvg-logo="https://im5k.fun/logo/CCTV4K.png" ,CCTV4K
-rtp://239.45.0.55:5140
 #EXTINF:-1 group-title="央视" tvg-name="风云足球" tvg-logo="https://im5k.fun/logo/风云足球.png" ,风云足球
 rtp://239.45.0.43:5140
 #EXTINF:-1 group-title="央视" tvg-name="央视台球" tvg-logo="https://im5k.fun/logo/央视台球.png" ,央视台球
@@ -132,8 +141,6 @@ rtp://239.45.1.80:5140
 rtp://239.45.1.81:5140
 #EXTINF:-1 group-title="卫视" tvg-name="河北卫视" tvg-logo="https://im5k.fun/logo/河北卫视.png" ,河北卫视
 rtp://239.45.1.44:5140
-#EXTINF:-1 group-title="卫视" tvg-name="纪实科教" tvg-logo="https://im5k.fun/logo/纪实科教.png" ,纪实科教
-rtp://239.45.1.14:5140
 #EXTINF:-1 group-title="卫视" tvg-name="河南卫视" tvg-logo="https://im5k.fun/logo/河南卫视.png" ,河南卫视
 rtp://239.45.0.3:5140
 #EXTINF:-1 group-title="卫视" tvg-name="云南卫视" tvg-logo="https://im5k.fun/logo/云南卫视.png" ,云南卫视
@@ -171,7 +178,7 @@ rtp://239.45.0.39:5140
 rtp://233.18.204.57:5140
 #EXTINF:-1 group-title="上海" tvg-name="五星体育" tvg-logo="https://im5k.fun/logo/五星体育.png" ,五星体育
 rtp://239.45.3.210:5140
-#EXTINF:-1 group-title="上海" tvg-name="都市频道" tvg-logo="https://im5k.fun/logo/都市频道.png" ,都市频道
+#EXTINF:-1 group-title="上海" tvg-name="上海都市" tvg-logo="https://im5k.fun/logo/上海都市.png" ,上海都市
 rtp://239.45.3.236:5140
 #EXTINF:-1 group-title="上海" tvg-name="哈哈炫动" tvg-logo="https://im5k.fun/logo/哈哈炫动.png" ,哈哈炫动
 rtp://239.45.1.55:5140
@@ -206,20 +213,10 @@ rtp://239.45.0.40:5140
 rtp://239.45.0.41:5140
 #EXTINF:-1 group-title="数字" tvg-name="CHC影迷电影" tvg-logo="https://im5k.fun/logo/CHC影迷电影.png" ,CHC影迷电影
 rtp://239.45.0.42:5140
-#EXTINF:-1 group-title="数字" tvg-name="百事通4K电影" tvg-logo="https://im5k.fun/logo/百事通4K电影.png" ,百事通4K电影
-rtp://239.45.3.107:5140
-#EXTINF:-1 group-title="数字" tvg-name="百事通4K电影" tvg-logo="https://im5k.fun/logo/百事通4K电影.png" ,百事通4K电影
-rtp://239.45.1.42:5140
-#EXTINF:-1 group-title="数字" tvg-name="百事通4K纪实" tvg-logo="https://im5k.fun/logo/百事通4K纪实.png" ,百事通4K纪实
-rtp://239.45.1.10:5140
-#EXTINF:-1 group-title="数字" tvg-name="百事通4K儿童" tvg-logo="https://im5k.fun/logo/百事通4K儿童.png" ,百事通4K儿童
-rtp://239.45.1.1:5140
-#EXTINF:-1 group-title="数字" tvg-name="百事通4K儿童" tvg-logo="https://im5k.fun/logo/百事通4K儿童.png" ,百事通4K儿童
-rtp://239.45.1.11:5140
-#EXTINF:-1 group-title="数字" tvg-name="高清导视频道" tvg-logo="https://im5k.fun/logo/高清导视频道.png" ,高清导视频道
+#EXTINF:-1 group-title="数字" tvg-name="纪实科教" tvg-logo="https://im5k.fun/logo/纪实科教.png" ,纪实科教
+rtp://239.45.1.14:5140
+#EXTINF:-1 group-title="数字" tvg-name="高清导视" tvg-logo="https://im5k.fun/logo/BesTV.png" ,高清导视
 rtp://239.45.3.240:5140
-#EXTINF:-1 group-title="数字" tvg-name="百事通4K纪实" tvg-logo="https://im5k.fun/logo/百事通4K纪实.png" ,百事通4K纪实
-rtp://239.45.1.10:5140
 #EXTINF:-1 group-title="数字" tvg-name="金鹰纪实" tvg-logo="https://im5k.fun/logo/金鹰纪实.png" ,金鹰纪实
 rtp://239.45.1.45:5140
 #EXTINF:-1 group-title="数字" tvg-name="中国天气" tvg-logo="https://im5k.fun/logo/中国天气.png" ,中国天气
