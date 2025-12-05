@@ -149,7 +149,7 @@ rtp://239.1.1.38:8038
 rtp://239.1.1.105:8105
 #EXTINF:-1 tvg-name="北京纪实科教" tvg-logo="https://im5k.fun/logo/北京纪实科教.png" group-title="其他" ,北京纪实科教
 rtp://239.1.1.130:8130
-#EXTINF:-1 tvg-name="北京卡酷少儿" tvg-logo="https://im5k.fun/logo/北京卡酷少儿.png" group-title="其他" ,北京卡酷少儿
+#EXTINF:-1 tvg-name="卡酷少儿" tvg-logo="https://im5k.fun/logo/卡酷少儿.png" group-title="其他" ,卡酷少儿
 rtp://239.1.1.62:8062
 #EXTINF:-1 tvg-name="兵器科技" tvg-logo="https://im5k.fun/logo/兵器科技.png" group-title="其他" ,兵器科技
 rtp://239.1.1.97:8097
@@ -353,7 +353,7 @@ rtp://239.1.1.65:8065
 rtp://239.1.1.66:8066
 #EXTINF:-1 tvg-name="中国教育4台" tvg-logo="https://im5k.fun/logo/中国教育4台.png" group-title="其他" ,中国教育4台
 rtp://239.1.1.67:8067
-#EXTINF:-1 tvg-name="中国汽摩" tvg-logo="https://im5k.fun/logo/中国汽摩.png" group-title="其他" ,中国汽摩
+#EXTINF:-1 tvg-name="汽摩" tvg-logo="https://im5k.fun/logo/汽摩.png" group-title="其他" ,汽摩
 rtp://239.1.1.92:8092
 #EXTINF:-1 tvg-name="中国天气" tvg-logo="https://im5k.fun/logo/中国天气.png" group-title="其他" ,中国天气
 rtp://239.1.1.107:8107
