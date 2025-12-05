@@ -1,4 +1,4 @@
-#EXTM3U 
+#EXTM3U x-tvg-url="https://epg.im5k.fun/pp.xml"
 
 #EXTINF:-1 tvg-name="CCTV4K" tvg-logo="https://im5k.fun/logo/cctv-4k.png" group-title="4 K" ,CCTV4K
 rtp://239.3.1.244:2000
