@@ -147,8 +147,6 @@ rtp://238.1.79.42:4448
 rtp://238.1.79.40:4432
 #EXTINF:-1 group-title="安徽" tvg-name="安徽综艺体育" tvg-logo="https://im5k.fun/logo/安徽综艺体育.png" ,安徽综艺体育
 rtp://238.1.79.41:4440
-#EXTINF:-1 group-title="安徽" tvg-name="安徽国际" tvg-logo="https://im5k.fun/logo/安徽国际.png" ,安徽国际
-rtp://238.1.78.61:636
 #EXTINF:-1 group-title="数字" tvg-name="CHC影迷电影" tvg-logo="https://im5k.fun/logo/CHC影迷电影.png" ,CHC影迷电影
 rtp://238.1.79.17:4248
 #EXTINF:-1 group-title="数字" tvg-name="CHC动作电影" tvg-logo="https://im5k.fun/logo/CHC动作电影.png" ,CHC动作电影
