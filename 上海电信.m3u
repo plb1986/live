@@ -1,8 +1,10 @@
 #EXTM3U x-tvg-url="https://epg.im5k.fun/pp.xml"
-#EXTINF:-1 group-title="声明" tvg-name="声明" tvg-logo="https://im5k.fun/logo/warning.png" ,声明
+#EXTINF:-1 group-title="说明" tvg-name="声明1" tvg-logo="https://im5k.fun/logo/warning.png" ,声明
 https://gitee.com/simle1986/tv/raw/master/1.mp4
-#EXTINF:-1 group-title="4 K" tvg-name="CCTV4K" tvg-logo="https://im5k.fun/logo/CCTV4K.png" ,CCTV4K
-rtp://233.18.204.188:5140
+#EXTINF:-1 group-title="说明" tvg-name="声明2" tvg-logo="https://im5k.fun/logo/warning.png" ,免费订阅
+https://gitee.com/simle1986/tv/raw/master/2.mp4
+#EXTINF:-1 group-title="说明" tvg-name="声明3" tvg-logo="https://im5k.fun/logo/warning.png" ,如遇收费请退款
+https://gitee.com/simle1986/tv/raw/master/3.mp4
 #EXTINF:-1 group-title="4 K" tvg-name="CCTV4K" tvg-logo="https://im5k.fun/logo/CCTV4K.png" ,CCTV4K
 rtp://239.45.0.55:5140
 #EXTINF:-1 group-title="4 K" tvg-name="CCTV16" tvg-logo="https://im5k.fun/logo/CCTV16-4K.png" ,CCTV16 4K
