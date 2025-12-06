@@ -54,7 +54,7 @@ rtp://239.1.1.16:8016
 #EXTINF:-1 tvg-name="CCTV10" tvg-logo="https://im5k.fun/logo/CCTV10.png" group-title="央视" ,CCTV10
 rtp://239.1.1.17:8017
 #EXTINF:-1 tvg-name="CCTV11" tvg-logo="https://im5k.fun/logo/CCTV11.png" group-title="央视" ,CCTV11
-rtp://239.1.1.18:8018
+rtp://238.1.40.251:10127
 #EXTINF:-1 tvg-name="CCTV12" tvg-logo="https://im5k.fun/logo/CCTV12.png" group-title="央视" ,CCTV12
 rtp://239.1.1.19:8019
 #EXTINF:-1 tvg-name="CCTV13" tvg-logo="https://im5k.fun/logo/CCTV13.png" group-title="央视" ,CCTV13
@@ -62,7 +62,7 @@ rtp://239.1.1.20:8020
 #EXTINF:-1 tvg-name="CCTV14" tvg-logo="https://im5k.fun/logo/CCTV14.png" group-title="央视" ,CCTV14
 rtp://239.1.1.21:8021
 #EXTINF:-1 tvg-name="CCTV15" tvg-logo="https://im5k.fun/logo/CCTV15.png" group-title="央视" ,CCTV15
-rtp://239.1.1.22:8022
+rtp://238.1.40.235:10128
 #EXTINF:-1 tvg-name="CCTV16" tvg-logo="https://im5k.fun/logo/CCTV16.png" group-title="央视" ,CCTV16
 rtp://239.1.1.122:8122
 #EXTINF:-1 tvg-name="CCTV17" tvg-logo="https://im5k.fun/logo/CCTV17.png" group-title="央视" ,CCTV17
