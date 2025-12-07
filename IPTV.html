@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPTV Tools - 一站式IPTV工具箱</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        :root {
+            --primary-color: #1a73e8;
+            --secondary-color: #0d47a1;
+            --accent-color: #00c853;
+            --accent-color-2: #ff4081;
+            --dark-color: #121212;
+            --light-color: #f8f9fa;
+            --gray-color: #e0e0e0;
+            --card-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+            --transition: all 0.3s ease;
+        }
+        
+        body {
+            background-color: #f5f7fa;
+            color: #333;
+            line-height: 1.6;
+            background-image: linear-gradient(to bottom, #f0f7ff, #e6f0ff);
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        /* 头部样式 */
+        header {
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            margin-bottom: 2rem;
+        }
+        
+        .logo {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 1rem;
+        }
+        
+        .logo-icon {
+            font-size: 2.5rem;
+            margin-right: 15px;
+            color: var(--accent-color);
+        }
+        
+        .logo-text h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+        }
+        
+        .logo-text p {
+            font-size: 1rem;
+            opacity: 0.9;
+            margin-top: 5px;
+        }
+        
+        /* 工具卡片区域 */
+        .tools-section {
+            padding: 2rem 0;
+        }
+        
+        .section-title {
+            text-align: center;
+            margin-bottom: 2.5rem;
+            color: var(--secondary-color);
+            font-size: 2rem;
+            position: relative;
+        }
+        
+        .section-title::after {
+            content: '';
+            display: block;
+            width: 80px;
+            height: 4px;
+            background-color: var(--accent-color);
+            margin: 10px auto;
+            border-radius: 2px;
+        }
+        
+        .tools-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-bottom: 3rem;
+        }
+        
+        .tool-card {
+            background-color: white;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: var(--card-shadow);
+            transition: var(--transition);
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+        
+        .tool-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+        }
+        
+        .card-header {
+            padding: 1.5rem 1.5rem 0.5rem;
+            display: flex;
+            align-items: center;
+        }
+        
+        .card-icon {
+            width: 60px;
+            height: 60px;
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 1rem;
+            color: white;
+            font-size: 1.8rem;
+        }
+        
+        .card-icon.logo {
+            background: linear-gradient(135deg, var(--accent-color-2), #e91e63);
+        }
+        
+        .card-icon.epg {
+            background: linear-gradient(135deg, #00c853, #009624);
+        }
+        
+        .card-icon.convert {
+            background: linear-gradient(135deg, #ff9800, #f57c00);
+        }
+        
+        .card-icon.group {
+            background: linear-gradient(135deg, #9c27b0, #7b1fa2);
+        }
+        
+        .card-icon.merge {
+            background: linear-gradient(135deg, #2196f3, #1976d2);
+        }
+        
+        .card-icon.subscribe {
+            background: linear-gradient(135deg, #ff5722, #e64a19);
+        }
+        
+        .card-title {
+            font-size: 1.4rem;
+            font-weight: 600;
+            color: var(--secondary-color);
+        }
+        
+        .card-body {
+            padding: 0 1.5rem 1.5rem;
+            flex-grow: 1;
+        }
+        
+        .card-description {
+            color: #666;
+            margin-bottom: 1.5rem;
+            font-size: 0.95rem;
+        }
+        
+        .card-footer {
+            padding: 1rem 1.5rem 1.5rem;
+        }
+        
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0.8rem 1.5rem;
+            background-color: var(--primary-color);
+            color: white;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: var(--transition);
+            border: none;
+            cursor: pointer;
+            width: 100%;
+            font-size: 1rem;
+        }
+        
+        .btn:hover {
+            background-color: var(--secondary-color);
+            color: white;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+        
+        .btn i {
+            margin-right: 8px;
+        }
+        
+        /* 特色区域 */
+        .features {
+            background-color: white;
+            border-radius: 15px;
+            padding: 2.5rem;
+            margin: 3rem 0;
+            box-shadow: var(--card-shadow);
+        }
+        
+        .features h2 {
+            text-align: center;
+            margin-bottom: 2rem;
+            color: var(--secondary-color);
+        }
+        
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 1.5rem;
+        }
+        
+        .feature-item {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 1rem;
+        }
+        
+        .feature-icon {
+            color: var(--primary-color);
+            font-size: 1.5rem;
+            margin-right: 1rem;
+            margin-top: 3px;
+        }
+        
+        /* 使用统计 */
+        .stats {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin: 2rem 0;
+            text-align: center;
+        }
+        
+        .stat-item {
+            margin: 1rem;
+            padding: 1.5rem;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            min-width: 150px;
+        }
+        
+        .stat-number {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--primary-color);
+            margin-bottom: 0.5rem;
+        }
+        
+        .stat-label {
+            color: #666;
+            font-size: 1rem;
+        }
+        
+        /* 底部样式 */
+        footer {
+            background-color: var(--dark-color);
+            color: white;
+            padding: 2.5rem 0;
+            text-align: center;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+            margin-top: 3rem;
+        }
+        
+        .footer-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .footer-links {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 1.5rem;
+            margin: 1.5rem 0;
+        }
+        
+        .footer-links a {
+            color: #bbbbbb;
+            text-decoration: none;
+            transition: var(--transition);
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+        }
+        
+        .footer-links a:hover {
+            color: white;
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+        
+        .copyright {
+            color: #999;
+            font-size: 0.9rem;
+            margin-top: 1.5rem;
+            line-height: 1.5;
+        }
+        
+        /* 响应式设计 */
+        @media (max-width: 992px) {
+            .tools-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .tools-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .logo-text h1 {
+                font-size: 2rem;
+            }
+            
+            .section-title {
+                font-size: 1.7rem;
+            }
+            
+            .features {
+                padding: 1.5rem;
+            }
+            
+            .stat-item {
+                min-width: 120px;
+                padding: 1rem;
+            }
+            
+            .stat-number {
+                font-size: 2rem;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .container {
+                padding: 0 15px;
+            }
+            
+            .card-header {
+                flex-direction: column;
+                text-align: center;
+            }
+            
+            .card-icon {
+                margin-right: 0;
+                margin-bottom: 1rem;
+            }
+            
+            .footer-links {
+                flex-direction: column;
+                gap: 1rem;
+            }
+            
+            .stats {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <div class="logo-icon">
+                    <i class="fas fa-tv"></i>
+                </div>
+                <div class="logo-text">
+                    <h1>IPTV Tools</h1>
+                    <p>一站式IPTV工具箱，为您提供专业的IPTV解决方案</p>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <main class="container">
+        <section class="tools-section">
+            <h2 class="section-title">IPTV 工具箱</h2>
+            
+            <div class="tools-grid">
+                <!-- EPG功能 -->
+                <div class="tool-card">
+                    <div class="card-header">
+                        <div class="card-icon epg">
+                            <i class="fas fa-calendar-alt"></i>
+                        </div>
+                        <h3 class="card-title">EPG 电子节目指南</h3>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-description">
+                            获取全面的电子节目指南，提供电视节目的详细信息，包括节目名称、开始时间、结束时间和节目描述等。
+                        </p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="https://epg.im5k.fun" target="_blank" class="btn">
+                            <i class="fas fa-external-link-alt"></i> 访问 EPG 功能
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- 直播源格式转换 -->
+                <div class="tool-card">
+                    <div class="card-header">
+                        <div class="card-icon convert">
+                            <i class="fas fa-exchange-alt"></i>
+                        </div>
+                        <h3 class="card-title">直播源格式转换</h3>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-description">
+                            将直播源转换为各种播放器兼容的格式，支持M3U、TXT等常见格式的相互转换，方便在不同设备上使用。
+                        </p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="https://im5k.fun/ok.html" target="_blank" class="btn">
+                            <i class="fas fa-exchange-alt"></i> 访问格式转换
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Logo功能 -->
+                <div class="tool-card">
+                    <div class="card-header">
+                        <div class="card-icon logo">
+                            <i class="fas fa-images"></i>
+                        </div>
+                        <h3 class="card-title">Logo 图标管理</h3>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-description">
+                            获取和管理IPTV频道Logo图标，提供高清Logo下载和定制服务，美化您的IPTV播放列表界面。
+                        </p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="https://im5k.fun/logo.html" target="_blank" class="btn">
+                            <i class="fas fa-images"></i> 访问 Logo 功能
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- 直播源分组 -->
+                <div class="tool-card">
+                    <div class="card-header">
+                        <div class="card-icon group">
+                            <i class="fas fa-object-group"></i>
+                        </div>
+                        <h3 class="card-title">直播源分组</h3>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-description">
+                            对直播源进行智能分组，按频道类型、地区、语言等分类，方便管理和查找，提升使用体验。
+                        </p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="https://im5k.fun/fenzu.html" target="_blank" class="btn">
+                            <i class="fas fa-object-group"></i> 访问分组功能
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- 直播源合并 -->
+                <div class="tool-card">
+                    <div class="card-header">
+                        <div class="card-icon merge">
+                            <i class="fas fa-layer-group"></i>
+                        </div>
+                        <h3 class="card-title">直播源合并</h3>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-description">
+                            将多个直播源列表合并为一个，去除重复频道，优化播放列表结构，创建个性化的直播源合集。
+                        </p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="https://im5k.fun/hebing.html" target="_blank" class="btn">
+                            <i class="fas fa-layer-group"></i> 访问合并功能
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- IPTV订阅 -->
+                <div class="tool-card">
+                    <div class="card-header">
+                        <div class="card-icon subscribe">
+                            <i class="fas fa-rss"></i>
+                        </div>
+                        <h3 class="card-title">IPTV 订阅</h3>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-description">
+                            获取稳定的IPTV订阅服务，提供高质量直播源，定期更新频道列表，确保观看流畅稳定。
+                        </p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="https://iptv.im5k.fun" target="_blank" class="btn">
+                            <i class="fas fa-rss"></i> 访问订阅功能
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 使用统计 -->
+            <div class="stats">
+                <div class="stat-item">
+                    <div class="stat-number">6</div>
+                    <div class="stat-label">实用工具</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">100%</div>
+                    <div class="stat-label">免费使用</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">24/7</div>
+                    <div class="stat-label">服务在线</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">0</div>
+                    <div class="stat-label">数据上传</div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="features">
+            <h2>IPTV Tools 特色</h2>
+            <div class="features-grid">
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <div>
+                        <h3>快速处理</h3>
+                        <p>所有工具响应迅速，实时处理您的IPTV数据。</p>
+                    </div>
+                </div>
+                
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <div>
+                        <h3>安全可靠</h3>
+                        <p>无需上传数据到服务器，保护您的隐私安全。</p>
+                    </div>
+                </div>
+                
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-laptop"></i>
+                    </div>
+                    <div>
+                        <h3>多设备兼容</h3>
+                        <p>支持电脑、手机、平板等多种设备访问。</p>
+                    </div>
+                </div>
+                
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-sync-alt"></i>
+                    </div>
+                    <div>
+                        <h3>持续更新</h3>
+                        <p>工具功能持续优化，适配最新IPTV标准。</p>
+                    </div>
+                </div>
+                
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <div>
+                        <h3>美观界面</h3>
+                        <p>现代化设计，操作简单直观，用户体验优良。</p>
+                    </div>
+                </div>
+                
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-question-circle"></i>
+                    </div>
+                    <div>
+                        <h3>无需注册</h3>
+                        <p>所有功能直接使用，无需注册登录账号。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="logo">
+                    <div class="logo-icon" style="background: var(--accent-color);">
+                        <i class="fas fa-tv"></i>
+                    </div>
+                    <div class="logo-text">
+                        <h2>IPTV Tools</h2>
+                        <p>一站式IPTV解决方案</p>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <a href="https://epg.im5k.fun" target="_blank">EPG功能</a>
+                    <a href="https://im5k.fun/ok.html" target="_blank">格式转换</a>
+                    <a href="https://im5k.fun/logo.html" target="_blank">Logo图标</a>
+                    <a href="https://im5k.fun/fenzu.html" target="_blank">直播源分组</a>
+                    <a href="https://im5k.fun/hebing.html" target="_blank">直播源合并</a>
+                    <a href="https://iptv.im5k.fun" target="_blank">IPTV订阅</a>
+                </div>
+                
+                <div class="copyright">
+                    <p>© 2023 IPTV Tools. 本工具仅供学习交流使用。</p>
+                    <p>所有功能链接指向外部服务，使用前请了解相关服务条款。</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <script>
+        // 添加交互效果
+        document.addEventListener('DOMContentLoaded', function() {
+            // 为所有工具卡片添加点击效果
+            const toolCards = document.querySelectorAll('.tool-card');
+            
+            toolCards.forEach(card => {
+                card.addEventListener('click', function(e) {
+                    // 防止在按钮上点击时触发
+                    if (e.target.tagName === 'A' || e.target.tagName === 'I') {
+                        return;
+                    }
+                    
+                    const link = this.querySelector('a');
+                    if (link) {
+                        // 添加点击反馈
+                        this.style.transform = 'scale(0.98)';
+                        setTimeout(() => {
+                            this.style.transform = '';
+                            link.click();
+                        }, 150);
+                    }
+                });
+            });
+            
+            // 添加悬停效果增强
+            const buttons = document.querySelectorAll('.btn');
+            buttons.forEach(button => {
+                button.addEventListener('mouseenter', function() {
+                    this.style.transform = 'scale(1.05)';
+                });
+                
+                button.addEventListener('mouseleave', function() {
+                    this.style.transform = 'scale(1)';
+                });
+            });
+            
+            // 添加统计数字动画
+            const statNumbers = document.querySelectorAll('.stat-number');
+            const observerOptions = {
+                threshold: 0.5
+            };
+            
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        const statNumber = entry.target;
+                        const targetNumber = parseInt(statNumber.textContent);
+                        const isPercentage = statNumber.textContent.includes('%');
+                        
+                        // 如果是0，直接显示（不需要动画）
+                        if (targetNumber === 0) {
+                            return;
+                        }
+                        
+                        let current = 0;
+                        const increment = targetNumber / 30;
+                        const timer = setInterval(() => {
+                            current += increment;
+                            if (current >= targetNumber) {
+                                clearInterval(timer);
+                                statNumber.textContent = isPercentage ? targetNumber + '%' : targetNumber;
+                            } else {
+                                statNumber.textContent = isPercentage ? Math.floor(current) + '%' : Math.floor(current);
+                            }
+                        }, 50);
+                        
+                        observer.unobserve(statNumber);
+                    }
+                });
+            }, observerOptions);
+            
+            statNumbers.forEach(statNumber => {
+                observer.observe(statNumber);
+            });
+        });
+    </script>
+</body>
+</html>
