@@ -1,0 +1,1032 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📺 多线路合并直播源工具</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); min-height: 100vh; padding: 20px; color: #333; }
+        .container { max-width: 1400px; margin: 0 auto; background: white; border-radius: 16px; box-shadow: 0 10px 40px rgba(0,0,0,0.08); overflow: hidden; }
+        .header { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 40px 30px; }
+        .header-content { max-width: 800px; margin: 0 auto; text-align: center; }
+        h1 { font-size: 2.8rem; margin-bottom: 15px; display: flex; align-items: center; justify-content: center; gap: 15px; }
+        .stats-container { display: flex; justify-content: center; gap: 25px; margin: 40px 0; flex-wrap: wrap; }
+        .stat-card { background: rgba(255,255,255,0.15); padding: 25px; border-radius: 12px; min-width: 180px; text-align: center; backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.2); }
+        .stat-value { font-size: 3rem; font-weight: bold; display: block; margin-bottom: 5px; }
+        
+        /* 控制面板 */
+        .control-panel { padding: 30px; background: #f8f9fa; border-bottom: 1px solid #e9ecef; }
+        
+        /* 输入方法切换 */
+        .input-methods { display: flex; gap: 10px; margin-bottom: 20px; flex-wrap: wrap; }
+        .method-tab { padding: 10px 20px; border: 2px solid #667eea; background: white; color: #667eea; border-radius: 8px; cursor: pointer; white-space: nowrap; }
+        .method-tab.active { background: #667eea; color: white; }
+        
+        .input-container { display: none; }
+        .input-container.active { display: block; }
+        
+        /* 输入框样式 */
+        input[type="text"], textarea { width: 100%; padding: 14px 18px; border: 2px solid #e1e5e9; border-radius: 10px; font-size: 1rem; margin-bottom: 15px; }
+        textarea { min-height: 150px; font-family: 'Courier New', monospace; resize: vertical; }
+        
+        /* 文件上传 */
+        .file-upload { border: 2px dashed #667eea; border-radius: 10px; padding: 40px; text-align: center; cursor: pointer; margin-bottom: 15px; transition: background 0.3s; }
+        .file-upload:hover { background: #f8f9fa; }
+        .file-upload input { display: none; }
+        
+        /* 按钮样式 */
+        .buttons { display: flex; gap: 15px; flex-wrap: wrap; margin-top: 20px; }
+        .btn { padding: 14px 28px; border: none; border-radius: 10px; font-size: 1rem; font-weight: 600; cursor: pointer; display: flex; align-items: center; gap: 8px; transition: transform 0.2s; }
+        .btn:hover { transform: translateY(-2px); }
+        .btn-primary { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; }
+        .btn-success { background: #28a745; color: white; }
+        .btn-info { background: #17a2b8; color: white; }
+        .btn-secondary { background: #6c757d; color: white; }
+        .btn-warning { background: #ffc107; color: #333; }
+        .btn-danger { background: #dc3545; color: white; }
+        
+        /* 搜索区域 */
+        .search-section { padding: 25px 30px; border-bottom: 1px solid #e9ecef; }
+        .search-box { position: relative; margin-bottom: 20px; }
+        #searchInput { width: 100%; padding: 14px 20px 14px 50px; font-size: 1.1rem; }
+        .search-icon { position: absolute; left: 18px; top: 50%; transform: translateY(-50%); color: #667eea; }
+        
+        /* 频道列表 */
+        .channels-container { padding: 25px 30px; max-height: 600px; overflow-y: auto; }
+        .channel-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); gap: 20px; }
+        .channel-card { background: white; border: 1px solid #e9ecef; border-radius: 12px; padding: 20px; box-shadow: 0 2px 8px rgba(0,0,0,0.04); transition: box-shadow 0.3s; }
+        .channel-card:hover { box-shadow: 0 5px 20px rgba(0,0,0,0.1); }
+        .channel-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 15px; }
+        .channel-name { font-size: 1.3rem; font-weight: 600; margin-bottom: 5px; }
+        .channel-quality { display: inline-block; padding: 4px 10px; background: #e9ecef; border-radius: 20px; font-size: 0.85rem; }
+        .line-count { background: #667eea; color: white; padding: 4px 12px; border-radius: 20px; font-size: 0.9rem; }
+        .channel-urls { margin-top: 15px; }
+        .url-item { background: #f8f9fa; padding: 12px 15px; border-radius: 8px; margin-bottom: 10px; border-left: 4px solid #667eea; }
+        .url-quality { color: #666; font-size: 0.9rem; margin-bottom: 5px; display: flex; align-items: center; gap: 8px; }
+        .quality-badge { padding: 2px 8px; background: #dc3545; color: white; border-radius: 4px; font-size: 0.8rem; }
+        .quality-4k { background: #9c27b0; }
+        .quality-1080p { background: #2196f3; }
+        .quality-720p { background: #4caf50; }
+        .quality-sd { background: #ff9800; }
+        .url-text { font-family: monospace; font-size: 0.9rem; word-break: break-all; margin-bottom: 10px; line-height: 1.4; }
+        .copy-btn { border: 1px solid #667eea; color: #667eea; padding: 6px 15px; border-radius: 6px; cursor: pointer; transition: all 0.3s; }
+        .copy-btn:hover { background: #667eea; color: white; }
+        
+        /* 加载动画 */
+        .loading { display: none; text-align: center; padding: 40px; }
+        .spinner { width: 40px; height: 40px; border: 4px solid #f3f3f3; border-top: 4px solid #667eea; border-radius: 50%; animation: spin 1s linear infinite; margin: 0 auto 20px; }
+        
+        /* 状态提示 */
+        #status { margin-top: 15px; padding: 10px; border-radius: 5px; display: none; }
+        
+        /* 输出格式选项 */
+        .format-options { margin: 20px 0; padding: 15px; background: #e7f3ff; border-radius: 8px; }
+        .format-options h3 { margin-bottom: 10px; color: #0056b3; }
+        
+        /* 顺序标记 */
+        .order-index { display: inline-block; background: #667eea; color: white; padding: 2px 6px; border-radius: 3px; font-size: 0.8rem; margin-left: 5px; }
+        
+        /* 分组标签 */
+        .group-tag { display: inline-block; background: #20c997; color: white; padding: 2px 8px; border-radius: 3px; font-size: 0.8rem; margin-left: 5px; }
+        
+        @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+        
+        /* 响应式设计 */
+        @media (max-width: 768px) {
+            .container { margin: 10px; }
+            h1 { font-size: 2rem; }
+            .channel-grid { grid-template-columns: 1fr; }
+            .buttons { flex-direction: column; }
+            .btn { width: 100%; }
+            .input-methods { flex-direction: column; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="header-content">
+                <h1><span>📺</span>多线路合并直播源工具</h1>
+                <p style="font-size: 1.2rem; opacity: 0.9;">严格按第一列表顺序，保持分组信息</p>
+                
+                <div class="stats-container">
+                    <div class="stat-card">
+                        <span class="stat-value" id="totalChannels">0</span>
+                        <span class="stat-label">总频道数</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-value" id="totalLines">0</span>
+                        <span class="stat-label">总线路数</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-value" id="avgLines">0.0</span>
+                        <span class="stat-label">平均线路/频道</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="control-panel">
+            <!-- 输入方法切换 -->
+            <div class="input-methods">
+                <div class="method-tab active" onclick="switchMethod('url')">🌐 URL导入</div>
+                <div class="method-tab" onclick="switchMethod('text')">📝 粘贴文本</div>
+                <div class="method-tab" onclick="switchMethod('file')">📁 上传文件</div>
+                <div class="method-tab" onclick="switchMethod('example')">📋 示例数据</div>
+            </div>
+            
+            <!-- URL输入方式 -->
+            <div class="input-container active" id="urlInput">
+                <div style="margin-bottom: 10px;">
+                    <input type="text" id="url1" placeholder="第一个直播源URL（主列表 - 严格按此顺序）">
+                    <small style="color: #666;">此列表的顺序将作为最终输出顺序</small>
+                </div>
+                <div style="margin-bottom: 10px;">
+                    <input type="text" id="url2" placeholder="第二个直播源URL（备用列表）">
+                </div>
+                <div>
+                    <input type="text" id="url3" placeholder="第三个直播源URL（备用列表）">
+                </div>
+            </div>
+            
+            <!-- 文本粘贴方式 -->
+            <div class="input-container" id="textInput">
+                <div style="margin-bottom: 10px;">
+                    <textarea id="text1" placeholder="粘贴第一个直播源内容（主列表 - 严格按此顺序）..."></textarea>
+                    <small style="color: #666;">此列表的顺序将作为最终输出顺序</small>
+                </div>
+                <div style="margin-bottom: 10px;">
+                    <textarea id="text2" placeholder="粘贴第二个直播源内容（备用列表）..."></textarea>
+                </div>
+                <div>
+                    <textarea id="text3" placeholder="粘贴第三个直播源内容（备用列表）..."></textarea>
+                </div>
+            </div>
+            
+            <!-- 文件上传方式 -->
+            <div class="input-container" id="fileInput">
+                <div class="file-upload" onclick="document.getElementById('file1').click()">
+                    <div style="font-size: 4rem;">📁</div>
+                    <div style="font-size: 1.2rem; margin: 10px 0;">点击上传第一个直播源文件（主列表 - 严格按此顺序）</div>
+                    <div style="color: #666;">支持 .m3u, .m3u8, .txt 格式</div>
+                    <input type="file" id="file1" accept=".m3u,.m3u8,.txt,.text" onchange="handleFileSelect(this, 'file1Content')">
+                </div>
+                <div id="file1Content" style="display: none;"></div>
+                
+                <div class="file-upload" onclick="document.getElementById('file2').click()">
+                    <div style="font-size: 4rem;">📁</div>
+                    <div style="font-size: 1.2rem; margin: 10px 0;">点击上传第二个直播源文件（备用列表）</div>
+                    <div style="color: #666;">支持 .m3u, .m3u8, .txt 格式</div>
+                    <input type="file" id="file2" accept=".m3u,.m3u8,.txt,.text" onchange="handleFileSelect(this, 'file2Content')">
+                </div>
+                <div id="file2Content" style="display: none;"></div>
+                
+                <div class="file-upload" onclick="document.getElementById('file3').click()">
+                    <div style="font-size: 4rem;">📁</div>
+                    <div style="font-size: 1.2rem; margin: 10px 0;">点击上传第三个直播源文件（备用列表）</div>
+                    <div style="color: #666;">支持 .m3u, .m3u8, .txt 格式</div>
+                    <input type="file" id="file3" accept=".m3u,.m3u8,.txt,.text" onchange="handleFileSelect(this, 'file3Content')">
+                </div>
+                <div id="file3Content" style="display: none;"></div>
+            </div>
+            
+            <!-- 示例数据 -->
+            <div class="input-container" id="exampleInput">
+                <div style="padding: 20px; background: #f8f9fa; border-radius: 10px; margin-bottom: 20px;">
+                    <h3 style="margin-bottom: 15px;">使用示例直播源</h3>
+                    <p style="margin-bottom: 10px;">选择预置的直播源进行测试：</p>
+                    <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+                        <button class="btn" style="background: #6f42c1; color: white; padding: 8px 16px;" onclick="loadExample('m3u')">M3U带分组</button>
+                        <button class="btn" style="background: #20c997; color: white; padding: 8px 16px;" onclick="loadExample('txt')">TXT带分组</button>
+                    </div>
+                </div>
+                <textarea id="exampleText" placeholder="这里将显示示例数据..." style="min-height: 200px;"></textarea>
+            </div>
+            
+            <!-- 输出格式设置 -->
+            <div class="format-options">
+                <h3>⚙️ 输出格式设置</h3>
+                <div style="display: flex; flex-wrap: wrap; gap: 20px;">
+                    <div>
+                        <div style="font-weight: bold; margin-bottom: 5px;">输出格式：</div>
+                        <div>
+                            <label style="display: flex; align-items: center; gap: 8px; margin-bottom: 5px;">
+                                <input type="radio" name="outputFormat" value="m3u" checked> M3U格式
+                            </label>
+                            <label style="display: flex; align-items: center; gap: 8px;">
+                                <input type="radio" name="outputFormat" value="txt"> TXT格式
+                            </label>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <div style="font-weight: bold; margin-bottom: 5px;">TXT选项：</div>
+                        <div>
+                            <label style="display: flex; align-items: center; gap: 8px; margin-bottom: 5px;">
+                                <input type="checkbox" id="txtGroupByCategory" checked> 按分组输出
+                            </label>
+                            <label style="display: flex; align-items: center; gap: 8px;">
+                                <input type="checkbox" id="txtShowEmptyGroups" checked> 显示空分组
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 操作按钮 -->
+            <div class="buttons">
+                <button class="btn btn-primary" onclick="mergeSources()">
+                    <span>🔗</span> 合并直播源
+                </button>
+                <button class="btn btn-success" onclick="downloadFile()">
+                    <span>📥</span> 下载合并文件
+                </button>
+                <button class="btn btn-info" onclick="previewOutput()">
+                    <span>👁️</span> 预览输出
+                </button>
+                <button class="btn btn-danger" onclick="clearAll()">
+                    <span>🗑️</span> 清空所有
+                </button>
+            </div>
+            
+            <div id="status" style="margin-top: 15px; padding: 10px; border-radius: 5px; display: none;"></div>
+        </div>
+
+        <div class="search-section">
+            <div class="search-box">
+                <span class="search-icon">🔍</span>
+                <input type="text" id="searchInput" placeholder="输入频道名称搜索..." 
+                       onkeyup="searchChannels()">
+            </div>
+        </div>
+
+        <div class="channels-container">
+            <div id="channelsList">
+                <div class="loading" id="loading">
+                    <div class="spinner"></div>
+                    <p>正在处理直播源，请稍候...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // 全局变量
+        let currentMethod = 'url';
+        let mergedData = [];
+        let firstListOrder = [];
+        
+        // 切换输入方法
+        function switchMethod(method) {
+            currentMethod = method;
+            
+            document.querySelectorAll('.method-tab').forEach(tab => {
+                tab.classList.remove('active');
+            });
+            event.target.classList.add('active');
+            
+            document.querySelectorAll('.input-container').forEach(container => {
+                container.classList.remove('active');
+            });
+            document.getElementById(method + 'Input').classList.add('active');
+        }
+        
+        // 处理文件选择
+        function handleFileSelect(input, contentId) {
+            const file = input.files[0];
+            if (!file) return;
+            
+            const reader = new FileReader();
+            reader.onload = function(e) {
+                const content = e.target.result;
+                document.getElementById(contentId).textContent = content;
+                document.getElementById(contentId).style.display = 'block';
+                showStatus(`已加载文件: ${file.name}`, 'success');
+            };
+            reader.readAsText(file, 'UTF-8');
+        }
+        
+        // 加载示例数据
+        function loadExample(type) {
+            let exampleData = '';
+            
+            if (type === 'm3u') {
+                exampleData = `#EXTM3U
+#EXTINF:-1 tvg-name="CCTV1 4K" tvg-logo="https://example.com/cctv1.png" group-title="4K频道",CCTV1 4K
+http://example.com/cctv1-4k.m3u8
+#EXTINF:-1 tvg-name="CCTV5 4K" tvg-logo="https://example.com/cctv5.png" group-title="4K频道",CCTV5 4K
+http://example.com/cctv5-4k.m3u8
+#EXTINF:-1 tvg-name="CCTV1" tvg-logo="https://example.com/cctv1.png" group-title="央视",CCTV1
+http://example.com/cctv1.m3u8
+#EXTINF:-1 tvg-name="湖南卫视" tvg-logo="https://example.com/hunan.png" group-title="卫视",湖南卫视
+http://example.com/hunan.m3u8`;
+            } else if (type === 'txt') {
+                exampleData = `4K频道,#genre#
+CCTV1 4K,http://example.com/cctv1-4k.m3u8
+CCTV5 4K,http://example.com/cctv5-4k.m3u8
+
+央视,#genre#
+CCTV1,http://example.com/cctv1.m3u8
+CCTV2,http://example.com/cctv2.m3u8
+
+卫视,#genre#
+湖南卫视,http://example.com/hunan.m3u8
+浙江卫视,http://example.com/zhejiang.m3u8`;
+            }
+            
+            document.getElementById('exampleText').value = exampleData;
+            showStatus(`已加载${type === 'm3u' ? 'M3U' : 'TXT'}带分组示例`, 'success');
+        }
+        
+        // 解析M3U格式
+        function parseM3UFormat(content) {
+            const lines = content.split('\n');
+            const channels = [];
+            let currentChannel = null;
+            
+            for (let i = 0; i < lines.length; i++) {
+                const line = lines[i].trim();
+                
+                if (line.startsWith('#EXTINF:')) {
+                    currentChannel = {
+                        extinf: line,
+                        name: extractChannelName(line),
+                        url: null,
+                        tvgName: extractTvgName(line),
+                        tvgLogo: extractTvgLogo(line),
+                        groupTitle: extractGroupTitle(line),
+                        format: 'm3u',
+                        originalExtinf: line,
+                        originalIndex: channels.length
+                    };
+                } else if (currentChannel && line && !line.startsWith('#')) {
+                    currentChannel.url = line;
+                    currentChannel.normalizedName = normalizeChannelName(currentChannel.name);
+                    channels.push(currentChannel);
+                    currentChannel = null;
+                }
+            }
+            
+            return channels;
+        }
+        
+        // 解析TXT格式（支持分组）
+        function parseTXTTFormat(content) {
+            const lines = content.split('\n');
+            const channels = [];
+            let currentGroup = '';
+            
+            for (let i = 0; i < lines.length; i++) {
+                const line = lines[i].trim();
+                
+                if (!line) continue;
+                
+                if (line.includes(',#genre#')) {
+                    currentGroup = line.replace(',#genre#', '');
+                    continue;
+                }
+                
+                if (line.includes(',')) {
+                    const parts = line.split(',');
+                    if (parts.length >= 2) {
+                        const name = parts[0].trim();
+                        const url = parts[parts.length - 1].trim();
+                        
+                        channels.push({
+                            name: name,
+                            url: url,
+                            normalizedName: normalizeChannelName(name),
+                            format: 'txt',
+                            groupTitle: currentGroup || '其他',
+                            extinf: `#EXTINF:-1,${name}`,
+                            tvgName: name,
+                            tvgLogo: '',
+                            originalIndex: channels.length
+                        });
+                    }
+                }
+            }
+            
+            return channels;
+        }
+        
+        // 智能解析内容
+        function parseContent(content) {
+            if (content.includes('#EXTM3U') || content.includes('#EXTINF:')) {
+                return parseM3UFormat(content);
+            } else {
+                return parseTXTTFormat(content);
+            }
+        }
+        
+        // 提取频道名称
+        function extractChannelName(extinfLine) {
+            const match = extinfLine.match(/,(.+)$/);
+            return match ? match[1].trim() : '';
+        }
+        
+        function extractTvgName(line) {
+            const match = line.match(/tvg-name="([^"]*)"/);
+            return match ? match[1] : extractChannelName(line);
+        }
+        
+        function extractTvgLogo(line) {
+            const match = line.match(/tvg-logo="([^"]*)"/);
+            return match ? match[1] : '';
+        }
+        
+        function extractGroupTitle(line) {
+            const match = line.match(/group-title="([^"]*)"/);
+            return match ? match[1] : '';
+        }
+        
+        // 统一频道名称
+        function normalizeChannelName(name) {
+            if (!name) return '';
+            
+            let normalized = name.trim();
+            normalized = normalized.replace(/\s+/g, '');
+            
+            const cctvPatterns = [
+                { pattern: /CCTV[-_]?(\d+)/g, replace: 'CCTV$1' },
+                { pattern: /CCTV(?:综合|一套)/g, replace: 'CCTV1' },
+                { pattern: /CCTV(?:财经|二套)/g, replace: 'CCTV2' },
+                { pattern: /CCTV(?:综艺|三套)/g, replace: 'CCTV3' },
+                { pattern: /CCTV(?:中文国际|四套)/g, replace: 'CCTV4' },
+                { pattern: /CCTV(?:体育|五套)/g, replace: 'CCTV5' },
+                { pattern: /CCTV(?:电影|六套)/g, replace: 'CCTV6' },
+                { pattern: /CCTV(?:军事农业|七套)/g, replace: 'CCTV7' },
+                { pattern: /CCTV(?:电视剧|八套)/g, replace: 'CCTV8' },
+                { pattern: /CCTV(?:纪录|九套)/g, replace: 'CCTV9' }
+            ];
+            
+            cctvPatterns.forEach(p => {
+                normalized = normalized.replace(p.pattern, p.replace);
+            });
+            
+            return normalized || name;
+        }
+        
+        // 从当前输入方法获取内容
+        async function getContentFromMethod() {
+            const sources = [];
+            
+            if (currentMethod === 'url') {
+                const urls = [
+                    document.getElementById('url1').value.trim(),
+                    document.getElementById('url2').value.trim(),
+                    document.getElementById('url3').value.trim()
+                ].filter(url => url);
+                
+                for (let i = 0; i < urls.length; i++) {
+                    try {
+                        showStatus(`正在获取源 ${i+1}...`, 'info');
+                        const response = await fetch(urls[i], {
+                            headers: {
+                                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
+                                'Accept': 'text/plain, application/vnd.apple.mpegurl, audio/x-mpegurl, */*'
+                            }
+                        });
+                        if (response.ok) {
+                            const text = await response.text();
+                            sources.push({ index: i, content: text });
+                            showStatus(`源 ${i+1} 获取成功`, 'success');
+                        }
+                    } catch (error) {
+                        if (i === 0) {
+                            throw new Error(`第一列表获取失败: ${error.message}`);
+                        }
+                        showStatus(`源 ${i+1} 获取失败`, 'warning');
+                    }
+                }
+                
+            } else if (currentMethod === 'text') {
+                const texts = [
+                    document.getElementById('text1').value,
+                    document.getElementById('text2').value,
+                    document.getElementById('text3').value
+                ].filter(text => text.trim());
+                
+                texts.forEach((text, i) => {
+                    if (text.trim()) {
+                        sources.push({ index: i, content: text });
+                        showStatus(`源 ${i+1} 已加载`, 'success');
+                    }
+                });
+                
+                if (texts.length === 0) {
+                    throw new Error('请至少输入一个直播源内容');
+                }
+                
+            } else if (currentMethod === 'file') {
+                const files = [
+                    document.getElementById('file1Content').textContent,
+                    document.getElementById('file2Content').textContent,
+                    document.getElementById('file3Content').textContent
+                ].filter(content => content);
+                
+                files.forEach((content, i) => {
+                    if (content) {
+                        sources.push({ index: i, content });
+                        showStatus(`源 ${i+1} 已加载`, 'success');
+                    }
+                });
+                
+                if (files.length === 0) {
+                    throw new Error('请至少上传一个直播源文件');
+                }
+                
+            } else if (currentMethod === 'example') {
+                const exampleText = document.getElementById('exampleText').value;
+                if (exampleText.trim()) {
+                    sources.push({ index: 0, content: exampleText });
+                    showStatus('示例数据已加载', 'success');
+                } else {
+                    throw new Error('请选择或输入示例数据');
+                }
+            }
+            
+            return sources;
+        }
+        
+        // 合并直播源
+        async function mergeSources() {
+            showLoading(true);
+            showStatus('开始合并直播源...', 'info');
+            
+            try {
+                mergedData = [];
+                firstListOrder = [];
+                
+                const sources = await getContentFromMethod();
+                
+                if (sources.length === 0) {
+                    throw new Error('没有获取到任何直播源内容');
+                }
+                
+                const firstSource = sources[0];
+                const firstListChannels = parseContent(firstSource.content);
+                
+                if (firstListChannels.length === 0) {
+                    throw new Error('第一列表没有解析到任何频道');
+                }
+                
+                const channelMap = new Map();
+                
+                firstListChannels.forEach((channel, index) => {
+                    if (channel.normalizedName && channel.url) {
+                        const key = channel.normalizedName;
+                        
+                        const mergedChannel = {
+                            name: channel.name,
+                            normalizedName: key,
+                            urls: [{
+                                url: channel.url,
+                                quality: detectQuality(channel.name, channel.url),
+                                source: '主列表',
+                                extinf: channel.extinf,
+                                tvgName: channel.tvgName,
+                                tvgLogo: channel.tvgLogo,
+                                groupTitle: channel.groupTitle || '其他',
+                                format: channel.format
+                            }],
+                            originalIndex: index,
+                            fromFirstList: true,
+                            quality: detectQuality(channel.name, channel.url),
+                            groupTitle: channel.groupTitle || '其他'
+                        };
+                        
+                        mergedData.push(mergedChannel);
+                        firstListOrder.push(key);
+                        channelMap.set(key, mergedData.length - 1);
+                    }
+                });
+                
+                showStatus(`第一列表处理完成: ${firstListChannels.length} 个频道`, 'success');
+                
+                for (let i = 1; i < sources.length; i++) {
+                    try {
+                        const source = sources[i];
+                        const backupChannels = parseContent(source.content);
+                        let addedCount = 0;
+                        
+                        backupChannels.forEach(channel => {
+                            if (channel.normalizedName && channel.url) {
+                                const key = channel.normalizedName;
+                                const newUrl = {
+                                    url: channel.url,
+                                    quality: detectQuality(channel.name, channel.url),
+                                    source: `备用列表${i}`,
+                                    extinf: channel.extinf,
+                                    tvgName: channel.tvgName,
+                                    tvgLogo: channel.tvgLogo,
+                                    groupTitle: channel.groupTitle || '其他',
+                                    format: channel.format
+                                };
+                                
+                                if (channelMap.has(key)) {
+                                    const index = channelMap.get(key);
+                                    const existing = mergedData[index];
+                                    
+                                    const exists = existing.urls.some(u => u.url === channel.url);
+                                    if (!exists) {
+                                        existing.urls.push(newUrl);
+                                        addedCount++;
+                                    }
+                                }
+                            }
+                        });
+                        
+                        showStatus(`备用列表${i} 处理完成: 添加了 ${addedCount} 条新线路`, 'success');
+                        
+                    } catch (error) {
+                        console.error(`备用列表${i} 处理失败:`, error);
+                        showStatus(`备用列表${i} 处理失败`, 'warning');
+                    }
+                }
+                
+                updateStatistics();
+                displayChannels();
+                
+                showStatus(`✅ 合并完成！严格按照第一列表顺序，共 ${mergedData.length} 个频道，${mergedData.reduce((sum, c) => sum + c.urls.length, 0)} 条线路`, 'success');
+                
+            } catch (error) {
+                console.error('合并失败:', error);
+                showStatus(`❌ 合并失败: ${error.message}`, 'error');
+            } finally {
+                showLoading(false);
+            }
+        }
+        
+        // 生成M3U格式输出
+        function generateM3UOutput() {
+            let content = '#EXTM3U\n';
+            
+            mergedData.forEach((channel, channelIndex) => {
+                channel.urls.forEach((urlInfo, urlIndex) => {
+                    const originalExtinf = urlInfo.extinf;
+                    
+                    let extinfLine = originalExtinf;
+                    
+                    // 确保有group-title属性
+                    if (!extinfLine.includes('group-title=') && channel.groupTitle) {
+                        if (extinfLine.includes('tvg-logo=')) {
+                            extinfLine = extinfLine.replace('tvg-logo=', `group-title="${channel.groupTitle}" tvg-logo=`);
+                        } else {
+                            extinfLine = extinfLine.replace(/,(.+)$/, ` group-title="${channel.groupTitle}",$1`);
+                        }
+                    }
+                    
+                    content += extinfLine + '\n';
+                    content += urlInfo.url + '\n';
+                });
+            });
+            
+            return content;
+        }
+        
+        // 生成TXT格式输出
+        function generateTXTOutput() {
+            const groupByCategory = document.getElementById('txtGroupByCategory').checked;
+            const showEmptyGroups = document.getElementById('txtShowEmptyGroups').checked;
+            
+            let content = '';
+            
+            if (groupByCategory) {
+                const groups = {};
+                
+                mergedData.forEach((channel, channelIndex) => {
+                    const groupTitle = channel.groupTitle || '其他';
+                    if (!groups[groupTitle]) {
+                        groups[groupTitle] = [];
+                    }
+                    groups[groupTitle].push(channel);
+                });
+                
+                const orderedGroups = {};
+                mergedData.forEach(channel => {
+                    const groupTitle = channel.groupTitle || '其他';
+                    if (!orderedGroups[groupTitle]) {
+                        orderedGroups[groupTitle] = [];
+                    }
+                });
+                
+                Object.keys(orderedGroups).forEach(groupTitle => {
+                    if (groups[groupTitle] && (groups[groupTitle].length > 0 || showEmptyGroups)) {
+                        content += `${groupTitle},#genre#\n`;
+                        
+                        groups[groupTitle].forEach(channel => {
+                            channel.urls.forEach((urlInfo, urlIndex) => {
+                                content += `${channel.name},${urlInfo.url}\n`;
+                            });
+                        });
+                        
+                        content += '\n';
+                    }
+                });
+            } else {
+                mergedData.forEach((channel, channelIndex) => {
+                    channel.urls.forEach((urlInfo, urlIndex) => {
+                        content += `${channel.name},${urlInfo.url}\n`;
+                    });
+                });
+            }
+            
+            return content;
+        }
+        
+        // 检测视频质量
+        function detectQuality(channelName, url) {
+            const name = (channelName || '').toLowerCase();
+            const urlStr = (url || '').toLowerCase();
+            
+            if (name.includes('4k') || urlStr.includes('4k')) {
+                return '4K';
+            } else if (name.includes('1080') || urlStr.includes('1080') || name.includes('fhd')) {
+                return '1080P';
+            } else if (name.includes('720') || urlStr.includes('720') || name.includes('hd')) {
+                return '720P';
+            } else if (name.includes('480') || urlStr.includes('480') || name.includes('sd')) {
+                return 'SD';
+            } else {
+                return '未知';
+            }
+        }
+        
+        // 显示频道列表
+        function displayChannels(filteredData = mergedData) {
+            const channelsList = document.getElementById('channelsList');
+            
+            if (!filteredData || filteredData.length === 0) {
+                channelsList.innerHTML = `
+                    <div style="text-align: center; padding: 50px; color: #666;">
+                        <div style="font-size: 4rem; margin-bottom: 20px;">📺</div>
+                        <h3>暂无数据</h3>
+                        <p>请先合并直播源</p>
+                    </div>
+                `;
+                return;
+            }
+            
+            let html = '<div class="channel-grid">';
+            
+            filteredData.forEach((channel, channelIndex) => {
+                const qualityClass = getQualityClass(channel.quality);
+                const lineCount = channel.urls.length;
+                
+                html += `
+                    <div class="channel-card">
+                        <div class="channel-header">
+                            <div>
+                                <div class="channel-name">
+                                    ${channel.name}
+                                    <span class="group-tag">${channel.groupTitle || '其他'}</span>
+                                </div>
+                                <div style="font-size: 0.9rem; color: #666; margin-bottom: 5px;">
+                                    原顺序: <span class="order-index">${channel.originalIndex + 1}</span>
+                                </div>
+                                <div>
+                                    <span class="channel-quality ${qualityClass}">${channel.quality}</span>
+                                    <span class="line-count">${lineCount} 线路</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="channel-urls">
+                `;
+                
+                channel.urls.forEach((urlInfo, urlIndex) => {
+                    const urlQuality = detectQuality(channel.name, urlInfo.url);
+                    const qualityClass = getQualityClass(urlQuality);
+                    const isFirstList = urlInfo.source === '主列表';
+                    
+                    html += `
+                        <div class="url-item">
+                            <div class="url-quality">
+                                <span>线路 ${urlIndex + 1}</span>
+                                <span class="quality-badge ${qualityClass}">${urlQuality}</span>
+                                <span style="color: ${isFirstList ? '#28a745' : '#ffc107'};">
+                                    ${urlInfo.source}
+                                </span>
+                            </div>
+                            <div class="url-text">${urlInfo.url}</div>
+                            <button class="copy-btn" onclick="copyToClipboard('${urlInfo.url.replace(/'/g, "\\'")}')">
+                                📋 复制URL
+                            </button>
+                        </div>
+                    `;
+                });
+                
+                html += `
+                        </div>
+                    </div>
+                `;
+            });
+            
+            html += '</div>';
+            channelsList.innerHTML = html;
+        }
+        
+        // 获取质量对应的CSS类
+        function getQualityClass(quality) {
+            const classMap = {
+                '4K': 'quality-4k',
+                '1080P': 'quality-1080p',
+                '720P': 'quality-720p',
+                'SD': 'quality-sd',
+                '未知': 'quality-sd'
+            };
+            return classMap[quality] || '';
+        }
+        
+        // 更新统计信息
+        function updateStatistics() {
+            const totalChannels = mergedData.length;
+            const totalLines = mergedData.reduce((sum, channel) => sum + channel.urls.length, 0);
+            const avgLines = totalChannels > 0 ? (totalLines / totalChannels).toFixed(1) : '0.0';
+            
+            document.getElementById('totalChannels').textContent = totalChannels;
+            document.getElementById('totalLines').textContent = totalLines;
+            document.getElementById('avgLines').textContent = avgLines;
+        }
+        
+        // 搜索频道
+        function searchChannels() {
+            const searchTerm = document.getElementById('searchInput').value.toLowerCase().trim();
+            
+            if (!searchTerm) {
+                displayChannels();
+                return;
+            }
+            
+            const filtered = mergedData.filter(channel => {
+                return channel.name.toLowerCase().includes(searchTerm) ||
+                       channel.normalizedName.toLowerCase().includes(searchTerm) ||
+                       (channel.groupTitle && channel.groupTitle.toLowerCase().includes(searchTerm)) ||
+                       channel.urls.some(url => url.url.toLowerCase().includes(searchTerm));
+            });
+            
+            displayChannels(filtered);
+        }
+        
+        // 复制到剪贴板
+        function copyToClipboard(text) {
+            navigator.clipboard.writeText(text).then(() => {
+                showStatus('✅ URL已复制到剪贴板', 'success');
+            }).catch(err => {
+                console.error('复制失败:', err);
+                showStatus('❌ 复制失败', 'error');
+            });
+        }
+        
+        // 下载文件
+        function downloadFile() {
+            if (mergedData.length === 0) {
+                showStatus('请先合并直播源', 'warning');
+                return;
+            }
+            
+            const outputFormat = document.querySelector('input[name="outputFormat"]:checked').value;
+            let content, filename;
+            
+            if (outputFormat === 'm3u') {
+                content = generateM3UOutput();
+                filename = `merged_channels_${new Date().getTime()}.m3u`;
+            } else {
+                content = generateTXTOutput();
+                filename = `merged_channels_${new Date().getTime()}.txt`;
+            }
+            
+            const blob = new Blob([content], { type: 'text/plain;charset=utf-8' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = filename;
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
+            
+            showStatus(`✅ 文件已下载: ${filename}`, 'success');
+        }
+        
+        // 预览输出
+        function previewOutput() {
+            if (mergedData.length === 0) {
+                showStatus('请先合并直播源', 'warning');
+                return;
+            }
+            
+            const outputFormat = document.querySelector('input[name="outputFormat"]:checked').value;
+            let content;
+            
+            if (outputFormat === 'm3u') {
+                content = generateM3UOutput();
+            } else {
+                content = generateTXTOutput();
+            }
+            
+            const previewWindow = window.open();
+            previewWindow.document.write(`
+                <!DOCTYPE html>
+                <html>
+                <head>
+                    <title>输出预览</title>
+                    <style>
+                        body { font-family: monospace; white-space: pre-wrap; padding: 20px; background: #f0f0f0; }
+                        pre { background: white; padding: 20px; border-radius: 5px; border: 1px solid #ddd; max-height: 80vh; overflow: auto; }
+                        .header { background: #667eea; color: white; padding: 15px; margin-bottom: 20px; border-radius: 5px; }
+                    </style>
+                </head>
+                <body>
+                    <div class="header">
+                        <h2>输出预览 (${outputFormat.toUpperCase()}格式)</h2>
+                        <p>总频道: ${mergedData.length} | 总线路: ${mergedData.reduce((sum, c) => sum + c.urls.length, 0)}</p>
+                    </div>
+                    <pre>${content.replace(/</g, '&lt;').replace(/>/g, '&gt;')}</pre>
+                </body>
+                </html>
+            `);
+        }
+        
+        // 清空所有
+        function clearAll() {
+            if (!confirm('确定要清空所有数据吗？')) {
+                return;
+            }
+            
+            document.getElementById('url1').value = '';
+            document.getElementById('url2').value = '';
+            document.getElementById('url3').value = '';
+            document.getElementById('text1').value = '';
+            document.getElementById('text2').value = '';
+            document.getElementById('text3').value = '';
+            
+            ['file1', 'file2', 'file3'].forEach(id => {
+                document.getElementById(id).value = '';
+            });
+            ['file1Content', 'file2Content', 'file3Content'].forEach(id => {
+                document.getElementById(id).textContent = '';
+                document.getElementById(id).style.display = 'none';
+            });
+            
+            document.getElementById('exampleText').value = '';
+            
+            mergedData = [];
+            firstListOrder = [];
+            updateStatistics();
+            displayChannels();
+            
+            showStatus('已清空所有数据', 'info');
+        }
+        
+        // 显示加载状态
+        function showLoading(show) {
+            const loading = document.getElementById('loading');
+            loading.style.display = show ? 'block' : 'none';
+        }
+        
+        // 显示状态提示
+        function showStatus(message, type = 'info') {
+            const status = document.getElementById('status');
+            const colors = {
+                'success': '#d4edda',
+                'error': '#f8d7da',
+                'warning': '#fff3cd',
+                'info': '#d1ecf1'
+            };
+            const textColors = {
+                'success': '#155724',
+                'error': '#721c24',
+                'warning': '#856404',
+                'info': '#0c5460'
+            };
+            
+            status.style.display = 'block';
+            status.style.backgroundColor = colors[type] || colors.info;
+            status.style.color = textColors[type] || textColors.info;
+            status.innerHTML = `<strong>${type === 'success' ? '✅' : type === 'error' ? '❌' : 'ℹ️'}</strong> ${message}`;
+            
+            setTimeout(() => {
+                status.style.display = 'none';
+            }, 3000);
+        }
+        
+        // 页面加载完成后初始化
+        document.addEventListener('DOMContentLoaded', function() {
+            document.getElementById('searchInput').addEventListener('input', searchChannels);
+            
+            ['url1', 'url2', 'url3'].forEach(id => {
+                document.getElementById(id).addEventListener('keypress', function(e) {
+                    if (e.key === 'Enter') {
+                        mergeSources();
+                    }
+                });
+            });
+            
+            showStatus('工具已准备就绪，请输入直播源地址或内容', 'info');
+        });
+    </script>
+</body>
+</html>
