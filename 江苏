@@ -1,28 +1,11 @@
 {
-  "log": {
-    "loglevel": "info"
-  },
-  "dns": {
-    "servers": ["223.5.5.5", "114.114.114.114"],
-    "queryStrategy": "UseIP"
-  },
   "inbounds": [
     {
       "port": 10808,
-      "listen": "127.0.0.1",
       "protocol": "socks",
       "settings": {
-        "auth": "noauth",
-        "udp": true
-      },
-      "tag": "socks-inbound"
-    },
-    {
-      "port": 10809,
-      "listen": "127.0.0.1",
-      "protocol": "http",
-      "settings": {},
-      "tag": "http-inbound"
+        "auth": "noauth"
+      }
     }
   ],
   "outbounds": [
@@ -35,33 +18,20 @@
             "port": 10010
           }
         ]
-      },
-      "tag": "proxy"
-    },
-    {
-      "protocol": "freedom",
-      "tag": "direct"
+      }
     }
   ],
   "routing": {
-    "domainStrategy": "IPIfNonMatch",
     "rules": [
       {
         "type": "field",
-        "domain": [
-          "ott.mobaibox.com",
-          "mobaibox.com"
-        ],
+        "domain": ["ott.mobaibox.com"],
         "outboundTag": "proxy"
       },
       {
         "type": "field",
-        "ip": ["geoip:private"],
-        "outboundTag": "direct"
-      },
-      {
-        "type": "field",
-        "outboundTag": "direct"
+        "outboundTag": "direct",
+        "network": "tcp,udp"
       }
     ]
   }
