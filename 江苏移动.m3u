@@ -1,3 +1,4 @@
+
 #EXTM3U
 #EXTINF:-1 tvg-id="CCTV4K" tvg-name="CCTV4K" tvg-logo="https://im5k.fun/logo/CCTV4K.png" group-title="4 K",CCTV4K
 http://ott.mobaibox.com/PLTV/3/224/3221228472/index.m3u8
@@ -23,6 +24,8 @@ http://ott.mobaibox.com/PLTV/3/224/3221228956/index.m3u8
 http://ott.mobaibox.com/PLTV/3/224/3221228880/index.m3u8
 #EXTINF:-1 tvg-id="4K修复" tvg-name="4K修复" tvg-logo="https://im5k.fun/logo/4K修复.png" group-title="4 K",4K修复
 http://ott.mobaibox.com/PLTV/3/224/3221228141/index.m3u8
+#EXTINF:-1 tvg-id="江苏4K" tvg-name="江苏4K" tvg-logo="https://im5k.fun/logo/4K修复.png" group-title="4 K",江苏4K
+http://ott.mobaibox.com/PLTV/3/224/3221228132/index.m3u8
 #EXTINF:-1 tvg-id="CCTV1" tvg-name="CCTV1" tvg-logo="https://im5k.fun/logo/CCTV1.png" group-title="央视",CCTV1
 http://ott.mobaibox.com/PLTV/4/224/3221228581/index.m3u8
 #EXTINF:-1 tvg-id="CCTV2" tvg-name="CCTV2" tvg-logo="https://im5k.fun/logo/CCTV2.png" group-title="央视",CCTV2
