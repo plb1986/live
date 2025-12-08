@@ -24,8 +24,6 @@ http://ott.mobaibox.com/PLTV/3/224/3221228883/index.m3u8
 http://ott.mobaibox.com/PLTV/3/224/3221228956/index.m3u8
 #EXTINF:-1 tvg-id="山东卫视" tvg-name="山东卫视" tvg-logo="https://im5k.fun/logo/山东卫视4K.png" group-title="4 K",山东卫视4K
 http://ott.mobaibox.com/PLTV/3/224/3221228880/index.m3u8
-#EXTINF:-1 tvg-id="欢笑剧场" tvg-name="欢笑剧场" tvg-logo="https://im5k.fun/logo/欢笑剧场4K.png" group-title="4 K",欢笑剧场4K
-http://ott.mobaibox.com/PLTV/3/224/3221227715/index.m3u8
 #EXTINF:-1 tvg-id="纯享4K" tvg-name="纯享4K" tvg-logo="https://im5k.fun/logo/4KUHD.png" group-title="4 K",纯享4K
 http://ott.mobaibox.com/PLTV/3/224/3221227506/index.m3u8
 #EXTINF:-1 tvg-id="真4K" tvg-name="真4K" tvg-logo="https://im5k.fun/logo/真4K.png" group-title="4 K",真4K
