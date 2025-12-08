@@ -45,6 +45,8 @@ http://ott.mobaibox.com/PLTV/3/224/3221227505/index.m3u8
 #EXTINF:-1 tvg-id="CCTV6" tvg-name="CCTV6" tvg-logo="https://im5k.fun/logo/CCTV6.png" group-title="央视",CCTV6
 http://ott.mobaibox.com/PLTV/3/224/3221228123/index.m3u8
 
+#EXTINF:-1 tvg-id="CCTV7" tvg-name="CCTV7" tvg-logo="https://im5k.fun/logo/CCTV7.png" group-title="央视",CCTV7
+http://ott.mobaibox.com/PLTV/3/224/3221227626/index.m3u8$8M1080
 #EXTINF:-1 tvg-id="CCTV8" tvg-name="CCTV8" tvg-logo="https://im5k.fun/logo/CCTV8.png" group-title="央视",CCTV8
 http://ott.mobaibox.com/PLTV/4/224/3221228578/index.m3u8
 
@@ -78,4 +80,5 @@ http://ott.mobaibox.com/PLTV/3/224/3221228404/index.m3u8
 #EXTINF:-1 tvg-id="CCTV16" tvg-name="CCTV16" tvg-logo="https://im5k.fun/logo/CCTV16.png" group-title="央视",CCTV16
 http://ott.mobaibox.com/PLTV/3/224/3221228168/index.m3u8
 #EXTINF:-1 tvg-id="CCTV17" tvg-name="CCTV17" tvg-logo="https://im5k.fun/logo/CCTV17.png" group-title="央视",CCTV17
+
 http://ott.mobaibox.com/PLTV/3/224/3221228407/index.m3u8
