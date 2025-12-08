@@ -22,14 +22,11 @@
       "protocol": "socks",
       "settings": {
         "auth": "noauth",
-        "udp": true,
-        "ip": "0.0.0.0",
-        "userLevel": 0
+        "udp": true
       },
       "sniffing": {
         "enabled": true,
-        "destOverride": ["http", "tls"],
-        "metadataOnly": false
+        "destOverride": ["http", "tls"]
       },
       "tag": "socks-inbound"
     },
@@ -38,7 +35,7 @@
       "listen": "0.0.0.0",
       "protocol": "http",
       "settings": {
-        "timeout": 30,
+        "timeout": 300,
         "allowTransparent": false
       },
       "tag": "http-inbound"
@@ -55,45 +52,23 @@
           }
         ]
       },
-      "streamSettings": {
-        "sockopt": {
-          "tcpFastOpen": true
-        }
-      },
       "tag": "iptv-proxy"
     },
     {
       "protocol": "freedom",
-      "settings": {},
       "tag": "direct"
-    },
-    {
-      "protocol": "blackhole",
-      "settings": {},
-      "tag": "block"
     }
   ],
   "routing": {
-    "domainStrategy": "IPOnDemand",
+    "domainStrategy": "IPIfNonMatch",
     "rules": [
       {
         "type": "field",
         "domain": [
-          "geosite:cn",
           "ott.mobaibox.com",
-          "mobaibox.com",
-          "jscntv.com",
-          "cm.jscntv.com"
+          "mobaibox.com"
         ],
         "outboundTag": "iptv-proxy"
-      },
-      {
-        "type": "field",
-        "ip": [
-          "geoip:private",
-          "geoip:cn"
-        ],
-        "outboundTag": "direct"
       },
       {
         "type": "field",
@@ -102,7 +77,7 @@
       },
       {
         "type": "field",
-        "protocol": ["bittorrent"],
+        "ip": ["geoip:private"],
         "outboundTag": "direct"
       },
       {
