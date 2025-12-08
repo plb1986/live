@@ -1,19 +1,13 @@
 {
   "log": {
-    "loglevel": "info",
-    "access": "access.log",
-    "error": "error.log"
+    "loglevel": "info"
   },
   "dns": {
     "servers": [
       "223.5.5.5",
       "114.114.114.114"
     ],
-    "queryStrategy": "UseIP",
-    "hosts": {
-      "ott.mobaibox.com": "36.138.101.83",
-      "live-cm.jscntv.com": "36.138.101.83"
-    }
+    "queryStrategy": "UseIP"
   },
   "inbounds": [
     {
@@ -24,10 +18,6 @@
         "auth": "noauth",
         "udp": true
       },
-      "sniffing": {
-        "enabled": true,
-        "destOverride": ["http", "tls"]
-      },
       "tag": "socks-inbound"
     },
     {
@@ -35,8 +25,7 @@
       "listen": "0.0.0.0",
       "protocol": "http",
       "settings": {
-        "timeout": 300,
-        "allowTransparent": false
+        "timeout": 300
       },
       "tag": "http-inbound"
     }
@@ -65,19 +54,13 @@
       {
         "type": "field",
         "domain": [
-          "ott.mobaibox.com",
-          "mobaibox.com"
+          "ott.mobaibox.com"
         ],
         "outboundTag": "iptv-proxy"
       },
       {
         "type": "field",
-        "port": "53",
-        "outboundTag": "direct"
-      },
-      {
-        "type": "field",
-        "ip": ["geoip:private"],
+        "port": 53,
         "outboundTag": "direct"
       },
       {
