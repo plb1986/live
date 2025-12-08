@@ -159,18 +159,6 @@ http://ott.mobaibox.com/PLTV/3/224/3221227604/index.m3u8
 http://ott.mobaibox.com/PLTV/3/224/3221227583/index.m3u8
 #EXTINF:-1 tvg-id="山西卫视" tvg-name="山西卫视" tvg-logo="https://im5k.fun/logo/山西卫视.png" group-title="卫视",山西卫视
 http://ott.mobaibox.com/PLTV/3/224/3221227559/index.m3u8
-#EXTINF:-1 tvg-id="北京纪实科教" tvg-name="北京纪实科教" tvg-logo="https://im5k.fun/logo/北京纪实科教.png" group-title="卫视",北京纪实科教
-http://ott.mobaibox.com/PLTV/3/224/3221227699/index.m3u8
-#EXTINF:-1 tvg-id="哈哈炫动" tvg-name="哈哈炫动" tvg-logo="https://im5k.fun/logo/哈哈炫动.png" group-title="卫视",哈哈炫动
-http://ott.mobaibox.com/PLTV/3/224/3221227586/index.m3u8
-#EXTINF:-1 tvg-id="卡酷少儿" tvg-name="卡酷少儿" tvg-logo="https://im5k.fun/logo/卡酷少儿.png" group-title="卫视",卡酷少儿
-http://ott.mobaibox.com/PLTV/3/224/3221227566/index.m3u8
-#EXTINF:-1 tvg-id="嘉佳卡通" tvg-name="嘉佳卡通" tvg-logo="https://im5k.fun/logo/嘉佳卡通.png" group-title="卫视",嘉佳卡通
-http://ott.mobaibox.com/PLTV/3/224/3221227598/index.m3u8
-#EXTINF:-1 tvg-id="金鹰卡通" tvg-name="金鹰卡通" tvg-logo="https://im5k.fun/logo/金鹰卡通.png" group-title="卫视",金鹰卡通
-http://ott.mobaibox.com/PLTV/3/224/3221227630/index.m3u8
-#EXTINF:-1 tvg-id="优漫卡通" tvg-name="优漫卡通" tvg-logo="https://im5k.fun/logo/优漫卡通.png" group-title="卫视",优漫卡通
-http://ott.mobaibox.com/PLTV/3/224/3221227577/index.m3u8
 #EXTINF:-1 tvg-id="江苏体育休闲" tvg-name="江苏体育休闲" tvg-logo="https://im5k.fun/logo/江苏体育休闲.png" group-title="江苏",江苏体育休闲
 http://ott.mobaibox.com/PLTV/3/224/3221225935/index.m3u8
 #EXTINF:-1 tvg-id="江苏新闻" tvg-name="江苏新闻" tvg-logo="https://im5k.fun/logo/江苏公共新闻.png" group-title="江苏",江苏新闻
@@ -198,6 +186,16 @@ http://ott.mobaibox.com/PLTV/3/224/3221227213/index.m3u8
 #EXTINF:-1 tvg-id="南京少儿" tvg-name="南京少儿" tvg-logo="https://im5k.fun/logo/南京少儿.png" group-title="江苏",南京少儿
 http://ott.mobaibox.com/PLTV/4/224/3221227733/index.m3u8
 
+#EXTINF:-1 tvg-id="北京纪实科教" tvg-name="北京纪实科教" tvg-logo="https://im5k.fun/logo/北京纪实科教.png" group-title="数字",北京纪实科教
+http://ott.mobaibox.com/PLTV/3/224/3221227699/index.m3u8
+#EXTINF:-1 tvg-id="卡酷少儿" tvg-name="卡酷少儿" tvg-logo="https://im5k.fun/logo/卡酷少儿.png" group-title="数字",卡酷少儿
+http://ott.mobaibox.com/PLTV/3/224/3221227566/index.m3u8
+#EXTINF:-1 tvg-id="嘉佳卡通" tvg-name="嘉佳卡通" tvg-logo="https://im5k.fun/logo/嘉佳卡通.png" group-title="数字",嘉佳卡通
+http://ott.mobaibox.com/PLTV/3/224/3221227598/index.m3u8
+#EXTINF:-1 tvg-id="金鹰卡通" tvg-name="金鹰卡通" tvg-logo="https://im5k.fun/logo/金鹰卡通.png" group-title="数字",金鹰卡通
+http://ott.mobaibox.com/PLTV/3/224/3221227630/index.m3u8
+#EXTINF:-1 tvg-id="优漫卡通" tvg-name="优漫卡通" tvg-logo="https://im5k.fun/logo/优漫卡通.png" group-title="数字",优漫卡通
+http://ott.mobaibox.com/PLTV/3/224/3221227577/index.m3u8
 #EXTINF:-1 tvg-id="精品体育" tvg-name="精品体育" tvg-logo="https://im5k.fun/logo/精品体育.png" group-title="数字",精品体育
 http://ott.mobaibox.com/PLTV/3/224/3221227615/index.m3u8
 #EXTINF:-1 tvg-id="睛彩竞技" tvg-name="睛彩竞技" tvg-logo="https://im5k.fun/logo/睛彩竞技.png" group-title="数字",睛彩竞技
