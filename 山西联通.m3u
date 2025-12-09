@@ -229,10 +229,7 @@ rtp://226.0.1.232:2073
 rtp://226.0.1.93:2051
 #EXTINF:-1 tvg-name="晋中公共" tvg-logo="https://im5k.fun/logo/晋中公共.png" group-title="山西",晋中公共
 rtp://226.0.1.94:2052
-#EXTINF:-1 tvg-name="阳泉新闻综合" tvg-logo="https://im5k.fun/logo/阳泉新闻综合.png" group-title="山西",阳泉新闻综合
-rtp://226.0.2.233:9776
-#EXTINF:-1 tvg-name="阳泉科教" tvg-logo="https://im5k.fun/logo/阳泉科教.png" group-title="山西",阳泉科教
-rtp://226.0.2.234:9784
+
 #EXTINF:-1 tvg-name="JJ斗地主" tvg-logo="https://im5k.fun/logo/JJ斗地主.png" group-title="电竞" ,JJ斗地主
 https://live.ottiptv.cc/douyin/rid/685317364746
 #EXTINF:-1 tvg-name="JJ斗地主" tvg-logo="https://im5k.fun/logo/JJ斗地主.png" group-title="电竞" ,JJ斗地主副房间
