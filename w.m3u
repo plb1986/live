@@ -1,0 +1,50 @@
+EXTINF:1 group-title="VODAFONE FHD" tvg-id="vodafonefhd/axn" tvg-logo="" provider="VODAFONE FHD" provider-logo="" provider-type="iptv",[VODAFONE FHD] AXN
+http://104.168.10.25:1234/stream/vodafonefhd/axn/master.m3u8
+
+#EXTINF:2 group-title="VODAFONE FHD" tvg-id="vodafonefhd/babytv" tvg-logo="" provider="VODAFONE FHD" provider-logo="" provider-type="iptv",[VODAFONE FHD] BABY TV
+http://104.168.10.25:1234/stream/vodafonefhd/babytv/master.m3u8
+
+#EXTINF:3 group-title="VODAFONE FHD" tvg-id="vodafonefhd/bomcine" tvg-logo="" provider="VODAFONE FHD" provider-logo="" provider-type="iptv",[VODAFONE FHD] BOM CINE
+http://104.168.10.25:1234/stream/vodafonefhd/bomcine/master.m3u8
+
+#EXTINF:4 group-title="VODAFONE FHD" tvg-id="vodafonefhd/canalhistoria" tvg-logo="" provider="VODAFONE FHD" provider-logo="" provider-type="iptv",[VODAFONE FHD] CANAL HISTORIA
+http://104.168.10.25:1234/stream/vodafonefhd/canalhistoria/master.m3u8
+
+#EXTINF:5 group-title="VODAFONE FHD" tvg-id="vodafonefhd/cosmo" tvg-logo="" provider="VODAFONE FHD" provider-logo="" provider-type="iptv",[VODAFONE FHD] COSMO
+http://104.168.10.25:1234/stream/vodafonefhd/cosmo/master.m3u8
+
+#EXTINF:6 group-title="VODAFONE FHD" tvg-id="vodafonefhd/cuatro" tvg-logo="" provider="VODAFONE FHD" provider-logo="" provider-type="iptv",[VODAFONE FHD] CUATRO
+http://104.168.10.25:1234/stream/vodafonefhd/cuatro/master.m3u8
+
+#EXTINF:7 group-title="VODAFONE FHD" tvg-id="vodafonefhd/cubavisininternacional" tvg-logo="" provider="VODAFONE FHD" provider-logo="" provider-type="iptv",[VODAFONE FHD] CUBAVISIÓN INTERNACIONAL
+http://104.168.10.25:1234/stream/vodafonefhd/cubavisininternacional/master.m3u8
+
+#EXTINF:8 group-title="VODAFONE FHD" tvg-id="vodafonefhd/disneyjunior" tvg-logo="" provider="VODAFONE FHD" provider-logo="" provider-type="iptv",[VODAFONE FHD] DISNEY JUNIOR
+http://104.168.10.25:1234/stream/vodafonefhd/disneyjunior/master.m3u8
+
+#EXTINF:9 group-title="VODAFONE FHD" tvg-id="vodafonefhd/dkiss" tvg-logo="" provider="VODAFONE FHD" provider-logo="" provider-type="iptv",[VODAFONE FHD] DKISS
+http://104.168.10.25:1234/stream/vodafonefhd/dkiss/master.m3u8
+
+#EXTINF:10 group-title="VODAFONE FHD" tvg-id="vodafonefhd/enfamilia" tvg-logo="" provider="VODAFONE FHD" provider-logo="" provider-type="iptv",[VODAFONE FHD] ENFAMILIA
+http://104.168.10.25:1234/stream/vodafonefhd/enfamilia/master.m3u8
+
+#EXTINF:11 group-title="VODAFONE FHD" tvg-id="vodafonefhd/golplay" tvg-logo="" provider="VODAFONE FHD" provider-logo="" provider-type="iptv",[VODAFONE FHD] GOL PLAY
+http://104.168.10.25:1234/stream/vodafonefhd/golplay/master.m3u8
+
+#EXTINF:12 group-title="VODAFONE FHD" tvg-id="vodafonefhd/la1" tvg-logo="" provider="VODAFONE FHD" provider-logo="" provider-type="iptv",[VODAFONE FHD] LA 1
+http://104.168.10.25:1234/stream/vodafonefhd/la1/master.m3u8
+
+#EXTINF:13 group-title="VODAFONE FHD" tvg-id="vodafonefhd/mega" tvg-logo="" provider="VODAFONE FHD" provider-logo="" provider-type="iptv",[VODAFONE FHD] MEGA
+http://104.168.10.25:1234/stream/vodafonefhd/mega/master.m3u8
+
+#EXTINF:14 group-title="VODAFONE FHD" tvg-id="vodafonefhd/natgeowild" tvg-logo="" provider="VODAFONE FHD" provider-logo="" provider-type="iptv",[VODAFONE FHD] NAT GEO WILD
+http://104.168.10.25:1234/stream/vodafonefhd/natgeowild/master.m3u8
+
+#EXTINF:15 group-title="VODAFONE FHD" tvg-id="vodafonefhd/nationalgeographic" tvg-logo="" provider="VODAFONE FHD" provider-logo="" provider-type="iptv",[VODAFONE FHD] NATIONAL GEOGRAPHIC
+http://104.168.10.25:1234/stream/vodafonefhd/nationalgeographic/master.m3u8
+
+#EXTINF:16 group-title="VODAFONE FHD" tvg-id="vodafonefhd/neox" tvg-logo="" provider="VODAFONE FHD" provider-logo="" provider-type="iptv",[VODAFONE FHD] NEOX
+http://104.168.10.25:1234/stream/vodafonefhd/neox/master.m3u8
+
+#EXTINF:17 group-title="VODAFONE FHD" tvg-id="vodafonefhd/paramount" tvg-logo="" provider="VODAFONE FHD" provider-logo="" provider-type="iptv",[VODAFONE FHD] PARAMOUNT
+http://104.168.10.25:1234/stream/vodafonefhd/paramount/master.m3u8
