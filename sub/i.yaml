@@ -1,105 +1,106 @@
 # ==================== 基础配置 ====================
 port: 7890
 socks-port: 7891
-redir-port: 7892
 mixed-port: 0
-tproxy-port: 7893
+tun:
+  enable: true
+  stack: system
+  device: utun
+  mtu: 1500
+  auto-route: true
+  auto-detect-interface: true
+  dns-hijack:
+    - 0.0.0.0:53
+
 allow-lan: false
 mode: rule
-log-level: info
+log-level: debug
 external-controller: 127.0.0.1:9090
-secret: ""
-ipv6: false
 
-# ==================== DNS 配置 ====================
+# ==================== 关键 DNS 配置 ====================
 dns:
   enable: true
-  listen: 0.0.0.0:1053
-  ipv6: false
-  default-nameserver:
-    - 223.5.5.5
-    - 114.114.114.114
-  enhanced-mode: fake-ip
+  listen: 0.0.0.0:5353
+  enhanced-mode: redir-host  # HLS 流媒体建议用 redir-host
   fake-ip-range: 198.18.0.1/16
+  fake-ip-filter:
+    - "+.iptvrr.sh.chinamobile.com"  # 关键！IPTV 域名不走 fake-ip
+  
+  # 国内 DNS 优先
   nameserver:
+    - 114.114.114.114
     - 223.5.5.5
     - 119.29.29.29
-  fallback:
-    - 8.8.8.8
-    - 1.1.1.1
-
-# ==================== 代理节点配置 ====================
-proxies:
-  # 香港阿里云
-  - name: "🇭🇰 香港阿里云"
-    type: socks5
-    server: 47.57.244.4
-    port: 10902
-    udp: true  # 启用 UDP 支持
   
-  # 上海移动
-  - name: "🇨🇳 上海移动"
+  # IPTV 域名特殊解析
+  nameserver-policy:
+    "iptvrr.sh.chinamobile.com": "223.5.5.5"  # 强制阿里 DNS
+    "*.sh.chinamobile.com": "114.114.114.114"  # 移动域名专用 DNS
+  
+  fallback: []  # 国外 DNS 禁用，避免干扰
+
+# ==================== 代理节点优化 ====================
+proxies:
+  # 上海移动节点 - 特别优化
+  - name: "🇨🇳 上海移动-IPTV专用"
     type: socks5
     server: 223.112.8.106
     port: 17007
     udp: true
-  
-  # 四川移动
-  - name: "🇨🇳 四川移动"
-    type: socks5
-    server: 36.133.69.144
-    port: 9004
-    udp: true
-  
-  # 四川联通
-  - name: "🇨🇳 四川联通"
-    type: socks5
-    server: 101.237.34.76
-    port: 30711
-    udp: true
-  
-  # 江苏移动
-  - name: "🇨🇳 江苏移动"
-    type: socks5
-    server: 36.150.108.231
-    port: 10099
-    udp: true
-  
-  # 湖南移动
-  - name: "🇨🇳 湖南移动"
-    type: socks5
-    server: 120.226.180.139
-    port: 8100
-    udp: true
+    # HLS 流媒体优化参数
+    skip-cert-verify: true  # 允许证书错误
+    sni: iptvrr.sh.chinamobile.com  # 强制 SNI
+    # 网络优化
+    interface-name: ""
+    ip-version: ipv4
+    # 尝试不同的 UDP 设置
+    udp-over-tcp: false
 
-# ==================== 手动选择代理组 ====================
+# ==================== 简单代理组 ====================
 proxy-groups:
-  # 唯一的代理组 - 纯手动选择
-  - name: "🚀 手动选择节点"
+  - name: "🚀 手动选择"
     type: select
     proxies:
-      - "🇭🇰 香港阿里云"
-      - "🇨🇳 上海移动"
-      - "🇨🇳 四川移动"
-      - "🇨🇳 四川联通"
-      - "🇨🇳 江苏移动"
-      - "🇨🇳 湖南移动"
+      - "🇨🇳 上海移动-IPTV专用"
       - DIRECT
 
-# ==================== 简单路由规则 ====================
+# ==================== 精确规则配置 ====================
 rules:
-  # 本地网络直连
+  # 1. IPTV 相关域名和服务器直连或走代理
+  - DOMAIN,iptvrr.sh.chinamobile.com,🚀 手动选择
+  - DOMAIN-SUFFIX,sh.chinamobile.com,🚀 手动选择
+  - DOMAIN-SUFFIX,chinamobile.com,DIRECT  # 其他移动网站直连
+  
+  # 2. 流媒体协议端口
+  - DST-PORT,6060,🚀 手动选择  # 你的播放端口
+  - DST-PORT,80,🚀 手动选择    # HTTP 流
+  - DST-PORT,443,🚀 手动选择   # HTTPS 流
+  - DST-PORT,8080,🚀 手动选择  # 备用端口
+  - DST-PORT,1935,DIRECT      # RTMP 直连
+  - DST-PORT,554,DIRECT       # RTSP 直连
+  
+  # 3. HLS 相关
+  - DOMAIN-KEYWORD,m3u8,🚀 手动选择
+  - DOMAIN-KEYWORD,hls,🚀 手动选择
+  - DOMAIN-KEYWORD,ts,🚀 手动选择  # TS 分片
+  
+  # 4. 本地网络
   - DOMAIN-SUFFIX,local,DIRECT
   - IP-CIDR,127.0.0.0/8,DIRECT
-  - IP-CIDR,172.16.0.0/12,DIRECT
   - IP-CIDR,192.168.0.0/16,DIRECT
   - IP-CIDR,10.0.0.0/8,DIRECT
+  - IP-CIDR,172.16.0.0/12,DIRECT
   
-  # DNS 查询直连
+  # 5. 组播地址（如果有）
+  - IP-CIDR,224.0.0.0/4,DIRECT
+  - IP-CIDR,239.0.0.0/8,DIRECT
+  
+  # 6. DNS 查询
   - DST-PORT,53,DIRECT
+  - DST-PORT,5353,DIRECT
   
-  # 国内 IP 直连
+  # 7. 国内直连
   - GEOIP,CN,DIRECT
   
-  # 最终规则 - 所有其他流量走手动选择的节点
-  - MATCH,🚀 手动选择节点
+  # 8. 最终规则
+  - MATCH,🚀 手动选择
