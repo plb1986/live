@@ -53,3 +53,9 @@ proxy-groups:
 # 全局模式下，所有流量都走PROXY组
 rules:
   - MATCH,PROXY
+    # 本地和局域网地址直连
+  - DOMAIN-SUFFIX,local,DIRECT
+  - IP-CIDR,127.0.0.0/8,DIRECT
+  - IP-CIDR,172.16.0.0/12,DIRECT
+  - IP-CIDR,192.168.0.0/16,DIRECT
+  - IP-CIDR,10.0.0.0/8,DIRECT
