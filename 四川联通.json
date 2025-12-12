@@ -39,7 +39,7 @@
           }
         ]
       },
-      "tag": "proxy"
+      "tag": "sichuan-unicom"
     },
     {
       "protocol": "freedom",
@@ -62,7 +62,7 @@
       {
         "type": "field",
         "network": "tcp,udp",
-        "outboundTag": "proxy"
+        "outboundTag": "sichuan-unicom"
       }
     ]
   }
