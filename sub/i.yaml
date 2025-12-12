@@ -1,23 +1,238 @@
-# 最简单的配置
-port: 0
-socks-port: 10808
-tun:
-  enable: false
+port: 7890
+socks-port: 7891
+redir-port: 7892
+mixed-port: 0
+tproxy-port: 7893
+allow-lan: false
+mode: rule
+log-level: info
+external-controller: 127.0.0.1:9090
+secret: ""
+ipv6: false
+unified-delay: true
 
+# DNS 配置
+dns:
+  enable: true
+  listen: 0.0.0.0:1053
+  ipv6: false
+  default-nameserver:
+    - 223.5.5.5
+    - 119.29.29.29
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  use-hosts: true
+  nameserver:
+    - https://doh.pub/dns-query
+    - https://223.5.5.5/dns-query
+  fallback:
+    - tls://8.8.4.4:853
+    - tls://1.1.1.1:853
+  fallback-filter:
+    geoip: true
+    geoip-code: CN
+    ipcidr:
+      - 240.0.0.0/4
+
+# 代理节点
 proxies:
-  - name: "proxy"
+  # 上海移动
+  - name: "🇨🇳 上海移动"
     type: socks5
     server: 223.112.8.106
     port: 17007
     udp: true
+    skip-cert-verify: false
+    
+  # 四川移动
+  - name: "🇨🇳 四川移动"
+    type: socks5
+    server: 36.133.69.144
+    port: 9004
+    udp: true
+    skip-cert-verify: false
+    
+  # 四川联通
+  - name: "🇨🇳 四川联通"
+    type: socks5
+    server: 101.237.34.76
+    port: 30711
+    udp: true
+    skip-cert-verify: false
+    
+  # 江苏移动
+  - name: "🇨🇳 江苏移动"
+    type: socks5
+    server: 36.150.108.231
+    port: 10099
+    udp: true
+    skip-cert-verify: false
+    
+  # 湖南移动
+  - name: "🇨🇳 湖南移动"
+    type: socks5
+    server: 120.226.180.139
+    port: 8100
+    udp: true
+    skip-cert-verify: false
+    
+  # 香港阿里云
+  - name: "🇭🇰 香港阿里云"
+    type: socks5
+    server: 47.57.244.4
+    port: 10902
+    udp: true
+    skip-cert-verify: false
 
+# 代理组
 proxy-groups:
-  - name: "main"
+  # 节点选择
+  - name: 🚀 节点选择
     type: select
     proxies:
-      - proxy
+      - ♻️ 自动选择
+      - 🇭🇰 香港阿里云
+      - 🇨🇳 上海移动
+      - 🇨🇳 四川移动
+      - 🇨🇳 四川联通
+      - 🇨🇳 江苏移动
+      - 🇨🇳 湖南移动
       - DIRECT
 
+  # 自动选择（延迟最低）
+  - name: ♻️ 自动选择
+    type: url-test
+    url: "http://www.gstatic.com/generate_204"
+    interval: 300
+    tolerance: 50
+    proxies:
+      - 🇭🇰 香港阿里云
+      - 🇨🇳 上海移动
+      - 🇨🇳 四川移动
+      - 🇨🇳 四川联通
+      - 🇨🇳 江苏移动
+      - 🇨🇳 湖南移动
+
+  # 负载均衡
+  - name: ⚖️ 负载均衡
+    type: load-balance
+    url: "http://www.gstatic.com/generate_204"
+    interval: 300
+    strategy: consistent-hashing
+    proxies:
+      - 🇭🇰 香港阿里云
+      - 🇨🇳 上海移动
+      - 🇨🇳 四川移动
+      - 🇨🇳 四川联通
+      - 🇨🇳 江苏移动
+      - 🇨🇳 湖南移动
+
+  # 故障转移
+  - name: 🔀 故障转移
+    type: fallback
+    url: "http://www.gstatic.com/generate_204"
+    interval: 300
+    proxies:
+      - 🇭🇰 香港阿里云
+      - 🇨🇳 上海移动
+      - 🇨🇳 四川移动
+      - 🇨🇳 四川联通
+      - 🇨🇳 江苏移动
+      - 🇨🇳 湖南移动
+
+  # 国外媒体
+  - name: 🎬 国外媒体
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - 🇭🇰 香港阿里云
+      - DIRECT
+
+  # 国内网站
+  - name: 📱 国内网站
+    type: select
+    proxies:
+      - DIRECT
+      - 🇨🇳 上海移动
+      - 🇨🇳 四川移动
+      - 🇨🇳 四川联通
+      - 🇨🇳 江苏移动
+      - 🇨🇳 湖南移动
+
+  # 漏网之鱼
+  - name: 🐟 漏网之鱼
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - DIRECT
+
+# 规则
 rules:
-  - DOMAIN,iptvrr.sh.chinamobile.com,main
-  - MATCH,DIRECT
+  # 规则优先级从上到下匹配
+  
+  # 本地网络直连
+  - DOMAIN-SUFFIX,local,DIRECT
+  - IP-CIDR,127.0.0.0/8,DIRECT
+  - IP-CIDR,172.16.0.0/12,DIRECT
+  - IP-CIDR,192.168.0.0/16,DIRECT
+  - IP-CIDR,10.0.0.0/8,DIRECT
+  - IP-CIDR,100.64.0.0/10,DIRECT
+  
+  # DNS 查询直连
+  - DST-PORT,53,DIRECT
+  
+  # 国内直连
+  - GEOIP,CN,📱 国内网站
+  
+  # 常用国内网站直连
+  - DOMAIN-SUFFIX,cn,DIRECT
+  - DOMAIN-SUFFIX,com.cn,DIRECT
+  - DOMAIN-SUFFIX,gov.cn,DIRECT
+  - DOMAIN-SUFFIX,edu.cn,DIRECT
+  - DOMAIN-SUFFIX,net.cn,DIRECT
+  - DOMAIN-SUFFIX,org.cn,DIRECT
+  
+  # 国外流媒体
+  - DOMAIN-SUFFIX,netflix.com,🎬 国外媒体
+  - DOMAIN-SUFFIX,netflix.net,🎬 国外媒体
+  - DOMAIN-SUFFIX,nflxext.com,🎬 国外媒体
+  - DOMAIN-SUFFIX,nflximg.com,🎬 国外媒体
+  - DOMAIN-SUFFIX,nflximg.net,🎬 国外媒体
+  - DOMAIN-SUFFIX,nflxvideo.net,🎬 国外媒体
+  - DOMAIN-SUFFIX,disneyplus.com,🎬 国外媒体
+  - DOMAIN-SUFFIX,disney-plus.net,🎬 国外媒体
+  - DOMAIN-SUFFIX,disneystreaming.com,🎬 国外媒体
+  - DOMAIN-SUFFIX,hbo.com,🎬 国外媒体
+  - DOMAIN-SUFFIX,hbomax.com,🎬 国外媒体
+  - DOMAIN-SUFFIX,hbonow.com,🎬 国外媒体
+  
+  # 电报
+  - DOMAIN-SUFFIX,telegram.org,🚀 节点选择
+  - DOMAIN-SUFFIX,t.me,🚀 节点选择
+  - DOMAIN-SUFFIX,tdesktop.com,🚀 节点选择
+  
+  # OpenAI
+  - DOMAIN-SUFFIX,openai.com,🚀 节点选择
+  - DOMAIN-SUFFIX,chatgpt.com,🚀 节点选择
+  - DOMAIN-SUFFIX,oaistatic.com,🚀 节点选择
+  - DOMAIN-SUFFIX,oaiusercontent.com,🚀 节点选择
+  
+  # Google 相关
+  - DOMAIN-SUFFIX,google.com,🚀 节点选择
+  - DOMAIN-SUFFIX,gstatic.com,🚀 节点选择
+  - DOMAIN-SUFFIX,googleapis.com,🚀 节点选择
+  - DOMAIN-SUFFIX,gmail.com,🚀 节点选择
+  - DOMAIN-SUFFIX,youtube.com,🚀 节点选择
+  - DOMAIN-SUFFIX,ytimg.com,🚀 节点选择
+  - DOMAIN-SUFFIX,youtu.be,🚀 节点选择
+  
+  # 其他国外网站
+  - DOMAIN-SUFFIX,github.com,🚀 节点选择
+  - DOMAIN-SUFFIX,twitter.com,🚀 节点选择
+  - DOMAIN-SUFFIX,facebook.com,🚀 节点选择
+  - DOMAIN-SUFFIX,instagram.com,🚀 节点选择
+  - DOMAIN-SUFFIX,whatsapp.com,🚀 节点选择
+  
+  # 最终规则 - 其他所有流量
+  - MATCH,🐟 漏网之鱼
