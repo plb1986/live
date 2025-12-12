@@ -1,5 +1,6 @@
-mode: global
+mode: global  # 全局模式，所有流量都走代理
 mixed-port: 7890
+
 proxies:
   # 上海移动
   - name: "🇨🇳 上海移动"
@@ -36,3 +37,19 @@ proxies:
     type: socks5
     server: 47.57.244.4
     port: 10902
+
+# 只保留一个选择代理组
+proxy-groups:
+  - name: PROXY
+    type: select
+    proxies:
+      - 🇨🇳 上海移动
+      - 🇨🇳 四川移动
+      - 🇨🇳 四川联通
+      - 🇨🇳 江苏移动
+      - 🇨🇳 湖南移动
+      - 🇭🇰 香港阿里云
+
+# 全局模式下，所有流量都走PROXY组
+rules:
+  - MATCH,PROXY
