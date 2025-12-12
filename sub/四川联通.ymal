@@ -1,0 +1,84 @@
+mixed-port: 7890
+socks-port: 10808
+redir-port: 7892
+tproxy-port: 7893
+allow-lan: false
+mode: rule
+log-level: info
+external-controller: 127.0.0.1:9090
+secret: ""
+dns:
+  enable: true
+  listen: 127.0.0.1:1053
+  ipv6: false
+  default-nameserver:
+    - 223.5.5.5
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  nameserver:
+    - 223.5.5.5
+  fallback:
+    - 8.8.8.8
+    - 1.1.1.1
+  fallback-filter:
+    geoip: true
+    geoip-code: CN
+    ipcidr:
+      - 240.0.0.0/4
+
+proxies:
+  - name: "sichuan-unicom"
+    type: socks5
+    server: 101.237.34.76
+    port: 30711
+    udp: true
+
+proxy-groups:
+  - name: 🚀 节点选择
+    type: select
+    proxies:
+      - 🎯 自动选择
+      - sichuan-unicom
+      - DIRECT
+
+  - name: 🎯 自动选择
+    type: url-test
+    url: "http://www.gstatic.com/generate_204"
+    interval: 300
+    tolerance: 50
+    proxies:
+      - sichuan-unicom
+
+  - name: ♻️ 故障转移
+    type: fallback
+    url: "http://www.gstatic.com/generate_204"
+    interval: 300
+    tolerance: 50
+    proxies:
+      - sichuan-unicom
+      - DIRECT
+
+  - name: 🐟 漏网之鱼
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - DIRECT
+
+rules:
+  # DNS 相关规则
+  - DOMAIN-SUFFIX,local,DIRECT
+  - IP-CIDR,127.0.0.0/8,DIRECT
+  - IP-CIDR,172.16.0.0/12,DIRECT
+  - IP-CIDR,192.168.0.0/16,DIRECT
+  - IP-CIDR,10.0.0.0/8,DIRECT
+  - IP-CIDR,17.0.0.0/8,DIRECT
+  - IP-CIDR,100.64.0.0/10,DIRECT
+  
+  # DNS 查询走直连
+  - DST-PORT,53,DIRECT
+  
+  # GEOIP 中国直连
+  - GEOIP,CN,DIRECT
+  
+  # 最终规则 - 所有流量走代理
+  - MATCH,🚀 节点选择
