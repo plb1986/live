@@ -1,79 +1,25 @@
-# ==================== 基础配置 ====================
 port: 0
 socks-port: 10808
-redir-port: 0
-mixed-port: 0
-tun:
-  enable: true  # 启用 TUN 模式，类似 V2RayTUN
-  stack: system
-  auto-route: true
-  auto-detect-interface: true
-  dns-hijack:
-    - 0.0.0.0:53
-
-allow-lan: false
-mode: rule
-log-level: debug  # 调试用
-external-controller: 127.0.0.1:9090
-
-# ==================== DNS 配置 ====================
 dns:
   enable: true
   listen: 127.0.0.1:10853
-  enhanced-mode: redir-host
   nameserver:
     - 223.5.5.5
-  # IPTV 域名特殊处理
-  nameserver-policy:
-    "iptvrr.sh.chinamobile.com": "223.5.5.5"
-    "*.sh.chinamobile.com": "114.114.114.114"
 
-# ==================== 代理节点 ====================
 proxies:
-  - name: "shanghai-mobile"
+  - name: proxy
     type: socks5
     server: 223.112.8.106
     port: 17007
     udp: true
-    # IPTV 优化参数
-    skip-cert-verify: true
 
-# ==================== 代理组 ====================
 proxy-groups:
-  - name: "手动选择"
+  - name: select
     type: select
     proxies:
-      - "shanghai-mobile"
+      - proxy
       - DIRECT
 
-# ==================== 智能路由规则 ====================
 rules:
-  # 1. 关键：IPTV 域名走代理
-  - DOMAIN,iptvrr.sh.chinamobile.com,手动选择
-  - DOMAIN-SUFFIX,sh.chinamobile.com,手动选择
-  
-  # 2. 端口规则
-  - DST-PORT,6060,手动选择  # IPTV 端口
-  - DST-PORT,53,DIRECT
-  - DST-PORT,10853,DIRECT
-  
-  # 3. 本地网络
-  - IP-CIDR,127.0.0.0/8,DIRECT
-  - IP-CIDR,192.168.0.0/16,DIRECT
-  - IP-CIDR,10.0.0.0/8,DIRECT
-  - IP-CIDR,172.16.0.0/12,DIRECT
-  
-  # 4. 组播地址
-  - IP-CIDR,224.0.0.0/4,DIRECT
-  - IP-CIDR,239.0.0.0/8,DIRECT
-  
-  # 5. 流媒体相关
-  - DOMAIN-KEYWORD,m3u8,手动选择
-  - DOMAIN-KEYWORD,hls,手动选择
-  - DOMAIN-KEYWORD,ts,手动选择
-  
-  # 6. 国内直连
-  - GEOIP,CN,DIRECT
-  
-  # 7. 最终规则（和 V2Ray 保持一致）
-  - MATCH,手动选择
+  - DOMAIN,iptvrr.sh.chinamobile.com,select
+  - MATCH,DIRECT
