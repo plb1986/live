@@ -1,88 +1,31 @@
 {
-  "dns": {
-    "servers": [
-      "223.5.5.5"
-    ],
-    "queryStrategy": "UseIP"
-  },
-  "inbounds": [
-    {
-      "port": 10808,
-      "listen": "127.0.0.1",
-      "protocol": "socks",
-      "settings": {
-        "auth": "noauth",
-        "udp": true
-      },
-      "tag": "socks-inbound"
-    },
-    {
-      "port": 10853,
-      "listen": "127.0.0.1",
-      "protocol": "dokodemo-door",
-      "settings": {
-        "address": "223.5.5.5",
-        "port": 53,
-        "network": "tcp,udp"
-      },
-      "tag": "dns-inbound"
-    }
-  ],
   "outbounds": [
     {
       "tag": "proxy-chain",
-      "protocol": "chain",
-      "settings": {
-        "actors": ["middle-proxy", "final-proxy"]
-      }
-    },
-    {
-      "tag": "middle-proxy",
       "protocol": "socks",
       "settings": {
         "servers": [
           {
-            "address": "101.237.34.76",
+            "address": "36.150.108.231",  // 最终节点
+            "port": 10099
+          }
+        ]
+      },
+      "proxySettings": {
+        "tag": "first-hop"  // V2RayTUN可能不支持这个
+      }
+    },
+    {
+      "tag": "first-hop",
+      "protocol": "socks",
+      "settings": {
+        "servers": [
+          {
+            "address": "101.237.34.76",  // 第一跳
             "port": 30711
           }
         ]
       }
-    },
-    {
-      "tag": "final-proxy",
-      "protocol": "socks",
-      "settings": {
-        "servers": [
-          {
-            "address": "36.150.108.231",
-            "port": 10099
-          }
-        ]
-      }
-    },
-    {
-      "protocol": "freedom",
-      "tag": "direct"
     }
-  ],
-  "routing": {
-    "domainStrategy": "IPIfNonMatch",
-    "rules": [
-      {
-        "type": "field",
-        "inboundTag": ["dns-inbound"],
-        "outboundTag": "direct"
-      },
-      {
-        "type": "field",
-        "port": 53,
-        "outboundTag": "direct"
-      },
-      {
-        "type": "field",
-        "network": "tcp,udp",
-        "outboundTag": "proxy-chain"  // 指向chain代理
-      }
-    ]
-  }
+  ]
 }
