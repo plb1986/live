@@ -8,6 +8,12 @@ proxies:
     server: 223.112.8.106
     port: 17007
     
+  # 上海移动
+  - name: "🇨🇳 上海移动"
+    type: socks5
+    server: 223.112.8.106
+    port: 17007
+    
   # 安徽移动
   - name: "🇨🇳 安徽移动"
     type: socks5
