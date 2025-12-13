@@ -1,18 +1,32 @@
 {
+  "log": {
+    "loglevel": "warning"
+  },
   "dns": {
     "servers": [
-      "223.5.5.5"
+      "223.5.5.5",
+      "114.114.114.114"
     ],
     "queryStrategy": "UseIP"
   },
   "inbounds": [
     {
-      "port": 10808,
-      "listen": "127.0.0.1",
+      "port": 7890,
+      "listen": "0.0.0.0",
+      "protocol": "http",
+      "settings": {
+        "allowTransparent": false
+      },
+      "tag": "http-inbound"
+    },
+    {
+      "port": 7891,
+      "listen": "0.0.0.0",
       "protocol": "socks",
       "settings": {
         "auth": "noauth",
-        "udp": true
+        "udp": true,
+        "ip": "127.0.0.1"
       },
       "tag": "socks-inbound"
     },
@@ -30,7 +44,124 @@
   ],
   "outbounds": [
     {
-      "tag": "final-proxy",
+      "tag": "香港阿里云",
+      "protocol": "socks",
+      "settings": {
+        "servers": [
+          {
+            "address": "47.57.244.4",
+            "port": 10902,
+            "users": []
+          }
+        ]
+      }
+    },
+    {
+      "tag": "上海移动",
+      "protocol": "socks",
+      "settings": {
+        "servers": [
+          {
+            "address": "223.112.8.106",
+            "port": 17007,
+            "users": []
+          }
+        ]
+      }
+    },
+    {
+      "tag": "安徽移动",
+      "protocol": "socks",
+      "settings": {
+        "servers": [
+          {
+            "address": "36.7.84.196",
+            "port": 9664,
+            "users": []
+          }
+        ]
+      }
+    },
+    {
+      "tag": "四川移动",
+      "protocol": "socks",
+      "settings": {
+        "servers": [
+          {
+            "address": "36.133.69.144",
+            "port": 9004,
+            "users": []
+          }
+        ]
+      }
+    },
+    {
+      "tag": "河南移动",
+      "protocol": "socks",
+      "settings": {
+        "servers": [
+          {
+            "address": "39.164.245.25",
+            "port": 8085,
+            "users": []
+          }
+        ]
+      }
+    },
+    {
+      "tag": "浙江移动",
+      "protocol": "socks",
+      "settings": {
+        "servers": [
+          {
+            "address": "112.16.79.24",
+            "port": 65522,
+            "users": []
+          }
+        ]
+      }
+    },
+    {
+      "tag": "黑龙江移动1",
+      "protocol": "socks",
+      "settings": {
+        "servers": [
+          {
+            "address": "121.229.102.209",
+            "port": 8091,
+            "users": []
+          }
+        ]
+      }
+    },
+    {
+      "tag": "黑龙江移动2",
+      "protocol": "socks",
+      "settings": {
+        "servers": [
+          {
+            "address": "111.42.183.124",
+            "port": 2022,
+            "users": []
+          }
+        ]
+      }
+    },
+    {
+      "tag": "江苏移动1",
+      "protocol": "socks",
+      "settings": {
+        "servers": [
+          {
+            "address": "223.111.182.16",
+            "port": 8066,
+            "users": []
+          }
+        ]
+      }
+    },
+    {
+      "tag": "江苏移动2",
       "protocol": "socks",
       "settings": {
         "servers": [
@@ -40,18 +171,23 @@
             "users": []
           }
         ]
-      },
-      "streamSettings": {
-        "sockopt": {
-          "tcpFastOpen": true
-        }
-      },
-      "proxySettings": {
-        "tag": "middle-proxy"
       }
     },
     {
-      "tag": "middle-proxy",
+      "tag": "深圳移动",
+      "protocol": "socks",
+      "settings": {
+        "servers": [
+          {
+            "address": "43.248.129.253",
+            "port": 27001,
+            "users": []
+          }
+        ]
+      }
+    },
+    {
+      "tag": "四川联通",
       "protocol": "socks",
       "settings": {
         "servers": [
@@ -64,8 +200,25 @@
       }
     },
     {
+      "tag": "湖南移动",
+      "protocol": "socks",
+      "settings": {
+        "servers": [
+          {
+            "address": "120.226.180.139",
+            "port": 8100,
+            "users": []
+          }
+        ]
+      }
+    },
+    {
       "protocol": "freedom",
       "tag": "direct"
+    },
+    {
+      "protocol": "blackhole",
+      "tag": "block"
     }
   ],
   "routing": {
@@ -83,8 +236,48 @@
       },
       {
         "type": "field",
+        "ip": [
+          "127.0.0.0/8",
+          "10.0.0.0/8",
+          "172.16.0.0/12",
+          "192.168.0.0/16"
+        ],
+        "outboundTag": "direct"
+      },
+      {
+        "type": "field",
+        "domain": ["geosite:cn"],
+        "outboundTag": "direct"
+      },
+      {
+        "type": "field",
+        "ip": ["geoip:cn"],
+        "outboundTag": "direct"
+      },
+      {
+        "type": "field",
         "network": "tcp,udp",
-        "outboundTag": "final-proxy"
+        "balancerTag": "load-balancer"
+      }
+    ],
+    "balancers": [
+      {
+        "tag": "load-balancer",
+        "selector": [
+          "香港阿里云",
+          "上海移动",
+          "安徽移动",
+          "四川移动",
+          "河南移动",
+          "浙江移动",
+          "黑龙江移动1",
+          "黑龙江移动2",
+          "江苏移动1",
+          "江苏移动2",
+          "深圳移动",
+          "四川联通",
+          "湖南移动"
+        ]
       }
     ]
   }
