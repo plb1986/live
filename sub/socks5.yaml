@@ -2,11 +2,11 @@ mode: global
 mixed-port: 7890
 
 proxies:
-  # 上海移动
-  - name: "🇨🇳 上海移动"
+  # 🇭🇰 香港阿里云
+  - name: "🇭🇰 香港阿里云"
     type: socks5
-    server: 223.112.8.106
-    port: 17007
+    server: 47.57.244.4
+    port: 10902
     
   # 上海移动
   - name: "🇨🇳 上海移动"
@@ -39,7 +39,7 @@ proxies:
     port: 65522
     
   # 黑龙江移动1
-  - name: "🇨🇳 黑龙江移动"
+  - name: "🇨🇳 黑龙江移动1"
     type: socks5
     server: 121.229.102.209
     port: 8091
@@ -55,6 +55,12 @@ proxies:
     type: socks5
     server: 223.111.182.16
     port: 8066
+
+  # 江苏移动2
+  - name: "🇨🇳 江苏移动2"
+    type: socks5
+    server: 36.150.108.231
+    port: 10099
     
   # 深圳移动
   - name: "🇨🇳 深圳移动"
@@ -62,35 +68,44 @@ proxies:
     server: 43.248.129.253
     port: 27001
     
-  # 江苏移动2
-  - name: "🇨🇳 江苏移动2"
+  # 四川联通
+  - name: "🇨🇳 四川联通"
     type: socks5
-    server: 36.150.108.231
-    port: 10099
+    server: 101.237.34.76
+    port: 30711
+    
+  # 湖南移动
+  - name: "🇨🇳 湖南移动"
+    type: socks5
+    server: 120.226.180.139
+    port: 8100
 
-# 只保留一个选择代理组
 proxy-groups:
   - name: PROXY
     type: select
     proxies:
+      - 🇭🇰 香港阿里云
       - 🇨🇳 上海移动
       - 🇨🇳 安徽移动
       - 🇨🇳 四川移动
       - 🇨🇳 河南移动
       - 🇨🇳 浙江移动
-      - 🇨🇳 黑龙江移动
+      - 🇨🇳 黑龙江移动1
       - 🇨🇳 黑龙江移动2
       - 🇨🇳 江苏移动1
-      - 🇨🇳 深圳移动
       - 🇨🇳 江苏移动2
+      - 🇨🇳 深圳移动
+      - 🇨🇳 四川联通
+      - 🇨🇳 湖南移动
       - DIRECT
 
-# 全局模式下，所有流量都走PROXY组
 rules:
-  - MATCH,PROXY
-    # 本地和局域网地址直连
+  # 本地和局域网地址直连
   - DOMAIN-SUFFIX,local,DIRECT
   - IP-CIDR,127.0.0.0/8,DIRECT
   - IP-CIDR,172.16.0.0/12,DIRECT
   - IP-CIDR,192.168.0.0/16,DIRECT
   - IP-CIDR,10.0.0.0/8,DIRECT
+  
+  # 最终规则（必须放在最后）
+  - MATCH,PROXY
