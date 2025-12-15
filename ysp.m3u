@@ -55,28 +55,6 @@ http://115.190.105.236:1888/ysp.php?id=cgwy&uid=87133638
 http://115.190.105.236:1888/ysp.php?id=fyjc&uid=87133638
 #EXTINF:-1 group-title="央视" tvg-name="第一剧场" tvg-logo="https://im5k.fun/logo/第一剧场.png" ,第一剧场
 http://115.190.105.236:1888/ysp.php?id=dyjc&uid=87133638
-#EXTINF:-1 group-title="央视" tvg-name="怀旧剧场" tvg-logo="https://im5k.fun/logo/怀旧剧场.png" ,怀旧剧场
-http://115.190.105.236:1888/ysp.php?id=hjjc&uid=87133638
-#EXTINF:-1 group-title="央视" tvg-name="世界地理" tvg-logo="https://im5k.fun/logo/世界地理.png" ,世界地理
-http://115.190.105.236:1888/ysp.php?id=wsgl&uid=87133638
-#EXTINF:-1 group-title="央视" tvg-name="风云音乐" tvg-logo="https://im5k.fun/logo/风云音乐.png" ,风云音乐
-http://115.190.105.236:1888/ysp.php?id=fyys&uid=87133638
-#EXTINF:-1 group-title="央视" tvg-name="兵器科技" tvg-logo="https://im5k.fun/logo/兵器科技.png" ,兵器科技
-http://115.190.105.236:1888/ysp.php?id=bqkj&uid=87133638
-#EXTINF:-1 group-title="央视" tvg-name="风云足球" tvg-logo="https://im5k.fun/logo/风云足球.png" ,风云足球
-http://115.190.105.236:1888/ysp.php?id=fyzz&uid=87133638
-#EXTINF:-1 group-title="央视" tvg-name="高尔夫网球" tvg-logo="https://im5k.fun/logo/高尔夫网球.png" ,高尔夫网球
-http://115.190.105.236:1888/ysp.php?id=golf&uid=87133638
-#EXTINF:-1 group-title="央视" tvg-name="女性时尚" tvg-logo="https://im5k.fun/logo/女性时尚.png" ,女性时尚
-http://115.190.105.236:1888/ysp.php?id=wlfo&uid=87133638
-#EXTINF:-1 group-title="央视" tvg-name="文化精品" tvg-logo="https://im5k.fun/logo/文化精品.png" ,文化精品
-http://115.190.105.236:1888/ysp.php?id=hwjp&uid=87133638
-#EXTINF:-1 group-title="央视" tvg-name="央视台球" tvg-logo="https://im5k.fun/logo/央视台球.png" ,央视台球
-http://115.190.105.236:1888/ysp.php?id=ystq&uid=87133638
-#EXTINF:-1 group-title="央视" tvg-name="电视指南" tvg-logo="https://im5k.fun/logo/电视指南.png" ,电视指南
-http://115.190.105.236:1888/ysp.php?id=yszn&uid=87133638
-#EXTINF:-1 group-title="央视" tvg-name="卫生健康" tvg-logo="https://im5k.fun/logo/卫生健康.png" ,卫生健康
-http://115.190.105.236:1888/ysp.php?id=wszh&uid=87133638
 #EXTINF:-1 group-title="卫视" tvg-name="湖南卫视" tvg-logo="https://im5k.fun/logo/湖南卫视.png" ,湖南卫视
 http://115.190.105.236:1888/ysp.php?id=hunws&uid=87133638
 #EXTINF:-1 group-title="卫视" tvg-name="北京卫视" tvg-logo="https://im5k.fun/logo/北京卫视.png" ,北京卫视
