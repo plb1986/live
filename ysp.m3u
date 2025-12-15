@@ -45,16 +45,18 @@ http://115.190.105.236:1888/ysp.php?id=cgtn&uid=87133638
 http://115.190.105.236:1888/ysp.php?id=cgfy&uid=87133638
 #EXTINF:-1 group-title="央视" tvg-name="CGTN俄语" tvg-logo="https://im5k.fun/logo/CGTN俄语.png" ,CGTN俄语
 http://115.190.105.236:1888/ysp.php?id=cgey&uid=87133638
-#EXTINF:-1 group-title="央视" tvg-name="CGTN阿拉伯语" tvg-logo="https://im5k.fun/logo/CGTN阿拉伯语.png" ,CGTN阿拉伯语
+#EXTINF:-1 group-title="央视" tvg-name="CGTN阿语" tvg-logo="https://im5k.fun/logo/CGTN阿语.png" ,CGTN阿语
 http://115.190.105.236:1888/ysp.php?id=cgal&uid=87133638
-#EXTINF:-1 group-title="央视" tvg-name="CGTN西班牙语" tvg-logo="https://im5k.fun/logo/CGTN西班牙语.png" ,CGTN西班牙语
+#EXTINF:-1 group-title="央视" tvg-name="CGTN西语" tvg-logo="https://im5k.fun/logo/CGTN西语.png" ,CGTN西语
 http://115.190.105.236:1888/ysp.php?id=cgxb&uid=87133638
-#EXTINF:-1 group-title="央视" tvg-name="CGTN外语记录" tvg-logo="https://im5k.fun/logo/CGTN外语记录.png" ,CGTN外语记录
+#EXTINF:-1 group-title="央视" tvg-name="CGTN纪录" tvg-logo="https://im5k.fun/logo/CGTN纪录.png" ,CGTN纪录
 http://115.190.105.236:1888/ysp.php?id=cgwy&uid=87133638
 #EXTINF:-1 group-title="央视" tvg-name="风云剧场" tvg-logo="https://im5k.fun/logo/风云剧场.png" ,风云剧场
 http://115.190.105.236:1888/ysp.php?id=fyjc&uid=87133638
 #EXTINF:-1 group-title="央视" tvg-name="第一剧场" tvg-logo="https://im5k.fun/logo/第一剧场.png" ,第一剧场
 http://115.190.105.236:1888/ysp.php?id=dyjc&uid=87133638
+#EXTINF:-1 tvg-name="怀旧剧场" tvg-logo="https://im5k.fun/logo/怀旧剧场.png" group-title="央视",怀旧剧场
+http://115.190.105.236:1888/ysp.php?id=hjjc&uid=87133638
 #EXTINF:-1 group-title="卫视" tvg-name="湖南卫视" tvg-logo="https://im5k.fun/logo/湖南卫视.png" ,湖南卫视
 http://115.190.105.236:1888/ysp.php?id=hunws&uid=87133638
 #EXTINF:-1 group-title="卫视" tvg-name="北京卫视" tvg-logo="https://im5k.fun/logo/北京卫视.png" ,北京卫视
