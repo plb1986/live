@@ -9,7 +9,7 @@ https://live.ottiptv.cc/mcp/cctv3.m3u8?userid=6139474293&sign=216d778e4d0d69f1af
 https://live.ottiptv.cc/mcp/cctv4.m3u8?userid=6139474293&sign=1cee5f4e516da9d3648f951677cb2d0e415aefd4062567951e03e8f48c8c072bf74df1cf0b935f0307bdb849a90ddb2437b37ba65072c3bf1d441708d6bffc2067ad32925a2f575cda88838ce5&auth_token=c5140e9bc0d1cbccb5fb309c2dff2202
 #EXTINF:-1 group-title="央视" tvg-name="CCTV5" tvg-logo="https://im5k.fun/logo/cctv5.png",CCTV5
 https://live.ottiptv.cc/mcp/cctv5.m3u8?userid=6139474293&sign=f2efd911cc500edd43e16e534ee477b6bd96a9855501d8e3fe4f1aa9abf9733fcaad119c0ec113afb57e65596aeb1b456a67df578287d5872d502c58a2ef77986c88a8f531e9d632ca93a3000f&auth_token=c5140e9bc0d1cbccb5fb309c2dff2202
-#EXTINF:-1 group-title="央视" tvg-name="CCTV5p" tvg-logo="https://im5k.fun/logo/cctv5p.png",CCTV5p
+#EXTINF:-1 group-title="央视" tvg-name="CCTV5+" tvg-logo="https://im5k.fun/logo/cctv5+.png",CCTV5+
 https://live.ottiptv.cc/mcp/cctv5p.m3u8?userid=6139474293&sign=f3da39b53048b05df3efa97ed43afeded24f36761ed9b5337f0dc8879194e4eb234b868aee59d822583f45af699ddc3a2c09da50af47cfb4947b2b49867e15fbd617867366a9f6a0f55a1c06e227&auth_token=c5140e9bc0d1cbccb5fb309c2dff2202
 #EXTINF:-1 group-title="央视" tvg-name="CCTV6" tvg-logo="https://im5k.fun/logo/cctv6.png",CCTV6
 https://live.ottiptv.cc/mcp/cctv6.m3u8?userid=6139474293&sign=4ad200bb51e198d651577bea5139a7a0ae2c8211203eefff3dd7ffe92f5bb6c3b83eb0f95d76805d96877eeebc04cb573b116c8ba5a49c2ad4506fb01fe29b359e59edaae5335b19db4dd9ca7b&auth_token=c5140e9bc0d1cbccb5fb309c2dff2202
