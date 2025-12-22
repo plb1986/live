@@ -125,7 +125,7 @@ http://115.190.105.236/live/bjtime.php?id=bjkk
 http://115.190.105.236/live/gztv.php?id=zhonghe
 #EXTINF:-1 group-title="广州" tvg-name="广州新闻" tvg-logo="https://im5k.fun/logo/广州新闻.png" ,广州新闻
 http://115.190.105.236/live/gztv.php?id=xinwen
-#EXTINF:-1 group-title="广州" tvg-name="南国都市4K" tvg-logo="https://im5k.fun/logo/广州南国都市4K.png" ,南国都市4K
+#EXTINF:-1 group-title="广州" tvg-name="南国都市4K" tvg-logo="https://im5k.fun/logo/广州南国都市.png" ,南国都市4K
 http://115.190.105.236/live/gztv.php?id=nanguodushi
 #EXTINF:-1 group-title="海南" tvg-name="海南卫视" tvg-logo="https://im5k.fun/logo/海南卫视.png" ,海南卫视
 http://115.190.105.236/live/hainan.php?id=hnws
