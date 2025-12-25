@@ -79,13 +79,13 @@ http://120.210.193.151:8006/120000000058/G_CCTV-17-HQ/index.m3u8?channel-id=
 http://120.210.193.151:8006/120000000058/G_CCTV-5PLUS-CQ/index.m3u8?channel-id=
 #EXTINF:-1 tvg-id="CGTN" tvg-name="CGTN" tvg-logo="https://im5k.fun/logo/CGTN.png" group-title="央视",CGTN
 http://120.210.193.151:8006/120000000058/G_CCTV-NEWS/index.m3u8?channel-id=
-#EXTINF:-1 tvg-id="CGTN阿拉伯语" tvg-name="CGTN阿拉伯语" tvg-logo="https://im5k.fun/logo/CGTN阿拉伯语.png" group-title="央视",CGTN阿拉伯语
+#EXTINF:-1 tvg-id="CGTN阿语" tvg-name="CGTN阿语" tvg-logo="https://im5k.fun/logo/CGTN阿拉伯语.png" group-title="央视",CGTN阿拉伯语
 http://120.210.193.151:8006/120000000058/G_CGTN_A/index.m3u8?channel-id=
 #EXTINF:-1 tvg-id="CGTN俄语" tvg-name="CGTN俄语" tvg-logo="https://im5k.fun/logo/CGTN俄语.png" group-title="央视",CGTN俄语
 http://120.210.193.151:8006/120000000058/G_CGTNPYCCNN/index.m3u8?channel-id=
 #EXTINF:-1 tvg-id="CGTN法语" tvg-name="CGTN法语" tvg-logo="https://im5k.fun/logo/CGTN法语.png" group-title="央视",CGTN法语
 http://120.210.193.151:8006/120000000058/G_CGTNFRANCAIS/index.m3u8?channel-id=
-#EXTINF:-1 tvg-id="CGTN西班牙语" tvg-name="CGTN西班牙语" tvg-logo="https://im5k.fun/logo/CGTN西班牙语.png" group-title="央视",CGTN西班牙语
+#EXTINF:-1 tvg-id="CGTN西语" tvg-name="CGTN西语" tvg-logo="https://im5k.fun/logo/CGTN西班牙语.png" group-title="央视",CGTN西班牙语
 http://120.210.193.151:8006/120000000058/G_CGTNESPANOL/index.m3u8?channel-id=
 #EXTINF:-1 tvg-id="CETV-1" tvg-name="CETV-1" tvg-logo="https://im5k.fun/logo/CETV1.png" group-title="其他",CETV-1
 http://120.210.193.151:8006/120000000058/G_CETV-1-HQ/index.m3u8?channel-id=
