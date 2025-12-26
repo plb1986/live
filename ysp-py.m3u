@@ -33,7 +33,7 @@ http://115.190.105.236:8080/ysp?cnlid=2027248901&livepid=600001809&defn=fhd
 http://115.190.105.236:8080/ysp?cnlid=2027249001&livepid=600001815&defn=fhd
 #EXTINF:-1 group-title="央视" tvg-name="CCTV16" tvg-logo="https://im5k.fun/logo/CCTV16.png" ,CCTV16
 http://115.190.105.236:8080/ysp?cnlid=2027249101&livepid=600098637&defn=fhd
-#EXTINF:-1 group-title="央视" tvg-name="CCTV16(4K)" tvg-logo="https://im5k.fun/logo/CCTV16(4K).png" ,CCTV16(4K)
+#EXTINF:-1 group-title="央视" tvg-name="CCTV16" tvg-logo="https://im5k.fun/logo/CCTV164K.png" ,CCTV16(4K)
 http://115.190.105.236:8080/ysp?cnlid=2027249301&livepid=600099502&defn=hdr
 #EXTINF:-1 group-title="央视" tvg-name="CCTV17" tvg-logo="https://im5k.fun/logo/CCTV17.png" ,CCTV17
 http://115.190.105.236:8080/ysp?cnlid=2027249401&livepid=600001810&defn=fhd
