@@ -63,11 +63,11 @@ http://38.75.136.137:98/gslb/dsdqpub/lbssxj.m3u8?auth=testpub
 http://38.75.136.137:98/gslb/dsdqpub/lbssdy.m3u8?auth=testpub
 #EXTINF:-1 group-title="综合" tvg-name="邵氏武侠" tvg-logo="https://im5k.fun/logo/邵氏武侠.png" ,邵氏武侠
 http://38.75.136.137:98/gslb/dsdqpub/lbsswx.m3u8?auth=testpub
-#EXTINF:-1 group-title="综合" tvg-name="新加波5频道" tvg-logo="https://im5k.fun/logo/Channel 5.png" ,新加波5频道
+#EXTINF:-1 group-title="综合" tvg-name="新加波5频道" tvg-logo="https://im5k.fun/logo/CH5.png" ,新加波5频道
 https://cdn6.101.qzz.io/163189/ch5
-#EXTINF:-1 group-title="综合" tvg-name="新加波8频道" tvg-logo="https://im5k.fun/logo/Channel8" ,新加波8频道
+#EXTINF:-1 group-title="综合" tvg-name="新加波8频道" tvg-logo="https://im5k.fun/logo/CH8" ,新加波8频道
 https://cdn6.101.qzz.io/163189/ch8
-#EXTINF:-1 group-title="综合" tvg-name="新加波U频道" tvg-logo="https://im5k.fun/logo/ChannelU.png" ,新加波U频道
+#EXTINF:-1 group-title="综合" tvg-name="新加波U频道" tvg-logo="https://im5k.fun/logo/CHU.png" ,新加波U频道
 https://cdn6.101.qzz.io/163189/chu
 #EXTINF:-1 group-title="综合" tvg-name="奥地利红牛" tvg-logo="https://im5k.fun/logo/奥地利红牛.png" ,奥地利红牛
 https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8
