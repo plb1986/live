@@ -1,4 +1,6 @@
 #EXTM3U
+#EXTINF:-1 tvg-name="CCTV4K" tvg-logo="https://im5k.fun/logo/CCTV4K.png" group-title="4 K" ,CCTV4K
+https://im6k.fun/stream/cctv4k
 #EXTINF:-1 tvg-name="北京卫视" tvg-logo="https://im5k.fun/logo/北京卫视4K.png" group-title="4 K",北京卫视4K
 https://im6k.fun/stream/bjws4k
 #EXTINF:-1 tvg-name="深圳卫视" tvg-logo="https://im5k.fun/logo/深圳卫视4K.png" group-title="4 K",深圳卫视4K
