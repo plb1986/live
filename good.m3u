@@ -33,14 +33,6 @@ https://cdn6.101.qzz.io/163189/hoy
 https://cdn.163189.xyz/163189/viu
 #EXTINF:-1 group-title="香港" tvg-name="华丽翡翠台" tvg-logo="https://im5k.fun/logo/华丽翡翠台.png" ,华丽翡翠台
 https://o11.163189.xyz/stream/live/hlt/
-#EXTINF:-1 group-title="香港" tvg-name="Astro AOD" tvg-logo="https://im5k.fun/logo/Astro AOD.png" ,Astro AOD
-https://o11.163189.xyz/stream/live/aod/
-#EXTINF:-1 group-title="香港" tvg-name="Astro AEC" tvg-logo="https://im5k.fun/logo/Astro AEC.png" ,Astro AEC
-https://o11.163189.xyz/stream/live/aec/
-#EXTINF:-1 group-title="香港" tvg-name="Astro QJ" tvg-logo="https://im5k.fun/logo/Astro QJ.png" ,Astro QJ
-https://o11.163189.xyz/stream/live/qj/
-#EXTINF:-1 group-title="香港" tvg-name="爱奇艺" tvg-logo="https://im5k.fun/logo/爱奇艺.png" ,爱奇艺
-https://o11.163189.xyz/stream/live/iqiyi/
 #EXTINF:-1 group-title="香港" tvg-name="千禧经典台" tvg-logo="https://im5k.fun/logo/千禧经典台.png" ,千禧经典台
 https://o11.163189.xyz/stream/live/tvbc/
 #EXTINF:-1 group-title="综合" tvg-name="澳门莲花" tvg-logo="https://im5k.fun/logo/澳门莲花.png" ,澳门莲花
@@ -55,44 +47,14 @@ https://cdn8.163189.xyz/163189/lhox
 https://cdn8.163189.xyz/163189/lhrh
 #EXTINF:-1 group-title="综合" tvg-name="龙华戏剧" tvg-logo="https://im5k.fun/logo/龙华戏剧.png" ,龙华戏剧
 https://cdn8.163189.xyz/163189/lhxj
-#EXTINF:-1 group-title="综合" tvg-name="邵氏动作" tvg-logo="https://im5k.fun/logo/邵氏动作.png" ,邵氏动作
-http://38.75.136.137:98/gslb/dsdqpub/lbssdz.m3u8?auth=testpub
-#EXTINF:-1 group-title="综合" tvg-name="邵氏喜剧" tvg-logo="https://im5k.fun/logo/邵氏喜剧.png" ,邵氏喜剧
-http://38.75.136.137:98/gslb/dsdqpub/lbssxj.m3u8?auth=testpub
-#EXTINF:-1 group-title="综合" tvg-name="邵氏电影" tvg-logo="https://im5k.fun/logo/邵氏电影.png" ,邵氏电影
-http://38.75.136.137:98/gslb/dsdqpub/lbssdy.m3u8?auth=testpub
-#EXTINF:-1 group-title="综合" tvg-name="邵氏武侠" tvg-logo="https://im5k.fun/logo/邵氏武侠.png" ,邵氏武侠
-http://38.75.136.137:98/gslb/dsdqpub/lbsswx.m3u8?auth=testpub
-#EXTINF:-1 group-title="综合" tvg-name="新加波5频道" tvg-logo="https://im5k.fun/logo/CH5.png" ,新加波5频道
+#EXTINF:-1 group-title="综合" tvg-name="新加坡5频道" tvg-logo="https://im5k.fun/logo/CH5.png" ,新加坡5频道
 https://cdn6.101.qzz.io/163189/ch5
-#EXTINF:-1 group-title="综合" tvg-name="新加波8频道" tvg-logo="https://im5k.fun/logo/CH8" ,新加波8频道
+#EXTINF:-1 group-title="综合" tvg-name="新加波8频道" tvg-logo="https://im5k.fun/logo/CH8.png" ,新加波8频道
 https://cdn6.101.qzz.io/163189/ch8
 #EXTINF:-1 group-title="综合" tvg-name="新加波U频道" tvg-logo="https://im5k.fun/logo/CHU.png" ,新加波U频道
 https://cdn6.101.qzz.io/163189/chu
-#EXTINF:-1 group-title="综合" tvg-name="奥地利红牛" tvg-logo="https://im5k.fun/logo/奥地利红牛.png" ,奥地利红牛
-https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8
-#EXTINF:-1 group-title="综合" tvg-name="Cartoon Network" tvg-logo="https://im5k.fun/logo/Cartoon Network.png" ,Cartoon Network
-http://cord-cutter.net:8080/marco.garcia@hotmail.ca/marco.garcia@248/57356
-#EXTINF:-1 group-title="NOW体育" tvg-name="NOW英超1" tvg-logo="https://im5k.fun/logo/NOW英超1.png" ,NOW英超1
-http://109.61.81.147:1935/cdn7/767/mpegts?token=1d8c18a3d377f5418d2501aa54082b60
-#EXTINF:-1 group-title="NOW体育" tvg-name="NOW体育" tvg-logo="https://im5k.fun/logo/NOW体育.png" ,NOW体育
-http://main.light-ott.net:80/play/live.php?mac=00:1A:79:3A:93:FD&stream=382834&extension=ts&play_token=JBOlpsgTKU
-#EXTINF:-1 group-title="NOW体育" tvg-name="NOW体育1" tvg-logo="https://im5k.fun/logo/NOW体育1.png" ,NOW体育1
-http://main.light-ott.net:80/play/live.php?mac=00:1A:79:3A:93:FD&stream=382843&extension=ts&play_token=KANAeecxcz
-#EXTINF:-1 group-title="NOW体育" tvg-name="NOW体育2" tvg-logo="https://im5k.fun/logo/NOW体育2.png" ,NOW体育2
-http://main.light-ott.net:80/play/live.php?mac=00:1A:79:3A:93:FD&stream=382842&extension=ts&play_token=MCoDoR8s9G
-#EXTINF:-1 group-title="NOW体育" tvg-name="NOW体育3" tvg-logo="https://im5k.fun/logo/NOW体育3.png" ,NOW体育3
-http://main.light-ott.net:80/play/live.php?mac=00:1A:79:3A:93:FD&stream=382841&extension=ts&play_token=5uiKCGTNCF
-#EXTINF:-1 group-title="NOW体育" tvg-name="NOW体育4" tvg-logo="https://im5k.fun/logo/NOW体育4.png" ,NOW体育4
-http://main.light-ott.net:80/play/live.php?mac=00:1A:79:3A:93:FD&stream=382840&extension=ts&play_token=eoeYdjrkUg
-#EXTINF:-1 group-title="NOW体育" tvg-name="NOW体育5" tvg-logo="https://im5k.fun/logo/NOW体育5.png" ,NOW体育5
-http://main.light-ott.net:80/play/live.php?mac=00:1A:79:3A:93:FD&stream=382839&extension=ts&play_token=lu0NOftGgg
-#EXTINF:-1 group-title="NOW体育" tvg-name="NOW体育6" tvg-logo="https://im5k.fun/logo/NOW体育6.png" ,NOW体育6
-http://main.light-ott.net:80/play/live.php?mac=00:1A:79:3A:93:FD&stream=382838&extension=ts&play_token=WQ4pi5DTy3
-#EXTINF:-1 group-title="NOW体育" tvg-name="NOW体育7" tvg-logo="https://im5k.fun/logo/NOW体育7.png" ,NOW体育7
-http://main.light-ott.net:80/play/live.php?mac=00:1A:79:3A:93:FD&stream=382837&extension=ts&play_token=rRmhe1TsX7
-#EXTINF:-1 group-title="NOW体育" tvg-name="NOW体育4K1" tvg-logo="https://im5k.fun/logo/NOW体育4K1.png" ,NOW体育4K1
-http://main.light-ott.net:80/play/live.php?mac=00:1A:79:3A:93:FD&stream=382836&extension=ts&play_token=jSAYXQsMoY
+.garcia@hotmail.ca/marco.garcia@248/57356
+
 #EXTINF:-1 group-title="央视" tvg-name="CCTV1" tvg-logo="https://im5k.fun/logo/CCTV1.png" ,CCTV1
 http://115.190.105.236/live/yspapp.php?cnlid=2024078201&livepid=600001859&defn=fhd
 #EXTINF:-1 group-title="央视" tvg-name="CCTV2" tvg-logo="https://im5k.fun/logo/CCTV2.png" ,CCTV2
