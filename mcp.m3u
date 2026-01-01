@@ -58,7 +58,7 @@ https://live.ottiptv.cc/mcp/cgtnfr.m3u8?userid=8015960691&sign=d4b2fa1e6040fa1d9
 https://live.ottiptv.cc/mcp/cgtnru.m3u8?userid=8015960691&sign=f381f6d7847798ce4cd087fdc9710a0cbca55d186f70b81d727b35469c2a04169ca6558439fc68dc2060bdc284f9f818623026f2813d7dfdd2e50b6d06a444a3a669b2733e9766676fdf12469207&auth_token=2e32942d36656f77a65c0ed4036bcea9
 #EXTINF:-1 tvg-name="cgtnsp" tvg-logo="https://im5k.fun/logo/CGTN1.png" group-title="央视",cgtnsp
 https://live.ottiptv.cc/mcp/cgtnsp.m3u8?userid=8015960691&sign=bbd02d29907bade0e25b0c274e4574541842e37bee5c9d856cf068bda79fa84e076ae38914a186a94b9d909d3a01a550a8ebea1a44f4f04685096d5943945cf2143cb277922d45b7578e78e27d69&auth_token=2e32942d36656f77a65c0ed4036bcea9
-#EXTINF:-1 tvg-name="中国教育1台" tvg-logo="https://im5k.fun/logo/中国教育1台.png" group-title="其他",中国教育电视台
+#EXTINF:-1 tvg-name="中国教育1台" tvg-logo="https://im5k.fun/logo/CETV1.png" group-title="卫视",中国教育1台
 https://live.ottiptv.cc/mcp/cetv1.m3u8?userid=8015960691&sign=3486b17b25d8e330c91f82ad93f1ecf01eefcad1c5e003e8d314a6961f47267114cfd1a4ef28c9513bb84de0d94c80868b48c640ccee5cfb6a616ee1859b0fba192b29d69a5bfbcacaf46f17dc&auth_token=2e32942d36656f77a65c0ed4036bcea9
 #EXTINF:-1 tvg-name="北京卫视" tvg-logo="https://im5k.fun/logo/北京卫视.png" group-title="卫视",北京卫视
 https://live.ottiptv.cc/mcp/beijing.m3u8?userid=8015960691&sign=97ee83f463c8a41771d33d8124b0cdd88eee336c90316578752ab4d41fb6f8483e1f263cb157899c0f1943e5e69dd66ad97f9624023e2adddbf17a728d82a002591395eda09b50c0ac5c602d07eeab&auth_token=2e32942d36656f77a65c0ed4036bcea9
@@ -128,4 +128,5 @@ https://live.ottiptv.cc/mcp/yunnan.m3u8?userid=8015960691&sign=f7326f33df5611d91
 https://live.ottiptv.cc/mcp/bintuan.m3u8?userid=8015960691&sign=7622796188a3012696fd002a7c0d0946a8a6d82f3e0fad14478e0559bc184ca6f1e49559d016005384732b795c78de0684d0739ce1e3f56d441f09c2a058d3fe7189ecb7ad0f4f224de2572607d6d1&auth_token=2e32942d36656f77a65c0ed4036bcea9
 #EXTINF:-1 tvg-name="国学频道" tvg-logo="https://im5k.fun/logo/国学频道.png" group-title="卫视",国学频道
 https://live.ottiptv.cc/mcp/guoxue.m3u8?userid=8015960691&sign=48fc7ca74b509c227ad34fb946f7b5fccd939a7032277b52beac0d6441ef05f99d35ec3b0b903ab717b7fa2a09be804c5660b70bcebc9f51a8a9a50fd95d85bc09b34eb620e1bb29e2b479b4a24f&auth_token=2e32942d36656f77a65c0ed4036bcea9
+
 
