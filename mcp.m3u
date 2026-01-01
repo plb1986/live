@@ -10,7 +10,7 @@ https://live.ottiptv.cc/mcp/cctv3.m3u8?userid=8015960691&sign=0a81011aec41f1d97c
 https://live.ottiptv.cc/mcp/cctv4.m3u8?userid=8015960691&sign=d6248cdea1bc16d25b377a416ad5cc13ba6c580b6f23d71d635dee7d9e7b8a0229390b6fd489a726087e6d8c19a63b9ecc83b178f254e1f73900d0295c7ce2a32cfacb0fce69ade2205929dfe4&auth_token=2e32942d36656f77a65c0ed4036bcea9
 #EXTINF:-1 tvg-name="CCTV5" tvg-logo="https://im5k.fun/logo/cctv5.png" group-title="央视",CCTV5
 https://live.ottiptv.cc/mcp/cctv5.m3u8?userid=8015960691&sign=cb52bf2b0f5bf57a1e2ca0073de5a14bc95d92048816113eecf254bf24fe3e182dc0608c1c88a9f6158f3c838c336c9890bf953db7683acda0618678ebb535fb760aa9154dd62bee5ac5244bbe&auth_token=2e32942d36656f77a65c0ed4036bcea9
-#EXTINF:-1 tvg-name="CCTV5p" tvg-logo="https://im5k.fun/logo/cctv5p.png" group-title="央视",CCTV5p
+#EXTINF:-1 tvg-name="CCTV5p" tvg-logo="https://im5k.fun/logo/cctv5+.png" group-title="央视",CCTV5+
 https://live.ottiptv.cc/mcp/cctv5p.m3u8?userid=8015960691&sign=39f9ad4728ecf48ba6e2a577cdef9b0a9e0737d4a6169924d2fcb27d8836dc7bf2787347d4ef4363dab7d390f109d65b3cc3e9584244ccec61c88001ab590f146142ab8fcfde8de32e6bc3151aba&auth_token=2e32942d36656f77a65c0ed4036bcea9
 #EXTINF:-1 tvg-name="CCTV6" tvg-logo="https://im5k.fun/logo/cctv6.png" group-title="央视",CCTV6
 https://live.ottiptv.cc/mcp/cctv6.m3u8?userid=8015960691&sign=1c0c76b40fbdf0ce9effa4922ab83d1c26f08a5cf525ae2a486353cf617002900f99c708908b281e3e59fb4520ec4cd93549be7f86f008a1048adc0e05e25a8def9e09f4a4543de17f15c42f7e&auth_token=2e32942d36656f77a65c0ed4036bcea9
@@ -36,9 +36,9 @@ https://live.ottiptv.cc/mcp/cctv15.m3u8?userid=8015960691&sign=81eb62e1bf8073a80
 https://live.ottiptv.cc/mcp/cctv16.m3u8?userid=8015960691&sign=1d678bbdf0b8c7b88c7fe87d6db5e7d7b2a0227bc005c6d5c993c4d0436f6de9e9f1f6661ef19a407328704f11e304015df4a6a97ef94c059afe7a1493a40cc6ec95543c5b6ead9fb7356c8ffad6&auth_token=2e32942d36656f77a65c0ed4036bcea9
 #EXTINF:-1 tvg-name="CCTV17" tvg-logo="https://im5k.fun/logo/cctv17.png" group-title="央视",CCTV17
 https://live.ottiptv.cc/mcp/cctv17.m3u8?userid=8015960691&sign=cf9667c8474d262d49b8c30d4a8533aa56348ce30081fb03088ae76a7dcea61b07e8717a1a887fdeb2a3132fa70471b33d2001b6eb1aa931c36f61369cd5eb84876e2d01601320628f26f3e50d8f&auth_token=2e32942d36656f77a65c0ed4036bcea9
-#EXTINF:-1 tvg-name="CCTV4k" tvg-logo="https://im5k.fun/logo/cctv4k.png" group-title="央视",CCTV4k
+#EXTINF:-1 tvg-name="CCTV4k" tvg-logo="https://im5k.fun/logo/cctv4k.png" group-title="央视",CCTV4K
 https://live.ottiptv.cc/mcp/cctv4k.m3u8?userid=8015960691&sign=aac511a2a1f9962333e6eb3ecf13d1ca52c5d8f75c42ded27eba724c54219adfbaef02ce1c2b3acc629bd324478ddee49b3b743c80a9f6848b1537f61f0e0d552f80972119f67c451d0909435ff0&auth_token=2e32942d36656f77a65c0ed4036bcea9
-#EXTINF:-1 tvg-name="CCTV8k" tvg-logo="https://im5k.fun/logo/cctv8k.png" group-title="央视",CCTV8k
+#EXTINF:-1 tvg-name="CCTV8k" tvg-logo="https://im5k.fun/logo/cctv8k.png" group-title="央视",CCTV8K
 https://live.ottiptv.cc/mcp/cctv8k.m3u8?userid=8015960691&sign=dd6735835df8dc2715b7209461928c629758b5195d19dca6af3ac0d68e9bea166644bf6d94ef17601cb3f41d70ed2e181385d38aa3587856b8a5e837d095a6d8a90e58511d65cee77cc4b390c7c6&auth_token=2e32942d36656f77a65c0ed4036bcea9
 #EXTINF:-1 tvg-name="第一剧场" tvg-logo="https://im5k.fun/logo/第一剧场.png" group-title="央视",第一剧场
 https://live.ottiptv.cc/mcp/dyjc.m3u8?userid=8015960691&sign=7e23136ad651439bd23890ab3e744bffbcffae41cf9c250be3ec9d03f6c6a2bb6890c65e0f78e2a34fb83c642fb51dffb99ada20277cceb00511a780fb8b50ad714f8e59aa478431f191416f&auth_token=2e32942d36656f77a65c0ed4036bcea9
@@ -128,3 +128,4 @@ https://live.ottiptv.cc/mcp/yunnan.m3u8?userid=8015960691&sign=f7326f33df5611d91
 https://live.ottiptv.cc/mcp/bintuan.m3u8?userid=8015960691&sign=7622796188a3012696fd002a7c0d0946a8a6d82f3e0fad14478e0559bc184ca6f1e49559d016005384732b795c78de0684d0739ce1e3f56d441f09c2a058d3fe7189ecb7ad0f4f224de2572607d6d1&auth_token=2e32942d36656f77a65c0ed4036bcea9
 #EXTINF:-1 tvg-name="国学频道" tvg-logo="https://im5k.fun/logo/国学频道.png" group-title="卫视",国学频道
 https://live.ottiptv.cc/mcp/guoxue.m3u8?userid=8015960691&sign=48fc7ca74b509c227ad34fb946f7b5fccd939a7032277b52beac0d6441ef05f99d35ec3b0b903ab717b7fa2a09be804c5660b70bcebc9f51a8a9a50fd95d85bc09b34eb620e1bb29e2b479b4a24f&auth_token=2e32942d36656f77a65c0ed4036bcea9
+
