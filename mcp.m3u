@@ -10,7 +10,7 @@ https://live.ottiptv.cc/mcp/cctv3.m3u8?userid=8137863657&sign=954db566d88a0e6d2f
 https://live.ottiptv.cc/mcp/cctv4.m3u8?userid=8137863657&sign=fd5b6ea8280130299051150bc812b4624868c2bf38d740a208cdb0a1ce8c103dd7ce7a316de1cc3fc4ac6ca5b973658f49a1742ada61b4c41c37da681a2f0701204d08b0e383dd5d7c7e0e6cbc&auth_token=54741b289e946919fc1c34ca88db58a4
 #EXTINF:-1 tvg-name="CCTV5" tvg-logo="https://im5k.fun/logo/cctv5.jpg" group-title="央视",CCTV5
 https://live.ottiptv.cc/mcp/cctv5.m3u8?userid=8137863657&sign=026912bbcae0bf4a3384d92eeff05e986e616cbd885413045c9fac21b9b81ff79fae70162e12343307d4b3c6c69d468bae4cc7127f2ff035ceac8e807e5e1b3036315566d0699b1b5261b9f078&auth_token=54741b289e946919fc1c34ca88db58a4
-#EXTINF:-1 tvg-name="CCTV5p" tvg-logo="https://im5k.fun/logo/cctv5p.jpg" group-title="央视",CCTV5p
+#EXTINF:-1 tvg-name="CCTV5+" tvg-logo="https://im5k.fun/logo/cctv5+.jpg" group-title="央视",CCTV5+
 https://live.ottiptv.cc/mcp/cctv5p.m3u8?userid=8137863657&sign=c08fb346e6000115860775e09a6d56436cadb9eec1cca1efa11fb06a20715bef5d8bd8daccb926349d40a6442400d37a8d160986c6b5e32cac2e140333c466a2128e405c8531724765858e467b86&auth_token=54741b289e946919fc1c34ca88db58a4
 #EXTINF:-1 tvg-name="CCTV6" tvg-logo="https://im5k.fun/logo/cctv6.jpg" group-title="央视",CCTV6
 https://live.ottiptv.cc/mcp/cctv6.m3u8?userid=8137863657&sign=67bd003d516905a184288d41f557d4b274fdbf2c2bc425950f7a0bc04c73e30f67c4ca965768032f0b93432d503e0ec6223b7548172fb1058cc44a621db5a1e9d91d0e40a9dff93386637fb025&auth_token=54741b289e946919fc1c34ca88db58a4
@@ -107,3 +107,4 @@ https://live.ottiptv.cc/mcp/gansu.m3u8?userid=8137863657&sign=f4f1cfa0779dd49481
 https://live.ottiptv.cc/mcp/yunnan.m3u8?userid=8137863657&sign=1c5e86645ecfd650bd532ff97d90cabef29a3e3c6d8b46ab165dcce441a9b840b63a54eb8134b63fde160d5074be0efea65c27a09c2212bc16e995492bfe95417ec56f265b929630759362031d51&auth_token=54741b289e946919fc1c34ca88db58a4
 #EXTINF:-1 tvg-name="兵团卫视" tvg-logo="https://im5k.fun/logo/兵团卫视.png" group-title="卫视",兵团卫视
 https://live.ottiptv.cc/mcp/bintuan.m3u8?userid=8137863657&sign=1870af78fc6e81fbebe28688c5dd97a07e5094ecc533c4c59eee793838746ec4d340e2d1b3cd3fb2590228285ac9906f14c88772cf13a6fc3622c97811bca8c7f6b507a6e36483eb138883ab2baf61&auth_token=54741b289e946919fc1c34ca88db58a4
+
