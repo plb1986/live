@@ -1,13 +1,19 @@
 {
-  "stores": [
+  "sites": [
     {
-      "key": "live",
-      "name": "直播",
-      "type": 0,
-      "api": "https://im5k.fun/smt.txt",
+      "key": "live_smt",
+      "name": "SMT直播",
+      "type": 3,
+      "api": "https://im5k.fun/py/SMT.py",
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 0
+    }
+  ],
+  "lives": [
+    {
+      "name": "SMT频道列表",
+      "url": "https://im5k.fun/py/smt.txt"
     }
   ]
 }
