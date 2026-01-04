@@ -144,19 +144,19 @@ rtp://233.50.200.174:5140
 rtp://233.50.202.35:5140
 #EXTINF:-1 tvg-id="凤凰资讯" tvg-name="凤凰资讯" tvg-logo="https://im5k.fun/logo/凤凰资讯.png" group-title="卫视",凤凰资讯
 rtp://233.50.202.36:5140
-#EXTINF:-1 tvg-id="卡酷少儿" tvg-name="卡酷少儿" tvg-logo="https://im5k.fun/logo/卡酷少儿.png" group-title="卫视",卡酷少儿
+#EXTINF:-1 tvg-id="卡酷少儿" tvg-name="卡酷少儿" tvg-logo="https://im5k.fun/logo/卡酷少儿.png" group-title="数字",卡酷少儿
 rtp://233.50.202.33:5140
-#EXTINF:-1 tvg-id="金鹰卡通" tvg-name="金鹰卡通" tvg-logo="https://im5k.fun/logo/金鹰卡通.png" group-title="卫视",金鹰卡通
+#EXTINF:-1 tvg-id="金鹰卡通" tvg-name="金鹰卡通" tvg-logo="https://im5k.fun/logo/金鹰卡通.png" group-title="数字",金鹰卡通
 rtp://233.50.201.73:5140
-#EXTINF:-1 tvg-id="CGTN" tvg-name="CGTN" tvg-logo="https://im5k.fun/logo/CGTN.png" group-title="国际",CGTN
+#EXTINF:-1 tvg-id="CGTN" tvg-name="CGTN" tvg-logo="https://im5k.fun/logo/CGTN.png" group-title="央视",CGTN
 rtp://233.50.201.126:5140
-#EXTINF:-1 tvg-id="CGTN西语" tvg-name="CGTN西语" tvg-logo="https://im5k.fun/logo/CGTN西班牙语.png" group-title="国际",CGTN西班牙语
+#EXTINF:-1 tvg-id="CGTN西语" tvg-name="CGTN西语" tvg-logo="https://im5k.fun/logo/CGTN西班牙语.png" group-title="央视",CGTN西班牙语
 rtp://233.50.201.36:5140
-#EXTINF:-1 tvg-id="CGTN法语" tvg-name="CGTN法语" tvg-logo="https://im5k.fun/logo/CGTN法语.png" group-title="国际",CGTN法语
+#EXTINF:-1 tvg-id="CGTN法语" tvg-name="CGTN法语" tvg-logo="https://im5k.fun/logo/CGTN法语.png" group-title="央视",CGTN法语
 rtp://233.50.201.37:5140
-#EXTINF:-1 tvg-id="CGTN阿语" tvg-name="CGTN阿语" tvg-logo="https://im5k.fun/logo/CGTN阿拉伯语.png" group-title="国际",CGTN阿拉伯语
+#EXTINF:-1 tvg-id="CGTN阿语" tvg-name="CGTN阿语" tvg-logo="https://im5k.fun/logo/CGTN阿拉伯语.png" group-title="央视",CGTN阿拉伯语
 rtp://233.50.201.38:5140
-#EXTINF:-1 tvg-id="CGTN俄语" tvg-name="CGTN俄语" tvg-logo="https://im5k.fun/logo/CGTN俄罗斯语.png" group-title="国际",CGTN俄罗斯语
+#EXTINF:-1 tvg-id="CGTN俄语" tvg-name="CGTN俄语" tvg-logo="https://im5k.fun/logo/CGTN俄罗斯语.png" group-title="央视",CGTN俄罗斯语
 rtp://233.50.201.39:5140
 #EXTINF:-1 tvg-id="浙江钱江都市" tvg-name="浙江钱江都市" tvg-logo="https://im5k.fun/logo/钱江频道.png" group-title="地方",钱江频道
 rtp://233.50.201.132:5140
