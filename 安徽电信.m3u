@@ -1,12 +1,13 @@
 #EXTM3U x-tvg-url="https://epg.im5k.fun/pp.xml"
-#EXTINF:-1 group-title="4 K" tvg-name="CCTV4K" tvg-logo="https://im5k.fun/logo/CCTV4K.png" ,CCTV4K
-rtp://238.1.79.23:4296
-#EXTINF:-1 group-title="4 K" tvg-name="北京卫视" tvg-logo="https://im5k.fun/logo/北京卫视4K.png" ,北京卫视·4K
-rtp://238.1.79.24:4304
-#EXTINF:-1 group-title="4 K" tvg-name="广东卫视" tvg-logo="https://im5k.fun/logo/广东卫视4K.png" ,广东卫视·4K
-rtp://238.1.79.25:4312
-#EXTINF:-1 group-title="4 K" tvg-name="深圳卫视" tvg-logo="https://im5k.fun/logo/深圳卫视4K.png" ,深圳卫视·4K
-rtp://238.1.79.26:4320
+#由于4K频道太吃资源，今后不再提供4K频道
+##EXTINF:-1 group-title="4 K" tvg-name="CCTV4K" tvg-logo="https://im5k.fun/logo/CCTV4K.png" ,CCTV4K
+#rtp://238.1.79.23:4296
+##EXTINF:-1 group-title="4 K" tvg-name="北京卫视" tvg-logo="https://im5k.fun/logo/北京卫视4K.png" ,北京卫视·4K
+#rtp://238.1.79.24:4304
+##EXTINF:-1 group-title="4 K" tvg-name="广东卫视" tvg-logo="https://im5k.fun/logo/广东卫视4K.png" ,广东卫视·4K
+#rtp://238.1.79.25:4312
+##EXTINF:-1 group-title="4 K" tvg-name="深圳卫视" tvg-logo="https://im5k.fun/logo/深圳卫视4K.png" ,深圳卫视·4K
+#rtp://238.1.79.26:4320
 #EXTINF:-1 group-title="央视" tvg-name="CCTV1" tvg-logo="https://im5k.fun/logo/CCTV1.png" ,CCTV1
 rtp://238.1.78.166:7200
 #EXTINF:-1 group-title="央视" tvg-name="CCTV2" tvg-logo="https://im5k.fun/logo/CCTV2.png" ,CCTV2
