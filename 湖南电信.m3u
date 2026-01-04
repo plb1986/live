@@ -147,7 +147,7 @@ rtp://239.76.252.123:9000
 rtp://239.76.253.109:9000
 #EXTINF:-1 tvg-name="湖南国际" tvg-logo="https://im5k.fun/logo/湖南国际.png" group-title="其他" ,湖南国际
 rtp://239.76.252.124:9000
-#EXTINF:-1 tvg-name="湖南国际频道" tvg-logo="https://im5k.fun/logo/湖南国际频道.png" group-title="其他" ,湖南国际频道
+#EXTINF:-1 tvg-name="湖南国际" tvg-logo="https://im5k.fun/logo/湖南国际.png" group-title="其他" ,湖南国际
 rtp://239.76.253.102:9000
 #EXTINF:-1 tvg-name="湖南教育" tvg-logo="https://im5k.fun/logo/湖南教育.png" group-title="其他" ,湖南教育
 rtp://239.76.252.26:9000
