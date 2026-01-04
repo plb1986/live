@@ -1,33 +1,33 @@
 #EXTM3U
-
-#EXTINF:-1 tvg-id="CCTV16" tvg-name="CCTV16" tvg-logo="https://im5k.fun/logo/CCTV164K.png" group-title="4 K",CCTV16奥林匹克4K
-rtp://233.50.201.63:5140
-#EXTINF:-1 tvg-id="北京卫视" tvg-name="北京卫视" tvg-logo="https://im5k.fun/logo/北京卫视4K.png" group-title="4 K",北京卫视4K
-rtp://233.50.202.100:5140
-#EXTINF:-1 tvg-id="广东卫视" tvg-name="广东卫视" tvg-logo="https://im5k.fun/logo/广东卫视4K.png" group-title="4 K",广东卫视4K
-rtp://233.50.202.101:5140
-#EXTINF:-1 tvg-id="深圳卫视" tvg-name="深圳卫视" tvg-logo="https://im5k.fun/logo/深圳卫视4K.png" group-title="4 K",深圳卫视4K
-rtp://233.50.202.102:5140
-#EXTINF:-1 tvg-id="浙江卫视" tvg-name="浙江卫视" tvg-logo="https://im5k.fun/logo/浙江卫视.png" group-title="4 K",浙江卫视4K
-rtp://233.50.202.104:5140
-#EXTINF:-1 tvg-id="东方卫视" tvg-name="东方卫视" tvg-logo="https://im5k.fun/logo/东方卫视.png" group-title="4 K",东方卫视4K
-rtp://233.50.202.105:5140
-#EXTINF:-1 tvg-id="湖南卫视" tvg-name="湖南卫视" tvg-logo="https://im5k.fun/logo/湖南卫视.png" group-title="4 K",湖南卫视4K
-rtp://233.50.202.106:5140
-#EXTINF:-1 tvg-id="江苏卫视" tvg-name="江苏卫视" tvg-logo="https://im5k.fun/logo/江苏卫视.png" group-title="4 K",江苏卫视4K
-rtp://233.50.202.107:5140
-#EXTINF:-1 tvg-id="四川卫视" tvg-name="四川卫视" tvg-logo="https://im5k.fun/logo/四川卫视.png" group-title="4 K",四川卫视4K
-rtp://233.50.202.109:5140
-#EXTINF:-1 tvg-id="山东卫视" tvg-name="山东卫视" tvg-logo="https://im5k.fun/logo/山东卫视.png" group-title="4 K",山东卫视4K
-rtp://233.50.202.108:5140
-#EXTINF:-1 tvg-id="欢笑剧场" tvg-name="欢笑剧场" tvg-logo="https://im5k.fun/logo/欢笑剧场4K.png" group-title="4 K",欢笑剧场4K
-rtp://233.50.200.52:5140
-#EXTINF:-1 tvg-id="BesTV-1" tvg-name="BesTV-1" tvg-logo="https://im5k.fun/logo/BesTV.png" group-title="4 K",BesTV-1
-rtp://233.50.200.182:5140
-#EXTINF:-1 tvg-id="BesTV-2" tvg-name="BesTV-2" tvg-logo="https://im5k.fun/logo/BesTV.png" group-title="4 K",BesTV-2
-rtp://233.50.200.183:5140
-#EXTINF:-1 tvg-id="BesTV-3" tvg-name="BesTV-3" tvg-logo="https://im5k.fun/logo/BesTV.png" group-title="4 K",BesTV-3
-rtp://233.50.200.185:5140
+#由于4K频道太吃资源，今后不在提供4K频道
+##EXTINF:-1 tvg-id="CCTV16" tvg-name="CCTV16" tvg-logo="https://im5k.fun/logo/CCTV164K.png" group-title="4 K",CCTV16奥林匹克4K
+#rtp://233.50.201.63:5140
+##EXTINF:-1 tvg-id="北京卫视" tvg-name="北京卫视" tvg-logo="https://im5k.fun/logo/北京卫视4K.png" group-title="4 K",北京卫视4K
+#rtp://233.50.202.100:5140
+##EXTINF:-1 tvg-id="广东卫视" tvg-name="广东卫视" tvg-logo="https://im5k.fun/logo/广东卫视4K.png" group-title="4 K",广东卫视4K
+#rtp://233.50.202.101:5140
+##EXTINF:-1 tvg-id="深圳卫视" tvg-name="深圳卫视" tvg-logo="https://im5k.fun/logo/深圳卫视4K.png" group-title="4 K",深圳卫视4K
+#rtp://233.50.202.102:5140
+##EXTINF:-1 tvg-id="浙江卫视" tvg-name="浙江卫视" tvg-logo="https://im5k.fun/logo/浙江卫视.png" group-title="4 K",浙江卫视4K
+#rtp://233.50.202.104:5140
+##EXTINF:-1 tvg-id="东方卫视" tvg-name="东方卫视" tvg-logo="https://im5k.fun/logo/东方卫视.png" group-title="4 K",东方卫视4K
+#rtp://233.50.202.105:5140
+##EXTINF:-1 tvg-id="湖南卫视" tvg-name="湖南卫视" tvg-logo="https://im5k.fun/logo/湖南卫视.png" group-title="4 K",湖南卫视4K
+#rtp://233.50.202.106:5140
+##EXTINF:-1 tvg-id="江苏卫视" tvg-name="江苏卫视" tvg-logo="https://im5k.fun/logo/江苏卫视.png" group-title="4 K",江苏卫视4K
+#rtp://233.50.202.107:5140
+##EXTINF:-1 tvg-id="四川卫视" tvg-name="四川卫视" tvg-logo="https://im5k.fun/logo/四川卫视.png" group-title="4 K",四川卫视4K
+#rtp://233.50.202.109:5140
+##EXTINF:-1 tvg-id="山东卫视" tvg-name="山东卫视" tvg-logo="https://im5k.fun/logo/山东卫视.png" group-title="4 K",山东卫视4K
+#rtp://233.50.202.108:5140
+##EXTINF:-1 tvg-id="欢笑剧场" tvg-name="欢笑剧场" tvg-logo="https://im5k.fun/logo/欢笑剧场4K.png" group-title="4 K",欢笑剧场4K
+#rtp://233.50.200.52:5140
+##EXTINF:-1 tvg-id="BesTV-1" tvg-name="BesTV-1" tvg-logo="https://im5k.fun/logo/BesTV.png" group-title="4 K",BesTV-1
+#rtp://233.50.200.182:5140
+##EXTINF:-1 tvg-id="BesTV-2" tvg-name="BesTV-2" tvg-logo="https://im5k.fun/logo/BesTV.png" group-title="4 K",BesTV-2
+#rtp://233.50.200.183:5140
+##EXTINF:-1 tvg-id="BesTV-3" tvg-name="BesTV-3" tvg-logo="https://im5k.fun/logo/BesTV.png" group-title="4 K",BesTV-3
+#rtp://233.50.200.185:5140
 
 #EXTINF:-1 tvg-id="CCTV1" tvg-name="CCTV1" tvg-logo="https://im5k.fun/logo/CCTV1.png" group-title="央视",CCTV1综合
 rtp://233.50.201.118:5140
