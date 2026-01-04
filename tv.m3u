@@ -107,20 +107,7 @@ http://115.190.105.236:1234/637444975
 http://115.190.105.236:1234/956909356
 #EXTINF:-1 group-title="地方" tvg-name="武术世界" tvg-logo="https://im5k.fun/logo/武术世界.png" ,武术世界
 http://115.190.105.236:1234/958475359
-#EXTINF:-1 group-title="北京" tvg-name="北京卫视" tvg-logo="https://im5k.fun/logo/北京卫视.png" ,北京卫视
-http://115.190.105.236/live/bjtime.php?id=bjws
-#EXTINF:-1 group-title="北京" tvg-name="北京文艺" tvg-logo="https://im5k.fun/logo/北京文艺.png" ,北京文艺
-http://115.190.105.236/live/bjtime.php?id=bjwy
-#EXTINF:-1 group-title="北京" tvg-name="北京纪实科教" tvg-logo="https://im5k.fun/logo/北京纪实科教.png" ,北京纪实科教
-http://115.190.105.236/live/bjtime.php?id=bjjs
-#EXTINF:-1 group-title="北京" tvg-name="北京影视" tvg-logo="https://im5k.fun/logo/北京影视.png" ,北京影视
-http://115.190.105.236/live/bjtime.php?id=bjys
-#EXTINF:-1 group-title="北京" tvg-name="北京生活" tvg-logo="https://im5k.fun/logo/北京生活.png" ,北京生活
-http://115.190.105.236/live/bjtime.php?id=bjsh
-#EXTINF:-1 group-title="北京" tvg-name="北京新闻" tvg-logo="https://im5k.fun/logo/北京新闻.png" ,北京新闻
-http://115.190.105.236/live/bjtime.php?id=bjxw
-#EXTINF:-1 group-title="北京" tvg-name="卡酷少儿" tvg-logo="https://im5k.fun/logo/卡酷少儿.png" ,卡酷少儿
-http://115.190.105.236/live/bjtime.php?id=bjkk
+
 #EXTINF:-1 group-title="广州" tvg-name="广州综合" tvg-logo="https://im5k.fun/logo/广州综合.png" ,广州综合
 http://115.190.105.236/live/gztv.php?id=zhonghe
 #EXTINF:-1 group-title="广州" tvg-name="广州新闻" tvg-logo="https://im5k.fun/logo/广州新闻.png" ,广州新闻
@@ -148,3 +135,4 @@ http://115.190.105.236/live/dttv.php?id=dtzh
 http://115.190.105.236/live/dttv.php?id=dtgg
 #EXTINF:-1 group-title="大同" tvg-name="大同生活频道" tvg-logo="https://im5k.fun/logo/大同生活.png" ,大同生活频道
 http://115.190.105.236/live/dttv.php?id=dtsh
+
