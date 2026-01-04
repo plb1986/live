@@ -38,8 +38,8 @@ rtp://239.21.1.157:5002
 rtp://239.21.2.4:5002
 #EXTINF:-1 group-title="央视" tvg-name="CCTV17" tvg-logo="https://im5k.fun/logo/CCTV17.png" ,CCTV17
 rtp://239.21.1.186:5002
-#EXTINF:-1 group-title="央视" tvg-name="CCTV4K" tvg-logo="https://im5k.fun/logo/CCTV4K.png" ,CCTV4K
-rtp://239.21.2.152:5002
+##EXTINF:-1 group-title="央视" tvg-name="CCTV4K" tvg-logo="https://im5k.fun/logo/CCTV4K.png" ,CCTV4K
+#rtp://239.21.2.152:5002
 #EXTINF:-1 group-title="央视" tvg-name="中学生" tvg-logo="https://im5k.fun/logo/中学生.png" ,中学生
 rtp://239.21.2.176:5002
 #EXTINF:-1 group-title="央视" tvg-name="CETV1" tvg-logo="https://im5k.fun/logo/CETV1.png" ,CETV1
