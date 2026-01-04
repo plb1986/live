@@ -165,10 +165,6 @@ rtp://239.76.252.212:9000
 rtp://239.76.252.220:9000
 #EXTINF:-1 tvg-name="家庭理财" tvg-logo="https://im5k.fun/logo/家庭理财.png" group-title="其他" ,家庭理财
 rtp://239.76.253.16:9000
-#EXTINF:-1 tvg-name="家庭消费" tvg-logo="https://im5k.fun/logo/家庭消费.png" group-title="其他" ,家庭消费
-rtp://239.76.253.55:9000
-#EXTINF:-1 tvg-name="嘉丽购" tvg-logo="https://im5k.fun/logo/嘉丽购.png" group-title="其他" ,嘉丽购
-rtp://239.76.252.18:9000
 #EXTINF:-1 tvg-name="金鹰纪实" tvg-logo="https://im5k.fun/logo/金鹰纪实.png" group-title="其他" ,金鹰纪实
 rtp://239.76.252.122:9000
 #EXTINF:-1 tvg-name="金鹰纪实" tvg-logo="https://im5k.fun/logo/金鹰纪实.png" group-title="其他" ,金鹰纪实
@@ -191,14 +187,6 @@ rtp://239.76.253.12:9000
 rtp://239.76.252.127:9000
 #EXTINF:-1 tvg-name="快乐垂钓" tvg-logo="https://im5k.fun/logo/快乐垂钓.png" group-title="其他" ,快乐垂钓
 rtp://239.76.253.5:9000
-#EXTINF:-1 tvg-name="快乐购" tvg-logo="https://im5k.fun/logo/快乐购.png" group-title="其他" ,快乐购
-rtp://239.76.252.125:9000
-#EXTINF:-1 tvg-name="快乐购" tvg-logo="https://im5k.fun/logo/快乐购.png" group-title="其他" ,快乐购
-rtp://239.76.253.112:9000
-#EXTINF:-1 tvg-name="快乐购" tvg-logo="https://im5k.fun/logo/快乐购.png" group-title="其他" ,快乐购
-rtp://239.76.253.113:9000
-#EXTINF:-1 tvg-name="浏阳新闻" tvg-logo="https://im5k.fun/logo/浏阳新闻.png" group-title="其他" ,浏阳新闻
-rtp://239.76.255.6:9000
 #EXTINF:-1 tvg-name="芒果纪实" tvg-logo="https://im5k.fun/logo/芒果纪实.png" group-title="其他" ,芒果纪实
 rtp://239.76.252.35:9000
 #EXTINF:-1 tvg-name="芒果乐活" tvg-logo="https://im5k.fun/logo/芒果乐活.png" group-title="其他" ,芒果乐活
