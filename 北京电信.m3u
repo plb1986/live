@@ -53,10 +53,6 @@ rtp://225.1.8.180:4222
 rtp://225.1.8.52:8064
 #EXTINF:-1 group-title="卫视" tvg-name="北京卫视" tvg-logo="https://im5k.fun/logo/北京卫视.png" ,北京卫视
 rtp://225.1.8.21:8002
-#EXTINF:-1 group-title="卫视" tvg-name="北京卫视4K超高清" tvg-logo="https://im5k.fun/logo/北京卫视4K超高清.png" ,北京卫视4K超高清
-rtp://225.1.8.128:8002
-#EXTINF:-1 group-title="卫视" tvg-name="北京卫视4K超高清 SDR" tvg-logo="https://im5k.fun/logo/北京卫视4K超高清 SDR.png" ,北京卫视4K超高清 SDR
-rtp://225.1.8.120:8002
 #EXTINF:-1 group-title="卫视" tvg-name="重庆卫视" tvg-logo="https://im5k.fun/logo/重庆卫视.png" ,重庆卫视
 rtp://225.1.8.172:8162
 #EXTINF:-1 group-title="卫视" tvg-name="东方卫视" tvg-logo="https://im5k.fun/logo/东方卫视.png" ,东方卫视
@@ -127,24 +123,18 @@ rtp://225.1.8.193:4120
 rtp://225.1.8.195:4120
 #EXTINF:-1 group-title="其它" tvg-name="BRTV文艺" tvg-logo="https://im5k.fun/logo/BRTV文艺.png" ,BRTV文艺
 rtp://225.1.8.22:8002
-#EXTINF:-1 group-title="其它" tvg-name="BRTV冬奥纪实" tvg-logo="https://im5k.fun/logo/BRTV冬奥纪实.png" ,BRTV冬奥纪实
-rtp://225.1.8.23:8002
 #EXTINF:-1 group-title="其它" tvg-name="IPTV5+" tvg-logo="https://im5k.fun/logo/IPTV5+.png" ,IPTV5+
 rtp://225.1.8.33:4120
-#EXTINF:-1 group-title="其它" tvg-name="北京IPTV 萌宠TV" tvg-logo="https://im5k.fun/logo/北京IPTV 萌宠TV.png" ,北京IPTV 萌宠TV
+#EXTINF:-1 group-title="其它" tvg-name="萌宠TV" tvg-logo="https://im5k.fun/logo/萌宠TV.png" ,萌宠TV
 rtp://225.1.8.63:8002
-#EXTINF:-1 group-title="其它" tvg-name="北京IPTV淘Baby" tvg-logo="https://im5k.fun/logo/北京IPTV淘Baby.png" ,北京IPTV淘Baby
+#EXTINF:-1 group-title="其它" tvg-name="淘Baby" tvg-logo="https://im5k.fun/logo/淘Baby.png" ,淘Baby
 rtp://225.1.8.36:8002
-#EXTINF:-1 group-title="其它" tvg-name="北京IPTV淘剧场" tvg-logo="https://im5k.fun/logo/北京IPTV淘剧场.png" ,北京IPTV淘剧场
+#EXTINF:-1 group-title="其它" tvg-name="淘剧场" tvg-logo="https://im5k.fun/logo/淘剧场.png" ,淘剧场
 rtp://225.1.8.37:8002
-#EXTINF:-1 group-title="其它" tvg-name="北京IPTV淘电影" tvg-logo="https://im5k.fun/logo/北京IPTV淘电影.png" ,北京IPTV淘电影
+#EXTINF:-1 group-title="其它" tvg-name="淘电影" tvg-logo="https://im5k.fun/logo/淘电影.png" ,淘电影
 rtp://225.1.8.38:8002
-#EXTINF:-1 group-title="其它" tvg-name="北京IPTV淘娱乐" tvg-logo="https://im5k.fun/logo/北京IPTV淘娱乐.png" ,北京IPTV淘娱乐
+#EXTINF:-1 group-title="其它" tvg-name="淘娱乐" tvg-logo="https://im5k.fun/logo/淘娱乐.png" ,淘娱乐
 rtp://225.1.8.61:8002
-#EXTINF:-1 group-title="其它" tvg-name="北京IPTV 4K超清[4K]" tvg-logo="https://im5k.fun/logo/北京IPTV 4K超清[4K].png" ,北京IPTV 4K超清[4K]
-rtp://225.1.8.211:8002
-#EXTINF:-1 group-title="其它" tvg-name="爱上4K[4K]" tvg-logo="https://im5k.fun/logo/爱上4K[4K].png" ,爱上4K[4K]
-rtp://225.1.8.80:2000
 #EXTINF:-1 group-title="其它" tvg-name="纪实" tvg-logo="https://im5k.fun/logo/纪实.png" ,纪实
 rtp://225.1.8.53:8060
 #EXTINF:-1 group-title="其它" tvg-name="金鹰纪实" tvg-logo="https://im5k.fun/logo/金鹰纪实.png" ,金鹰纪实
@@ -163,8 +153,6 @@ rtp://225.1.8.123:8002
 rtp://225.1.8.124:8002
 #EXTINF:-1 group-title="其它" tvg-name="BRTV财经" tvg-logo="https://im5k.fun/logo/BRTV财经.png" ,BRTV财经
 rtp://225.1.8.125:8002
-#EXTINF:-1 group-title="其它" tvg-name="BRTV冬奥纪实" tvg-logo="https://im5k.fun/logo/BRTV冬奥纪实.png" ,BRTV冬奥纪实
-rtp://225.1.8.126:8002
 #EXTINF:-1 group-title="其它" tvg-name="BRTV生活" tvg-logo="https://im5k.fun/logo/BRTV生活.png" ,BRTV生活
 rtp://225.1.8.127:8002
 #EXTINF:-1 group-title="其它" tvg-name="BRTV青年" tvg-logo="https://im5k.fun/logo/BRTV青年.png" ,BRTV青年
