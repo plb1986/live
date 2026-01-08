@@ -1,8 +1,5 @@
 #EXTM3U x-tvg-url="https://epg.im5k.fun/pp.xml"
-#EXTINF:-1 tvg-name="重温经典" tvg-logo="https://im5k.fun/logo/重温经典.png" group-title="其他",重温经典
-https://other.ottiptv.cc/cwjd.m3u8
-#EXTINF:-1 tvg-name="五星体育" tvg-logo="https://im5k.fun/logo/五星体育.png" group-title="其他",五星体育
-https://other.ottiptv.cc/wxty.m3u8
+
 #EXTINF:-1 tvg-name="CCTV1" tvg-logo="https://im5k.fun/logo/cctv1.jpg" group-title="央视",CCTV1
 https://live.ottiptv.cc/mcp/cctv1.m3u8?userid=6047071525&sign=6efcf4440af6680246ffa48493011466cd27a66aae37c81f052aa8e2531618a80cc711a095c7f88d273eb54bf85938de4721e21bff2395bc610396d81bcd59d8765f0ac8117fb0d981b6ae380f&auth_token=fb31ae3156a5c1735fe0dd8c60fcce96
 #EXTINF:-1 tvg-name="CCTV2" tvg-logo="https://im5k.fun/logo/cctv2.jpg" group-title="央视",CCTV2
@@ -132,3 +129,4 @@ https://live.ottiptv.cc/mcp/yunnan.m3u8?userid=6047071525&sign=5e983048f82a49e84
 https://live.ottiptv.cc/mcp/bintuan.m3u8?userid=6047071525&sign=cd114acb6c36d4ffc928a86174fe0c0697b80f27ddc4148e62d7cae54e478b4c1e4bbb3a62df7dba2b6a1634c83dde7abfcce30dcdbd7e2a41726350eb0f875b31dd6d0f491b439459032908fc4afd&auth_token=fb31ae3156a5c1735fe0dd8c60fcce96
 #EXTINF:-1 tvg-name="国学频道" tvg-logo="https://im5k.fun/logo/国学频道.png" group-title="卫视",国学频道
 https://live.ottiptv.cc/mcp/guoxue.m3u8?userid=6047071525&sign=ae2293728996422d843259a00d1b21fe13e9a714afef87b4c47d25241de111e9d3197274f9d165b31140bbfb4b68328dfccff57ff74b0fa0533cf09d6aedac5ed0b79f3e7b783965a4609ccaf9d5&auth_token=fb31ae3156a5c1735fe0dd8c60fcce96
+
