@@ -1,0 +1,1315 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M3U8直播源替换工具 - 精确匹配，避免4K/普通频道混淆</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', 'Microsoft YaHei', sans-serif;
+        }
+        
+        body {
+            background-color: #1a1a2e;
+            color: #e6e6e6;
+            line-height: 1.6;
+            padding: 20px;
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #00adb5;
+        }
+        
+        h1 {
+            color: #00adb5;
+            margin-bottom: 10px;
+            font-size: 2.5rem;
+        }
+        
+        .subtitle {
+            color: #8f8f9d;
+            font-size: 1.1rem;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .main-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            margin-bottom: 30px;
+        }
+        
+        @media (max-width: 1100px) {
+            .main-content {
+                grid-template-columns: 1fr;
+            }
+        }
+        
+        .panel {
+            background-color: #16213e;
+            border-radius: 12px;
+            padding: 25px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+            border: 1px solid #2d4059;
+            height: 100%;
+        }
+        
+        .panel-title {
+            display: flex;
+            align-items: center;
+            color: #00adb5;
+            margin-bottom: 20px;
+            font-size: 1.4rem;
+        }
+        
+        .panel-title i {
+            margin-right: 10px;
+            font-size: 1.2rem;
+        }
+        
+        textarea {
+            width: 100%;
+            height: 300px;
+            background-color: #0f3460;
+            color: #e6e6e6;
+            border: 1px solid #2d4059;
+            border-radius: 8px;
+            padding: 15px;
+            font-size: 0.9rem;
+            resize: vertical;
+            font-family: 'Consolas', 'Monaco', monospace;
+            line-height: 1.4;
+        }
+        
+        textarea:focus {
+            outline: none;
+            border-color: #00adb5;
+            box-shadow: 0 0 0 2px rgba(0, 173, 181, 0.2);
+        }
+        
+        .counter {
+            margin-top: 15px;
+            color: #8f8f9d;
+            font-size: 0.9rem;
+            text-align: right;
+        }
+        
+        .actions {
+            display: flex;
+            gap: 15px;
+            margin-top: 25px;
+            flex-wrap: wrap;
+        }
+        
+        button {
+            padding: 12px 25px;
+            border: none;
+            border-radius: 8px;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        button i {
+            margin-right: 8px;
+        }
+        
+        .primary-btn {
+            background-color: #00adb5;
+            color: white;
+            flex: 1;
+        }
+        
+        .primary-btn:hover {
+            background-color: #00969c;
+            transform: translateY(-2px);
+        }
+        
+        .secondary-btn {
+            background-color: #393e46;
+            color: #e6e6e6;
+        }
+        
+        .secondary-btn:hover {
+            background-color: #4a505a;
+            transform: translateY(-2px);
+        }
+        
+        .result-container {
+            position: relative;
+        }
+        
+        .result-actions {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            display: flex;
+            gap: 10px;
+        }
+        
+        .result-actions button {
+            padding: 8px 15px;
+            font-size: 0.9rem;
+        }
+        
+        .stats {
+            background-color: #0f3460;
+            border-radius: 8px;
+            padding: 20px;
+            margin-top: 20px;
+            border-left: 4px solid #00adb5;
+        }
+        
+        .stats h3 {
+            color: #00adb5;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+        }
+        
+        .stats h3 i {
+            margin-right: 10px;
+        }
+        
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+        }
+        
+        .stat-item {
+            background-color: #16213e;
+            padding: 15px;
+            border-radius: 6px;
+            border: 1px solid #2d4059;
+        }
+        
+        .stat-label {
+            color: #8f8f9d;
+            font-size: 0.9rem;
+            margin-bottom: 5px;
+        }
+        
+        .stat-value {
+            color: #00adb5;
+            font-size: 1.3rem;
+            font-weight: bold;
+        }
+        
+        .matched-channels {
+            margin-top: 20px;
+            background-color: #0f3460;
+            border-radius: 8px;
+            padding: 15px;
+            max-height: 200px;
+            overflow-y: auto;
+        }
+        
+        .matched-channels h4 {
+            color: #00adb5;
+            margin-bottom: 10px;
+        }
+        
+        .channel-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+        
+        .channel-tag {
+            background-color: #16213e;
+            border: 1px solid #2d4059;
+            border-radius: 4px;
+            padding: 5px 10px;
+            font-size: 0.85rem;
+            color: #e6e6e6;
+        }
+        
+        .channel-tag.matched {
+            background-color: rgba(0, 173, 181, 0.2);
+            border-color: #00adb5;
+            color: #00adb5;
+        }
+        
+        .channel-tag.mapped {
+            background-color: rgba(155, 89, 182, 0.2);
+            border-color: #9b59b6;
+            color: #9b59b6;
+        }
+        
+        .channel-tag.unmatched {
+            background-color: rgba(255, 107, 107, 0.2);
+            border-color: #ff6b6b;
+            color: #ff6b6b;
+        }
+        
+        .channel-tag.protected {
+            background-color: rgba(46, 204, 113, 0.2);
+            border-color: #2ecc71;
+            color: #2ecc71;
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            color: #8f8f9d;
+            font-size: 0.9rem;
+            padding-top: 20px;
+            border-top: 1px solid #2d4059;
+        }
+        
+        .loading {
+            display: none;
+            text-align: center;
+            margin: 20px 0;
+            color: #00adb5;
+        }
+        
+        .loading i {
+            margin-right: 10px;
+            animation: spin 1s linear infinite;
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        
+        .instructions {
+            background-color: #0f3460;
+            border-radius: 8px;
+            padding: 20px;
+            margin-top: 20px;
+            border-left: 4px solid #ff6b6b;
+        }
+        
+        .instructions h3 {
+            color: #ff6b6b;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+        }
+        
+        .instructions h3 i {
+            margin-right: 10px;
+        }
+        
+        .instructions ol {
+            margin-left: 20px;
+            margin-bottom: 10px;
+        }
+        
+        .instructions li {
+            margin-bottom: 8px;
+            color: #e6e6e6;
+        }
+        
+        .source-buttons {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 15px;
+        }
+        
+        .source-btn {
+            padding: 8px 15px;
+            font-size: 0.9rem;
+            background-color: #2d4059;
+            color: #e6e6e6;
+        }
+        
+        .source-btn:hover {
+            background-color: #00adb5;
+        }
+        
+        .channel-mappings {
+            background-color: #0f3460;
+            border-radius: 8px;
+            padding: 20px;
+            margin-top: 20px;
+            border-left: 4px solid #f39c12;
+        }
+        
+        .channel-mappings h3 {
+            color: #f39c12;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+        }
+        
+        .channel-mappings h3 i {
+            margin-right: 10px;
+        }
+        
+        .mapping-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 10px;
+            margin-bottom: 15px;
+        }
+        
+        .mapping-item {
+            background-color: #16213e;
+            border: 1px solid #2d4059;
+            border-radius: 6px;
+            padding: 10px;
+            display: flex;
+            align-items: center;
+        }
+        
+        .mapping-from {
+            color: #e6e6e6;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+        
+        .mapping-arrow {
+            color: #f39c12;
+            margin-right: 10px;
+        }
+        
+        .mapping-to {
+            color: #00adb5;
+            font-weight: bold;
+        }
+        
+        .export-options {
+            background-color: #0f3460;
+            border-radius: 8px;
+            padding: 20px;
+            margin-top: 20px;
+            border-left: 4px solid #2ecc71;
+        }
+        
+        .export-options h3 {
+            color: #2ecc71;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+        }
+        
+        .export-options h3 i {
+            margin-right: 10px;
+        }
+        
+        .export-options label {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+            cursor: pointer;
+        }
+        
+        .export-options input[type="checkbox"] {
+            margin-right: 10px;
+            width: 18px;
+            height: 18px;
+            cursor: pointer;
+        }
+        
+        .protection-info {
+            background-color: #0f3460;
+            border-radius: 8px;
+            padding: 20px;
+            margin-top: 20px;
+            border-left: 4px solid #3498db;
+        }
+        
+        .protection-info h3 {
+            color: #3498db;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+        }
+        
+        .protection-info h3 i {
+            margin-right: 10px;
+        }
+        
+        .protection-list {
+            margin-bottom: 10px;
+        }
+        
+        .protection-item {
+            margin-bottom: 8px;
+            padding-left: 20px;
+            position: relative;
+        }
+        
+        .protection-item:before {
+            content: "✓";
+            color: #2ecc71;
+            position: absolute;
+            left: 0;
+        }
+        
+        .examples {
+            margin-top: 25px;
+            padding: 15px;
+            background-color: rgba(15, 52, 96, 0.3);
+            border-radius: 8px;
+            border-left: 4px solid #00adb5;
+        }
+        
+        .examples h4 {
+            margin-bottom: 10px;
+            color: #00adb5;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1><i class="fas fa-exchange-alt"></i> M3U8直播源替换工具</h1>
+            <p class="subtitle">精确匹配，避免4K/普通频道混淆 - 只导出匹配成功的频道</p>
+        </header>
+        
+        <div class="main-content">
+            <div class="panel">
+                <div class="panel-title">
+                    <i class="fas fa-list-ol"></i>
+                    <h2>列表一：原始MCP播放列表</h2>
+                </div>
+                <div class="source-buttons">
+                    <button class="source-btn" id="loadExample1">
+                        <i class="fas fa-file-import"></i> 加载示例列表一
+                    </button>
+                    <button class="source-btn" id="clearList1">
+                        <i class="fas fa-broom"></i> 清空列表一
+                    </button>
+                </div>
+                <textarea id="list1" placeholder="在此粘贴列表一内容（MCP播放列表）"></textarea>
+                <div class="counter">
+                    行数: <span id="list1LineCount">0</span>
+                </div>
+            </div>
+            
+            <div class="panel">
+                <div class="panel-title">
+                    <i class="fas fa-list-ol"></i>
+                    <h2>列表二：替换源列表</h2>
+                </div>
+                <div class="source-buttons">
+                    <button class="source-btn" id="loadExample2">
+                        <i class="fas fa-file-import"></i> 加载示例列表二
+                    </button>
+                    <button class="source-btn" id="clearList2">
+                        <i class="fas fa-broom"></i> 清空列表二
+                    </button>
+                </div>
+                <textarea id="list2" placeholder="在此粘贴列表二内容（包含替换地址）"></textarea>
+                <div class="counter">
+                    行数: <span id="list2LineCount">0</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="channel-mappings">
+            <h3><i class="fas fa-random"></i> 频道名称映射规则</h3>
+            <div class="mapping-list" id="mappingList">
+                <!-- 映射规则将在这里动态显示 -->
+            </div>
+            <p>系统会自动应用这些映射规则，将列表一中的频道名称转换为列表二中的对应名称进行匹配。</p>
+        </div>
+        
+        <div class="protection-info">
+            <h3><i class="fas fa-shield-alt"></i> 4K/8K频道保护机制</h3>
+            <div class="protection-list">
+                <div class="protection-item">CCTV4K 不会错误匹配到 CCTV4</div>
+                <div class="protection-item">CCTV8K 不会错误匹配到 CCTV8</div>
+                <div class="protection-item">4K频道只匹配4K频道，普通频道只匹配普通频道</div>
+                <div class="protection-item">防止高清/超高清频道混淆</div>
+            </div>
+        </div>
+        
+        <div class="export-options">
+            <h3><i class="fas fa-download"></i> 导出选项</h3>
+            <label>
+                <input type="checkbox" id="exportOnlyMatched" checked>
+                <span>只导出匹配成功的频道</span>
+            </label>
+            <p id="exportInfo">结果中将只包含匹配成功的频道，未匹配的频道将被排除。</p>
+        </div>
+        
+        <div class="instructions">
+            <h3><i class="fas fa-info-circle"></i> 使用说明</h3>
+            <ol>
+                <li>在左侧文本框中粘贴您的<strong>列表一</strong>（原始MCP播放列表）</li>
+                <li>在右侧文本框中粘贴您的<strong>列表二</strong>（包含新地址的播放列表）</li>
+                <li>系统会根据预设的映射规则自动匹配频道名称</li>
+                <li>系统会自动保护4K/8K频道，防止与普通频道错误匹配</li>
+                <li>点击"执行替换"按钮，系统将自动匹配两个列表中的频道名称</li>
+                <li>对于匹配到的频道，将其播放地址替换为列表二中的地址</li>
+                <li>结果中将只包含匹配成功的频道（根据上方选项设置）</li>
+                <li>其他所有信息（频道名称、logo、分组等）保持不变</li>
+            </ol>
+        </div>
+        
+        <div class="actions">
+            <button id="replaceBtn" class="primary-btn">
+                <i class="fas fa-exchange-alt"></i> 执行替换
+            </button>
+            <button id="clearAllBtn" class="secondary-btn">
+                <i class="fas fa-broom"></i> 全部清空
+            </button>
+        </div>
+        
+        <div class="loading" id="loadingIndicator">
+            <i class="fas fa-spinner"></i> 正在处理中，请稍候...
+        </div>
+        
+        <div class="panel result-container">
+            <div class="panel-title">
+                <i class="fas fa-check-circle"></i>
+                <h2>替换结果（只包含匹配成功的频道）</h2>
+            </div>
+            <div class="result-actions">
+                <button id="copyBtn" class="secondary-btn">
+                    <i class="far fa-copy"></i> 复制结果
+                </button>
+                <button id="downloadBtn" class="secondary-btn">
+                    <i class="fas fa-download"></i> 下载结果
+                </button>
+            </div>
+            <textarea id="resultList" placeholder="替换后的结果将显示在这里（只包含匹配成功的频道）" readonly></textarea>
+            <div class="counter">
+                行数: <span id="resultLineCount">0</span> | 频道数: <span id="resultChannelCount">0</span>
+            </div>
+            
+            <div class="stats">
+                <h3><i class="fas fa-chart-bar"></i> 替换统计</h3>
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <div class="stat-label">列表一频道总数</div>
+                        <div class="stat-value" id="list1ChannelCount">0</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-label">列表二频道总数</div>
+                        <div class="stat-value" id="list2ChannelCount">0</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-label">匹配成功频道数</div>
+                        <div class="stat-value" id="matchedChannelCount">0</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-label">通过映射匹配</div>
+                        <div class="stat-value" id="mappedChannelCount">0</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-label">4K/8K频道保护</div>
+                        <div class="stat-value" id="protectedChannelCount">0</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-label">未匹配频道数</div>
+                        <div class="stat-value" id="unmatchedChannelCount">0</div>
+                    </div>
+                </div>
+                
+                <div class="matched-channels" id="matchedChannelsContainer">
+                    <h4>匹配详情（只显示匹配成功的频道）</h4>
+                    <div class="channel-list" id="channelList">
+                        <!-- 频道标签将在这里动态生成 -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="examples">
+            <h4><i class="fas fa-lightbulb"></i> 工作原理</h4>
+            <p>1. 系统会提取两个列表中每个频道的 <code>tvg-name</code> 属性作为匹配依据</p>
+            <p>2. 对于列表一中的频道名称，系统会先尝试直接匹配，然后尝试应用映射规则匹配</p>
+            <p>3. 映射规则：cctv5p → CCTV5+, CGTNALBY → CGTN阿语, CGTNEN → CGTN, cgtnfrench → CGTN法语, cgtndocumentary → CGTN纪录, cgtnru → CGTN俄语, cgtnsp → CGTN西语</p>
+            <p>4. <strong>4K/8K频道保护</strong>：CCTV4K不会匹配CCTV4，CCTV8K不会匹配CCTV8</p>
+            <p>5. 如果找到匹配项，将列表一中的播放地址（URL行）替换为列表二中的播放地址</p>
+            <p>6. 结果中<strong>只包含匹配成功的频道</strong>，未匹配的频道将被排除</p>
+        </div>
+        
+        <footer>
+            <p>© 2023 M3U8直播源替换工具 | 本工具完全在浏览器中运行，不会上传任何数据到服务器</p>
+            <p>支持频道名称映射，自动按频道名称匹配并替换播放地址，只导出匹配成功的频道</p>
+        </footer>
+    </div>
+
+    <script>
+        // 获取DOM元素
+        const list1Textarea = document.getElementById('list1');
+        const list2Textarea = document.getElementById('list2');
+        const resultTextarea = document.getElementById('resultList');
+        const replaceBtn = document.getElementById('replaceBtn');
+        const clearAllBtn = document.getElementById('clearAllBtn');
+        const copyBtn = document.getElementById('copyBtn');
+        const downloadBtn = document.getElementById('downloadBtn');
+        const loadExample1Btn = document.getElementById('loadExample1');
+        const loadExample2Btn = document.getElementById('loadExample2');
+        const clearList1Btn = document.getElementById('clearList1');
+        const clearList2Btn = document.getElementById('clearList2');
+        const loadingIndicator = document.getElementById('loadingIndicator');
+        const mappingList = document.getElementById('mappingList');
+        const exportOnlyMatchedCheckbox = document.getElementById('exportOnlyMatched');
+        const exportInfo = document.getElementById('exportInfo');
+        const resultChannelCount = document.getElementById('resultChannelCount');
+        const protectedChannelCount = document.getElementById('protectedChannelCount');
+        
+        // 计数器元素
+        const list1LineCount = document.getElementById('list1LineCount');
+        const list2LineCount = document.getElementById('list2LineCount');
+        const resultLineCount = document.getElementById('resultLineCount');
+        
+        // 统计元素
+        const list1ChannelCount = document.getElementById('list1ChannelCount');
+        const list2ChannelCount = document.getElementById('list2ChannelCount');
+        const matchedChannelCount = document.getElementById('matchedChannelCount');
+        const mappedChannelCount = document.getElementById('mappedChannelCount');
+        const unmatchedChannelCount = document.getElementById('unmatchedChannelCount');
+        const channelList = document.getElementById('channelList');
+        
+        // 示例数据（包含4K频道测试）
+        const exampleList1 = `#EXTM3U x-tvg-url="https://epg.im5k.fun/pp.xml"
+#EXTINF:-1 tvg-name="重温经典" tvg-logo="https://im5k.fun/logo/重温经典.png" group-title="其他",重温经典
+https://other.ottiptv.cc/cwjd.m3u8
+#EXTINF:-1 tvg-name="五星体育" tvg-logo="https://im5k.fun/logo/五星体育.png" group-title="其他",五星体育
+https://other.ottiptv.cc/wxty.m3u8
+#EXTINF:-1 tvg-name="CCTV1" tvg-logo="https://im5k.fun/logo/cctv1.jpg" group-title="央视",CCTV1
+https://live.ottiptv.cc/mcp/cctv1.m3u8?userid=6078067004&sign=9d9608fbbc5f944cea99f2e5d0e0d09752d65eda38eded99235266628fb032087a0c44beffc5a6f16aaed6680cd37d0c43900f368a1647c6a40a4a1ff15a49044fe08b32fc749521d1390726f1&auth_token=aaa5399c95cfc315a858334515953f7a
+#EXTINF:-1 tvg-name="CCTV2" tvg-logo="https://im5k.fun/logo/cctv2.jpg" group-title="央视",CCTV2
+https://live.ottiptv.cc/mcp/cctv2.m3u8?userid=6078067004&sign=d6745c6818f7c1c17afc74e104d017b50850dfa80f9d8bd537089ba3e0aeef1cea865f02a13fba5575e2825c63745f3d9c443e165f47d1585a003a8360a8e0fc2ed83617f8f0aa3e1287014a0a&auth_token=aaa5399c95cfc315a858334515953f7a
+#EXTINF:-1 tvg-name="CCTV5+" tvg-logo="https://im5k.fun/logo/cctv5+.jpg" group-title="央视",CCTV5+
+https://live.ottiptv.cc/mcp/cctv5p.m3u8?userid=6078067004&sign=b223d5a76523a2fc84ce84f23d7a32e82673601ef175737c9f58d7cfba60ff713a036bd2ad009d059c80c1d6aee1a26fdd9b942a9d2e041df4393e2468c09ba7acbb6d105e8fe83a34eceb2005ab&auth_token=aaa5399c95cfc315a858334515953f7a
+#EXTINF:-1 tvg-name="CCTV4K" tvg-logo="https://im5k.fun/logo/cctv4k.jpg" group-title="央视",CCTV4K
+https://live.ottiptv.cc/mcp/cctv4k.m3u8?userid=6078067004&sign=5e380e3e0d5e990bb3c0c3639f546bd45cfb473c92783c09256f60cf5cb447eccb69ba3686692207186ee8646eb5d9bd3ffa4bd090efc2529f1db30975759a88e87fd304092c13669fed5ad793ef&auth_token=aaa5399c95cfc315a858334515953f7a
+#EXTINF:-1 tvg-name="CCTV4" tvg-logo="https://im5k.fun/logo/cctv4.jpg" group-title="央视",CCTV4
+https://live.ottiptv.cc/mcp/cctv4.m3u8?userid=6078067004&sign=c61017c70197dab370e10acac38c055fce1c183ada2ddc6f7fc4413f2db5028584a2c65902749d669e0dffe93fcfc552adb4315360062589089fef91620bcf6cbc21a5be518f21ee91b80ae792&auth_token=aaa5399c95cfc315a858334515953f7a
+#EXTINF:-1 tvg-name="CGTN阿语" tvg-logo="https://im5k.fun/logo/CGTN阿语.png" group-title="央视",CGTN阿语
+https://live.ottiptv.cc/mcp/cgtnar.m3u8?userid=6078067004&sign=c37d46a9740f20741c2f54ce302d9938c7d2701801ddbd3b5fee816e80e0ccacddd399039d51e3aea135f5bc781431424888293987e0ea8a5f4e256627cdaad6461342fb628df0e054183aad47d4&auth_token=aaa5399c95cfc315a858334515953f7a
+#EXTINF:-1 tvg-name="CGTN" tvg-logo="https://im5k.fun/logo/CGTN.png" group-title="央视",CGTN
+https://live.ottiptv.cc/mcp/cgtn.m3u8?userid=6078067004&sign=08f7dd57b3a667a4256d6432daef1155698330dd1cfe2e3393d85464b117eeffda46401be9f9c61f2311853c65ca8b70a2c8c0fbc3a059fb573e113f27b9fe92e624d39df7de068d7f347868&auth_token=aaa5399c95cfc315a858334515953f7a
+#EXTINF:-1 tvg-name="未匹配频道" tvg-logo="https://im5k.fun/logo/test.png" group-title="测试",未匹配频道
+https://live.ottiptv.cc/mcp/unmatched.m3u8?userid=6078067004&sign=test`;
+
+        const exampleList2 = `#EXTM3U x-tvg-url="https://11.112114.xyz/pp.xml"
+#EXTINF:-1 tvg-name="重温经典" tvg-logo="https://11.112114.xyz/logo/重温经典.png" group-title="其他",重温经典
+https://other.ottiptv.cc/cwjd.m3u8
+#EXTINF:-1 tvg-name="五星体育" tvg-logo="https://11.112114.xyz/logo/五星体育.png" group-title="其他",五星体育
+https://other.ottiptv.cc/wxty.m3u8
+#EXTINF:-1 tvg-name="CCTV1综合" tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/2201/057/821/202204010054_1626677502161_H169_1080.jpg" group-title="央视", CCTV1综合
+https://mgtv.ottiptv.cc/mg/608807420.m3u8?userid=6047071525&sign=09664af52b1fa8eb74a7c24e9c9a7c313d6f7192b1896e8db946f1154f091c9f872f89abb2d5552bd40380f1fcdd56fc7878ceec288b842fe16c1696a50bf61ac602e34e7da828ec63df94a2fd3ac8a837&auth_token=fb31ae3156a5c1735fe0dd8c60fcce96
+#EXTINF:-1 tvg-name="CCTV2财经" tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5500/346/945/202205311432_1653977575541_H169_1080.jpg" group-title="央视", CCTV2财经
+https://mgtv.ottiptv.cc/mg/631780532.m3u8?userid=6047071525&sign=2d5fafa763bb2a9f25127e333b95bfa9a0088282b0cf0625aa6fac07956b2aa5a159bdac3f5a04a93070903567d523e24b54e178107e361a20e2ed674dc81b5a33a6e1a2243d2e8cf24f8ce269c7c5d3eb&auth_token=fb31ae3156a5c1735fe0dd8c60fcce96
+#EXTINF:-1 tvg-name="cctv5p" tvg-logo="https://11.112114.xyz/logo/cctv5p.png" group-title="央视",cctv5p-MCP
+https://live.ottiptv.cc/mcp/cctv5p.m3u8?userid=6047071525&sign=c458d3dc55c0cbeb4f1653a24e9da500ce34ed5b6eb06070240a9bb21342d72b456ad1b65fec460c66ccb3d6f0a82113c3e5e9efa489e0c2135908d2d1b102b0c29350381c0c91fb85587b2fc878&auth_token=fb31ae3156a5c1735fe0dd8c60fcce96
+#EXTINF:-1 tvg-name="CCTV4K" tvg-logo="https://11.112114.xyz/logo/cctv4k.png" group-title="央视",cctv4k-MCP
+https://live.ottiptv.cc/mcp/cctv4k.m3u8?userid=6047071525&sign=1e3791251b3e8f8f9970319c75df36531463134e334c0c275cf76b231c0896664e1d471d12274d300ccb3c59465d7a077ec83859375a1255ed0261d0b3a49a7f6d47843604b2d3d6f32b960060cd&auth_token=fb31ae3156a5c1735fe0dd8c60fcce96
+#EXTINF:-1 tvg-name="CCTV4中文国际" tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5500/346/947/202204010054_1626679457281_H169_1080.jpg" group-title="央视", CCTV4中文国际
+https://mgtv.ottiptv.cc/mg/631780421.m3u8?userid=6047071525&sign=a0b57046da70409da07347d6afe6b7619b7bc26732596afedbed497818e5e44cba80173d2e4c918fd03174bb13b81d2aa02aba133793da90b5b182c382626e89460e6ac5f807985ec997d38fa61698a568&auth_token=fb31ae3156a5c1735fe0dd8c60fcce96
+#EXTINF:-1 tvg-name="CGTNALBY" tvg-logo="https://11.112114.xyz/logo/CGTNALBY.png" group-title="央视",cgtnar-MCP
+https://live.ottiptv.cc/mcp/cgtnar.m3u8?userid=6047071525&sign=837de18907bb8bae7d642bccc9bca8413b1286b12811455fa56cfefdf7797477de0d4cd6314417bfd3515e48ad0c1b6f9332615ecb8e5f79bd5ca8861f99681c41fce4027cefd2c7f6f8e3f12b79&auth_token=fb31ae3156a5c1735fe0dd8c60fcce96
+#EXTINF:-1 tvg-name="CGTNEN" tvg-logo="https://11.112114.xyz/logo/CGTN.png" group-title="央视",cgtn-MCP
+https://live.ottiptv.cc/mcp/cgtn.m3u8?userid=6047071525&sign=1858c01aadb92d3009dc2779400a3f86e5a09f6ce6e2c4fcd0a6d94d62d8b37c77d5debf944da7919495a4a8a017a405b0e4742c8095512610ad5d500de95c447d3112dcc34354b7558511f3&auth_token=fb31ae3156a5c1735fe0dd8c60fcce96`;
+        
+        // 频道名称映射规则（包含4K频道保护）
+        const channelMappings = {
+            'cctv5p': 'CCTV5+',
+            'CGTNALBY': 'CGTN阿语',
+            'CGTNEN': 'CGTN',
+            'cgtnfrench': 'CGTN法语',
+            'cgtndocumentary': 'CGTN纪录',
+            'cgtnru': 'CGTN俄语',
+            'cgtnsp': 'CGTN西语',
+            // 4K/8K频道保护映射
+            'cctv4k': 'CCTV4K',
+            'cctv8k': 'CCTV8K'
+        };
+        
+        // 显示频道映射规则
+        function displayChannelMappings() {
+            mappingList.innerHTML = '';
+            
+            for (const [from, to] of Object.entries(channelMappings)) {
+                const mappingItem = document.createElement('div');
+                mappingItem.className = 'mapping-item';
+                
+                const mappingFrom = document.createElement('div');
+                mappingFrom.className = 'mapping-from';
+                mappingFrom.textContent = from;
+                
+                const mappingArrow = document.createElement('div');
+                mappingArrow.className = 'mapping-arrow';
+                mappingArrow.innerHTML = '<i class="fas fa-arrow-right"></i>';
+                
+                const mappingTo = document.createElement('div');
+                mappingTo.className = 'mapping-to';
+                mappingTo.textContent = to;
+                
+                mappingItem.appendChild(mappingFrom);
+                mappingItem.appendChild(mappingArrow);
+                mappingItem.appendChild(mappingTo);
+                
+                mappingList.appendChild(mappingItem);
+            }
+        }
+        
+        // 更新导出选项信息
+        function updateExportInfo() {
+            const exportOnlyMatched = exportOnlyMatchedCheckbox.checked;
+            if (exportOnlyMatched) {
+                exportInfo.textContent = '结果中将只包含匹配成功的频道，未匹配的频道将被排除。';
+                document.querySelector('.panel.result-container h2').textContent = '替换结果（只包含匹配成功的频道）';
+                resultTextarea.placeholder = '替换后的结果将显示在这里（只包含匹配成功的频道）';
+            } else {
+                exportInfo.textContent = '结果中将包含所有频道，未匹配的频道保持原样。';
+                document.querySelector('.panel.result-container h2').textContent = '替换结果（包含所有频道）';
+                resultTextarea.placeholder = '替换后的结果将显示在这里（包含所有频道）';
+            }
+        }
+        
+        // 更新行数计数器
+        function updateLineCount(textarea, countElement) {
+            const lines = textarea.value.split('\n');
+            countElement.textContent = lines.length;
+        }
+        
+        // 初始化行数
+        updateLineCount(list1Textarea, list1LineCount);
+        updateLineCount(list2Textarea, list2LineCount);
+        updateLineCount(resultTextarea, resultLineCount);
+        
+        // 监听输入变化
+        list1Textarea.addEventListener('input', () => {
+            updateLineCount(list1Textarea, list1LineCount);
+        });
+        
+        list2Textarea.addEventListener('input', () => {
+            updateLineCount(list2Textarea, list2LineCount);
+        });
+        
+        // 监听导出选项变化
+        exportOnlyMatchedCheckbox.addEventListener('change', updateExportInfo);
+        
+        // 从M3U8内容中提取频道信息
+        function parseM3U8(content) {
+            const lines = content.split('\n');
+            const channels = [];
+            let currentChannel = null;
+            
+            for (let i = 0; i < lines.length; i++) {
+                const line = lines[i].trim();
+                
+                if (line.startsWith('#EXTINF:')) {
+                    // 解析频道信息行
+                    currentChannel = {
+                        extinfLine: line,
+                        urlLine: '',
+                        index: i,
+                        originalLine: line
+                    };
+                    
+                    // 提取tvg-name
+                    const tvgNameMatch = line.match(/tvg-name="([^"]+)"/);
+                    if (tvgNameMatch) {
+                        currentChannel.tvgName = tvgNameMatch[1].trim();
+                    } else {
+                        // 如果没有tvg-name属性，尝试从逗号后的名称获取
+                        const nameMatch = line.match(/,(.+)$/);
+                        if (nameMatch) {
+                            currentChannel.tvgName = nameMatch[1].trim();
+                        } else {
+                            currentChannel.tvgName = '';
+                        }
+                    }
+                    
+                    // 提取group-title
+                    const groupMatch = line.match(/group-title="([^"]+)"/);
+                    currentChannel.groupTitle = groupMatch ? groupMatch[1].trim() : '';
+                    
+                } else if (currentChannel && !currentChannel.urlLine && 
+                          line && !line.startsWith('#') && line.includes('://')) {
+                    // 找到URL行
+                    currentChannel.urlLine = line;
+                    currentChannel.urlIndex = i;
+                    channels.push(currentChannel);
+                    currentChannel = null;
+                }
+            }
+            
+            return channels;
+        }
+        
+        // 改进的频道名称标准化函数，保护4K/8K频道标识
+        function normalizeChannelName(name) {
+            if (!name) return '';
+            
+            // 首先检查是否是4K/8K频道
+            const is4K = /4k/i.test(name);
+            const is8K = /8k/i.test(name);
+            
+            // 移除空格，转换为小写
+            let normalized = name.replace(/\s+/g, '').toLowerCase();
+            
+            // 为4K/8K频道添加特殊标记，防止与普通频道混淆
+            if (is4K) {
+                normalized = normalized.replace(/4k/g, '_4k_');
+            }
+            if (is8K) {
+                normalized = normalized.replace(/8k/g, '_8k_');
+            }
+            
+            return normalized;
+        }
+        
+        // 检查是否是4K/8K频道
+        function is4KOr8KChannel(channelName) {
+            const normalized = normalizeChannelName(channelName);
+            return /_4k_/.test(normalized) || /_8k_/.test(normalized);
+        }
+        
+        // 改进的查找匹配URL的函数，增加4K频道保护
+        function findMatchingUrl(channelName, list2Map, list2OriginalMap) {
+            const normalizedName = normalizeChannelName(channelName);
+            
+            // 1. 检查是否是4K/8K频道
+            const is4KChannel = /_4k_/.test(normalizedName);
+            const is8KChannel = /_8k_/.test(normalizedName);
+            
+            // 2. 尝试直接匹配
+            if (list2Map[normalizedName]) {
+                // 如果是4K/8K频道，验证匹配的也是4K/8K频道
+                const matchedOriginalName = list2OriginalMap[normalizedName] || '';
+                const matchedIs4K = /_4k_/.test(normalizeChannelName(matchedOriginalName));
+                const matchedIs8K = /_8k_/.test(normalizeChannelName(matchedOriginalName));
+                
+                if ((is4KChannel && !matchedIs4K) || (is8KChannel && !matchedIs8K)) {
+                    // 4K/8K频道匹配到了非4K/8K频道，拒绝匹配（保护机制）
+                    return {
+                        url: null,
+                        matchedBy: 'protected',
+                        protection: '4K/8K频道保护',
+                        originalName: channelName
+                    };
+                }
+                
+                return {
+                    url: list2Map[normalizedName],
+                    matchedBy: 'direct',
+                    originalName: matchedOriginalName
+                };
+            }
+            
+            // 3. 尝试应用映射规则匹配
+            for (const [from, to] of Object.entries(channelMappings)) {
+                const normalizedFrom = normalizeChannelName(from);
+                const normalizedTo = normalizeChannelName(to);
+                
+                // 如果列表一中的频道名称匹配映射规则的"from"部分
+                if (normalizedName === normalizedFrom) {
+                    // 如果是4K/8K频道，验证映射目标也是4K/8K频道
+                    if ((is4KChannel || is8KChannel) && 
+                        !/_4k_/.test(normalizedTo) && !/_8k_/.test(normalizedTo)) {
+                        // 4K/8K频道不能映射到非4K/8K频道（保护机制）
+                        continue;
+                    }
+                    
+                    // 尝试用映射后的名称在列表二中查找
+                    if (list2Map[normalizedTo]) {
+                        return {
+                            url: list2Map[normalizedTo],
+                            matchedBy: 'mapping',
+                            mapping: `${from} → ${to}`,
+                            originalName: list2OriginalMap[normalizedTo] || to
+                        };
+                    }
+                }
+                
+                // 如果列表一中的频道名称匹配映射规则的"to"部分
+                if (normalizedName === normalizedTo) {
+                    // 如果是4K/8K频道，验证映射源也是4K/8K频道
+                    if ((is4KChannel || is8KChannel) && 
+                        !/_4k_/.test(normalizedFrom) && !/_8k_/.test(normalizedFrom)) {
+                        // 4K/8K频道不能从非4K/8K频道映射过来（保护机制）
+                        continue;
+                    }
+                    
+                    // 尝试用映射前的名称在列表二中查找
+                    if (list2Map[normalizedFrom]) {
+                        return {
+                            url: list2Map[normalizedFrom],
+                            matchedBy: 'mapping',
+                            mapping: `${to} → ${from}`,
+                            originalName: list2OriginalMap[normalizedFrom] || from
+                        };
+                    }
+                }
+            }
+            
+            // 4. 没有找到匹配
+            return null;
+        }
+        
+        // 执行替换
+        function performReplace() {
+            const list1Content = list1Textarea.value.trim();
+            const list2Content = list2Textarea.value.trim();
+            const exportOnlyMatched = exportOnlyMatchedCheckbox.checked;
+            
+            if (!list1Content) {
+                alert('请输入列表一内容');
+                return;
+            }
+            
+            if (!list2Content) {
+                alert('请输入列表二内容');
+                return;
+            }
+            
+            // 显示加载指示器
+            loadingIndicator.style.display = 'block';
+            
+            // 使用setTimeout让UI有机会更新
+            setTimeout(() => {
+                try {
+                    // 解析两个列表
+                    const list1Channels = parseM3U8(list1Content);
+                    const list2Channels = parseM3U8(list2Content);
+                    
+                    // 创建列表二的频道名称到URL的映射
+                    const list2Map = {};
+                    const list2OriginalMap = {}; // 保存原始频道名称
+                    
+                    list2Channels.forEach(channel => {
+                        if (channel.tvgName) {
+                            const normalizedName = normalizeChannelName(channel.tvgName);
+                            list2Map[normalizedName] = channel.urlLine;
+                            list2OriginalMap[normalizedName] = channel.tvgName;
+                        }
+                    });
+                    
+                    // 分割列表一内容为行
+                    const list1Lines = list1Content.split('\n');
+                    const resultLines = [];
+                    
+                    // 添加M3U8头部（从列表一获取）
+                    if (list1Lines.length > 0 && list1Lines[0].startsWith('#EXTM3U')) {
+                        resultLines.push(list1Lines[0]);
+                    } else {
+                        resultLines.push('#EXTM3U');
+                    }
+                    
+                    // 统计信息
+                    let matchedCount = 0;
+                    let mappedCount = 0;
+                    let protectedCount = 0;
+                    let unmatchedCount = 0;
+                    const matchedChannels = [];
+                    const mappedChannels = [];
+                    const protectedChannels = [];
+                    const unmatchedChannels = [];
+                    
+                    // 处理列表一的每一行
+                    for (let i = 0; i < list1Lines.length; i++) {
+                        const line = list1Lines[i];
+                        
+                        // 检查是否是#EXTINF行
+                        if (line.startsWith('#EXTINF:')) {
+                            // 尝试提取频道名称
+                            const tvgNameMatch = line.match(/tvg-name="([^"]+)"/);
+                            let channelName = '';
+                            
+                            if (tvgNameMatch) {
+                                channelName = tvgNameMatch[1].trim();
+                            } else {
+                                // 如果没有tvg-name属性，尝试从逗号后的名称获取
+                                const nameMatch = line.match(/,(.+)$/);
+                                if (nameMatch) {
+                                    channelName = nameMatch[1].trim();
+                                }
+                            }
+                            
+                            // 检查下一行是否是URL
+                            if (i + 1 < list1Lines.length && 
+                                list1Lines[i + 1] && 
+                                !list1Lines[i + 1].startsWith('#') && 
+                                list1Lines[i + 1].includes('://')) {
+                                
+                                const nextLine = list1Lines[i + 1];
+                                
+                                // 查找匹配的URL
+                                const matchResult = findMatchingUrl(channelName, list2Map, list2OriginalMap);
+                                
+                                if (matchResult) {
+                                    if (matchResult.matchedBy === 'protected') {
+                                        // 4K/8K频道保护触发，不匹配
+                                        protectedCount++;
+                                        protectedChannels.push({
+                                            name: channelName,
+                                            reason: matchResult.protection
+                                        });
+                                        
+                                        // 如果不只导出匹配的频道，则添加未匹配的频道
+                                        if (!exportOnlyMatched) {
+                                            resultLines.push(line);
+                                            resultLines.push(nextLine);
+                                        }
+                                    } else if (matchResult.url) {
+                                        // 找到匹配，添加频道信息和替换后的URL到结果
+                                        resultLines.push(line);
+                                        resultLines.push(matchResult.url);
+                                        
+                                        if (matchResult.matchedBy === 'mapping') {
+                                            mappedCount++;
+                                            mappedChannels.push({
+                                                name: channelName,
+                                                mapping: matchResult.mapping,
+                                                matchedName: matchResult.originalName
+                                            });
+                                        } else {
+                                            matchedCount++;
+                                            matchedChannels.push({
+                                                name: channelName,
+                                                matchedName: matchResult.originalName
+                                            });
+                                        }
+                                    }
+                                } else {
+                                    // 没有匹配
+                                    unmatchedCount++;
+                                    unmatchedChannels.push(channelName);
+                                    
+                                    // 如果不只导出匹配的频道，则添加未匹配的频道
+                                    if (!exportOnlyMatched) {
+                                        resultLines.push(line);
+                                        resultLines.push(nextLine);
+                                    }
+                                }
+                                
+                                i++; // 跳过URL行
+                            }
+                        }
+                    }
+                    
+                    // 构建结果
+                    const resultContent = resultLines.join('\n');
+                    resultTextarea.value = resultContent;
+                    updateLineCount(resultTextarea, resultLineCount);
+                    
+                    // 计算结果中的频道数
+                    const resultChannels = parseM3U8(resultContent);
+                    resultChannelCount.textContent = resultChannels.length;
+                    
+                    // 更新统计信息
+                    list1ChannelCount.textContent = list1Channels.length;
+                    list2ChannelCount.textContent = list2Channels.length;
+                    matchedChannelCount.textContent = matchedCount;
+                    mappedChannelCount.textContent = mappedCount;
+                    protectedChannelCount.textContent = protectedCount;
+                    unmatchedChannelCount.textContent = unmatchedCount;
+                    
+                    // 显示匹配的频道
+                    displayMatchedChannels(matchedChannels, mappedChannels, protectedChannels, unmatchedChannels, exportOnlyMatched);
+                    
+                    // 隐藏加载指示器
+                    loadingIndicator.style.display = 'none';
+                    
+                    // 滚动到结果区域
+                    resultTextarea.scrollIntoView({ behavior: 'smooth' });
+                    
+                } catch (error) {
+                    loadingIndicator.style.display = 'none';
+                    console.error('处理出错:', error);
+                    alert(`处理过程中出错: ${error.message}`);
+                }
+            }, 100);
+        }
+        
+        // 显示匹配的频道
+        function displayMatchedChannels(matchedChannels, mappedChannels, protectedChannels, unmatchedChannels, exportOnlyMatched) {
+            channelList.innerHTML = '';
+            
+            // 显示直接匹配的频道
+            matchedChannels.forEach(channel => {
+                const tag = document.createElement('div');
+                tag.className = 'channel-tag matched';
+                tag.textContent = `${channel.name} → ${channel.matchedName}`;
+                tag.title = '直接匹配（已导出）';
+                channelList.appendChild(tag);
+            });
+            
+            // 显示通过映射匹配的频道
+            mappedChannels.forEach(channel => {
+                const tag = document.createElement('div');
+                tag.className = 'channel-tag mapped';
+                tag.textContent = `${channel.name} (${channel.mapping})`;
+                tag.title = `通过映射规则匹配（已导出）: ${channel.mapping}`;
+                channelList.appendChild(tag);
+            });
+            
+            // 显示受保护的4K/8K频道
+            protectedChannels.forEach(channel => {
+                const tag = document.createElement('div');
+                tag.className = 'channel-tag protected';
+                tag.textContent = `${channel.name}`;
+                tag.title = `4K/8K频道保护: ${channel.reason}（未匹配）`;
+                channelList.appendChild(tag);
+            });
+            
+            // 显示未匹配的频道
+            if (!exportOnlyMatched) {
+                unmatchedChannels.forEach(channel => {
+                    const tag = document.createElement('div');
+                    tag.className = 'channel-tag unmatched';
+                    tag.textContent = channel;
+                    tag.title = '未找到匹配，保持原样（已导出）';
+                    channelList.appendChild(tag);
+                });
+            } else {
+                unmatchedChannels.forEach(channel => {
+                    const tag = document.createElement('div');
+                    tag.className = 'channel-tag unmatched';
+                    tag.textContent = channel;
+                    tag.title = '未找到匹配，已被排除（未导出）';
+                    channelList.appendChild(tag);
+                });
+            }
+            
+            // 如果没有频道信息，显示提示
+            if (matchedChannels.length === 0 && mappedChannels.length === 0 && 
+                protectedChannels.length === 0 && unmatchedChannels.length === 0) {
+                const message = document.createElement('div');
+                message.className = 'channel-tag';
+                message.textContent = '未找到频道信息';
+                channelList.appendChild(message);
+            }
+        }
+        
+        // 清空所有输入
+        function clearAll() {
+            list1Textarea.value = '';
+            list2Textarea.value = '';
+            resultTextarea.value = '';
+            updateLineCount(list1Textarea, list1LineCount);
+            updateLineCount(list2Textarea, list2LineCount);
+            updateLineCount(resultTextarea, resultLineCount);
+            resultChannelCount.textContent = '0';
+            
+            // 重置统计信息
+            list1ChannelCount.textContent = '0';
+            list2ChannelCount.textContent = '0';
+            matchedChannelCount.textContent = '0';
+            mappedChannelCount.textContent = '0';
+            protectedChannelCount.textContent = '0';
+            unmatchedChannelCount.textContent = '0';
+            channelList.innerHTML = '<div class="channel-tag">无数据</div>';
+        }
+        
+        // 复制结果到剪贴板
+        function copyToClipboard() {
+            if (!resultTextarea.value.trim()) {
+                alert('没有可复制的内容');
+                return;
+            }
+            
+            resultTextarea.select();
+            document.execCommand('copy');
+            
+            // 显示复制成功提示
+            const originalText = copyBtn.innerHTML;
+            copyBtn.innerHTML = '<i class="fas fa-check"></i> 已复制';
+            copyBtn.style.backgroundColor = '#4CAF50';
+            
+            setTimeout(() => {
+                copyBtn.innerHTML = originalText;
+                copyBtn.style.backgroundColor = '';
+            }, 2000);
+        }
+        
+        // 下载结果
+        function downloadResult() {
+            if (!resultTextarea.value.trim()) {
+                alert('没有可下载的内容');
+                return;
+            }
+            
+            const content = resultTextarea.value;
+            const exportOnlyMatched = exportOnlyMatchedCheckbox.checked;
+            const fileName = exportOnlyMatched ? '匹配成功的频道列表.m3u8' : '完整频道列表.m3u8';
+            
+            const blob = new Blob([content], { type: 'text/plain' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = fileName;
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
+        }
+        
+        // 加载示例数据
+        function loadExample1() {
+            list1Textarea.value = exampleList1;
+            updateLineCount(list1Textarea, list1LineCount);
+        }
+        
+        function loadExample2() {
+            list2Textarea.value = exampleList2;
+            updateLineCount(list2Textarea, list2LineCount);
+        }
+        
+        // 事件监听
+        replaceBtn.addEventListener('click', performReplace);
+        clearAllBtn.addEventListener('click', clearAll);
+        copyBtn.addEventListener('click', copyToClipboard);
+        downloadBtn.addEventListener('click', downloadResult);
+        loadExample1Btn.addEventListener('click', loadExample1);
+        loadExample2Btn.addEventListener('click', loadExample2);
+        clearList1Btn.addEventListener('click', () => {
+            list1Textarea.value = '';
+            updateLineCount(list1Textarea, list1LineCount);
+        });
+        clearList2Btn.addEventListener('click', () => {
+            list2Textarea.value = '';
+            updateLineCount(list2Textarea, list2LineCount);
+        });
+        
+        // 添加快捷键支持
+        document.addEventListener('keydown', (e) => {
+            // Ctrl+Enter 执行替换
+            if (e.ctrlKey && e.key === 'Enter') {
+                e.preventDefault();
+                performReplace();
+            }
+            
+            // Ctrl+C 复制结果（当焦点不在文本区域时）
+            if (e.ctrlKey && e.key === 'c' && document.activeElement !== resultTextarea) {
+                e.preventDefault();
+                copyToClipboard();
+            }
+            
+            // Ctrl+S 下载结果
+            if (e.ctrlKey && e.key === 's') {
+                e.preventDefault();
+                downloadResult();
+            }
+        });
+        
+        // 初始化
+        clearAll();
+        displayChannelMappings();
+        updateExportInfo();
+    </script>
+</body>
+</html>
