@@ -205,7 +205,7 @@ rtp://239.253.64.49:5140
 rtp://239.253.64.52:5140
 #EXTINF:-1 group-title="其它" tvg-name="CCTV17" tvg-logo="https://im5k.fun/logo/CCTV17.png" ,CCTV17
 rtp://239.253.64.53:5140
-#EXTINF:-1 group-title="其它" tvg-name="CGTN记录" tvg-logo="https://im5k.fun/logo/CGTN记录.png" ,CGTN记录
+#EXTINF:-1 group-title="其它" tvg-name="CGTN纪录" tvg-logo="https://im5k.fun/logo/CGTN纪录.png" ,CGTN纪录
 rtp://239.253.64.58:5140
 #EXTINF:-1 group-title="其它" tvg-name="百视通" tvg-logo="https://im5k.fun/logo/百视通.png" ,百视通
 rtp://239.253.64.63:5140
@@ -237,13 +237,13 @@ rtp://239.253.64.85:5140
 rtp://239.253.64.88:5140
 #EXTINF:-1 group-title="其它" tvg-name="百视通" tvg-logo="https://im5k.fun/logo/百视通.png" ,百视通
 rtp://239.253.64.91:5140
-#EXTINF:-1 group-title="其它" tvg-name="都市剧场HD" tvg-logo="https://im5k.fun/logo/都市剧场HD.png" ,都市剧场HD
+#EXTINF:-1 group-title="其它" tvg-name="都市剧场" tvg-logo="https://im5k.fun/logo/都市剧场.png" ,都市剧场
 rtp://239.253.64.101:5140
-#EXTINF:-1 group-title="其它" tvg-name="动漫秀场HD" tvg-logo="https://im5k.fun/logo/动漫秀场HD.png" ,动漫秀场HD
+#EXTINF:-1 group-title="其它" tvg-name="动漫秀场" tvg-logo="https://im5k.fun/logo/动漫秀场.png" ,动漫秀场
 rtp://239.253.64.102:5140
 #EXTINF:-1 group-title="其它" tvg-name="百视通" tvg-logo="https://im5k.fun/logo/百视通.png" ,百视通
 rtp://239.253.64.103:5140
-#EXTINF:-1 group-title="其它" tvg-name="生活时尚HD" tvg-logo="https://im5k.fun/logo/生活时尚HD.png" ,生活时尚HD
+#EXTINF:-1 group-title="其它" tvg-name="生活时尚" tvg-logo="https://im5k.fun/logo/生活时尚.png" ,生活时尚
 rtp://239.253.64.104:5140
 #EXTINF:-1 group-title="其它" tvg-name="文昌TV" tvg-logo="https://im5k.fun/logo/文昌TV.png" ,文昌TV
 rtp://239.253.64.105:5140
@@ -319,7 +319,7 @@ rtp://239.253.64.146:5140
 rtp://239.253.64.147:5140
 #EXTINF:-1 group-title="其它" tvg-name="金鹰卡通" tvg-logo="https://im5k.fun/logo/金鹰卡通.png" ,金鹰卡通
 rtp://239.253.64.148:5140
-#EXTINF:-1 group-title="其它" tvg-name="8M-HD-上海纪实" tvg-logo="https://im5k.fun/logo/8M-HD-上海纪实.png" ,8M-HD-上海纪实
+#EXTINF:-1 group-title="其它" tvg-name="8M--上海纪实" tvg-logo="https://im5k.fun/logo/8M--上海纪实.png" ,8M--上海纪实
 rtp://239.253.64.149:5140
 #EXTINF:-1 group-title="其它" tvg-name="三亚1" tvg-logo="https://im5k.fun/logo/三亚1.png" ,三亚1
 rtp://239.253.64.152:5140
@@ -333,7 +333,7 @@ rtp://239.253.64.158:5140
 rtp://239.253.64.159:5140
 #EXTINF:-1 group-title="其它" tvg-name="IPTV8+" tvg-logo="https://im5k.fun/logo/IPTV8+.png" ,IPTV8+
 rtp://239.253.64.160:5140
-#EXTINF:-1 group-title="其它" tvg-name="游戏风云HD" tvg-logo="https://im5k.fun/logo/游戏风云HD.png" ,游戏风云HD
+#EXTINF:-1 group-title="其它" tvg-name="游戏风云" tvg-logo="https://im5k.fun/logo/游戏风云.png" ,游戏风云
 rtp://239.253.64.161:5140
 #EXTINF:-1 group-title="其它" tvg-name="动画" tvg-logo="https://im5k.fun/logo/动画.png" ,动画
 rtp://239.253.64.163:5140
@@ -345,7 +345,7 @@ rtp://239.253.64.165:5140
 rtp://239.253.64.166:5140
 #EXTINF:-1 group-title="其它" tvg-name="万宁综合" tvg-logo="https://im5k.fun/logo/万宁综合.png" ,万宁综合
 rtp://239.253.64.167:5140
-#EXTINF:-1 group-title="其它" tvg-name="金鹰纪实HD" tvg-logo="https://im5k.fun/logo/金鹰纪实HD.png" ,金鹰纪实HD
+#EXTINF:-1 group-title="其它" tvg-name="金鹰纪实" tvg-logo="https://im5k.fun/logo/金鹰纪实.png" ,金鹰纪实
 rtp://239.253.64.168:5140
 #EXTINF:-1 group-title="其它" tvg-name="武术" tvg-logo="https://im5k.fun/logo/武术.png" ,武术
 rtp://239.253.64.170:5140
