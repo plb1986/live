@@ -13,8 +13,6 @@ rtp://239.252.219.192:5140
 rtp://239.252.219.193:5140
 #EXTINF:-1 group-title="央视" tvg-name="CCTV5" tvg-logo="https://im5k.fun/logo/CCTV5.png" ,CCTV5
 rtp://239.252.219.236:5140
-#EXTINF:-1 group-title="央视" tvg-name="CCTV5+" tvg-logo="https://im5k.fun/logo/CCTV5+.png" ,CCTV5+
-
 #EXTINF:-1 group-title="央视" tvg-name="CCTV6" tvg-logo="https://im5k.fun/logo/CCTV6.png" ,CCTV6
 rtp://239.252.219.237:5140
 #EXTINF:-1 group-title="央视" tvg-name="CCTV7" tvg-logo="https://im5k.fun/logo/CCTV7.png" ,CCTV7
