@@ -33,8 +33,6 @@ rtp://239.252.219.18:5140
 rtp://239.252.220.92:5140
 #EXTINF:-1 group-title="央视" tvg-name="CCTV15" tvg-logo="https://im5k.fun/logo/CCTV15.png" ,CCTV15
 rtp://239.252.219.20:5140
-#EXTINF:-1 group-title="央视" tvg-name="CCTV16" tvg-logo="https://im5k.fun/logo/CCTV16.png" ,CCTV16
-
 #EXTINF:-1 group-title="央视" tvg-name="CCTV17" tvg-logo="https://im5k.fun/logo/CCTV17.png" ,CCTV17
 rtp://239.252.220.192:5140
 #EXTINF:-1 group-title="央视" tvg-name="CGTN" tvg-logo="https://im5k.fun/logo/CGTN.png" ,CGTN
@@ -113,13 +111,11 @@ rtp://239.252.219.185:5140
 rtp://239.252.219.210:5140
 #EXTINF:-1 group-title="其它" tvg-name="CETV1" tvg-logo="https://im5k.fun/logo/CETV1.png" ,CETV1
 rtp://239.252.220.198:5140
-#EXTINF:-1 group-title="其它" tvg-name="CETV2" tvg-logo="https://im5k.fun/logo/CETV2.png" ,CETV2
-
 #EXTINF:-1 group-title="其它" tvg-name="CETV4" tvg-logo="https://im5k.fun/logo/CETV4.png" ,CETV4
 rtp://239.252.219.169:5140
 #EXTINF:-1 group-title="其它" tvg-name="CCTV1" tvg-logo="https://im5k.fun/logo/CCTV1.png" ,CCTV1
 rtp://239.252.219.10:5140
-#EXTINF:-1 group-title="其它" tvg-name="CGTN英文纪录" tvg-logo="https://im5k.fun/logo/CGTN英文纪录.png" ,CGTN英文纪录
+#EXTINF:-1 group-title="其它" tvg-name="CGTN纪录" tvg-logo="https://im5k.fun/logo/CGTN纪录.png" ,CGTN纪录
 rtp://239.252.219.195:5140
 #EXTINF:-1 group-title="其它" tvg-name="CCTV3" tvg-logo="https://im5k.fun/logo/CCTV3.png" ,CCTV3
 rtp://239.252.220.193:5140
@@ -165,14 +161,6 @@ rtp://239.252.219.225:5140
 rtp://239.252.220.124:5140
 #EXTINF:-1 group-title="其它" tvg-name="谍战剧场" tvg-logo="https://im5k.fun/logo/谍战剧场.png" ,谍战剧场
 rtp://239.252.220.125:5140
-#EXTINF:-1 group-title="其它" tvg-name="央广购物" tvg-logo="https://im5k.fun/logo/央广购物.png" ,央广购物
-rtp://239.252.220.147:5140
-#EXTINF:-1 group-title="其它" tvg-name="家家购物" tvg-logo="https://im5k.fun/logo/家家购物.png" ,家家购物
-rtp://239.252.220.148:5140
-#EXTINF:-1 group-title="其它" tvg-name="优购物" tvg-logo="https://im5k.fun/logo/优购物.png" ,优购物
-rtp://239.252.219.47:5140
-#EXTINF:-1 group-title="其它" tvg-name="家有购物" tvg-logo="https://im5k.fun/logo/家有购物.png" ,家有购物
-rtp://239.252.219.68:5140
 #EXTINF:-1 group-title="其它" tvg-name="星光影院" tvg-logo="https://im5k.fun/logo/星光影院.png" ,星光影院
 rtp://239.252.220.127:5140
 #EXTINF:-1 group-title="其它" tvg-name="全球大片" tvg-logo="https://im5k.fun/logo/全球大片.png" ,全球大片
