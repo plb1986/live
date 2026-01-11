@@ -111,7 +111,7 @@ rtp://239.253.64.139:5140
 rtp://239.253.64.1:5140
 #EXTINF:-1 group-title="其它" tvg-name="海南公共" tvg-logo="https://im5k.fun/logo/海南公共.png" ,海南公共
 rtp://239.253.64.2:5140
-#EXTINF:-1 group-title="其它" tvg-name="海南公共 HD" tvg-logo="https://im5k.fun/logo/海南公共 HD.png" ,海南公共 HD
+#EXTINF:-1 group-title="其它" tvg-name="海南公共" tvg-logo="https://im5k.fun/logo/海南公共.png" ,海南公共
 rtp://239.253.64.14:5140
 #EXTINF:-1 group-title="其它" tvg-name="海南文旅" tvg-logo="https://im5k.fun/logo/海南文旅.png" ,海南文旅
 rtp://239.253.64.3:5140
@@ -205,7 +205,7 @@ rtp://239.253.64.49:5140
 rtp://239.253.64.52:5140
 #EXTINF:-1 group-title="其它" tvg-name="CCTV17" tvg-logo="https://im5k.fun/logo/CCTV17.png" ,CCTV17
 rtp://239.253.64.53:5140
-#EXTINF:-1 group-title="其它" tvg-name="CGTN记录 HD" tvg-logo="https://im5k.fun/logo/CGTN记录 HD.png" ,CGTN记录 HD
+#EXTINF:-1 group-title="其它" tvg-name="CGTN记录" tvg-logo="https://im5k.fun/logo/CGTN记录.png" ,CGTN记录
 rtp://239.253.64.58:5140
 #EXTINF:-1 group-title="其它" tvg-name="百视通" tvg-logo="https://im5k.fun/logo/百视通.png" ,百视通
 rtp://239.253.64.63:5140
@@ -259,7 +259,7 @@ rtp://239.253.64.109:5140
 rtp://239.253.64.110:5140
 #EXTINF:-1 group-title="其它" tvg-name="东方TV" tvg-logo="https://im5k.fun/logo/东方TV.png" ,东方TV
 rtp://239.253.64.111:5140
-#EXTINF:-1 group-title="其它" tvg-name="三沙卫视 HD" tvg-logo="https://im5k.fun/logo/三沙卫视 HD.png" ,三沙卫视 HD
+#EXTINF:-1 group-title="其它" tvg-name="三沙卫视" tvg-logo="https://im5k.fun/logo/三沙卫视.png" ,三沙卫视
 rtp://239.253.64.112:5140
 #EXTINF:-1 group-title="其它" tvg-name="三沙卫视" tvg-logo="https://im5k.fun/logo/三沙卫视.png" ,三沙卫视
 rtp://239.253.64.113:5140
@@ -269,19 +269,19 @@ rtp://239.253.64.116:5140
 rtp://239.253.64.117:5140
 #EXTINF:-1 group-title="其它" tvg-name="白沙TV" tvg-logo="https://im5k.fun/logo/白沙TV.png" ,白沙TV
 rtp://239.253.64.118:5140
-#EXTINF:-1 group-title="其它" tvg-name="海南自贸 HD" tvg-logo="https://im5k.fun/logo/海南自贸 HD.png" ,海南自贸 HD
+#EXTINF:-1 group-title="其它" tvg-name="海南自贸" tvg-logo="https://im5k.fun/logo/海南自贸.png" ,海南自贸
 rtp://239.253.64.119:5140
-#EXTINF:-1 group-title="其它" tvg-name="海南新闻 HD" tvg-logo="https://im5k.fun/logo/海南新闻 HD.png" ,海南新闻 HD
+#EXTINF:-1 group-title="其它" tvg-name="海南新闻" tvg-logo="https://im5k.fun/logo/海南新闻.png" ,海南新闻
 rtp://239.253.64.121:5140
-#EXTINF:-1 group-title="其它" tvg-name="海南文旅 HD" tvg-logo="https://im5k.fun/logo/海南文旅 HD.png" ,海南文旅 HD
+#EXTINF:-1 group-title="其它" tvg-name="海南文旅" tvg-logo="https://im5k.fun/logo/海南文旅.png" ,海南文旅
 rtp://239.253.64.122:5140
 #EXTINF:-1 group-title="其它" tvg-name="美人" tvg-logo="https://im5k.fun/logo/美人.png" ,美人
 rtp://239.253.64.123:5140
-#EXTINF:-1 group-title="其它" tvg-name="海南少儿 HD" tvg-logo="https://im5k.fun/logo/海南少儿 HD.png" ,海南少儿 HD
+#EXTINF:-1 group-title="其它" tvg-name="海南少儿" tvg-logo="https://im5k.fun/logo/海南少儿.png" ,海南少儿
 rtp://239.253.64.124:5140
-#EXTINF:-1 group-title="其它" tvg-name="IPTV5+ HD" tvg-logo="https://im5k.fun/logo/IPTV5+ HD.png" ,IPTV5+ HD
+#EXTINF:-1 group-title="其它" tvg-name="IPTV5+" tvg-logo="https://im5k.fun/logo/IPTV5+.png" ,IPTV5+
 rtp://239.253.64.125:5140
-#EXTINF:-1 group-title="其它" tvg-name="CCTV16-4K-IPTV-25P" tvg-logo="https://im5k.fun/logo/CCTV16-4K-IPTV-25P.png" ,CCTV16-4K-IPTV-25P
+#EXTINF:-1 group-title="其它" tvg-name="CCTV16-4K-IPTV-25P" tvg-logo="https://im5k.fun/logo/CCTV164K.png" ,CCTV16-4K-IPTV-25P
 rtp://239.253.64.126:5140
 #EXTINF:-1 group-title="其它" tvg-name="嘉佳卡通" tvg-logo="https://im5k.fun/logo/嘉佳卡通.png" ,嘉佳卡通
 rtp://239.253.64.127:5140
@@ -311,7 +311,7 @@ rtp://239.253.64.142:5140
 rtp://239.253.64.143:5140
 #EXTINF:-1 group-title="其它" tvg-name="内蒙古卫视" tvg-logo="https://im5k.fun/logo/内蒙古卫视.png" ,内蒙古卫视
 rtp://239.253.64.144:5140
-#EXTINF:-1 group-title="其它" tvg-name="深圳卫视 HD" tvg-logo="https://im5k.fun/logo/深圳卫视 HD.png" ,深圳卫视 HD
+#EXTINF:-1 group-title="其它" tvg-name="深圳卫视" tvg-logo="https://im5k.fun/logo/深圳卫视.png" ,深圳卫视
 rtp://239.253.64.145:5140
 #EXTINF:-1 group-title="其它" tvg-name="新疆卫视" tvg-logo="https://im5k.fun/logo/新疆卫视.png" ,新疆卫视
 rtp://239.253.64.146:5140
