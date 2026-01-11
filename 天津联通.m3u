@@ -13,13 +13,13 @@ rtp://225.1.1.128:5002
 rtp://225.1.1.122:5002
 #EXTINF:-1 group-title="天津" tvg-name="天津教育" tvg-logo="https://im5k.fun/logo/天津教育.png" ,天津教育
 rtp://225.1.1.129:5002
-#EXTINF:-1 group-title="天津" tvg-name="河东有线 SD" tvg-logo="https://im5k.fun/logo/河东有线 SD.png" ,河东有线 SD
+#EXTINF:-1 group-title="天津" tvg-name="河东有线" tvg-logo="https://im5k.fun/logo/河东有线.png" ,河东有线
 rtp://225.1.2.2:5002
-#EXTINF:-1 group-title="天津" tvg-name="河西有线 SD" tvg-logo="https://im5k.fun/logo/河西有线 SD.png" ,河西有线 SD
+#EXTINF:-1 group-title="天津" tvg-name="河西有线" tvg-logo="https://im5k.fun/logo/河西有线.png" ,河西有线
 rtp://225.1.2.4:5002
-#EXTINF:-1 group-title="天津" tvg-name="静海区 SD" tvg-logo="https://im5k.fun/logo/静海区 SD.png" ,静海区 SD
+#EXTINF:-1 group-title="天津" tvg-name="静海区" tvg-logo="https://im5k.fun/logo/静海区.png" ,静海区
 rtp://225.1.1.110:5002
-#EXTINF:-1 group-title="天津" tvg-name="宝坻区 SD" tvg-logo="https://im5k.fun/logo/宝坻区 SD.png" ,宝坻区 SD
+#EXTINF:-1 group-title="天津" tvg-name="宝坻区" tvg-logo="https://im5k.fun/logo/宝坻区.png" ,宝坻区
 rtp://225.1.1.83:5002
 #EXTINF:-1 group-title="天津" tvg-name="蓟州区" tvg-logo="https://im5k.fun/logo/蓟州区.png" ,蓟州区
 rtp://225.1.1.82:5002
@@ -291,19 +291,19 @@ rtp://225.1.2.132:5002
 rtp://225.1.1.243:5002
 #EXTINF:-1 group-title="连播频道" tvg-name="天视文旅" tvg-logo="https://im5k.fun/logo/天视文旅.png" ,天视文旅
 rtp://225.1.2.123:5002
-#EXTINF:-1 group-title="连播频道" tvg-name="IPTV导视-联通1 SD" tvg-logo="https://im5k.fun/logo/IPTV导视-联通1 SD.png" ,IPTV导视-联通1 SD
+#EXTINF:-1 group-title="连播频道" tvg-name="IPTV导视-联通1" tvg-logo="https://im5k.fun/logo/IPTV导视-联通1.png" ,IPTV导视-联通1
 #rtp://225.1.1.64:5001
-#EXTINF:-1 group-title="连播频道" tvg-name="IPTV导视-联通 SD" tvg-logo="https://im5k.fun/logo/IPTV导视-联通 SD.png" ,IPTV导视-联通 SD
+#EXTINF:-1 group-title="连播频道" tvg-name="IPTV导视-联通" tvg-logo="https://im5k.fun/logo/IPTV导视-联通.png" ,IPTV导视-联通
 rtp://225.1.1.100:5001
 #EXTINF:-1 group-title="连播频道" tvg-name="IPTV3+" tvg-logo="https://im5k.fun/logo/IPTV3+.png" ,IPTV3+
 rtp://225.1.1.201:5002
 #EXTINF:-1 group-title="连播频道" tvg-name="IPTV5+" tvg-logo="https://im5k.fun/logo/IPTV5+.png" ,IPTV5+
 rtp://225.1.1.106:5002
-#EXTINF:-1 group-title="连播频道" tvg-name="IPTV足球 SD" tvg-logo="https://im5k.fun/logo/IPTV足球 SD.png" ,IPTV足球 SD
+#EXTINF:-1 group-title="连播频道" tvg-name="IPTV足球" tvg-logo="https://im5k.fun/logo/IPTV足球.png" ,IPTV足球
 rtp://225.1.1.105:5002
 #EXTINF:-1 group-title="连播频道" tvg-name="精彩影视" tvg-logo="https://im5k.fun/logo/精彩影视.png" ,精彩影视
 rtp://225.1.1.141:5002
-#EXTINF:-1 group-title="连播频道" tvg-name="901 SD" tvg-logo="https://im5k.fun/logo/901 SD.png" ,901 SD
+#EXTINF:-1 group-title="连播频道" tvg-name="901" tvg-logo="https://im5k.fun/logo/901.png" ,901
 rtp://225.1.1.78:5002
 #EXTINF:-1 group-title="连播频道" tvg-name="902" tvg-logo="https://im5k.fun/logo/902.png" ,902
 rtp://225.1.1.79:5002
@@ -313,9 +313,9 @@ rtp://225.1.1.151:5002
 rtp://225.1.1.181:5002
 #EXTINF:-1 group-title="购物频道" tvg-name="中视购物" tvg-logo="https://im5k.fun/logo/中视购物.png" ,中视购物
 rtp://225.1.2.85:5002
-#EXTINF:-1 group-title="购物频道" tvg-name="央广购物1 SD" tvg-logo="https://im5k.fun/logo/央广购物1 SD.png" ,央广购物1 SD
+#EXTINF:-1 group-title="购物频道" tvg-name="央广购物1" tvg-logo="https://im5k.fun/logo/央广购物1.png" ,央广购物1
 rtp://225.1.1.65:5002
-#EXTINF:-1 group-title="购物频道" tvg-name="央广购物2 SD" tvg-logo="https://im5k.fun/logo/央广购物2 SD.png" ,央广购物2 SD
+#EXTINF:-1 group-title="购物频道" tvg-name="央广购物2" tvg-logo="https://im5k.fun/logo/央广购物2.png" ,央广购物2
 rtp://225.1.1.238:5002
 #EXTINF:-1 group-title="购物频道" tvg-name="聚鲨环球精选" tvg-logo="https://im5k.fun/logo/聚鲨环球精选.png" ,聚鲨环球精选
 rtp://225.1.1.102:5002
