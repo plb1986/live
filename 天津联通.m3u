@@ -307,29 +307,4 @@ rtp://225.1.1.141:5002
 rtp://225.1.1.78:5002
 #EXTINF:-1 group-title="连播频道" tvg-name="902" tvg-logo="https://im5k.fun/logo/902.png" ,902
 rtp://225.1.1.79:5002
-#EXTINF:-1 group-title="购物频道" tvg-name="三佳购物" tvg-logo="https://im5k.fun/logo/三佳购物.png" ,三佳购物
-rtp://225.1.1.151:5002
-#EXTINF:-1 group-title="购物频道" tvg-name="东方购物" tvg-logo="https://im5k.fun/logo/东方购物.png" ,东方购物
-rtp://225.1.1.181:5002
-#EXTINF:-1 group-title="购物频道" tvg-name="中视购物" tvg-logo="https://im5k.fun/logo/中视购物.png" ,中视购物
-rtp://225.1.2.85:5002
-#EXTINF:-1 group-title="购物频道" tvg-name="央广购物1" tvg-logo="https://im5k.fun/logo/央广购物1.png" ,央广购物1
-rtp://225.1.1.65:5002
-#EXTINF:-1 group-title="购物频道" tvg-name="央广购物2" tvg-logo="https://im5k.fun/logo/央广购物2.png" ,央广购物2
-rtp://225.1.1.238:5002
-#EXTINF:-1 group-title="购物频道" tvg-name="聚鲨环球精选" tvg-logo="https://im5k.fun/logo/聚鲨环球精选.png" ,聚鲨环球精选
-rtp://225.1.1.102:5002
-#EXTINF:-1 group-title="购物频道" tvg-name="聚鲨环球精选" tvg-logo="https://im5k.fun/logo/聚鲨环球精选.png" ,聚鲨环球精选
-rtp://225.1.1.245:5002
-#EXTINF:-1 group-title="购物频道" tvg-name="好享购物" tvg-logo="https://im5k.fun/logo/好享购物.png" ,好享购物
-rtp://225.1.1.224:5002
-#EXTINF:-1 group-title="购物频道" tvg-name="优购物" tvg-logo="https://im5k.fun/logo/优购物.png" ,优购物
-rtp://225.1.1.225:5002
-#EXTINF:-1 group-title="购物频道" tvg-name="家有购物" tvg-logo="https://im5k.fun/logo/家有购物.png" ,家有购物
-rtp://225.1.1.226:5002
-#EXTINF:-1 group-title="购物频道" tvg-name="快乐购" tvg-logo="https://im5k.fun/logo/快乐购.png" ,快乐购
-rtp://225.1.2.24:5002
-#EXTINF:-1 group-title="购物频道" tvg-name="风尚购物" tvg-logo="https://im5k.fun/logo/风尚购物.png" ,风尚购物
-rtp://225.1.2.204:5002
-#EXTINF:-1 group-title="购物频道" tvg-name="时尚购物" tvg-logo="https://im5k.fun/logo/时尚购物.png" ,时尚购物
-rtp://225.1.1.242:5002
+
