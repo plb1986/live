@@ -193,7 +193,7 @@ rtp://225.1.2.30:5002
 rtp://225.1.1.124:5002
 #EXTINF:-1 group-title="专业频道" tvg-name="CHC影迷电影" tvg-logo="https://im5k.fun/logo/CHC影迷电影.png" ,CHC影迷电影
 rtp://225.1.1.214:5002
-#EXTINF:-1 group-title="专业频道" tvg-name="CHC家庭电影" tvg-logo="https://im5k.fun/logo/CHC家庭电影.png" ,CHC家庭电影
+#EXTINF:-1 group-title="专业频道" tvg-name="CHC家庭影院" tvg-logo="https://im5k.fun/logo/CHC家庭影院.png" ,CHC家庭影院
 rtp://225.1.1.213:5002
 #EXTINF:-1 group-title="专业频道" tvg-name="CHC动作电影" tvg-logo="https://im5k.fun/logo/CHC动作电影.png" ,CHC动作电影
 rtp://225.1.1.215:5002
