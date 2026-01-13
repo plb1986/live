@@ -200,6 +200,8 @@ http://yulang132.cn:4022/udp/239.94.0.157:5140
 http://yulang132.cn:4022/udp/239.94.0.158:5140
 #EXTINF:-1 group-title="四川" tvg-name="成都少儿" tvg-logo="https://im5k.fun/logo/成都少儿.png" ,成都少儿
 http://yulang132.cn:4022/udp/239.94.0.159:5140
+#EXTINF:-1 group-title="四川" tvg-name="蓉城先锋" tvg-logo="https://im5k.fun/logo/蓉城先锋.png" ,蓉城先锋
+http://yulang132.cn:4022/udp/239.94.1.57:5140
 
 #EXTINF:-1 group-title="数字" tvg-name="CETV1" tvg-logo="https://im5k.fun/logo/CETV1.png" ,CETV1
 http://yulang132.cn:4022/udp/239.94.1.2:5140
@@ -253,8 +255,6 @@ http://yulang132.cn:4022/udp/239.94.1.38:5140
 http://yulang132.cn:4022/udp/239.94.1.39:5140
 #EXTINF:-1 group-title="数字" tvg-name="生活时尚" tvg-logo="https://im5k.fun/logo/生活时尚.png" ,生活时尚
 http://yulang132.cn:4022/udp/239.94.1.40:5140
-#EXTINF:-1 group-title="数字" tvg-name="iHOT爱生活" tvg-logo="https://im5k.fun/logo/iHOT爱生活.png" ,iHOT爱生活
-http://yulang132.cn:4022/udp/239.94.1.41:5140
 #EXTINF:-1 group-title="数字" tvg-name="财富天下" tvg-logo="https://im5k.fun/logo/财富天下.png" ,财富天下
 http://yulang132.cn:4022/udp/239.94.1.67:5140
 #EXTINF:-1 group-title="数字" tvg-name="百变课堂" tvg-logo="https://im5k.fun/logo/百变课堂.png" ,百变课堂
@@ -267,10 +267,6 @@ http://yulang132.cn:4022/udp/239.94.1.45:5140
 http://yulang132.cn:4022/udp/239.94.1.46:5140
 #EXTINF:-1 group-title="数字" tvg-name="足球" tvg-logo="https://im5k.fun/logo/足球.png" ,足球
 http://yulang132.cn:4022/udp/239.94.1.47:5140
-#EXTINF:-1 group-title="数字" tvg-name="红色影院" tvg-logo="https://im5k.fun/logo/红色影院.png" ,红色影院
-http://yulang132.cn:4022/udp/239.94.1.48:5140
-#EXTINF:-1 group-title="数字" tvg-name="经典剧场" tvg-logo="https://im5k.fun/logo/经典剧场.png" ,经典剧场
-http://yulang132.cn:4022/udp/239.94.1.49:5140
 #EXTINF:-1 group-title="数字" tvg-name="家庭理财" tvg-logo="https://im5k.fun/logo/家庭理财.png" ,家庭理财
 http://yulang132.cn:4022/udp/239.94.1.50:5140
 #EXTINF:-1 group-title="数字" tvg-name="墨宝" tvg-logo="https://im5k.fun/logo/墨宝.png" ,墨宝
@@ -283,15 +279,8 @@ http://yulang132.cn:4022/udp/239.94.1.53:5140
 http://yulang132.cn:4022/udp/239.94.1.54:5140
 #EXTINF:-1 group-title="数字" tvg-name="看天下精选" tvg-logo="https://im5k.fun/logo/看天下精选.png" ,看天下精选
 http://yulang132.cn:4022/udp/239.94.1.68:5140
-#EXTINF:-1 group-title="数字" tvg-name="导视" tvg-logo="https://im5k.fun/logo/导视.png" ,导视
-http://yulang132.cn:4022/udp/239.94.1.55:5140
-#EXTINF:-1 group-title="数字" tvg-name="收视指南" tvg-logo="https://im5k.fun/logo/收视指南.png" ,收视指南
-http://yulang132.cn:4022/udp/239.94.1.56:5140
-#EXTINF:-1 group-title="数字" tvg-name="蓉城先锋" tvg-logo="https://im5k.fun/logo/蓉城先锋.png" ,蓉城先锋
-http://yulang132.cn:4022/udp/239.94.1.57:5140
 #EXTINF:-1 group-title="数字" tvg-name="东方财经" tvg-logo="https://im5k.fun/logo/东方财经.png" ,东方财经
 http://yulang132.cn:4022/udp/239.94.1.59:5140
-
 #EXTINF:-1 group-title="数字" tvg-name="iHOT爱浪漫" tvg-logo="https://im5k.fun/logo/iHOT爱浪漫.png" ,iHOT爱浪漫
 http://yulang132.cn:4022/udp/239.94.1.128:5140
 #EXTINF:-1 group-title="数字" tvg-name="iHOT爱喜剧" tvg-logo="https://im5k.fun/logo/iHOT爱喜剧.png" ,iHOT爱喜剧
@@ -302,8 +291,6 @@ http://yulang132.cn:4022/udp/239.94.1.130:5140
 http://yulang132.cn:4022/udp/239.94.1.131:5140
 #EXTINF:-1 group-title="数字" tvg-name="iHOT爱院线" tvg-logo="https://im5k.fun/logo/iHOT爱院线.png" ,iHOT爱院线
 http://yulang132.cn:4022/udp/239.94.1.132:5140
-#EXTINF:-1 group-title="数字" tvg-name="都市剧场" tvg-logo="https://im5k.fun/logo/都市剧场.png" ,都市剧场
-http://yulang132.cn:4022/udp/239.94.1.133:5140
 #EXTINF:-1 group-title="数字" tvg-name="iHOT爱谍战" tvg-logo="https://im5k.fun/logo/iHOT爱谍战.png" ,iHOT爱谍战
 http://yulang132.cn:4022/udp/239.94.1.134:5140
 #EXTINF:-1 group-title="数字" tvg-name="iHOT爱历史" tvg-logo="https://im5k.fun/logo/iHOT爱历史.png" ,iHOT爱历史
@@ -312,30 +299,24 @@ http://yulang132.cn:4022/udp/239.94.1.135:5140
 http://yulang132.cn:4022/udp/239.94.1.136:5140
 #EXTINF:-1 group-title="数字" tvg-name="iHOT爱旅行" tvg-logo="https://im5k.fun/logo/iHOT爱旅行.png" ,iHOT爱旅行
 http://yulang132.cn:4022/udp/239.94.1.137:5140
-#EXTINF:-1 group-title="数字" tvg-name="少儿天地" tvg-logo="https://im5k.fun/logo/少儿天地.png" ,少儿天地
-http://yulang132.cn:4022/udp/239.94.1.138:5140
 #EXTINF:-1 group-title="数字" tvg-name="iHOT爱幼教" tvg-logo="https://im5k.fun/logo/iHOT爱幼教.png" ,iHOT爱幼教
 http://yulang132.cn:4022/udp/239.94.1.139:5140
 #EXTINF:-1 group-title="数字" tvg-name="iHOT爱玩具" tvg-logo="https://im5k.fun/logo/iHOT爱玩具.png" ,iHOT爱玩具
 http://yulang132.cn:4022/udp/239.94.1.140:5140
 #EXTINF:-1 group-title="数字" tvg-name="iHOT爱动漫" tvg-logo="https://im5k.fun/logo/iHOT爱动漫.png" ,iHOT爱动漫
 http://yulang132.cn:4022/udp/239.94.1.141:5140
-#EXTINF:-1 group-title="数字" tvg-name="求索频道" tvg-logo="https://im5k.fun/logo/求索频道.png" ,求索频道
-http://yulang132.cn:4022/udp/239.94.1.142:5140
 #EXTINF:-1 group-title="数字" tvg-name="iHOT爱体育" tvg-logo="https://im5k.fun/logo/iHOT爱体育.png" ,iHOT爱体育
 http://yulang132.cn:4022/udp/239.94.1.143:5140
 #EXTINF:-1 group-title="数字" tvg-name="iHOT爱赛车" tvg-logo="https://im5k.fun/logo/iHOT爱赛车.png" ,iHOT爱赛车
 http://yulang132.cn:4022/udp/239.94.1.144:5140
-#EXTINF:-1 group-title="数字" tvg-name="iHOT爱宠宠物" tvg-logo="https://im5k.fun/logo/iHOT爱宠宠物.png" ,iHOT爱宠宠物
-http://yulang132.cn:4022/udp/239.94.1.145:5140
+#EXTINF:-1 group-title="数字" tvg-name="都市剧场" tvg-logo="https://im5k.fun/logo/都市剧场.png" ,都市剧场
+http://yulang132.cn:4022/udp/239.94.1.133:5140
+#EXTINF:-1 group-title="数字" tvg-name="求索纪录" tvg-logo="https://im5k.fun/logo/求索纪录.png" ,求索纪录
+http://yulang132.cn:4022/udp/239.94.1.142:5140
 #EXTINF:-1 group-title="数字" tvg-name="生活时尚" tvg-logo="https://im5k.fun/logo/生活时尚.png" ,生活时尚
 http://yulang132.cn:4022/udp/239.94.1.146:5140
 #EXTINF:-1 group-title="数字" tvg-name="环球旅游" tvg-logo="https://im5k.fun/logo/环球旅游.png" ,环球旅游
 http://yulang132.cn:4022/udp/239.94.1.147:5140
-#EXTINF:-1 group-title="数字" tvg-name="来钓鱼吧" tvg-logo="https://im5k.fun/logo/来钓鱼吧.png" ,来钓鱼吧
-http://yulang132.cn:4022/udp/239.94.1.148:5140
-#EXTINF:-1 group-title="数字" tvg-name="麻辣体育" tvg-logo="https://im5k.fun/logo/麻辣体育.png" ,麻辣体育
-http://yulang132.cn:4022/udp/239.94.1.149:5140
 #EXTINF:-1 group-title="数字" tvg-name="先锋乒羽" tvg-logo="https://im5k.fun/logo/先锋乒羽.png" ,先锋乒羽
 http://yulang132.cn:4022/udp/239.94.1.151:5140
 #EXTINF:-1 group-title="数字" tvg-name="天元围棋" tvg-logo="https://im5k.fun/logo/天元围棋.png" ,天元围棋
@@ -344,8 +325,6 @@ http://yulang132.cn:4022/udp/239.94.1.152:5140
 http://yulang132.cn:4022/udp/239.94.1.153:5140
 #EXTINF:-1 group-title="数字" tvg-name="茶频道" tvg-logo="https://im5k.fun/logo/茶频道.png" ,茶频道
 http://yulang132.cn:4022/udp/239.94.1.154:5140
-#EXTINF:-1 group-title="数字" tvg-name="乐龄学堂" tvg-logo="https://im5k.fun/logo/乐龄学堂.png" ,乐龄学堂
-http://yulang132.cn:4022/udp/239.94.1.155:5140
 #EXTINF:-1 group-title="数字" tvg-name="书画频道" tvg-logo="https://im5k.fun/logo/书画频道.png" ,书画频道
 http://yulang132.cn:4022/udp/239.94.1.163:5140
 #EXTINF:-1 group-title="数字" tvg-name="乐游" tvg-logo="https://im5k.fun/logo/乐游.png" ,乐游
