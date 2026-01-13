@@ -186,17 +186,17 @@ http://yulang132.cn:4022/udp/239.94.0.73:5140
 http://yulang132.cn:4022/udp/239.94.0.76:5140
 #EXTINF:-1 group-title="四川" tvg-name="四川乡村" tvg-logo="https://im5k.fun/logo/四川乡村.png" ,四川乡村
 http://yulang132.cn:4022/udp/239.94.0.77:5140
-#EXTINF:-1 group-title="四川" tvg-name="CDTV1" tvg-logo="https://im5k.fun/logo/CDTV1.png" ,CDTV1
+#EXTINF:-1 group-title="四川" tvg-name="成都综合" tvg-logo="https://im5k.fun/logo/成都综合.png" ,成都综合
 http://yulang132.cn:4022/udp/239.94.0.154:5140
-#EXTINF:-1 group-title="四川" tvg-name="CDTV2" tvg-logo="https://im5k.fun/logo/CDTV2.png" ,CDTV2
+#EXTINF:-1 group-title="四川" tvg-name="成都经济" tvg-logo="https://im5k.fun/logo/成都经济.png" ,成都经济
 http://yulang132.cn:4022/udp/239.94.0.155:5140
-#EXTINF:-1 group-title="四川" tvg-name="CDTV3" tvg-logo="https://im5k.fun/logo/CDTV3.png" ,CDTV3
+#EXTINF:-1 group-title="四川" tvg-name="成都生活" tvg-logo="https://im5k.fun/logo/成都生活.png" ,成都生活
 http://yulang132.cn:4022/udp/239.94.0.156:5140
-#EXTINF:-1 group-title="四川" tvg-name="CDTV4" tvg-logo="https://im5k.fun/logo/CDTV4.png" ,CDTV4
+#EXTINF:-1 group-title="四川" tvg-name="成都影视" tvg-logo="https://im5k.fun/logo/成都影视.png" ,成都影视
 http://yulang132.cn:4022/udp/239.94.0.157:5140
-#EXTINF:-1 group-title="四川" tvg-name="CDTV5" tvg-logo="https://im5k.fun/logo/CDTV5.png" ,CDTV5
+#EXTINF:-1 group-title="四川" tvg-name="成都公共" tvg-logo="https://im5k.fun/logo/成都公共.png" ,成都公共
 http://yulang132.cn:4022/udp/239.94.0.158:5140
-#EXTINF:-1 group-title="四川" tvg-name="CDTV6" tvg-logo="https://im5k.fun/logo/CDTV6.png" ,CDTV6
+#EXTINF:-1 group-title="四川" tvg-name="成都少儿" tvg-logo="https://im5k.fun/logo/成都少儿.png" ,成都少儿
 http://yulang132.cn:4022/udp/239.94.0.159:5140
 
 #EXTINF:-1 group-title="四川电信" tvg-name="CETV1" tvg-logo="https://im5k.fun/logo/CETV1.png" ,CETV1
@@ -464,7 +464,7 @@ http://yulang132.cn:4022/udp/239.94.2.160:5140
 http://yulang132.cn:4022/udp/239.94.2.161:5140
 #EXTINF:-1 group-title="四川电信" tvg-name="四川卫视" tvg-logo="https://im5k.fun/logo/四川卫视.png" ,四川卫视
 http://yulang132.cn:4022/udp/239.94.2.165:5140
-#EXTINF:-1 group-title="四川电信" tvg-name="CDTV1" tvg-logo="https://im5k.fun/logo/CDTV1.png" ,CDTV1
+#EXTINF:-1 group-title="四川电信" tvg-name="成都综合" tvg-logo="https://im5k.fun/logo/成都综合.png" ,成都综合
 http://yulang132.cn:4022/udp/239.94.2.166:5140
 #EXTINF:-1 group-title="四川电信" tvg-name="CCTV4K" tvg-logo="https://im5k.fun/logo/CCTV4K.png" ,CCTV4K
 http://yulang132.cn:4022/udp/239.94.2.163:5140
@@ -568,15 +568,15 @@ http://yulang132.cn:4022/udp/239.94.2.215:5140
 http://yulang132.cn:4022/udp/239.94.2.216:5140
 #EXTINF:-1 group-title="四川电信" tvg-name="重庆卫视" tvg-logo="https://im5k.fun/logo/重庆卫视.png" ,重庆卫视
 http://yulang132.cn:4022/udp/239.94.2.188:5140
-#EXTINF:-1 group-title="四川电信" tvg-name="CDTV2" tvg-logo="https://im5k.fun/logo/CDTV2.png" ,CDTV2
+#EXTINF:-1 group-title="四川电信" tvg-name="成都经济" tvg-logo="https://im5k.fun/logo/成都经济.png" ,成都经济
 http://yulang132.cn:4022/udp/239.94.2.217:5140
-#EXTINF:-1 group-title="四川电信" tvg-name="CDTV3" tvg-logo="https://im5k.fun/logo/CDTV3.png" ,CDTV3
+#EXTINF:-1 group-title="四川电信" tvg-name="成都生活" tvg-logo="https://im5k.fun/logo/成都生活.png" ,成都生活
 http://yulang132.cn:4022/udp/239.94.2.218:5140
-#EXTINF:-1 group-title="四川电信" tvg-name="CDTV4" tvg-logo="https://im5k.fun/logo/CDTV4.png" ,CDTV4
+#EXTINF:-1 group-title="四川电信" tvg-name="成都影视" tvg-logo="https://im5k.fun/logo/成都影视.png" ,成都影视
 http://yulang132.cn:4022/udp/239.94.2.219:5140
-#EXTINF:-1 group-title="四川电信" tvg-name="CDTV5" tvg-logo="https://im5k.fun/logo/CDTV5.png" ,CDTV5
+#EXTINF:-1 group-title="四川电信" tvg-name="成都公共" tvg-logo="https://im5k.fun/logo/成都公共.png" ,成都公共
 http://yulang132.cn:4022/udp/239.94.2.220:5140
-#EXTINF:-1 group-title="四川电信" tvg-name="CDTV6" tvg-logo="https://im5k.fun/logo/CDTV6.png" ,CDTV6
+#EXTINF:-1 group-title="四川电信" tvg-name="成都少儿" tvg-logo="https://im5k.fun/logo/成都少儿.png" ,成都少儿
 http://yulang132.cn:4022/udp/239.94.2.221:5140
 #EXTINF:-1 group-title="四川电信" tvg-name="CDTV8画中画全网组播" tvg-logo="https://im5k.fun/logo/CDTV8画中画全网组播.png" ,CDTV8画中画全网组播
 http://yulang132.cn:4022/udp/239.94.2.222:5140
