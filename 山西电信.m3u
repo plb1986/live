@@ -67,7 +67,7 @@ rtp://238.1.40.235:10128
 rtp://239.1.1.122:8122
 #EXTINF:-1 tvg-name="CCTV17" tvg-logo="https://im5k.fun/logo/CCTV17.png" group-title="央视" ,CCTV17
 rtp://239.1.1.23:8023
-#EXTINF:-1 tvg-name="CGTN英语" tvg-logo="https://im5k.fun/logo/CGTN英语.png" group-title="央视" ,CGTN英语
+#EXTINF:-1 tvg-name="CGTN" tvg-logo="https://im5k.fun/logo/CGTN.png" group-title="央视" ,CGTN
 rtp://239.1.1.132:8132
 #EXTINF:-1 tvg-name="电视指南" tvg-logo="https://im5k.fun/logo/电视指南.png" group-title="央视" ,电视指南
 rtp://239.1.1.90:8090
