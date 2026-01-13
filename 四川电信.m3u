@@ -29,7 +29,7 @@ http://yulang132.cn:4022/udp/239.94.1.69:5140
 http://yulang132.cn:4022/udp/239.94.1.70:5140
 #EXTINF:-1 group-title="4 K" tvg-name="4K乐享超清" tvg-logo="https://im5k.fun/logo/4K乐享超清.png" ,4K乐享超清
 http://yulang132.cn:4022/udp/239.94.1.162:5140
-#EXTINF:-1 group-title="数字" tvg-name="绚影4K" tvg-logo="https://im5k.fun/logo/绚影4K.png" ,绚影4K
+#EXTINF:-1 group-title="4 K" tvg-name="绚影4K" tvg-logo="https://im5k.fun/logo/绚影4K.png" ,绚影4K
 http://yulang132.cn:4022/udp/239.94.1.150:5140
 
 #EXTINF:-1 group-title="央视" tvg-name="CCTV1" tvg-logo="https://im5k.fun/logo/CCTV1.png" ,CCTV1
