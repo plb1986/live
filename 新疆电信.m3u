@@ -1,0 +1,235 @@
+#EXTM3U x-tvg-url="https://epg.im5k.fun/pp.xml"
+#EXTINF:-1 group-title="央视" tvg-name="CCTV1" tvg-logo="https://im5k.fun/logo/CCTV1.png",CCTV1
+rtp://238.125.5.1:5140
+#EXTINF:-1 group-title="央视" tvg-name="CCTV2" tvg-logo="https://im5k.fun/logo/CCTV2.png",CCTV2
+rtp://238.125.5.20:5140
+#EXTINF:-1 group-title="央视" tvg-name="CCTV3" tvg-logo="https://im5k.fun/logo/CCTV3.png",CCTV3
+rtp://238.125.5.21:5140
+#EXTINF:-1 group-title="央视" tvg-name="CCTV4" tvg-logo="https://im5k.fun/logo/CCTV4.png",CCTV4
+rtp://238.125.1.67:5140
+#EXTINF:-1 group-title="央视" tvg-name="CCTV5" tvg-logo="https://im5k.fun/logo/CCTV5.png",CCTV5
+rtp://238.125.5.22:5140
+#EXTINF:-1 group-title="央视" tvg-name="CCTV5+" tvg-logo="https://im5k.fun/logo/CCTV5+.png",CCTV5+
+rtp://238.125.5.29:5140
+#EXTINF:-1 group-title="央视" tvg-name="CCTV6" tvg-logo="https://im5k.fun/logo/CCTV6.png",CCTV6
+rtp://238.125.5.23:5140
+#EXTINF:-1 group-title="央视" tvg-name="CCTV7" tvg-logo="https://im5k.fun/logo/CCTV7.png",CCTV7
+rtp://238.125.5.24:5140
+#EXTINF:-1 group-title="央视" tvg-name="CCTV8" tvg-logo="https://im5k.fun/logo/CCTV8.png",CCTV8
+rtp://238.125.5.25:5140
+#EXTINF:-1 group-title="央视" tvg-name="CCTV9" tvg-logo="https://im5k.fun/logo/CCTV9.png",CCTV9
+rtp://238.125.5.26:5140
+#EXTINF:-1 group-title="央视" tvg-name="CCTV10" tvg-logo="https://im5k.fun/logo/CCTV10.png",CCTV10
+rtp://238.125.5.27:5140
+#EXTINF:-1 group-title="央视" tvg-name="CCTV11" tvg-logo="https://im5k.fun/logo/CCTV11.png",CCTV11
+rtp://238.125.3.212:5140
+#EXTINF:-1 group-title="央视" tvg-name="CCTV12" tvg-logo="https://im5k.fun/logo/CCTV12.png",CCTV12
+rtp://238.125.5.28:5140
+#EXTINF:-1 group-title="央视" tvg-name="CCTV13" tvg-logo="https://im5k.fun/logo/CCTV13.png",CCTV13
+rtp://238.125.5.31:5140
+#EXTINF:-1 group-title="央视" tvg-name="CCTV14" tvg-logo="https://im5k.fun/logo/CCTV14.png",CCTV14
+rtp://238.125.5.66:5140
+#EXTINF:-1 group-title="央视" tvg-name="CCTV15" tvg-logo="https://im5k.fun/logo/CCTV15.png",CCTV15
+rtp://238.125.4.84:5140
+#EXTINF:-1 group-title="央视" tvg-name="CCTV16" tvg-logo="https://im5k.fun/logo/CCTV16.png",CCTV16
+rtp://238.125.5.34:5140
+#EXTINF:-1 group-title="央视" tvg-name="CCTV17" tvg-logo="https://im5k.fun/logo/CCTV17.png",CCTV17
+rtp://238.125.5.74:5140
+#EXTINF:-1 group-title="央视" tvg-name="CGTN" tvg-logo="https://im5k.fun/logo/CGTN.png",CGTN
+rtp://238.125.5.69:5140
+#EXTINF:-1 group-title="央视" tvg-name="CGTN纪录" tvg-logo="https://im5k.fun/logo/CGTN纪录.png",CGTN纪录
+rtp://238.125.3.119:5140
+#EXTINF:-1 group-title="央视" tvg-name="CETV1" tvg-logo="https://im5k.fun/logo/CETV1.png",CETV1
+rtp://238.125.5.51:5140
+#EXTINF:-1 group-title="央视" tvg-name="CETV4" tvg-logo="https://im5k.fun/logo/CETV4.png",CETV4
+rtp://238.125.4.98:5140
+#EXTINF:-1 group-title="卫视" tvg-name="新疆卫视" tvg-logo="https://im5k.fun/logo/新疆卫视.png",新疆卫视
+rtp://238.125.3.174:5140
+#EXTINF:-1 group-title="卫视" tvg-name="湖南卫视" tvg-logo="https://im5k.fun/logo/湖南卫视.png",湖南卫视
+rtp://238.125.5.4:5140
+#EXTINF:-1 group-title="卫视" tvg-name="江苏卫视" tvg-logo="https://im5k.fun/logo/江苏卫视.png",江苏卫视
+rtp://238.125.5.6:5140
+#EXTINF:-1 group-title="卫视" tvg-name="北京卫视" tvg-logo="https://im5k.fun/logo/北京卫视.png",北京卫视
+rtp://238.125.5.3:5140
+#EXTINF:-1 group-title="卫视" tvg-name="东方卫视" tvg-logo="https://im5k.fun/logo/东方卫视.png",东方卫视
+rtp://238.125.5.5:5140
+#EXTINF:-1 group-title="卫视" tvg-name="东南卫视" tvg-logo="https://im5k.fun/logo/东南卫视.png",东南卫视
+rtp://238.125.5.49:5140
+#EXTINF:-1 group-title="卫视" tvg-name="陕西卫视" tvg-logo="https://im5k.fun/logo/陕西卫视.png",陕西卫视
+rtp://238.125.5.121:5140
+#EXTINF:-1 group-title="卫视" tvg-name="广东卫视" tvg-logo="https://im5k.fun/logo/广东卫视.png",广东卫视
+rtp://238.125.5.12:5140
+#EXTINF:-1 group-title="卫视" tvg-name="广西卫视" tvg-logo="https://im5k.fun/logo/广西卫视.png",广西卫视
+rtp://238.125.5.105:5140
+#EXTINF:-1 group-title="卫视" tvg-name="贵州卫视" tvg-logo="https://im5k.fun/logo/贵州卫视.png",贵州卫视
+rtp://238.125.5.65:5140
+#EXTINF:-1 group-title="卫视" tvg-name="海南卫视" tvg-logo="https://im5k.fun/logo/海南卫视.png",海南卫视
+rtp://238.125.5.68:5140
+#EXTINF:-1 group-title="卫视" tvg-name="河北卫视" tvg-logo="https://im5k.fun/logo/河北卫视.png",河北卫视
+rtp://238.125.5.64:5140
+#EXTINF:-1 group-title="卫视" tvg-name="河南卫视" tvg-logo="https://im5k.fun/logo/河南卫视.png",河南卫视
+rtp://238.125.3.171:5140
+#EXTINF:-1 group-title="卫视" tvg-name="黑龙江卫视" tvg-logo="https://im5k.fun/logo/黑龙江卫视.png",黑龙江卫视
+rtp://238.125.5.8:5140
+#EXTINF:-1 group-title="卫视" tvg-name="安徽卫视" tvg-logo="https://im5k.fun/logo/安徽卫视.png",安徽卫视
+rtp://238.125.5.9:5140
+#EXTINF:-1 group-title="卫视" tvg-name="湖北卫视" tvg-logo="https://im5k.fun/logo/湖北卫视.png",湖北卫视
+rtp://238.125.5.10:5140
+#EXTINF:-1 group-title="卫视" tvg-name="吉林卫视" tvg-logo="https://im5k.fun/logo/吉林卫视.png",吉林卫视
+rtp://238.125.3.103:5140
+#EXTINF:-1 group-title="卫视" tvg-name="江西卫视" tvg-logo="https://im5k.fun/logo/江西卫视.png",江西卫视
+rtp://238.125.3.106:5140
+#EXTINF:-1 group-title="卫视" tvg-name="辽宁卫视" tvg-logo="https://im5k.fun/logo/辽宁卫视.png",辽宁卫视
+rtp://238.125.5.15:5140
+#EXTINF:-1 group-title="卫视" tvg-name="三沙卫视" tvg-logo="https://im5k.fun/logo/三沙卫视.png",三沙卫视
+rtp://238.125.5.114:5140
+#EXTINF:-1 group-title="卫视" tvg-name="山东卫视" tvg-logo="https://im5k.fun/logo/山东卫视.png",山东卫视
+rtp://238.125.5.11:5140
+#EXTINF:-1 group-title="卫视" tvg-name="深圳卫视" tvg-logo="https://im5k.fun/logo/深圳卫视.png",深圳卫视
+rtp://238.125.5.2:5140
+#EXTINF:-1 group-title="卫视" tvg-name="四川卫视" tvg-logo="https://im5k.fun/logo/四川卫视.png",四川卫视
+rtp://238.125.5.62:5140
+#EXTINF:-1 group-title="卫视" tvg-name="天津卫视" tvg-logo="https://im5k.fun/logo/天津卫视.png",天津卫视
+rtp://238.125.5.13:5140
+#EXTINF:-1 group-title="卫视" tvg-name="云南卫视" tvg-logo="https://im5k.fun/logo/云南卫视.png",云南卫视
+rtp://238.125.5.32:5140
+#EXTINF:-1 group-title="卫视" tvg-name="浙江卫视" tvg-logo="https://im5k.fun/logo/浙江卫视.png",浙江卫视
+rtp://238.125.5.7:5140
+#EXTINF:-1 group-title="卫视" tvg-name="重庆卫视" tvg-logo="https://im5k.fun/logo/重庆卫视.png",重庆卫视
+rtp://238.125.5.14:5140
+#EXTINF:-1 group-title="卫视" tvg-name="新疆2" tvg-logo="https://im5k.fun/logo/新疆2.png",新疆2
+rtp://238.125.3.175:5140
+#EXTINF:-1 group-title="卫视" tvg-name="新疆3" tvg-logo="https://im5k.fun/logo/新疆3.png",新疆3
+rtp://238.125.3.176:5140
+#EXTINF:-1 group-title="卫视" tvg-name="新疆4" tvg-logo="https://im5k.fun/logo/新疆4.png",新疆4
+rtp://238.125.3.177:5140
+#EXTINF:-1 group-title="卫视" tvg-name="新疆5" tvg-logo="https://im5k.fun/logo/新疆5.png",新疆5
+rtp://238.125.3.178:5140
+#EXTINF:-1 group-title="卫视" tvg-name="新疆6" tvg-logo="https://im5k.fun/logo/新疆6.png",新疆6
+rtp://238.125.3.179:5140
+#EXTINF:-1 group-title="卫视" tvg-name="新疆7" tvg-logo="https://im5k.fun/logo/新疆7.png",新疆7
+rtp://238.125.3.180:5140
+#EXTINF:-1 group-title="卫视" tvg-name="新疆8" tvg-logo="https://im5k.fun/logo/新疆8.png",新疆8
+rtp://238.125.3.181:5140
+#EXTINF:-1 group-title="卫视" tvg-name="新疆9" tvg-logo="https://im5k.fun/logo/新疆9.png",新疆9
+rtp://238.125.3.182:5140
+#EXTINF:-1 group-title="卫视" tvg-name="新疆10" tvg-logo="https://im5k.fun/logo/新疆10.png",新疆10
+rtp://238.125.3.183:5140
+#EXTINF:-1 group-title="卫视" tvg-name="新疆11" tvg-logo="https://im5k.fun/logo/新疆11.png",新疆11
+rtp://238.125.3.184:5140
+#EXTINF:-1 group-title="卫视" tvg-name="新疆12" tvg-logo="https://im5k.fun/logo/新疆12.png",新疆12
+rtp://238.125.3.185:5140
+#EXTINF:-1 group-title="卫视" tvg-name="包头TV1" tvg-logo="https://im5k.fun/logo/包头TV1.png",包头TV1
+rtp://238.125.3.12:5140
+#EXTINF:-1 group-title="卫视" tvg-name="包头TV2" tvg-logo="https://im5k.fun/logo/包头TV2.png",包头TV2
+rtp://238.125.3.13:5140
+#EXTINF:-1 group-title="卫视" tvg-name="包头TV3" tvg-logo="https://im5k.fun/logo/包头TV3.png",包头TV3
+rtp://238.125.3.14:5140
+#EXTINF:-1 group-title="卫视" tvg-name="乌鲁木齐1" tvg-logo="https://im5k.fun/logo/乌鲁木齐1.png",乌鲁木齐1
+rtp://238.125.3.238:5140
+#EXTINF:-1 group-title="卫视" tvg-name="阿克苏1" tvg-logo="https://im5k.fun/logo/阿克苏1.png",阿克苏1
+rtp://238.125.3.84:5140
+#EXTINF:-1 group-title="卫视" tvg-name="阿克苏2" tvg-logo="https://im5k.fun/logo/阿克苏2.png",阿克苏2
+rtp://238.125.3.86:5140
+#EXTINF:-1 group-title="卫视" tvg-name="阿拉尔" tvg-logo="https://im5k.fun/logo/阿拉尔.png",阿拉尔
+rtp://238.125.3.54:5140
+#EXTINF:-1 group-title="卫视" tvg-name="阿勒泰1" tvg-logo="https://im5k.fun/logo/阿勒泰1.png",阿勒泰1
+rtp://238.125.3.150:5140
+#EXTINF:-1 group-title="卫视" tvg-name="克孜勒苏柯尔克孜1" tvg-logo="https://im5k.fun/logo/克孜勒苏柯尔克孜1.png",克孜勒苏柯尔克孜1
+rtp://238.125.4.240:5140
+#EXTINF:-1 group-title="卫视" tvg-name="克孜勒苏柯尔克孜2" tvg-logo="https://im5k.fun/logo/克孜勒苏柯尔克孜2.png",克孜勒苏柯尔克孜2
+rtp://238.125.4.241:5140
+#EXTINF:-1 group-title="卫视" tvg-name="克孜勒苏柯尔克孜3" tvg-logo="https://im5k.fun/logo/克孜勒苏柯尔克孜3.png",克孜勒苏柯尔克孜3
+rtp://238.125.4.242:5140
+#EXTINF:-1 group-title="卫视" tvg-name="伊犁哈萨克1" tvg-logo="https://im5k.fun/logo/伊犁哈萨克1.png",伊犁哈萨克1
+rtp://238.125.4.147:5140
+#EXTINF:-1 group-title="卫视" tvg-name="伊犁哈萨克2" tvg-logo="https://im5k.fun/logo/伊犁哈萨克2.png",伊犁哈萨克2
+rtp://238.125.4.148:5140
+#EXTINF:-1 group-title="卫视" tvg-name="伊犁哈萨克3" tvg-logo="https://im5k.fun/logo/伊犁哈萨克3.png",伊犁哈萨克3
+rtp://238.125.4.149:5140
+#EXTINF:-1 group-title="卫视" tvg-name="伊犁哈萨克4" tvg-logo="https://im5k.fun/logo/伊犁哈萨克4.png",伊犁哈萨克4
+rtp://238.125.4.150:5140
+#EXTINF:-1 group-title="卫视" tvg-name="喀什1" tvg-logo="https://im5k.fun/logo/喀什1.png",喀什1
+rtp://238.125.3.214:5140
+#EXTINF:-1 group-title="卫视" tvg-name="喀什2" tvg-logo="https://im5k.fun/logo/喀什2.png",喀什2
+rtp://238.125.3.215:5140
+#EXTINF:-1 group-title="卫视" tvg-name="喀什3" tvg-logo="https://im5k.fun/logo/喀什3.png",喀什3
+rtp://238.125.3.216:5140
+#EXTINF:-1 group-title="卫视" tvg-name="巴音郭楞1" tvg-logo="https://im5k.fun/logo/巴音郭楞1.png",巴音郭楞1
+rtp://238.125.3.38:5140
+#EXTINF:-1 group-title="卫视" tvg-name="巴音郭楞2" tvg-logo="https://im5k.fun/logo/巴音郭楞2.png",巴音郭楞2
+rtp://238.125.3.39:5140
+#EXTINF:-1 group-title="卫视" tvg-name="巴音郭楞3" tvg-logo="https://im5k.fun/logo/巴音郭楞3.png",巴音郭楞3
+rtp://238.125.3.40:5140
+#EXTINF:-1 group-title="卫视" tvg-name="巴音郭楞4" tvg-logo="https://im5k.fun/logo/巴音郭楞4.png",巴音郭楞4
+rtp://238.125.3.43:5140
+#EXTINF:-1 group-title="卫视" tvg-name="昌吉市电视台" tvg-logo="https://im5k.fun/logo/昌吉市电视台.png",昌吉市电视台
+rtp://238.125.3.27:5140
+#EXTINF:-1 group-title="卫视" tvg-name="霍城1" tvg-logo="https://im5k.fun/logo/霍城1.png",霍城1
+rtp://238.125.3.7:5140
+#EXTINF:-1 group-title="卫视" tvg-name="呼图壁1" tvg-logo="https://im5k.fun/logo/呼图壁1.png",呼图壁1
+rtp://238.125.3.91:5140
+#EXTINF:-1 group-title="卫视" tvg-name="玛纳斯1" tvg-logo="https://im5k.fun/logo/玛纳斯1.png",玛纳斯1
+rtp://238.125.3.114:5140
+#EXTINF:-1 group-title="卫视" tvg-name="竹山1" tvg-logo="https://im5k.fun/logo/竹山1.png",竹山1
+rtp://238.125.3.225:5140
+#EXTINF:-1 group-title="卫视" tvg-name="竹山2" tvg-logo="https://im5k.fun/logo/竹山2.png",竹山2
+rtp://238.125.3.226:5140
+#EXTINF:-1 group-title="卫视" tvg-name="奎屯1" tvg-logo="https://im5k.fun/logo/奎屯1.png",奎屯1
+rtp://238.125.3.248:5140
+#EXTINF:-1 group-title="卫视" tvg-name="奎屯3" tvg-logo="https://im5k.fun/logo/奎屯3.png",奎屯3
+rtp://238.125.3.250:5140
+#EXTINF:-1 group-title="卫视" tvg-name="综合" tvg-logo="https://im5k.fun/logo/综合.png",综合
+rtp://238.125.3.165:5140
+#EXTINF:-1 group-title="卫视" tvg-name="哈密TV1" tvg-logo="https://im5k.fun/logo/哈密TV1.png",哈密TV1
+rtp://238.125.4.194:5140
+#EXTINF:-1 group-title="卫视" tvg-name="哈密TV1" tvg-logo="https://im5k.fun/logo/哈密TV1.png",哈密TV1
+rtp://238.125.4.195:5140
+#EXTINF:-1 group-title="卫视" tvg-name="哈密TV3" tvg-logo="https://im5k.fun/logo/哈密TV3.png",哈密TV3
+rtp://238.125.0.195:5140
+#EXTINF:-1 group-title="卫视" tvg-name="金鹰纪实" tvg-logo="https://im5k.fun/logo/金鹰纪实.png",金鹰纪实
+rtp://238.125.5.71:5140
+#EXTINF:-1 group-title="卫视" tvg-name="金鹰卡通" tvg-logo="https://im5k.fun/logo/金鹰卡通.png",金鹰卡通
+rtp://238.125.5.104:5140
+#EXTINF:-1 group-title="卫视" tvg-name="快乐垂钓" tvg-logo="https://im5k.fun/logo/快乐垂钓.png",快乐垂钓
+rtp://238.125.5.103:5140
+#EXTINF:-1 group-title="卫视" tvg-name="茶频道" tvg-logo="https://im5k.fun/logo/茶频道.png",茶频道
+rtp://238.125.5.101:5140
+#EXTINF:-1 group-title="卫视" tvg-name="上海欢笑剧场" tvg-logo="https://im5k.fun/logo/上海欢笑剧场.png",上海欢笑剧场
+rtp://238.125.5.61:5140
+#EXTINF:-1 group-title="卫视" tvg-name="上海动漫秀场" tvg-logo="https://im5k.fun/logo/上海动漫秀场.png",上海动漫秀场
+rtp://238.125.5.33:5140
+#EXTINF:-1 group-title="卫视" tvg-name="上海都市剧场" tvg-logo="https://im5k.fun/logo/上海都市剧场.png",上海都市剧场
+rtp://238.125.5.60:5140
+#EXTINF:-1 group-title="卫视" tvg-name="上海法治天地" tvg-logo="https://im5k.fun/logo/上海法治天地.png",上海法治天地
+rtp://238.125.5.116:5140
+#EXTINF:-1 group-title="卫视" tvg-name="上海游戏风云" tvg-logo="https://im5k.fun/logo/上海游戏风云.png",上海游戏风云
+rtp://238.125.5.36:5140
+#EXTINF:-1 group-title="卫视" tvg-name="上海生活时尚" tvg-logo="https://im5k.fun/logo/上海生活时尚.png",上海生活时尚
+rtp://238.125.5.113:5140
+#EXTINF:-1 group-title="卫视" tvg-name="上海金色学堂" tvg-logo="https://im5k.fun/logo/上海金色学堂.png",上海金色学堂
+rtp://238.125.5.115:5140
+#EXTINF:-1 group-title="卫视" tvg-name="上海东方财经" tvg-logo="https://im5k.fun/logo/上海东方财经.png",上海东方财经
+rtp://238.125.4.54:5140
+#EXTINF:-1 group-title="卫视" tvg-name="上海哈哈炫动" tvg-logo="https://im5k.fun/logo/上海哈哈炫动.png",上海哈哈炫动
+rtp://238.125.5.106:5140
+#EXTINF:-1 group-title="卫视" tvg-name="北京卡酷少儿" tvg-logo="https://im5k.fun/logo/北京卡酷少儿.png",北京卡酷少儿
+rtp://238.125.5.107:5140
+#EXTINF:-1 group-title="卫视" tvg-name="北京纪实科教" tvg-logo="https://im5k.fun/logo/北京纪实科教.png",北京纪实科教
+rtp://238.125.5.70:5140
+#EXTINF:-1 group-title="卫视" tvg-name="河南文物宝库" tvg-logo="https://im5k.fun/logo/河南文物宝库.png",河南文物宝库
+rtp://238.125.4.106:5140
+#EXTINF:-1 group-title="卫视" tvg-name="河南武术世界" tvg-logo="https://im5k.fun/logo/河南武术世界.png",河南武术世界
+rtp://238.125.4.104:5140
+#EXTINF:-1 group-title="卫视" tvg-name="河南梨园频道" tvg-logo="https://im5k.fun/logo/河南梨园频道.png",河南梨园频道
+rtp://238.125.4.103:5140
+#EXTINF:-1 group-title="卫视" tvg-name="求索纪录" tvg-logo="https://im5k.fun/logo/求索纪录.png",求索纪录
+rtp://238.125.5.108:5140
+#EXTINF:-1 group-title="卫视" tvg-name="人物频道" tvg-logo="https://im5k.fun/logo/人物频道.png",人物频道
+rtp://238.125.5.109:5140
+#EXTINF:-1 group-title="卫视" tvg-name="精彩影视" tvg-logo="https://im5k.fun/logo/精彩影视.png",精彩影视
+rtp://238.125.5.110:5140
+#EXTINF:-1 group-title="卫视" tvg-name="党员远程教育" tvg-logo="https://im5k.fun/logo/党员远程教育.png",党员远程教育
+rtp://238.125.4.144:5140
+#EXTINF:-1 group-title="卫视" tvg-name="SSTV2" tvg-logo="https://im5k.fun/logo/SSTV2.png",SSTV2
+rtp://238.125.3.240:5140
