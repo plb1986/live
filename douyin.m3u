@@ -1,10 +1,4 @@
 #EXTM3U 
-#EXTINF:-1 tvg-name="CCTV1" tvg-logo="https://im5k.fun/logo/CCTV1.png" group-title="『央✬视』" ,CCTV1
-https://u.im5k.fun/douyin/rid/456815963645
-#EXTINF:-1 tvg-name="CCTV6" tvg-logo="https://im5k.fun/logo/CCTV6.png" group-title="『央✬视』" ,CCTV6
-https://u.im5k.fun/douyin/rid/208823316033
-#EXTINF:-1 tvg-name="CCTV13" tvg-logo="https://im5k.fun/logo/CCTV13.png" group-title="『央✬视』" ,CCTV13
-https://u.im5k.fun/douyin/rid/870887192950
 
 #EXTINF:-1 tvg-name="JJ斗地主" tvg-logo="https://im5k.fun/logo/JJ斗地主.png" group-title="『电✬竞』" ,JJ斗地主
 https://u.im5k.fun/douyin/rid/685317364746
@@ -18,6 +12,7 @@ https://u.im5k.fun/douyin/rid/341276812062
 https://u.im5k.fun/douyin/rid/167727601199
 #EXTINF:-1 tvg-name="TRY导师" tvg-logo="https://im5k.fun/logo/TRY导师.png" group-title="『电✬竞』" ,TRY导师
 https://u.im5k.fun/douyin/rid/48656747725
+
 
 
 
