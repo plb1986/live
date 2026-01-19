@@ -233,7 +233,7 @@ rtp://226.0.2.123:8896
 rtp://226.0.2.95:8672
 #EXTINF:-1 tvg-name="新动漫" tvg-logo="https://im5k.fun/logo/新动漫.png" group-title="数字",新动漫
 rtp://226.0.2.73:8496
-#EXTINF:-1 tvg-id="书画" tvg-name="书画" tvg-logo="https://im5k.fun/logo/书画.png" group-title="数字",书画
+#EXTINF:-1 tvg-name="书画" tvg-logo="https://im5k.fun/logo/书画.png" group-title="数字",书画
 rtp://226.0.2.102:8728
 #EXTINF:-1 tvg-name="环球旅游" tvg-logo="https://im5k.fun/logo/环球旅游.png" group-title="数字",环球旅游
 rtp://226.0.2.127:8928
