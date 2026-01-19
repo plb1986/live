@@ -234,8 +234,6 @@ https://im2k.fun/play/qm
 https://im2k.fun/play/xdm
 #EXTINF:-1 tvg-id="书画" tvg-name="书画" tvg-logo="https://im5k.fun/logo/书画.png" group-title="数字",书画
 https://im2k.fun/play/sh
-#EXTINF:-1 tvg-name="先锋乒羽" tvg-logo="https://im5k.fun/logo/先锋乒羽.png" group-title="数字",先锋乒羽
-https://im2k.fun/play/xfpy
 #EXTINF:-1 tvg-name="环球旅游" tvg-logo="https://im5k.fun/logo/环球旅游.png" group-title="数字",环球旅游
 https://im2k.fun/play/hqly
 #EXTINF:-1 tvg-id="中华特产" tvg-name="中华特产" tvg-logo="https://im5k.fun/logo/中华特产.png" group-title="数字",中华特产
@@ -285,4 +283,5 @@ https://dt.im5k.fun/dtzh.m3u8
 https://dt.im5k.fun/dtgg.m3u8
 #EXTINF:-1 tvg-name="大同生活频道" tvg-logo="https://im5k.fun/logo/大同生活.png" group-title="山西",大同生活频道
 https://dt.im5k.fun/dtsh.m3u8
+
 
