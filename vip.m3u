@@ -65,11 +65,9 @@ http://74.91.26.218:82/live/inews.m3u8
 http://74.91.26.218:82/live/j2.m3u8
 #EXTINF:-1 group-title="香港" tvg-name="TVB星河" tvg-logo="https://im5k.fun/logo/TVB星河.png",TVB星河
 http://74.91.26.218:82/live/tvbxh.m3u8
-#EXTINF:-1 group-title="香港" tvg-name="TVB千禧经典台" tvg-logo="https://im5k.fun/logo/TVB千禧经典台.png",TVB千禧经典台
-http://74.91.26.218:82/live/tvbjd.m3u8
-#EXTINF:-1 group-title="香港" tvg-name="NOW星影台" tvg-logo="https://im5k.fun/logo/NOW星影台.png",NOW星影台
+#EXTINF:-1 group-title="香港" tvg-name="now爆谷星影台" tvg-logo="https://im5k.fun/logo/now爆谷星影台.png",now爆谷星影台
 http://74.91.26.218:82/live/nowxy.m3u8
-#EXTINF:-1 group-title="香港" tvg-name="NOW爆谷台" tvg-logo="https://im5k.fun/logo/NOW爆谷台.png",NOW爆谷台
+#EXTINF:-1 group-title="香港" tvg-name="now爆谷台" tvg-logo="https://im5k.fun/logo/now爆谷台.png",now爆谷台
 http://74.91.26.218:82/live/nowbg.m3u8
 #EXTINF:-1 group-title="香港" tvg-name="美亚电影台" tvg-logo="https://im5k.fun/logo/美亚电影台.png",美亚电影台
 http://74.91.26.218:82/live/mydy.m3u8
