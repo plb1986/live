@@ -1,0 +1,115 @@
+#EXTM3U x-tvg-url="https://epg.im5k.fun/pp.xml"
+#EXTINF:-1 group-title="央视" tvg-name="CCTV1" tvg-logo="https://im5k.fun/logo/CCTV1.png",CCTV1
+http://74.91.26.218:82/live/cctv1hd.m3u8
+#EXTINF:-1 group-title="央视" tvg-name="CCTV2" tvg-logo="https://im5k.fun/logo/CCTV2.png",CCTV2
+http://74.91.26.218:82/live/cctv2hd.m3u8
+#EXTINF:-1 group-title="央视" tvg-name="CCTV3" tvg-logo="https://im5k.fun/logo/CCTV3.png",CCTV3
+http://74.91.26.218:82/live/cctv3hd.m3u8
+#EXTINF:-1 group-title="央视" tvg-name="CCTV4" tvg-logo="https://im5k.fun/logo/CCTV4.png",CCTV4
+http://74.91.26.218:82/live/cctv4hd.m3u8
+#EXTINF:-1 group-title="央视" tvg-name="CCTV5" tvg-logo="https://im5k.fun/logo/CCTV5.png",CCTV5
+http://74.91.26.218:82/live/cctv5hd.m3u8
+#EXTINF:-1 group-title="央视" tvg-name="CCTV6" tvg-logo="https://im5k.fun/logo/CCTV6.png",CCTV6
+http://74.91.26.218:82/live/cctv6hd.m3u8
+#EXTINF:-1 group-title="央视" tvg-name="CCTV7" tvg-logo="https://im5k.fun/logo/CCTV7.png",CCTV7
+http://74.91.26.218:82/live/cctv7hd.m3u8
+#EXTINF:-1 group-title="央视" tvg-name="CCTV8" tvg-logo="https://im5k.fun/logo/CCTV8.png",CCTV8
+http://74.91.26.218:82/live/cctv8hd.m3u8
+#EXTINF:-1 group-title="央视" tvg-name="CCTV9" tvg-logo="https://im5k.fun/logo/CCTV9.png",CCTV9
+http://74.91.26.218:82/live/cctv9hd.m3u8
+#EXTINF:-1 group-title="央视" tvg-name="CCTV10" tvg-logo="https://im5k.fun/logo/CCTV10.png",CCTV10
+http://74.91.26.218:82/live/cctv10hd.m3u8
+#EXTINF:-1 group-title="央视" tvg-name="CCTV11" tvg-logo="https://im5k.fun/logo/CCTV11.png",CCTV11
+http://74.91.26.218:82/live/cctv11hd.m3u8
+#EXTINF:-1 group-title="央视" tvg-name="CCTV12" tvg-logo="https://im5k.fun/logo/CCTV12.png",CCTV12
+http://74.91.26.218:82/live/cctv12hd.m3u8
+#EXTINF:-1 group-title="央视" tvg-name="CCTV13" tvg-logo="https://im5k.fun/logo/CCTV13.png",CCTV13
+http://74.91.26.218:82/live/cctv13hd.m3u8
+#EXTINF:-1 group-title="央视" tvg-name="CCTV14" tvg-logo="https://im5k.fun/logo/CCTV14.png",CCTV14
+http://74.91.26.218:82/live/cctv14hd.m3u8
+#EXTINF:-1 group-title="央视" tvg-name="CCTV15" tvg-logo="https://im5k.fun/logo/CCTV15.png",CCTV15
+http://74.91.26.218:82/live/cctv15hd.m3u8
+#EXTINF:-1 group-title="央视" tvg-name="CCTV16" tvg-logo="https://im5k.fun/logo/CCTV16.png",CCTV16
+http://74.91.26.218:82/live/cctv16hd.m3u8
+#EXTINF:-1 group-title="央视" tvg-name="CCTV17" tvg-logo="https://im5k.fun/logo/CCTV17.png",CCTV17
+http://74.91.26.218:82/live/cctv17hd.m3u8
+#EXTINF:-1 group-title="央视" tvg-name="CCTV5+" tvg-logo="https://im5k.fun/logo/CCTV5+.png",CCTV5+
+http://74.91.26.218:82/live/cctv5p.m3u8
+#EXTINF:-1 group-title="卫视" tvg-name="湖南卫视" tvg-logo="https://im5k.fun/logo/湖南卫视.png",湖南卫视
+http://74.91.26.218:82/live/hnwshd.m3u8
+#EXTINF:-1 group-title="卫视" tvg-name="浙江卫视" tvg-logo="https://im5k.fun/logo/浙江卫视.png",浙江卫视
+http://74.91.26.218:82/live/zjwshd.m3u8
+#EXTINF:-1 group-title="卫视" tvg-name="江苏卫视" tvg-logo="https://im5k.fun/logo/江苏卫视.png",江苏卫视
+http://74.91.26.218:82/live/jswshd.m3u8
+#EXTINF:-1 group-title="卫视" tvg-name="东方卫视" tvg-logo="https://im5k.fun/logo/东方卫视.png",东方卫视
+http://74.91.26.218:82/live/dfwshd.m3u8
+#EXTINF:-1 group-title="卫视" tvg-name="广东卫视" tvg-logo="https://im5k.fun/logo/广东卫视.png",广东卫视
+http://74.91.26.218:82/live/gdwshd.m3u8
+#EXTINF:-1 group-title="卫视" tvg-name="深圳卫视" tvg-logo="https://im5k.fun/logo/深圳卫视.png",深圳卫视
+http://74.91.26.218:82/live/szwshd.m3u8
+#EXTINF:-1 group-title="卫视" tvg-name="南方卫视" tvg-logo="https://im5k.fun/logo/南方卫视.png",南方卫视
+http://74.91.26.218:82/live/nfws.m3u8
+#EXTINF:-1 group-title="广东" tvg-name="南方卫视" tvg-logo="https://im5k.fun/logo/南方卫视.png",南方卫视
+http://74.91.26.218:82/live/nfws.m3u8
+#EXTINF:-1 group-title="广东" tvg-name="广东新闻" tvg-logo="https://im5k.fun/logo/广东新闻.png",广东新闻
+http://74.91.26.218:82/live/gdxw.m3u8
+#EXTINF:-1 group-title="广东" tvg-name="广东珠江" tvg-logo="https://im5k.fun/logo/广东珠江.png",广东珠江
+http://74.91.26.218:82/live/gdzj.m3u8
+#EXTINF:-1 group-title="广东" tvg-name="广东体育" tvg-logo="https://im5k.fun/logo/广东体育.png",广东体育
+http://74.91.26.218:82/live/gdty.m3u8
+#EXTINF:-1 group-title="香港" tvg-name="翡翠台" tvg-logo="https://im5k.fun/logo/翡翠台.png",翡翠台
+http://74.91.26.218:82/live/jade.m3u8
+#EXTINF:-1 group-title="香港" tvg-name="无线新闻台" tvg-logo="https://im5k.fun/logo/无线新闻台.png",无线新闻台
+http://74.91.26.218:82/live/inews.m3u8
+#EXTINF:-1 group-title="香港" tvg-name="TVB Plus" tvg-logo="https://im5k.fun/logo/TVB Plus.png",TVB Plus
+http://74.91.26.218:82/live/j2.m3u8
+#EXTINF:-1 group-title="香港" tvg-name="TVB星河" tvg-logo="https://im5k.fun/logo/TVB星河.png",TVB星河
+http://74.91.26.218:82/live/tvbxh.m3u8
+#EXTINF:-1 group-title="香港" tvg-name="TVB千禧经典台" tvg-logo="https://im5k.fun/logo/TVB千禧经典台.png",TVB千禧经典台
+http://74.91.26.218:82/live/tvbjd.m3u8
+#EXTINF:-1 group-title="香港" tvg-name="NOW星影台" tvg-logo="https://im5k.fun/logo/NOW星影台.png",NOW星影台
+http://74.91.26.218:82/live/nowxy.m3u8
+#EXTINF:-1 group-title="香港" tvg-name="NOW爆谷台" tvg-logo="https://im5k.fun/logo/NOW爆谷台.png",NOW爆谷台
+http://74.91.26.218:82/live/nowbg.m3u8
+#EXTINF:-1 group-title="香港" tvg-name="美亚电影台" tvg-logo="https://im5k.fun/logo/美亚电影台.png",美亚电影台
+http://74.91.26.218:82/live/mydy.m3u8
+#EXTINF:-1 group-title="香港" tvg-name="天映频道" tvg-logo="https://im5k.fun/logo/天映频道.png",天映频道
+http://74.91.26.218:82/live/typd.m3u8
+#EXTINF:-1 group-title="香港" tvg-name="天映经典" tvg-logo="https://im5k.fun/logo/天映经典.png",天映经典
+http://74.91.26.218:82/live/tyjd.m3u8
+#EXTINF:-1 group-title="台湾" tvg-name="中视" tvg-logo="https://im5k.fun/logo/中视.png",中视
+http://74.91.26.218:82/live/ctv.m3u8
+#EXTINF:-1 group-title="台湾" tvg-name="中视新闻" tvg-logo="https://im5k.fun/logo/中视新闻.png",中视新闻
+http://74.91.26.218:82/live/ctvnews.m3u8
+#EXTINF:-1 group-title="台湾" tvg-name="中视经典" tvg-logo="https://im5k.fun/logo/中视经典.png",中视经典
+http://74.91.26.218:82/live/ctvjd.m3u8
+#EXTINF:-1 group-title="台湾" tvg-name="中视菁采" tvg-logo="https://im5k.fun/logo/中视菁采.png",中视菁采
+http://74.91.26.218:82/live/ctvjc.m3u8
+#EXTINF:-1 group-title="台湾" tvg-name="台视" tvg-logo="https://im5k.fun/logo/台视.png",台视
+http://74.91.26.218:82/live/ttv.m3u8
+#EXTINF:-1 group-title="台湾" tvg-name="台视新闻" tvg-logo="https://im5k.fun/logo/台视新闻.png",台视新闻
+http://74.91.26.218:82/live/ttvnews.m3u8
+#EXTINF:-1 group-title="台湾" tvg-name="台视综合" tvg-logo="https://im5k.fun/logo/台视综合.png",台视综合
+http://74.91.26.218:82/live/ttvzh.m3u8
+#EXTINF:-1 group-title="台湾" tvg-name="台视财经" tvg-logo="https://im5k.fun/logo/台视财经.png",台视财经
+http://74.91.26.218:82/live/ttvcj.m3u8
+#EXTINF:-1 group-title="台湾" tvg-name="华视" tvg-logo="https://im5k.fun/logo/华视.png",华视
+http://74.91.26.218:82/live/cts.m3u8
+#EXTINF:-1 group-title="台湾" tvg-name="华视新闻资讯" tvg-logo="https://im5k.fun/logo/华视新闻资讯.png",华视新闻资讯
+http://74.91.26.218:82/live/ctsnews.m3u8
+#EXTINF:-1 group-title="台湾" tvg-name="华视教育体育文化" tvg-logo="https://im5k.fun/logo/华视教育体育文化.png",华视教育体育文化
+http://74.91.26.218:82/live/ctsjy.m3u8
+#EXTINF:-1 group-title="台湾" tvg-name="民视" tvg-logo="https://im5k.fun/logo/民视.png",民视
+http://74.91.26.218:82/live/ftv.m3u8
+#EXTINF:-1 group-title="台湾" tvg-name="民视新闻台" tvg-logo="https://im5k.fun/logo/民视新闻台.png",民视新闻台
+http://74.91.26.218:82/live/ftvnews.m3u8
+#EXTINF:-1 group-title="台湾" tvg-name="民视台湾台" tvg-logo="https://im5k.fun/logo/民视台湾台.png",民视台湾台
+http://74.91.26.218:82/live/ftvtw.m3u8
+#EXTINF:-1 group-title="台湾" tvg-name="民视第一台" tvg-logo="https://im5k.fun/logo/民视第一台.png",民视第一台
+http://74.91.26.218:82/live/ftvdy.m3u8
+#EXTINF:-1 group-title="台湾" tvg-name="公视" tvg-logo="https://im5k.fun/logo/公视.png",公视
+http://74.91.26.218:82/live/pts.m3u8
+#EXTINF:-1 group-title="台湾" tvg-name="公视台语台" tvg-logo="https://im5k.fun/logo/公视台语台.png",公视台语台
+http://74.91.26.218:82/live/ptsty.m3u8
+#EXTINF:-1 group-title="台湾" tvg-name="小公视" tvg-logo="https://im5k.fun/logo/小公视.png",小公视
+http://74.91.26.218:82/live/ptsse.m3u8
