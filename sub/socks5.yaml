@@ -2,89 +2,152 @@ mode: global
 mixed-port: 7890
 
 proxies:
-  # 🇭🇰 香港阿里云
   - name: "🇭🇰 香港阿里云"
     type: socks5
     server: 47.57.244.4
     port: 10902
     
-  # 上海移动
+  - name: "🇭🇰 亚太节点"
+    type: socks5
+    server: 110.42.57.198
+    port: 1206
+  
+  - name: "🇭🇰 香港 Cyber Express"
+    type: socks5
+    server: 61.145.74.246
+    port: 53645
+  
+  - name: "🇺🇸 美国节点1"
+    type: socks5
+    server: 218.0.55.172
+    port: 20170
+  
+  - name: "🇺🇸 美国节点2"
+    type: socks5
+    server: 106.75.251.54
+    port: 47082
+  
+  - name: "🇸🇬 新加坡亚马逊"
+    type: socks5
+    server: 183.56.181.116
+    port: 2581
+  
+  - name: "🇭🇰 HK1"
+    type: socks5
+    server: 165.99.43.73
+    port: 8889
+  
+  - name: "🇭🇰 HK2"
+    type: socks5
+    server: 47.79.21.126
+    port: 40000
+  
+  - name: "🇭🇰 HK3"
+    type: socks5
+    server: 47.82.123.15
+    port: 50012
+  
+  - name: "🇭🇰 HK4"
+    type: socks5
+    server: 34.96.246.26
+    port: 2080
+  
+  - name: "🇭🇰 HK5"
+    type: socks5
+    server: 118.26.39.137
+    port: 8527
+  
+  - name: "🇿🇦 南非节点"
+    type: socks5
+    server: 101.237.34.76
+    port: 30711
+    
   - name: "🇨🇳 上海移动"
     type: socks5
     server: 223.112.8.106
     port: 17007
     
-  # 安徽移动
   - name: "🇨🇳 安徽移动"
     type: socks5
     server: 36.7.84.196
     port: 9664
     
-  # 四川移动
   - name: "🇨🇳 四川移动"
     type: socks5
     server: 36.133.69.144
     port: 9004
     
-  # 河南移动
   - name: "🇨🇳 河南移动"
     type: socks5
     server: 39.164.245.25
     port: 8085
     
-  # 浙江移动
   - name: "🇨🇳 浙江移动"
     type: socks5
     server: 112.16.79.24
     port: 65522
     
-  # 黑龙江移动1
   - name: "🇨🇳 黑龙江移动1"
     type: socks5
     server: 121.229.102.209
     port: 8091
     
-  # 黑龙江移动2
   - name: "🇨🇳 黑龙江移动2"
     type: socks5
     server: 111.42.183.124
     port: 2022
     
-  # 江苏移动1
   - name: "🇨🇳 江苏移动1"
     type: socks5
     server: 223.111.182.16
     port: 8066
 
-  # 江苏移动2
   - name: "🇨🇳 江苏移动2"
     type: socks5
     server: 36.150.108.231
     port: 10099
     
-  # 深圳移动
   - name: "🇨🇳 深圳移动"
     type: socks5
     server: 43.248.129.253
     port: 27001
     
-  # 四川联通
-  - name: "🇨🇳 四川联通"
-    type: socks5
-    server: 101.237.34.76
-    port: 30711
-    
-  # 湖南移动
   - name: "🇨🇳 湖南移动"
     type: socks5
     server: 120.226.180.139
     port: 8100
+  
+  - name: "🇨🇳 湖南电信"
+    type: socks5
+    server: 211.91.244.111
+    port: 31167
+  
+  - name: "🇨🇳 江苏电信"
+    type: socks5
+    server: 221.224.56.210
+    port: 10010
+  
+  - name: "🇨🇳 北京京东云"
+    type: socks5
+    server: 116.196.87.184
+    port: 7889
 
 proxy-groups:
   - name: PROXY
     type: select
     proxies:
       - 🇭🇰 香港阿里云
+      - 🇭🇰 亚太节点
+      - 🇭🇰 香港 Cyber Express
+      - 🇺🇸 美国节点1
+      - 🇺🇸 美国节点2
+      - 🇸🇬 新加坡亚马逊
+      - 🇭🇰 HK1
+      - 🇭🇰 HK2
+      - 🇭🇰 HK3
+      - 🇭🇰 HK4
+      - 🇭🇰 HK5
+      - 🇿🇦 南非节点
       - 🇨🇳 上海移动
       - 🇨🇳 安徽移动
       - 🇨🇳 四川移动
@@ -95,17 +158,16 @@ proxy-groups:
       - 🇨🇳 江苏移动1
       - 🇨🇳 江苏移动2
       - 🇨🇳 深圳移动
-      - 🇨🇳 四川联通
       - 🇨🇳 湖南移动
+      - 🇨🇳 湖南电信
+      - 🇨🇳 江苏电信
+      - 🇨🇳 北京京东云
       - DIRECT
 
 rules:
-  # 本地和局域网地址直连
   - DOMAIN-SUFFIX,local,DIRECT
   - IP-CIDR,127.0.0.0/8,DIRECT
   - IP-CIDR,172.16.0.0/12,DIRECT
   - IP-CIDR,192.168.0.0/16,DIRECT
   - IP-CIDR,10.0.0.0/8,DIRECT
-  
-  # 最终规则（必须放在最后）
   - MATCH,PROXY
