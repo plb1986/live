@@ -57,6 +57,149 @@
       }
     },
     {
+      "tag": "亚太节点",
+      "protocol": "socks",
+      "settings": {
+        "servers": [
+          {
+            "address": "110.42.57.198",
+            "port": 1206,
+            "users": []
+          }
+        ]
+      }
+    },
+    {
+      "tag": "香港 Cyber Express",
+      "protocol": "socks",
+      "settings": {
+        "servers": [
+          {
+            "address": "61.145.74.246",
+            "port": 53645,
+            "users": []
+          }
+        ]
+      }
+    },
+    {
+      "tag": "美国节点1",
+      "protocol": "socks",
+      "settings": {
+        "servers": [
+          {
+            "address": "218.0.55.172",
+            "port": 20170,
+            "users": []
+          }
+        ]
+      }
+    },
+    {
+      "tag": "美国节点2",
+      "protocol": "socks",
+      "settings": {
+        "servers": [
+          {
+            "address": "106.75.251.54",
+            "port": 47082,
+            "users": []
+          }
+        ]
+      }
+    },
+    {
+      "tag": "新加坡亚马逊",
+      "protocol": "socks",
+      "settings": {
+        "servers": [
+          {
+            "address": "183.56.181.116",
+            "port": 2581,
+            "users": []
+          }
+        ]
+      }
+    },
+    {
+      "tag": "HK1",
+      "protocol": "socks",
+      "settings": {
+        "servers": [
+          {
+            "address": "165.99.43.73",
+            "port": 8889,
+            "users": []
+          }
+        ]
+      }
+    },
+    {
+      "tag": "HK2",
+      "protocol": "socks",
+      "settings": {
+        "servers": [
+          {
+            "address": "47.79.21.126",
+            "port": 40000,
+            "users": []
+          }
+        ]
+      }
+    },
+    {
+      "tag": "HK3",
+      "protocol": "socks",
+      "settings": {
+        "servers": [
+          {
+            "address": "47.82.123.15",
+            "port": 50012,
+            "users": []
+          }
+        ]
+      }
+    },
+    {
+      "tag": "HK4",
+      "protocol": "socks",
+      "settings": {
+        "servers": [
+          {
+            "address": "34.96.246.26",
+            "port": 2080,
+            "users": []
+          }
+        ]
+      }
+    },
+    {
+      "tag": "HK5",
+      "protocol": "socks",
+      "settings": {
+        "servers": [
+          {
+            "address": "118.26.39.137",
+            "port": 8527,
+            "users": []
+          }
+        ]
+      }
+    },
+    {
+      "tag": "南非节点",
+      "protocol": "socks",
+      "settings": {
+        "servers": [
+          {
+            "address": "101.237.34.76",
+            "port": 30711,
+            "users": []
+          }
+        ]
+      }
+    },
+    {
       "tag": "上海移动",
       "protocol": "socks",
       "settings": {
@@ -187,19 +330,6 @@
       }
     },
     {
-      "tag": "四川联通",
-      "protocol": "socks",
-      "settings": {
-        "servers": [
-          {
-            "address": "101.237.34.76",
-            "port": 30711,
-            "users": []
-          }
-        ]
-      }
-    },
-    {
       "tag": "湖南移动",
       "protocol": "socks",
       "settings": {
@@ -207,6 +337,45 @@
           {
             "address": "120.226.180.139",
             "port": 8100,
+            "users": []
+          }
+        ]
+      }
+    },
+    {
+      "tag": "湖南电信",
+      "protocol": "socks",
+      "settings": {
+        "servers": [
+          {
+            "address": "211.91.244.111",
+            "port": 31167,
+            "users": []
+          }
+        ]
+      }
+    },
+    {
+      "tag": "江苏电信",
+      "protocol": "socks",
+      "settings": {
+        "servers": [
+          {
+            "address": "221.224.56.210",
+            "port": 10010,
+            "users": []
+          }
+        ]
+      }
+    },
+    {
+      "tag": "北京京东云",
+      "protocol": "socks",
+      "settings": {
+        "servers": [
+          {
+            "address": "116.196.87.184",
+            "port": 7889,
             "users": []
           }
         ]
@@ -265,6 +434,17 @@
         "tag": "load-balancer",
         "selector": [
           "香港阿里云",
+          "亚太节点",
+          "香港 Cyber Express",
+          "美国节点1",
+          "美国节点2",
+          "新加坡亚马逊",
+          "HK1",
+          "HK2",
+          "HK3",
+          "HK4",
+          "HK5",
+          "南非节点",
           "上海移动",
           "安徽移动",
           "四川移动",
@@ -275,8 +455,10 @@
           "江苏移动1",
           "江苏移动2",
           "深圳移动",
-          "四川联通",
-          "湖南移动"
+          "湖南移动",
+          "湖南电信",
+          "江苏电信",
+          "北京京东云"
         ]
       }
     ]
