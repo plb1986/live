@@ -13,7 +13,7 @@ http://im2k.fun/live/mytv.php?url=http://cdn6.veryfast.filegear-sg.me/live/tvbp/
 http://im2k.fun/live/mytv.php?url=http://cdn6.veryfast.filegear-sg.me/live/hoy/stream.m3u8
 #EXTINF:-1 group-title="MyTV" tvg-name="HOY77" tvg-logo="https://im5k.fun/logo/HOY77.png",HOY77
 http://im2k.fun/live/mytv.php?url=http://cdn.veryfast.filegear-sg.me/live/hoy/stream.m3u8
-#EXTINF:-1 group-title="MyTV" tvg-name="HOY剧集台" tvg-logo="https://im5k.fun/logo/HOY剧集台.png",HOY剧集台
+#EXTINF:-1 group-title="MyTV" tvg-name="HOY剧集台" tvg-logo="https://im5k.fun/logo/HOY73.png",HOY剧集台
 http://im2k.fun/live/mytv.php?url=http://cdn.veryfast.filegear-sg.me/live/hoyjj/stream.m3u8
 #EXTINF:-1 group-title="MyTV" tvg-name="VIUTV" tvg-logo="https://im5k.fun/logo/VIUTV.png",VIUTV
 http://im2k.fun/live/mytv.php?url=http://cdn.veryfast.filegear-sg.me/live/viu/stream.m3u8
