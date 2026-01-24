@@ -125,7 +125,7 @@ http://im2k.fun/live/mytv.php?url=http://smt.veryfast.filegear-sg.me/smt3.2.1.ph
 http://im2k.fun/live/mytv.php?url=http://smt.veryfast.filegear-sg.me/smt3.2.1.php?id=Huahee
 #EXTINF:-1 group-title="MyTV" tvg-name="八度空间" tvg-logo="https://im5k.fun/logo/八度空间.png",八度空间
 http://im2k.fun/live/mytv.php?url=http://smt.veryfast.filegear-sg.me/smt3.2.1.php?id=TV8
-#EXTINF:-1 group-title="MyTV" tvg-name="华丽翡翠" tvg-logo="https://im5k.fun/logo/华丽翡翠.png",华丽翡翠
+#EXTINF:-1 group-title="MyTV" tvg-name="华丽翡翠台" tvg-logo="https://im5k.fun/logo/华丽翡翠台.png",华丽翡翠台
 http://im2k.fun/live/mytv.php?url=http://v2h.veryfast.filegear-sg.me/live/hlfct/stream.m3u8
 #EXTINF:-1 group-title="MyTV" tvg-name="TVB亚洲武侠" tvg-logo="https://im5k.fun/logo/TVB亚洲武侠.png",TVB亚洲武侠
 http://im2k.fun/live/mytv.php?url=http://v2h.veryfast.filegear-sg.me/live/yzwx/stream.m3u8
@@ -143,8 +143,6 @@ http://im2k.fun/live/mytv.php?url=http://o12.veryfast.filegear-sg.me/hls/mzt/pla
 http://im2k.fun/live/mytv.php?url=http://cdn3.veryfast.filegear-sg.me/live/dycj/stream.m3u8
 #EXTINF:-1 group-title="MyTV" tvg-name="五星体育" tvg-logo="https://im5k.fun/logo/五星体育.png",五星体育
 http://im2k.fun/live/mytv.php?url=http://cdn3.veryfast.filegear-sg.me/live/wxty/stream.m3u8
-#EXTINF:-1 group-title="MyTV" tvg-name="海峡卫视" tvg-logo="https://im5k.fun/logo/海峡卫视.png",海峡卫视
-http://im2k.fun/live/mytv.php?url=http://cdn3.veryfast.filegear-sg.me/live/hxws/stream.m3u8
 #EXTINF:-1 group-title="MyTV" tvg-name="华丽翡翠台" tvg-logo="https://im5k.fun/logo/华丽翡翠台.png",华丽翡翠台
 http://im2k.fun/live/mytv.php?url=http://cdn9.veryfast.filegear-sg.me/live/jade/stream.m3u8
 #EXTINF:-1 group-title="MyTV" tvg-name="TVB星河" tvg-logo="https://im5k.fun/logo/TVB星河.png",TVB星河
@@ -165,7 +163,7 @@ http://im2k.fun/live/mytv.php?url=http://o11.163189.xyz/stream/live/aec/
 http://im2k.fun/live/mytv.php?url=http://o11.163189.xyz/stream/live/qj/
 #EXTINF:-1 group-title="MyTV" tvg-name="Astro欢喜台" tvg-logo="https://im5k.fun/logo/Astro欢喜台.png",Astro欢喜台
 http://im2k.fun/live/mytv.php?url=http://o11.163189.xyz/stream/live/hxt/
-#EXTINF:-1 group-title="MyTV" tvg-name="爱奇艺" tvg-logo="https://im5k.fun/logo/爱奇艺.png",爱奇艺
+#EXTINF:-1 group-title="MyTV" tvg-name="Astro爱奇艺" tvg-logo="https://im5k.fun/logo/Astro iQIYI.png",Astro爱奇艺
 http://im2k.fun/live/mytv.php?url=http://o11.163189.xyz/stream/live/iqiyi/
 #EXTINF:-1 group-title="MyTV" tvg-name="天映马来西亚" tvg-logo="https://im5k.fun/logo/天映频道.png",天映马来西亚
 http://im2k.fun/live/mytv.php?url=http://o11.163189.xyz/stream/live/typd/
