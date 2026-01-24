@@ -7,7 +7,7 @@ http://im2k.fun/live/mytv.php?url=http://cdn6.veryfast.filegear-sg.me/live/fhzw/
 http://im2k.fun/live/mytv.php?url=http://cdn6.veryfast.filegear-sg.me/live/fhzx/stream.m3u8
 #EXTINF:-1 group-title="MyTV" tvg-name="凤凰香港" tvg-logo="https://im5k.fun/logo/凤凰香港.png",凤凰香港
 http://im2k.fun/live/mytv.php?url=http://cdn6.veryfast.filegear-sg.me/live/fhhk/stream.m3u8
-#EXTINF:-1 group-title="MyTV" tvg-name="TVB PLUS" tvg-logo="https://im5k.fun/logo/TVB PLUS.png",TVB PLUS
+#EXTINF:-1 group-title="MyTV" tvg-name="TVB Plus" tvg-logo="https://im5k.fun/logo/TVB Plus.png",TVB Plus
 http://im2k.fun/live/mytv.php?url=http://cdn6.veryfast.filegear-sg.me/live/tvbp/stream.m3u8
 #EXTINF:-1 group-title="MyTV" tvg-name="HOY77" tvg-logo="https://im5k.fun/logo/HOY77.png",HOY77
 http://im2k.fun/live/mytv.php?url=http://cdn6.veryfast.filegear-sg.me/live/hoy/stream.m3u8
@@ -77,13 +77,13 @@ http://im2k.fun/live/mytv.php?url=http://cdn8.veryfast.filegear-sg.me/163189/lhy
 http://im2k.fun/live/mytv.php?url=http://smt.veryfast.filegear-sg.me/smt3.2.1.php?id=jade_twn
 #EXTINF:-1 group-title="MyTV" tvg-name="翡翠台" tvg-logo="https://im5k.fun/logo/翡翠台.png",翡翠台
 http://im2k.fun/live/mytv.php?url=http://smt.veryfast.filegear-sg.me/smt3.2.1.php?id=jade_xue
-#EXTINF:-1 group-title="MyTV" tvg-name="华丽翡翠" tvg-logo="https://im5k.fun/logo/华丽翡翠.png",华丽翡翠
+#EXTINF:-1 group-title="MyTV" tvg-name="华丽翡翠台" tvg-logo="https://im5k.fun/logo/华丽翡翠台.png",华丽翡翠台
 http://im2k.fun/live/mytv.php?url=http://smt.veryfast.filegear-sg.me/smt3.2.1.php?id=Tvbjade
 #EXTINF:-1 group-title="MyTV" tvg-name="明珠台" tvg-logo="https://im5k.fun/logo/明珠台.png",明珠台
 http://im2k.fun/live/mytv.php?url=http://smt.veryfast.filegear-sg.me/smt3.2.1.php?id=pearl_twn
 #EXTINF:-1 group-title="MyTV" tvg-name="无线新闻" tvg-logo="https://im5k.fun/logo/无线新闻.png",无线新闻
 http://im2k.fun/live/mytv.php?url=http://smt.veryfast.filegear-sg.me/smt3.2.1.php?id=inews_twn
-#EXTINF:-1 group-title="MyTV" tvg-name="TVB PLUS" tvg-logo="https://im5k.fun/logo/TVB PLUS.png",TVB PLUS
+#EXTINF:-1 group-title="MyTV" tvg-name="TVB Plus" tvg-logo="https://im5k.fun/logo/TVB Plus.png",TVB Plus
 http://im2k.fun/live/mytv.php?url=http://smt.veryfast.filegear-sg.me/smt3.2.1.php?id=j2_twn
 #EXTINF:-1 group-title="MyTV" tvg-name="TVB星河" tvg-logo="https://im5k.fun/logo/TVB星河.png",TVB星河
 http://im2k.fun/live/mytv.php?url=http://smt.veryfast.filegear-sg.me/smt3.2.1.php?id=Xinhe
@@ -109,7 +109,7 @@ http://im2k.fun/live/mytv.php?url=http://smt.veryfast.filegear-sg.me/smt3.2.1.ph
 http://im2k.fun/live/mytv.php?url=http://smt.veryfast.filegear-sg.me/smt3.2.1.php?id=hkphoenix_twn
 #EXTINF:-1 group-title="MyTV" tvg-name="美亚电影" tvg-logo="https://im5k.fun/logo/美亚电影.png",美亚电影
 http://im2k.fun/live/mytv.php?url=http://smt.veryfast.filegear-sg.me/smt3.2.1.php?id=meiyamovie_twn
-#EXTINF:-1 group-title="MyTV" tvg-name="天映马来西亚" tvg-logo="https://im5k.fun/logo/天映马来西亚.png",天映马来西亚
+#EXTINF:-1 group-title="MyTV" tvg-name="天映马来西亚" tvg-logo="https://im5k.fun/logo/天映频道.png",天映马来西亚
 http://im2k.fun/live/mytv.php?url=http://smt.veryfast.filegear-sg.me/smt3.2.1.php?id=Celestial
 #EXTINF:-1 group-title="MyTV" tvg-name="天映经典" tvg-logo="https://im5k.fun/logo/天映经典.png",天映经典
 http://im2k.fun/live/mytv.php?url=http://smt.veryfast.filegear-sg.me/smt3.2.1.php?id=Celestial2
@@ -167,7 +167,7 @@ http://im2k.fun/live/mytv.php?url=http://o11.163189.xyz/stream/live/qj/
 http://im2k.fun/live/mytv.php?url=http://o11.163189.xyz/stream/live/hxt/
 #EXTINF:-1 group-title="MyTV" tvg-name="爱奇艺" tvg-logo="https://im5k.fun/logo/爱奇艺.png",爱奇艺
 http://im2k.fun/live/mytv.php?url=http://o11.163189.xyz/stream/live/iqiyi/
-#EXTINF:-1 group-title="MyTV" tvg-name="天映马来西亚" tvg-logo="https://im5k.fun/logo/天映马来西亚.png",天映马来西亚
+#EXTINF:-1 group-title="MyTV" tvg-name="天映马来西亚" tvg-logo="https://im5k.fun/logo/天映频道.png",天映马来西亚
 http://im2k.fun/live/mytv.php?url=http://o11.163189.xyz/stream/live/typd/
 #EXTINF:-1 group-title="MyTV" tvg-name="天映经典" tvg-logo="https://im5k.fun/logo/天映经典.png",天映经典
 http://im2k.fun/live/mytv.php?url=http://o11.163189.xyz/stream/live/ccm/
@@ -179,7 +179,7 @@ http://im2k.fun/live/mytv.php?url=http://o11.163189.xyz/stream/live/tvbc/
 http://im2k.fun/live/mytv.php?url=http://o11.163189.xyz/stream/tvb/fct4k/
 #EXTINF:-1 group-title="MyTV" tvg-name="翡翠台" tvg-logo="https://im5k.fun/logo/翡翠台.png",翡翠台
 http://im2k.fun/live/mytv.php?url=http://o11.163189.xyz/stream/tvb/fct/
-#EXTINF:-1 group-title="MyTV" tvg-name="TVB PLUS" tvg-logo="https://im5k.fun/logo/TVB PLUS.png",TVB PLUS
+#EXTINF:-1 group-title="MyTV" tvg-name="TVB Plus" tvg-logo="https://im5k.fun/logo/TVB Plus.png",TVB Plus
 http://im2k.fun/live/mytv.php?url=http://o11.163189.xyz/stream/tvb/tvbp/
 #EXTINF:-1 group-title="MyTV" tvg-name="明珠台" tvg-logo="https://im5k.fun/logo/明珠台.png",明珠台
 http://im2k.fun/live/mytv.php?url=http://o11.163189.xyz/stream/tvb/mzt/
