@@ -93,7 +93,7 @@ http://im2k.fun/live/mytv.php?url=http://smt.veryfast.filegear-sg.me/smt3.2.1.ph
 http://im2k.fun/live/mytv.php?url=http://smt.veryfast.filegear-sg.me/smt3.2.1.php?id=Tvbentertainment
 #EXTINF:-1 group-title="MyTV" tvg-name="VIUTV" tvg-logo="https://im5k.fun/logo/VIUTV.png",VIUTV
 http://im2k.fun/live/mytv.php?url=http://smt.veryfast.filegear-sg.me/smt3.2.1.php?id=viu1_twn
-#EXTINF:-1 group-title="MyTV" tvg-name="ViuTVSix" tvg-logo="https://im5k.fun/logo/ViuTVSix.png",ViuTVSix
+#EXTINF:-1 group-title="MyTV" tvg-name="ViuTVSix" tvg-logo="https://im5k.fun/logo/ViuTV6.png",ViuTVSix
 http://im2k.fun/live/mytv.php?url=http://smt.veryfast.filegear-sg.me/smt3.2.1.php?id=viusix_twn
 #EXTINF:-1 group-title="MyTV" tvg-name="HOY78" tvg-logo="https://im5k.fun/logo/HOY78.png",HOY78
 http://im2k.fun/live/mytv.php?url=http://smt.veryfast.filegear-sg.me/smt3.2.1.php?id=hoycaijing_twn
@@ -163,7 +163,7 @@ http://im2k.fun/live/mytv.php?url=http://o11.163189.xyz/stream/live/aec/
 http://im2k.fun/live/mytv.php?url=http://o11.163189.xyz/stream/live/qj/
 #EXTINF:-1 group-title="MyTV" tvg-name="Astro欢喜台" tvg-logo="https://im5k.fun/logo/Astro欢喜台.png",Astro欢喜台
 http://im2k.fun/live/mytv.php?url=http://o11.163189.xyz/stream/live/hxt/
-#EXTINF:-1 group-title="MyTV" tvg-name="Astro爱奇艺" tvg-logo="https://im5k.fun/logo/Astro iQIYI.png",Astro爱奇艺
+#EXTINF:-1 group-title="MyTV" tvg-name="Astro爱奇艺" tvg-logo="https://im5k.fun/logo/爱奇艺.png",Astro爱奇艺
 http://im2k.fun/live/mytv.php?url=http://o11.163189.xyz/stream/live/iqiyi/
 #EXTINF:-1 group-title="MyTV" tvg-name="天映马来西亚" tvg-logo="https://im5k.fun/logo/天映频道.png",天映马来西亚
 http://im2k.fun/live/mytv.php?url=http://o11.163189.xyz/stream/live/typd/
