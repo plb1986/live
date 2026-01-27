@@ -63,11 +63,11 @@ http://119.233.188.239:4022/udp/237.2.1.121:1234
 http://119.233.188.239:4022/udp/237.2.1.17:1234
 #EXTINF:-1 group-title="央视" tvg-name="CGTN纪录" tvg-logo="https://im5k.fun/logo/CGTN纪录.png",CGTN纪录
 http://119.233.188.239:4022/udp/237.2.1.6:1234
-#EXTINF:-1 group-title="央视" tvg-name="CGTN西班牙语" tvg-logo="https://im5k.fun/logo/CGTN西班牙语.png",CGTN西班牙语
+#EXTINF:-1 group-title="央视" tvg-name="CGTN西语" tvg-logo="https://im5k.fun/logo/CGTN西语.png",CGTN西语
 http://119.233.188.239:4022/udp/237.2.1.48:1234
 #EXTINF:-1 group-title="央视" tvg-name="CGTN法语" tvg-logo="https://im5k.fun/logo/CGTN法语.png",CGTN法语
 http://119.233.188.239:4022/udp/237.2.1.25:1234
-#EXTINF:-1 group-title="央视" tvg-name="CGTN阿拉伯语" tvg-logo="https://im5k.fun/logo/CGTN阿拉伯语.png",CGTN阿拉伯语
+#EXTINF:-1 group-title="央视" tvg-name="CGTN阿语" tvg-logo="https://im5k.fun/logo/CGTN阿语.png",CGTN阿语
 http://119.233.188.239:4022/udp/237.2.1.7:1234
 #EXTINF:-1 group-title="央视" tvg-name="CETV1" tvg-logo="https://im5k.fun/logo/CETV1.png",CETV1
 http://119.233.188.239:4022/udp/237.2.1.42:1234
