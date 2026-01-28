@@ -215,6 +215,22 @@ https://im6k.fun/stream/cetv2.m3u8
 https://im6k.fun/stream/cetv4.m3u8
 #EXTINF:-1 group-title="其它" tvg-name="山东教育卫视" tvg-logo="https://im5k.fun/logo/山东教育卫视.png",山东教育卫视
 https://im6k.fun/stream/sdjy.m3u8
+#EXTINF:-1 group-title="其它" tvg-name="最强综艺趴" tvg-logo="https://im5k.fun/logo/最强综艺趴.png",最强综艺趴
+https://im6k.fun/stream/zqzyz.m3u8
+#EXTINF:-1 group-title="其它" tvg-name="嘉佳卡通" tvg-logo="https://im5k.fun/logo/嘉佳卡通.png",嘉佳卡通
+https://im6k.fun/stream/jjkt.m3u8
+#EXTINF:-1 group-title="其它" tvg-name="经典动画大集合" tvg-logo="https://im5k.fun/logo/经典动画大集合.png",经典动画大集合
+https://im6k.fun/stream/jddhdjh.m3u8
+#EXTINF:-1 group-title="其它" tvg-name="新动漫" tvg-logo="https://im5k.fun/logo/新动漫.png",新动漫
+https://im6k.fun/stream/xdm.m3u8
+#EXTINF:-1 group-title="其它" tvg-name="新动力量创一流" tvg-logo="https://im5k.fun/logo/新动力量创一流.png",新动力量创一流
+https://im6k.fun/stream/xdllcyl.m3u8
+#EXTINF:-1 group-title="其它" tvg-name="中华特产" tvg-logo="https://im5k.fun/logo/中华特产.png",中华特产
+https://im6k.fun/stream/zhtc.m3u8
+#EXTINF:-1 group-title="其它" tvg-name="环球旅游" tvg-logo="https://im5k.fun/logo/环球旅游.png",环球旅游
+https://im6k.fun/stream/hqly.m3u8
+#EXTINF:-1 group-title="其它" tvg-name="茶" tvg-logo="https://im5k.fun/logo/茶.png",茶
+https://im6k.fun/stream/cha.m3u8
 #EXTINF:-1 group-title="其它" tvg-name="熊猫频道01高清" tvg-logo="https://im5k.fun/logo/熊猫频道01高清.png",熊猫频道01高清
 https://im6k.fun/stream/xm01hd.m3u8
 #EXTINF:-1 group-title="其它" tvg-name="熊猫频道1" tvg-logo="https://im5k.fun/logo/熊猫频道1.png",熊猫频道1
@@ -237,19 +253,3 @@ https://im6k.fun/stream/xm8.m3u8
 https://im6k.fun/stream/xm9.m3u8
 #EXTINF:-1 group-title="其它" tvg-name="熊猫频道10" tvg-logo="https://im5k.fun/logo/熊猫频道10.png",熊猫频道10
 https://im6k.fun/stream/xm10.m3u8
-#EXTINF:-1 group-title="其它" tvg-name="最强综艺趴" tvg-logo="https://im5k.fun/logo/最强综艺趴.png",最强综艺趴
-https://im6k.fun/stream/zqzyz.m3u8
-#EXTINF:-1 group-title="其它" tvg-name="嘉佳卡通" tvg-logo="https://im5k.fun/logo/嘉佳卡通.png",嘉佳卡通
-https://im6k.fun/stream/jjkt.m3u8
-#EXTINF:-1 group-title="其它" tvg-name="经典动画大集合" tvg-logo="https://im5k.fun/logo/经典动画大集合.png",经典动画大集合
-https://im6k.fun/stream/jddhdjh.m3u8
-#EXTINF:-1 group-title="其它" tvg-name="新动漫" tvg-logo="https://im5k.fun/logo/新动漫.png",新动漫
-https://im6k.fun/stream/xdm.m3u8
-#EXTINF:-1 group-title="其它" tvg-name="新动力量创一流" tvg-logo="https://im5k.fun/logo/新动力量创一流.png",新动力量创一流
-https://im6k.fun/stream/xdllcyl.m3u8
-#EXTINF:-1 group-title="其它" tvg-name="中华特产" tvg-logo="https://im5k.fun/logo/中华特产.png",中华特产
-https://im6k.fun/stream/zhtc.m3u8
-#EXTINF:-1 group-title="其它" tvg-name="环球旅游" tvg-logo="https://im5k.fun/logo/环球旅游.png",环球旅游
-https://im6k.fun/stream/hqly.m3u8
-#EXTINF:-1 group-title="其它" tvg-name="茶" tvg-logo="https://im5k.fun/logo/茶.png",茶
-https://im6k.fun/stream/cha.m3u8
