@@ -285,7 +285,7 @@ https://im6k.fun/stream/dtgg.m3u8
 https://im6k.fun/stream/dtsh.m3u8
 #EXTINF:-1 tvg-name="JJ斗地主" tvg-logo="https://im5k.fun/logo/JJ斗地主.png" group-title="电竞" ,JJ斗地主
 https://ott.im5k.fun/douyin/rid/685317364746
-#EXTINF:-1 tvg-name="JJ斗地主" tvg-logo="https://im5k.fun/logo/JJ斗地主.png" group-title="电竞" ,JJ斗地主副房间
+#EXTINF:-1 tvg-name="JJ斗地主副房间" tvg-logo="https://im5k.fun/logo/JJ斗地主.png" group-title="电竞" ,JJ斗地主副房间
 https://ott.im5k.fun/douyin/rid/313118614727
 #EXTINF:-1 tvg-name="JJ高源" tvg-logo="https://im5k.fun/logo/JJ高源.png" group-title="电竞" ,JJ高源
 https://ott.im5k.fun/douyin/rid/418255309895
@@ -299,6 +299,7 @@ https://ott.im5k.fun/douyin/rid/167727601199
 https://ott.im5k.fun/douyin/rid/264013663698
 #EXTINF:-1 tvg-name="TRY导师" tvg-logo="https://im5k.fun/logo/TRY导师.png" group-title="电竞" ,TRY导师
 https://ott.im5k.fun/douyin/rid/48656747725
+
 
 
 
