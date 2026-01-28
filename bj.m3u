@@ -110,7 +110,7 @@ http://ispy.site:40221/rtp/239.3.1.240:8172
 http://ispy.site:40221/rtp/239.3.1.211:8064
 #EXTINF:-1 tvg-name="山东卫视" tvg-logo="https://im5k.fun/logo/山东卫视.png" group-title="卫视" ,山东卫视
 http://ispy.site:40221/rtp/239.3.1.209:8052
-#EXTINF:-1 tvg-name="山东教育卫视" tvg-logo="https://im5k.fun/logo/山东教育卫视.png" group-title="卫视" ,山东教育卫视
+#EXTINF:-1 tvg-name="山东教育" tvg-logo="https://im5k.fun/logo/山东教育.png" group-title="卫视" ,山东教育
 http://ispy.site:40221/rtp/239.3.1.52:4120
 #EXTINF:-1 tvg-name="广东卫视" tvg-logo="https://im5k.fun/logo/广东卫视.png" group-title="卫视" ,广东卫视
 http://ispy.site:40221/rtp/239.3.1.142:8048
