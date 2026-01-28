@@ -70,8 +70,6 @@ http://119.233.188.239:4022/udp/237.2.1.25:1234
 #EXTINF:-1 group-title="央视" tvg-name="CGTN阿语" tvg-logo="https://im5k.fun/logo/CGTN阿语.png",CGTN阿语
 http://119.233.188.239:4022/udp/237.2.1.7:1234
 #EXTINF:-1 group-title="央视" tvg-name="CETV1" tvg-logo="https://im5k.fun/logo/CETV1.png",CETV1
-http://119.233.188.239:4022/udp/237.2.1.42:1234
-#EXTINF:-1 group-title="央视" tvg-name="CETV1" tvg-logo="https://im5k.fun/logo/CETV1.png",CETV1
 http://119.233.188.239:4022/udp/237.2.1.81:1234
 #EXTINF:-1 group-title="央视" tvg-name="CETV2" tvg-logo="https://im5k.fun/logo/CETV2.png",CETV2
 http://119.233.188.239:4022/udp/237.2.1.45:1234
@@ -153,7 +151,10 @@ http://119.233.188.239:4022/udp/237.2.1.12:1234
 #EXTINF:-1 group-title="卫视" tvg-name="金鹰卡通" tvg-logo="https://im5k.fun/logo/金鹰卡通.png",金鹰卡通
 http://119.233.188.239:4022/udp/237.2.1.128:1234
 #EXTINF:-1 group-title="卫视" tvg-name="海峡卫视" tvg-logo="https://im5k.fun/logo/海峡卫视.png",海峡卫视
-http://119.233.188.239:4022/udp/237.2.2.5:1234
+http://119.233.188.239:4022/udp/237.2.1.72:1234
+#EXTINF:-1 group-title="卫视" tvg-name="厦门卫视" tvg-logo="https://im5k.fun/logo/厦门卫视.png",厦门卫视
+http://119.233.188.239:4022/udp/237.2.1.161:1234
+
 #EXTINF:-1 group-title="付费" tvg-name="CHC动作电影" tvg-logo="https://im5k.fun/logo/CHC动作电影.png",CHC动作电影
 http://119.233.188.239:4022/udp/237.2.1.110:1234
 #EXTINF:-1 group-title="付费" tvg-name="CHC家庭影院" tvg-logo="https://im5k.fun/logo/CHC家庭影院.png",CHC家庭影院
@@ -182,11 +183,11 @@ http://119.233.188.239:4022/udp/237.2.1.124:1234
 http://119.233.188.239:4022/udp/237.2.1.101:1234
 #EXTINF:-1 group-title="付费" tvg-name="发现之旅" tvg-logo="https://im5k.fun/logo/发现之旅.png",发现之旅
 http://119.233.188.239:4022/udp/237.2.1.37:1234
-#EXTINF:-1 group-title="付费" tvg-name="国学频道" tvg-logo="https://im5k.fun/logo/国学频道.png",国学频道
+#EXTINF:-1 group-title="付费" tvg-name="国学" tvg-logo="https://im5k.fun/logo/国学.png",国学
 http://119.233.188.239:4022/udp/237.2.1.52:1234
 #EXTINF:-1 group-title="付费" tvg-name="天元围棋" tvg-logo="https://im5k.fun/logo/天元围棋.png",天元围棋
 http://119.233.188.239:4022/udp/237.2.1.8:1234
-#EXTINF:-1 group-title="付费" tvg-name="书画频道" tvg-logo="https://im5k.fun/logo/书画频道.png",书画频道
+#EXTINF:-1 group-title="付费" tvg-name="书画" tvg-logo="https://im5k.fun/logo/书画.png",书画
 http://119.233.188.239:4022/udp/237.2.1.38:1234
 #EXTINF:-1 group-title="付费" tvg-name="梨园频道" tvg-logo="https://im5k.fun/logo/梨园频道.png",梨园频道
 http://119.233.188.239:4022/udp/237.2.1.39:1234
@@ -246,8 +247,6 @@ http://119.233.188.239:4022/udp/237.2.1.74:1234
 http://119.233.188.239:4022/udp/237.2.1.71:1234
 #EXTINF:-1 group-title="福建" tvg-name="东南卫视" tvg-logo="https://im5k.fun/logo/东南卫视.png",东南卫视
 http://119.233.188.239:4022/udp/237.2.2.4:1234
-#EXTINF:-1 group-title="福建" tvg-name="海峡卫视" tvg-logo="https://im5k.fun/logo/海峡卫视.png",海峡卫视
-http://119.233.188.239:4022/udp/237.2.1.72:1234
 #EXTINF:-1 group-title="福建" tvg-name="福州-1" tvg-logo="https://im5k.fun/logo/福州-1.png",福州-1
 http://119.233.188.239:4022/udp/237.2.1.73:1234
 #EXTINF:-1 group-title="福建" tvg-name="福州-1" tvg-logo="https://im5k.fun/logo/福州-1.png",福州-1
@@ -280,10 +279,6 @@ http://119.233.188.239:4022/udp/237.2.1.158:1234
 http://119.233.188.239:4022/udp/237.2.1.159:1234
 #EXTINF:-1 group-title="福建" tvg-name="厦门-3" tvg-logo="https://im5k.fun/logo/厦门-3.png",厦门-3
 http://119.233.188.239:4022/udp/237.2.1.160:1234
-#EXTINF:-1 group-title="福建" tvg-name="厦门卫视" tvg-logo="https://im5k.fun/logo/厦门卫视.png",厦门卫视
-http://119.233.188.239:4022/udp/237.2.1.161:1234
-#EXTINF:-1 group-title="福建" tvg-name="厦门卫视" tvg-logo="https://im5k.fun/logo/厦门卫视.png",厦门卫视
-http://119.233.188.239:4022/udp/237.2.2.2:1234
 #EXTINF:-1 group-title="福建" tvg-name="同安电视台" tvg-logo="https://im5k.fun/logo/同安电视台.png",同安电视台
 http://119.233.188.239:4022/udp/237.2.1.162:1234
 #EXTINF:-1 group-title="福建" tvg-name="集美电视台" tvg-logo="https://im5k.fun/logo/集美电视台.png",集美电视台
