@@ -1,4 +1,4 @@
-#EXTM3U
+#EXTM3U x-tvg-url="https://vip.erw.cc/e.xml?k=KQj5HcrSdpiPNGIm"
 #EXTINF:-1 tvg-name="CCTV4K" tvg-logo="https://im5k.fun/logo/CCTV4K.png" group-title="4 K" ,CCTV4K
 https://im2k.fun/play/cctv4k
 #EXTINF:-1 tvg-name="北京卫视" tvg-logo="https://im5k.fun/logo/北京卫视4K.png" group-title="4 K",北京卫视4K
@@ -295,6 +295,7 @@ https://im6k.fun/stream/jjaj.m3u8
 https://im6k.fun/stream/jjjk.m3u8
 #EXTINF:-1 tvg-name="TRY导师" tvg-logo="https://im5k.fun/logo/TRY导师.png" group-title="电竞" ,TRY导师
 https://im6k.fun/stream/tryds.m3u8
+
 
 
 
