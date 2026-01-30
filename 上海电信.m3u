@@ -1,4 +1,4 @@
-#EXTM3U x-tvg-url="https://epg.im5k.fun/pp.xml"
+#EXTM3U
 #由于4K频道太吃资源，今后不在提供4K频道
 ##EXTINF:-1 group-title="4 K" tvg-name="CCTV4K" tvg-logo="https://im5k.fun/logo/CCTV4K.png" ,CCTV4K
 #rtp://239.45.0.55:5140
