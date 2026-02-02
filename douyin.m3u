@@ -1,20 +1,36 @@
 #EXTM3U 
-#EXTINF:-1 tvg-name="JJ斗地主" tvg-logo="https://im5k.fun/logo/JJ斗地主.png" group-title="『电✬竞』" ,JJ斗地主
+#EXTINF:-1 tvg-name="JJ斗地主" tvg-logo="https://im5k.fun/logo/JJ斗地主.png" group-title="电竞" ,JJ斗地主
 https://ott.im5k.fun/douyin/rid/685317364746
-#EXTINF:-1 tvg-name="JJ斗地主" tvg-logo="https://im5k.fun/logo/JJ斗地主.png" group-title="『电✬竞』" ,JJ斗地主副房间
+#EXTINF:-1 tvg-name="JJ斗地主" tvg-logo="https://im5k.fun/logo/JJ斗地主.png" group-title="电竞" ,JJ斗地主副房间
 https://ott.im5k.fun/douyin/rid/313118614727
-#EXTINF:-1 tvg-name="JJ高源" tvg-logo="https://im5k.fun/logo/JJ高源.png" group-title="『电✬竞』" ,JJ高源
+#EXTINF:-1 tvg-name="JJ高源" tvg-logo="https://im5k.fun/logo/JJ高源.png" group-title="电竞" ,JJ高源
 https://ott.im5k.fun/douyin/rid/418255309895
-#EXTINF:-1 tvg-name="JJ张浩" tvg-logo="https://im5k.fun/logo/JJ张浩.png" group-title="『电✬竞』" ,JJ张浩
+#EXTINF:-1 tvg-name="JJ张浩" tvg-logo="https://im5k.fun/logo/JJ张浩.png" group-title="电竞" ,JJ张浩
 https://ott.im5k.fun/douyin/rid/883578924004
-#EXTINF:-1 tvg-name="JJ阿酒" tvg-logo="https://im5k.fun/logo/JJ阿酒.png" group-title="『电✬竞』" ,JJ阿酒
+#EXTINF:-1 tvg-name="JJ阿酒" tvg-logo="https://im5k.fun/logo/JJ阿酒.png" group-title="电竞" ,JJ阿酒
 https://ott.im5k.fun/douyin/rid/341276812062
-#EXTINF:-1 tvg-name="JJ掘开" tvg-logo="https://im5k.fun/logo/JJ掘开.png" group-title="『电✬竞』" ,JJ掘开
+#EXTINF:-1 tvg-name="JJ掘开" tvg-logo="https://im5k.fun/logo/JJ掘开.png" group-title="电竞" ,JJ掘开
 https://ott.im5k.fun/douyin/rid/167727601199
-#EXTINF:-1 tvg-name="JJ飞鸟" tvg-logo="https://im5k.fun/logo/JJ飞鸟.png" group-title="『电✬竞』" ,JJ飞鸟
+#EXTINF:-1 tvg-name="JJ飞鸟" tvg-logo="https://im5k.fun/logo/JJ飞鸟.png" group-title="电竞" ,JJ飞鸟
 https://ott.im5k.fun/douyin/rid/264013663698
-#EXTINF:-1 tvg-name="TRY导师" tvg-logo="https://im5k.fun/logo/TRY导师.png" group-title="『电✬竞』" ,TRY导师
+#EXTINF:-1 tvg-name="TRY导师" tvg-logo="https://im5k.fun/logo/TRY导师.png" group-title="电竞" ,TRY导师
 https://ott.im5k.fun/douyin/rid/48656747725
+
+#EXTINF:-1 tvg-name="JJ斗地主" tvg-logo="https://im9k.fun/logo/JJ斗地主.png" group-title="电竞" ,JJ斗地主
+https://ott.im9k.fun/douyin/rid/685317364746
+#EXTINF:-1 tvg-name="JJ斗地主副房间" tvg-logo="https://im9k.fun/logo/JJ斗地主.png" group-title="电竞" ,JJ斗地主副房间
+https://ott.im9k.fun/douyin/rid/313118614727
+#EXTINF:-1 tvg-name="JJ高源" tvg-logo="https://im9k.fun/logo/JJ高源.png" group-title="电竞" ,JJ高源
+https://ott.im9k.fun/douyin/rid/418255309895
+#EXTINF:-1 tvg-name="JJ张浩" tvg-logo="https://im9k.fun/logo/JJ张浩.png" group-title="电竞" ,JJ张浩
+https://ott.im9k.fun/douyin/rid/883578924004
+#EXTINF:-1 tvg-name="JJ阿酒" tvg-logo="https://im9k.fun/logo/JJ阿酒.png" group-title="电竞" ,JJ阿酒
+https://ott.im9k.fun/douyin/rid/341276812062
+#EXTINF:-1 tvg-name="JJ掘开" tvg-logo="https://im9k.fun/logo/JJ掘开.png" group-title="电竞" ,JJ掘开
+https://ott.im9k.fun/douyin/rid/167727601199
+#EXTINF:-1 tvg-name="JJ飞鸟" tvg-logo="https://im9k.fun/logo/JJ飞鸟.png" group-title="电竞" ,JJ飞鸟
+https://ott.im9k.fun/douyin/rid/264013663698
+
 
 
 
