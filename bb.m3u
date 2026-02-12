@@ -1,0 +1,81 @@
+#EXTM3U
+#EXTINF:-1 tvg-name="CCTV1" tvg-logo="https://im5k.fun/logo/CCTV1.png",CCTV1
+http://dvb1002.8866.org:61818/play/a00c/index.m3u8
+#EXTINF:-1 tvg-name="CCTV2" tvg-logo="https://im5k.fun/logo/CCTV2.png",CCTV2
+http://dvb1002.8866.org:61818/play/a00d/index.m3u8
+#EXTINF:-1 tvg-name="CCTV3" tvg-logo="https://im5k.fun/logo/CCTV3.png",CCTV3
+http://dvb1002.8866.org:61818/play/a01e/index.m3u8
+#EXTINF:-1 tvg-name="CCTV4" tvg-logo="https://im5k.fun/logo/CCTV4.png",CCTV4
+http://dvb1002.8866.org:61818/play/a01f/index.m3u8
+#EXTINF:-1 tvg-name="CCTV5" tvg-logo="https://im5k.fun/logo/CCTV5.png",CCTV5
+http://dvb1002.8866.org:61818/play/a00e/index.m3u8
+#EXTINF:-1 tvg-name="CCTV5+" tvg-logo="https://im5k.fun/logo/CCTV5+.png",CCTV5+
+http://dvb1002.8866.org:61818/play/a00h/index.m3u8
+#EXTINF:-1 tvg-name="CCTV6" tvg-logo="https://im5k.fun/logo/CCTV6.png",CCTV6
+http://dvb1002.8866.org:61818/play/a00f/index.m3u8
+#EXTINF:-1 tvg-name="CCTV8" tvg-logo="https://im5k.fun/logo/CCTV8.png",CCTV8
+http://dvb1002.8866.org:61818/play/a01g/index.m3u8
+#EXTINF:-1 tvg-name="CCTV9" tvg-logo="https://im5k.fun/logo/CCTV9.png",CCTV9
+http://dvb1002.8866.org:61818/play/a00g/index.m3u8
+#EXTINF:-1 tvg-name="CCTV12" tvg-logo="https://im5k.fun/logo/CCTV12.png",CCTV12
+http://dvb1002.8866.org:61818/play/a01a/index.m3u8
+#EXTINF:-1 tvg-name="CCTV13" tvg-logo="https://im5k.fun/logo/CCTV13.png",CCTV13
+http://dvb1002.8866.org:61818/play/a018/index.m3u8
+#EXTINF:-1 tvg-name="CNBC" tvg-logo="https://im5k.fun/logo/CNBC.png",CNBC
+http://dvb1002.8866.org:61818/play/a023/index.m3u8
+#EXTINF:-1 tvg-name="CNN" tvg-logo="https://im5k.fun/logo/CNN.png",CNN
+http://dvb1002.8866.org:61818/play/a020/index.m3u8
+#EXTINF:-1 tvg-name="HBO" tvg-logo="https://im5k.fun/logo/HBO.png",HBO
+http://dvb1002.8866.org:61818/play/a021/index.m3u8
+#EXTINF:-1 tvg-name="NGC" tvg-logo="https://im5k.fun/logo/NGC.png",NGC
+http://dvb1002.8866.org:61818/play/a024/index.m3u8
+#EXTINF:-1 tvg-name="NHK" tvg-logo="https://im5k.fun/logo/NHK.png",NHK
+http://dvb1002.8866.org:61818/play/a025/index.m3u8
+#EXTINF:-1 tvg-name="STAR1" tvg-logo="https://im5k.fun/logo/STAR1.png",STAR1
+http://dvb1002.8866.org:61818/play/a027/index.m3u8
+#EXTINF:-1 tvg-name="STARS" tvg-logo="https://im5k.fun/logo/STARS.png",STARS
+http://dvb1002.8866.org:61818/play/a01z/index.m3u8
+#EXTINF:-1 tvg-name="TV5" tvg-logo="https://im5k.fun/logo/TV5.png",TV5
+http://dvb1002.8866.org:61818/play/a00t/index.m3u8
+#EXTINF:-1 tvg-name="XINGK" tvg-logo="https://im5k.fun/logo/XINGK.png",XINGK
+http://dvb1002.8866.org:61818/play/a00v/index.m3u8
+#EXTINF:-1 tvg-name="[V]" tvg-logo="https://im5k.fun/logo/[V].png",[V]
+http://dvb1002.8866.org:61818/play/a00r/index.m3u8
+#EXTINF:-1 tvg-name="AXN" tvg-logo="https://im5k.fun/logo/AXN.png",AXN
+http://dvb1002.8866.org:61818/play/a026/index.m3u8
+#EXTINF:-1 tvg-name="北京影视" tvg-logo="https://im5k.fun/logo/北京影视.png",北京影视
+http://dvb1002.8866.org:61818/play/a00y/index.m3u8
+#EXTINF:-1 tvg-name="北京新闻" tvg-logo="https://im5k.fun/logo/北京新闻.png",北京新闻
+http://dvb1002.8866.org:61818/play/a00z/index.m3u8
+#EXTINF:-1 tvg-name="东方卫视" tvg-logo="https://im5k.fun/logo/东方卫视.png",东方卫视
+http://dvb1002.8866.org:61818/play/a013/index.m3u8
+#EXTINF:-1 tvg-name="凤凰中文" tvg-logo="https://im5k.fun/logo/凤凰中文.png",凤凰中文
+http://dvb1002.8866.org:61818/play/a00s/index.m3u8
+#EXTINF:-1 tvg-name="凤凰电影" tvg-logo="https://im5k.fun/logo/凤凰电影.png",凤凰电影
+http://dvb1002.8866.org:61818/play/a00w/index.m3u8
+#EXTINF:-1 tvg-name="凤凰资讯" tvg-logo="https://im5k.fun/logo/凤凰资讯.png",凤凰资讯
+http://dvb1002.8866.org:61818/play/a00u/index.m3u8
+#EXTINF:-1 tvg-name="四川卫视" tvg-logo="https://im5k.fun/logo/四川卫视.png",四川卫视
+http://dvb1002.8866.org:61818/play/a00m/index.m3u8
+#EXTINF:-1 tvg-name="安徽卫视" tvg-logo="https://im5k.fun/logo/安徽卫视.png",安徽卫视
+http://dvb1002.8866.org:61818/play/a00n/index.m3u8
+#EXTINF:-1 tvg-name="山东卫视" tvg-logo="https://im5k.fun/logo/山东卫视.png",山东卫视
+http://dvb1002.8866.org:61818/play/a016/index.m3u8
+#EXTINF:-1 tvg-name="彭博财经" tvg-logo="https://im5k.fun/logo/彭博财经.png",彭博财经
+http://dvb1002.8866.org:61818/play/a00x/index.m3u8
+#EXTINF:-1 tvg-name="探索" tvg-logo="https://im5k.fun/logo/探索.png",探索
+http://dvb1002.8866.org:61818/play/a006/index.m3u8
+#EXTINF:-1 tvg-name="江苏卫视" tvg-logo="https://im5k.fun/logo/江苏卫视.png",江苏卫视
+http://dvb1002.8866.org:61818/play/a011/index.m3u8
+#EXTINF:-1 tvg-name="河南卫视" tvg-logo="https://im5k.fun/logo/河南卫视.png",河南卫视
+http://dvb1002.8866.org:61818/play/a015/index.m3u8
+#EXTINF:-1 tvg-name="浙江卫视" tvg-logo="https://im5k.fun/logo/浙江卫视.png",浙江卫视
+http://dvb1002.8866.org:61818/play/a012/index.m3u8
+#EXTINF:-1 tvg-name="湖北卫视" tvg-logo="https://im5k.fun/logo/湖北卫视.png",湖北卫视
+http://dvb1002.8866.org:61818/play/a017/index.m3u8
+#EXTINF:-1 tvg-name="湖南卫视" tvg-logo="https://im5k.fun/logo/湖南卫视.png",湖南卫视
+http://dvb1002.8866.org:61818/play/a00p/index.m3u8
+#EXTINF:-1 tvg-name="东南卫视" tvg-logo="https://im5k.fun/logo/东南卫视.png",东南卫视
+http://dvb1002.8866.org:61818/play/a00o/index.m3u8
+#EXTINF:-1 tvg-name="黑龙江卫视" tvg-logo="https://im5k.fun/logo/黑龙江卫视.png",黑龙江卫视
+http://dvb1002.8866.org:61818/play/a014/index.m3u8
