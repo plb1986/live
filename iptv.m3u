@@ -178,20 +178,14 @@ http://dvb1002.8866.org:61818/play/a023/index.m3u8
 http://dvb1002.8866.org:61818/play/a020/index.m3u8
 #EXTINF:-1 group-title="其他"  tvg-name="HBO" tvg-logo="https://im5k.fun/logo/HBO.png",HBO
 http://dvb1002.8866.org:61818/play/a021/index.m3u8
-#EXTINF:-1 group-title="其他"  tvg-name="NGC" tvg-logo="https://im5k.fun/logo/NGC.png",NGC
+#EXTINF:-1 group-title="其他"  tvg-name="NGC" tvg-logo="https://im5k.fun/logo/natgeo.png",NGC
 http://dvb1002.8866.org:61818/play/a024/index.m3u8
 #EXTINF:-1 group-title="其他"  tvg-name="NHK" tvg-logo="https://im5k.fun/logo/NHK.png",NHK
 http://dvb1002.8866.org:61818/play/a025/index.m3u8
-#EXTINF:-1 group-title="其他"  tvg-name="STAR1" tvg-logo="https://im5k.fun/logo/STAR1.png",STAR1
+#EXTINF:-1 group-title="其他"  tvg-name="STAR1" tvg-logo="https://im5k.fun/logo/STAR_Movies.png",STAR Movies
 http://dvb1002.8866.org:61818/play/a027/index.m3u8
-#EXTINF:-1 group-title="其他"  tvg-name="STARS" tvg-logo="https://im5k.fun/logo/STARS.png",STARS
+#EXTINF:-1 group-title="其他"  tvg-name="STARS" tvg-logo="https://im5k.fun/logo/Star_Sports.png",Star Sports
 http://dvb1002.8866.org:61818/play/a01z/index.m3u8
-#EXTINF:-1 group-title="其他"  tvg-name="TV5" tvg-logo="https://im5k.fun/logo/TV5.png",TV5
-http://dvb1002.8866.org:61818/play/a00t/index.m3u8
-#EXTINF:-1 group-title="其他"  tvg-name="XINGK" tvg-logo="https://im5k.fun/logo/XINGK.png",XINGK
-http://dvb1002.8866.org:61818/play/a00v/index.m3u8
-#EXTINF:-1 group-title="其他"  tvg-name="[V]" tvg-logo="https://im5k.fun/logo/[V].png",[V]
-http://dvb1002.8866.org:61818/play/a00r/index.m3u8
 #EXTINF:-1 group-title="其他"  tvg-name="AXN" tvg-logo="https://im5k.fun/logo/AXN.png",AXN
 http://dvb1002.8866.org:61818/play/a026/index.m3u8
 #EXTINF:-1 group-title="其他"  tvg-name="凤凰中文" tvg-logo="https://im5k.fun/logo/凤凰中文.png",凤凰中文
