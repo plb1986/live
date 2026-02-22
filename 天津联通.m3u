@@ -1,4 +1,4 @@
-#EXTM3U url-tvg="http://e.erw.cc/e.xml"
+#EXTM3U
 
 #EXTINF:-1 tvg-name="CCTV4K" tvg-logo="https://im5k.fun/logo/cctv4k.png" group-title="4 K",CCTV4K
 rtp://225.1.2.245:5002
