@@ -87,7 +87,7 @@ http://119.123.176.249:8086/hls/251/index.m3u8
 http://119.123.176.249:8086/hls/154/index.m3u8
 #EXTINF:-1 group-title="卫视" tvg-name="甘肃卫视" tvg-logo="https://im5k.fun/logo/甘肃卫视.png",甘肃卫视
 http://119.123.176.249:8086/hls/157/index.m3u8
-#EXTINF:-1 group-title="广东" tvg-name="广东大湾区" tvg-logo="https://im5k.fun/logo/广东大湾区.png",广东大湾区
+#EXTINF:-1 group-title="广东" tvg-name="大湾区卫视" tvg-logo="https://im5k.fun/logo/大湾区卫视.png",大湾区卫视
 http://119.123.176.249:8086/hls/29/index.m3u8
 #EXTINF:-1 group-title="广东" tvg-name="广东民生" tvg-logo="https://im5k.fun/logo/广东民生.png",广东民生
 http://119.123.176.249:8086/hls/39/index.m3u8
@@ -157,15 +157,15 @@ https://o11.163189.xyz/stream/live/tvbc/
 http://anfeind1.kmdns.net:19999/migunohosts.php?Contentid=3000000010000015686
 #EXTINF:-1 group-title="咪视界" tvg-name="咪视界4K" tvg-logo="https://im5k.fun/logo/咪视界4K.png",咪视界4K
 http://anfeind1.kmdns.net:19999/migunohosts.php?Contentid=3000000010000005180
-#EXTINF:-1 group-title="咪视界" tvg-name="晴彩广场舞" tvg-logo="https://im5k.fun/logo/晴彩广场舞.png",晴彩广场舞
+#EXTINF:-1 group-title="咪视界" tvg-name="睛彩广场舞" tvg-logo="https://im5k.fun/logo/睛彩广场舞.png",睛彩广场舞
 http://anfeind1.kmdns.net:19999/migunohosts.php?Contentid=3000000020000011523
-#EXTINF:-1 group-title="咪视界" tvg-name="晴彩少年" tvg-logo="https://im5k.fun/logo/晴彩少年.png",晴彩少年
+#EXTINF:-1 group-title="咪视界" tvg-name="睛彩青少" tvg-logo="https://im5k.fun/logo/睛彩青少.png",睛彩青少
 http://anfeind1.kmdns.net:19999/migunohosts.php?Contentid=3000000020000011525
-#EXTINF:-1 group-title="咪视界" tvg-name="晴彩竞技" tvg-logo="https://im5k.fun/logo/晴彩竞技.png",晴彩竞技
+#EXTINF:-1 group-title="咪视界" tvg-name="睛彩竞技" tvg-logo="https://im5k.fun/logo/睛彩竞技.png",睛彩竞技
 http://anfeind1.kmdns.net:19999/migunohosts.php?Contentid=3000000020000011521
-#EXTINF:-1 group-title="咪视界" tvg-name="晴彩竞技" tvg-logo="https://im5k.fun/logo/晴彩竞技.png",晴彩竞技
+#EXTINF:-1 group-title="咪视界" tvg-name="睛彩竞技" tvg-logo="https://im5k.fun/logo/睛彩竞技.png",睛彩竞技
 http://anfeind1.kmdns.net:19999/migunohosts.php?Contentid=3000000020000011528
-#EXTINF:-1 group-title="咪视界" tvg-name="晴彩篮球" tvg-logo="https://im5k.fun/logo/晴彩篮球.png",晴彩篮球
+#EXTINF:-1 group-title="咪视界" tvg-name="睛彩篮球" tvg-logo="https://im5k.fun/logo/睛彩篮球.png",睛彩篮球
 http://anfeind1.kmdns.net:19999/migunohosts.php?Contentid=3000000020000011529
 #EXTINF:-1 group-title="咪视界" tvg-name="咪视界 1" tvg-logo="https://im5k.fun/logo/咪视界 1.png",咪视界 1
 http://anfeind1.kmdns.net:19999/migunohosts.php?Contentid=3000000001000005308
