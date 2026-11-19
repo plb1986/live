@@ -1,7 +1,4 @@
-#EXTM3U x-tvg-url="https://epg.aptv.app/pp.xml.gz"
-#EXT-X-APP APTV
-#EXT-X-APTV-TYPE remote
-#EXT-X-SUB-URL https://gh.aptv.app/https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/ahyd.m3u
+#EXTM3U
 
 #EXTINF:-1,tvg-id="CCTV1" tvg-name="CCTV1" group-title="央视",CCTV-1 综合
 http://120.210.193.151:8006/120000001001/wlds:8080/ysten-business/live/HD-8M-1080P-cctv1/1.m3u8
