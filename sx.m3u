@@ -196,17 +196,17 @@ https://live.ott.red/play/sz1
 #EXTINF:-1 tvg-name="朔州生活公共" tvg-logo="https://9in.top/logo/朔州2.png" group-title="山西",朔州生活公共
 https://live.ott.red/play/sz2
 
-#EXTINF:-1 tvg-name="CHC高清电影" tvg-logo="https://9in.top/logo/CHC影迷电影.png" group-title="数字",CHC高清电影
+#EXTINF:-1 tvg-name="CHC影迷电影" tvg-logo="https://9in.top/logo/CHC影迷电影.png" group-title="数字",CHC影迷电影
 https://live.ott.red/play/chcymdy
 #EXTINF:-1 tvg-name="CHC家庭影院" tvg-logo="https://9in.top/logo/CHC家庭影院.png" group-title="数字",CHC家庭影院
 https://live.ott.red/play/chcjtyy
 #EXTINF:-1 tvg-name="CHC动作电影" tvg-logo="https://9in.top/logo/CHC动作电影.png" group-title="数字",CHC动作电影
 https://live.ott.red/play/chcdzdy
-#EXTINF:-1 tvg-name="中国教育1台" tvg-logo="https://9in.top/logo/CETV1.png" group-title="数字",中国教育1台
+#EXTINF:-1 tvg-name="CETV1" tvg-logo="https://9in.top/logo/CETV1.png" group-title="数字",中国教育1台
 https://live.ott.red/play/cetv1
-#EXTINF:-1 tvg-name="中国教育2台" tvg-logo="https://9in.top/logo/CETV2.png" group-title="数字",中国教育2台
+#EXTINF:-1 tvg-name="CETV2" tvg-logo="https://9in.top/logo/CETV2.png" group-title="数字",中国教育2台
 https://live.ott.red/play/cetv2
-#EXTINF:-1 tvg-name="中国教育4台" tvg-logo="https://9in.top/logo/CETV4.png" group-title="数字",中国教育4台
+#EXTINF:-1 tvg-name="CETV4" tvg-logo="https://9in.top/logo/CETV4.png" group-title="数字",中国教育4台
 https://live.ott.red/play/cetv4
 #EXTINF:-1 tvg-name="早期教育" tvg-logo="https://9in.top/logo/早期教育.png" group-title="数字",早期教育
 https://live.ott.red/play/zqjy
