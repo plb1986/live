@@ -246,3 +246,21 @@ https://live.ott.red/play/zgtq
 https://live.ott.red/play/shdy
 #EXTINF:-1 tvg-name="环球旅游" tvg-logo="https://9in.top/logo/环球旅游.png" group-title="数字",环球旅游
 https://live.ott.red/play/hqly
+
+#EXTM3U 
+#EXTINF:-1 tvg-name="JJ斗地主" tvg-logo="https://9in.top/logo/JJ斗地主.png" group-title="电竞" ,JJ斗地主
+https://mursor.ottiptv.cc/douyin/rid/685317364746
+#EXTINF:-1 tvg-name="JJ斗地主" tvg-logo="https://9in.top/logo/JJ斗地主.png" group-title="电竞" ,JJ斗地主副房间
+https://mursor.ottiptv.cc/douyin/rid/313118614727
+#EXTINF:-1 tvg-name="JJ高源" tvg-logo="https://9in.top/logo/JJ高源.png" group-title="电竞" ,JJ高源
+https://mursor.ottiptv.cc/douyin/rid/418255309895
+#EXTINF:-1 tvg-name="JJ张浩" tvg-logo="https://9in.top/logo/JJ张浩.png" group-title="电竞" ,JJ张浩
+https://mursor.ottiptv.cc/douyin/rid/883578924004
+#EXTINF:-1 tvg-name="JJ阿酒" tvg-logo="https://9in.top/logo/JJ阿酒.png" group-title="电竞" ,JJ阿酒
+https://mursor.ottiptv.cc/douyin/rid/341276812062
+#EXTINF:-1 tvg-name="JJ掘开" tvg-logo="https://9in.top/logo/JJ掘开.png" group-title="电竞" ,JJ掘开
+https://mursor.ottiptv.cc/douyin/rid/167727601199
+#EXTINF:-1 tvg-name="JJ飞鸟" tvg-logo="https://9in.top/logo/JJ飞鸟.png" group-title="电竞" ,JJ飞鸟
+https://mursor.ottiptv.cc/douyin/rid/264013663698
+#EXTINF:-1 tvg-name="TRY导师" tvg-logo="https://9in.top/logo/TRY导师.png" group-title="电竞" ,TRY导师
+https://mursor.ottiptv.cc/douyin/rid/48656747725
