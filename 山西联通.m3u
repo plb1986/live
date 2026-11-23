@@ -2,6 +2,8 @@
 
 #EXTINF:-1 tvg-name="CCTV4K" tvg-logo="https://at.ott.red/CCTV4K.png" group-title="4 K" ,CCTV4K
 http://192.168.1.251:5158/rtp/226.0.2.142:9168
+#EXTINF:-1 tvg-name="CCTV16" tvg-logo="https://9in.top/logo/CCTV164K.png" group-title="4 K",olympic4K
+http://192.168.1.251:5158/rtp/226.0.2.73:8496
 #EXTINF:-1 tvg-name="北京卫视" tvg-logo="https://at.ott.red/北京卫视4K.png" group-title="4 K" ,北京卫视4K
 http://192.168.1.251:5158/rtp/226.0.2.155:9172
 #EXTINF:-1 tvg-name="深圳卫视" tvg-logo="https://at.ott.red/深圳卫视4K.png" group-title="4 K" ,深圳卫视4K
