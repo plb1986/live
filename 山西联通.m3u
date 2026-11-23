@@ -171,7 +171,7 @@ http://192.168.1.251:5158/rtp/226.0.2.62:8408
 #EXTINF:-1 tvg-name="山东教育卫视" tvg-logo="https://at.ott.red/山东教育卫视.png" group-title="卫视",山东教育卫视
 http://192.168.1.251:5158/rtp/226.0.2.130:8952
 
-#EXTINF:-1 tvg-name="CHC高清电影" tvg-logo="https://at.ott.red/CHC影迷电影.png" group-title="数字",CHC影迷电影
+#EXTINF:-1 tvg-name="CHC影迷电影" tvg-logo="https://at.ott.red/CHC影迷电影.png" group-title="数字",CHC影迷电影
 http://192.168.1.251:5158/rtp/226.0.2.93:8004
 #EXTINF:-1 tvg-name="CHC家庭影院" tvg-logo="https://at.ott.red/CHC家庭影院.png" group-title="数字",CHC家庭影院
 http://192.168.1.251:5158/rtp/226.0.2.240:9820
